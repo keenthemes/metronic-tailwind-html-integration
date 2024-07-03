@@ -6,15 +6,19 @@
 
 # Metronic Tailwind CSS Integration Guides
 
+This repository includes seed projects for various frameworks, providing essential setups to help you get started quickly with Metronic Tailwind CSS-based projects.
+
+## About Metronic
+
 Metronic is a comprehensive toolkit of UI components built with Tailwind CSS, enabling you to create modern, scalable web applications quickly and efficiently.
 
-## Metronic Purchase
+## Purchase Metronic 
 
-To use the seed projects, you must purchase Metronic from [ThemeForest](https://1.envato.market/EA4JP). After purchase, simply drop the components source folder into the seed project as instructed in the guide.
+To install the seed projects, you must purchase Metronic from [ThemeForest](https://1.envato.market/EA4JP). After purchase, simply drop the components source folder into the seed project as instructed in the guide.
 
-## Getting Started
+## Version Compatibility
 
-This repository includes seed projects for a variety of frameworks, providing essential setups to help you get started quickly.
+The seed projects are compatible with the latest version of Metronic and are maintained to align with recent releases.
 
 ## Frontend Framework Guides
 
