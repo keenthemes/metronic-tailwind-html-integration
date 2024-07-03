@@ -18,7 +18,7 @@ To install the seed projects, you must purchase Metronic from [ThemeForest](http
 
 ## Version Compatibility
 
-The seed projects are compatible with the latest version of Metronic and are maintained to align with recent releases.
+The seed projects are compatible with the latest version of Metronic and are maintained to align with [Recent Releases](https://keenthemes.com/metronic/tailwind/docs/changelog).
 
 ## Frontend Framework Guides
 
