@@ -1,0 +1,18 @@
+<div class="flex grow">
+	<app-sidebar></app-sidebar>
+	<div class="wrapper flex grow flex-col">
+		<app-header></app-header>
+		<main class="grow content pt-5" id="content" role="content">
+			<!-- begin: container -->
+			<div class="container-fixed" id="content_container">
+			</div>
+			<!-- end: container -->
+			<!-- begin: container -->
+			<div class="container-fixed">
+				<router-outlet></router-outlet>
+			</div>
+			<!-- end: container -->
+		</main>
+		<app-footer></app-footer>
+	</div>
+</div>
