@@ -1,7 +1,6 @@
-import './App.css';
-import Sidebar from './Sidebar.js';
-import Footer from './Footer.js';
-import Header from './Header.js';
+import Sidebar from './components/Sidebar.js';
+import Footer from './components/Footer.js';
+import Header from './components/Header.js';
 import KTComponent from './theme/core/index.spa.js';
 import { useEffect } from 'react';
 import KTLayout from './theme/app/layouts/demo1.js';
