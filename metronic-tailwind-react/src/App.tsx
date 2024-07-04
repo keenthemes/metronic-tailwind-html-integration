@@ -1,8 +1,8 @@
 import './App.css';
-import Sidebar from './Sidebar';
-import Footer from './Footer';
-import Header from './Header';
-import KTComponent from './theme/core/index.spa';
+import Sidebar from './Sidebar.js';
+import Footer from './Footer.js';
+import Header from './Header.js';
+import KTComponent from './theme/core/index.spa.js';
 import { useEffect } from 'react';
 import KTLayout from './theme/app/layouts/demo1.js';
 
