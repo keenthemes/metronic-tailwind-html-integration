@@ -1,33 +1,36 @@
 <!doctype html>
 <html class="h-full light" data-theme="true" lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue</title>
-  </head>
-  <body class="flex h-full demo1 sidebar-fixed header-fixed bg-[#fefefe] dark:bg-coal-500">
-    <script>
-      const defaultThemeMode = 'light'; // light|dark|system
-       let themeMode;
-   
-       if ( document.documentElement ) {
-         if ( localStorage.getItem('theme')) {
-             themeMode = localStorage.getItem('theme');
-         } else if ( document.documentElement.hasAttribute('data-theme-mode')) {
-           themeMode = document.documentElement.getAttribute('data-theme-mode');
-         } else {
-           themeMode = defaultThemeMode;
-         }
-   
-         if (themeMode === 'system') {
-           themeMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-         }
-   
-         document.documentElement.classList.add(themeMode);
-       }
-     </script>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/media/app/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metronic Tailwind Vue</title>
+</head>
+
+<body class="flex h-full demo1 sidebar-fixed header-fixed bg-[#fefefe] dark:bg-coal-500">
+  <script>
+    const defaultThemeMode = 'light'; // light|dark|system
+    let themeMode;
+
+    if (document.documentElement) {
+      if (localStorage.getItem('theme')) {
+        themeMode = localStorage.getItem('theme');
+      } else if (document.documentElement.hasAttribute('data-theme-mode')) {
+        themeMode = document.documentElement.getAttribute('data-theme-mode');
+      } else {
+        themeMode = defaultThemeMode;
+      }
+
+      if (themeMode === 'system') {
+        themeMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      document.documentElement.classList.add(themeMode);
+    }
+  </script>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>

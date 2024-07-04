@@ -384,7 +384,7 @@
            </div>
            <div class="flex items-center gap-2 lg:gap-5">
             <label class="switch switch-sm">
-             <input checked="" type="checkbox" value="1"/>
+             <input :checked="false" type="checkbox" value="1"/>
             </label>
            </div>
           </div>
@@ -404,7 +404,7 @@
            </div>
            <div class="flex items-center gap-2 lg:gap-5">
             <label class="switch switch-sm">
-             <input checked="" type="checkbox" value="1"/>
+             <input :checked="false" type="checkbox" value="1"/>
             </label>
            </div>
           </div>
@@ -444,7 +444,7 @@
            </div>
            <div class="flex items-center gap-2 lg:gap-5">
             <label class="switch switch-sm">
-             <input checked="" type="checkbox" value="1"/>
+             <input :checked="false" type="checkbox" value="1"/>
             </label>
            </div>
           </div>
@@ -1796,7 +1796,7 @@
                 Notifications
                </span>
                <label class="switch switch-sm">
-                <input checked="" name="check" type="checkbox" value="1">
+                <input :checked="false" name="check" type="checkbox" value="1">
                 </input>
                </label>
               </a>
