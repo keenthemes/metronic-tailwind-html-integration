@@ -22,7 +22,7 @@ function App() {
           <div className="container-fixed" id="content_container">
           </div>
           <div className="container-fixed">
-            {/* put your content here */}
+            {/* place your content here */}
           </div>
           </main>
           <Footer />
