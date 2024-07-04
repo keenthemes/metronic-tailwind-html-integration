@@ -1,6 +1,5 @@
 <template>
     <footer class="footer">
-        <!-- begin: container -->
         <div class="container-fixed">
             <div class="flex flex-col md:flex-row justify-center md:justify-between items-center gap-3 py-5">
                 <div class="flex order-2 md:order-1 gap-2 font-normal text-2sm">
@@ -28,6 +27,5 @@
                 </nav>
             </div>
         </div>
-        <!-- end: container -->
-    </footer>
+     </footer>
 </template>
