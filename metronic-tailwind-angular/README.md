@@ -1,27 +1,24 @@
-# MetronicTailwindAngular
+# Metronic Tailwind Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Prerequisites
 
-## Code scaffolding
+Before getting started, you will need to purchase the Metronic theme, which includes the Tailwind CSS source files. After purchasing, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Installation
 
-## Build
+1. Copy the `src` folder from the `metronic-tailwind-html` package and paste it into the `src` directory of your Angular project. Rename the copied folder to `metronic` so that the directory structure should now look like this: `tailwind-angular/src/metronic`. This step imports the necessary styles and assets from the original HTML package into your Angular project.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your Angular project's `src/assets` directory. The resulting directory structure should look like this: `tailwind-angular/src/assets/metronic/assets`.
 
-## Running unit tests
+3. Install the required Node.js packages by running `npm install` in the root directory of your Angular project.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. Build the assets by running `ng build` in the root directory of your Angular project.
 
-## Running end-to-end tests
+5. Start the Angular development server by running `ng serve`.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+That's it! You now have the Metronic Tailwind template integrated into your Angular project.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

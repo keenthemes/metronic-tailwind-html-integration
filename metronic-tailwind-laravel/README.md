@@ -12,7 +12,7 @@ Before getting started, you will need to purchase the Metronic theme, which incl
 
 1. Copy the `src` folder from the `metronic-tailwind-html` package and paste it into the `resources` directory of your Laravel project. Rename the copied folder to `metronic` so that the directory structure should now look like this: `tailwind-laravel/resources/metronic`. This step imports the necessary styles and assets from the original HTML package into your Laravel project.
 
-2. Copy the `media` folder from the `metronic-tailwind-html` package's `public/assets` directory into your Laravel project's `public/assets` directory. The resulting directory structure should look like this: `tailwind-laravel/public/assets/media`.
+2. Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your Laravel project's `public/assets` directory. The resulting directory structure should look like this: `tailwind-laravel/public/assets/media`.
 
 3. Install the required Node.js packages by running `npm install` in the root directory of your Laravel project.
 
