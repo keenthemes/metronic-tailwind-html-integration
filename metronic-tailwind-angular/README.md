@@ -10,9 +10,9 @@ Before getting started, you will need to purchase the Metronic theme, which incl
 
 ### Installation
 
-1. Copy the `src` folder from the `metronic-tailwind-html` package and paste it into the `src` directory of your Angular project. Rename the copied folder to `metronic` so that the directory structure should now look like this: `tailwind-angular/src/metronic`. This step imports the necessary styles and assets from the original HTML package into your Angular project.
+1. Copy the `src` folder from the `metronic-tailwind-html` package and paste it into the `src` directory of your Angular project. Rename the copied folder to `metronic` so that the directory structure should now look like this: `src/metronic`. This step imports the necessary styles and assets from the original HTML package into your Angular project.
 
-2. Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your Angular project's `src/assets` directory. The resulting directory structure should look like this: `tailwind-angular/src/assets/metronic/assets`.
+2. Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your Angular project's `src/assets` directory. The resulting directory structure should look like this: `src/assets/metronic/assets`.
 
 3. Install the required Node.js packages by running `npm install` in the root directory of your Angular project.
 
