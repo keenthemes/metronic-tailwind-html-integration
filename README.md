@@ -12,7 +12,7 @@ This repository includes seed projects for various frameworks, providing essenti
 
 Metronic is a comprehensive toolkit of UI components built with Tailwind CSS, enabling you to create modern, scalable web applications quickly and efficiently.
 
-## Purchase Metronic 
+## Purchase Metronic
 
 To install the seed projects, you must purchase Metronic from [ThemeForest](https://1.envato.market/EA4JP). After purchase, simply drop the components source folder into the seed project as instructed in the guide.
 
@@ -28,7 +28,7 @@ The seed projects are compatible with the latest version of Metronic and are mai
 
 ## Backend Framework Guides
 
-- [Laravel](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/frontend/laravel)
+- [Laravel](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/backend/laravel)
 
 ## Metronic Composer
 
