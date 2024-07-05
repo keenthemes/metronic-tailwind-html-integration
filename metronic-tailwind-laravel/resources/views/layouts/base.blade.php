@@ -9,7 +9,7 @@ Follow: https://www.twitter.com/keenthemes
 License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
 -->
 <!doctype html>
-<html lang="en">
+<html class="h-full" data-theme="true" data-theme-mode="light" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -47,6 +47,8 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
 		@yield('main')
 
     @vite('resources/js/app.js')
+
+		@include('partials.search-modal')
 </body>
 
 </html>
