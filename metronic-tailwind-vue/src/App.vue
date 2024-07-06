@@ -11,14 +11,16 @@
       <Footer />
     </div>
   </div>
+  <SearchModal />
 </template>
 
 <script lang="ts" setup>
 import Sidebar from './components/Sidebar.vue'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import SearchModal from "./components/SearchModal.vue";
 import { nextTick, onMounted } from 'vue';
-import KTComponent from './theme/core/index.spa';
+import KTComponent from './theme/core/index';
 import KTLayout from './theme/app/layouts/demo1.js';
 
 onMounted(() => {
