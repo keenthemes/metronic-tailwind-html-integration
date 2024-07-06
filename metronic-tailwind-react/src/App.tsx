@@ -1,10 +1,10 @@
-import Sidebar from './components/Sidebar.js';
-import Footer from './components/Footer.js';
-import Header from './components/Header.js';
-import KTComponent from './theme/core/index.spa.js';
+import Sidebar from './components/Sidebar.tsx';
+import Footer from './components/Footer.tsx';
+import Header from './components/Header.tsx';
+import KTComponent from './theme/core';
 import { useEffect } from 'react';
 import KTLayout from './theme/app/layouts/demo1.js';
-
+import SearchModal from "./components/SearchModal.tsx";
 
 function App() {  
   useEffect(() => {
@@ -28,6 +28,7 @@ function App() {
           <Footer />
         </div>
       </div>
+      <SearchModal></SearchModal>
     </>
   )
 }
