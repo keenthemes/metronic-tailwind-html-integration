@@ -1,5 +1,39 @@
-# Vue 3 + TypeScript + Vite
+<p>
+	<a href="https://keenthemes.com/metronic">
+		<img src="https://keenthemes.com/static/metronic/tailwind/docs/dist/assets/media/app/default-logo.svg" alt="Metronic"/>
+	</a>
+</p>
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Setup example
+### Copy Source Folder
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+- Copy the `src` folder from the `metronic-tailwind-html` package and paste it into the Vue `src` directory.
+
+
+- Rename the copied folder to `metronic` so that the directory structure should now look like this: `src/metronic`. This step imports the necessary styles and assets from the original HTML package into your Vue project.
+
+
+- In the `src/metronic/core` folder, delete the unnecessary `index.ts` file. This file is not needed for Single Page Application (SPA) integration as it could cause conflicts. Instead, rename the `index.spa.ts` file to `index.ts` to ensure proper integration.
+
+
+- Replace HTML initialization with default instance export in `src/metronic/app/layouts/demo1.js`.
+
+    Replace the code part below:
+
+    ```javascript
+    KTDom.ready(() => {
+        KTLayout.init();
+    });
+    ```
+    with
+    ```javascript
+    export default KTLayout;
+    ```
+
+### Copy Media Folder
+
+ - Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your Vue project's `public` directory.
+
+### Install Packages & Start Development Server
+
+- Install the required Node.js packages by running `npm install`. Start the Vue development server by running `npm run dev`.

@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+<p>
+	<a href="https://keenthemes.com/metronic">
+		<img src="https://keenthemes.com/static/metronic/tailwind/docs/dist/assets/media/app/default-logo.svg" alt="Metronic"/>
+	</a>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Setup example
+### Copy Source Folder
 
-Currently, two official plugins are available:
+- Copy the `src` folder from the `metronic-tailwind-html` package and paste it into the React `src` directory.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+- Rename the copied folder to `metronic` so that the directory structure should now look like this: `src/metronic`. This step imports the necessary styles and assets from the original HTML package into your React project.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+- In the `src/metronic/core` folder, delete the unnecessary `index.ts` file. This file is not needed for Single Page Application (SPA) integration as it could cause conflicts. Instead, rename the `index.spa.ts` file to `index.ts` to ensure proper integration.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Replace HTML initialization with default instance export in `src/metronic/app/layouts/demo1.js`.
+
+    Replace the code part below:
+
+    ```javascript
+    KTDom.ready(() => {
+        KTLayout.init();
+    });
+    ```
+    with
+    ```javascript
+    export default KTLayout;
+    ```
+
+### Copy Media Folder
+
+ - Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your React project's `public` directory.
+
+### Install Packages & Start Development Server
+
+- Install the required Node.js packages by running `npm install`. Start the React development server by running `npm run dev`.
