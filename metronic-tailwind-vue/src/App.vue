@@ -20,8 +20,8 @@ import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import SearchModal from "./components/SearchModal.vue";
 import { nextTick, onMounted } from 'vue';
-import KTComponent from './theme/core/index';
-import KTLayout from './theme/app/layouts/demo1.js';
+import KTComponent from './metronic/core/index';
+import KTLayout from './metronic/app/layouts/demo1.js';
 
 onMounted(() => {
 	nextTick(() => {

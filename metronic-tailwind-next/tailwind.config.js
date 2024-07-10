@@ -44,7 +44,7 @@ export default {
 						}
 					},
 					contextual: {
-						light: { 
+						light: {
 							brand: {
 								default: '#FF6F1E',
 								active: '#F15700',
@@ -308,37 +308,37 @@ export default {
 				],
 				'3xs': [
 					'0.625rem',									// 10px
-					{						
+					{
 						lineHeight: '0.75rem' 		// 12px
 					}
 				],
 				'2xs': [
 					'0.6875rem',								// 11px
-					{						
+					{
 						lineHeight: '0.75rem', 		// 12px
 					}
 				],
 				'2sm': [
 					'0.8125rem',								// 13px
-					{						
+					{
 						lineHeight: '1.125rem' 		// 18px
 					}
 				],
 				'md': [
 					'0.9375rem',								// 15px
-					{						
+					{
 						lineHeight: '1.375rem' 		// 22px
 					}
 				],
 				'1.5xl': [
 					'1.375rem',									// 22px
-					{						
+					{
 						lineHeight: '1.8125rem' 	// 29px
 					}
 				],
 				'2.5xl': [
 					'1.625rem',									// 26px
-					{						
+					{
 						lineHeight: '2.125rem' 		// 34px
 					}
 				]
@@ -558,7 +558,7 @@ export default {
 						width: '2.375rem'
 					},
 				},
-				card: {					
+				card: {
 					px: theme('spacing')['7.5'],
 					py: {
 						header: theme('spacing.3'),

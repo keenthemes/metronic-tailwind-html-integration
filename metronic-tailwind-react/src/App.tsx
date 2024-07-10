@@ -1,9 +1,9 @@
 import Sidebar from './components/Sidebar.tsx';
 import Footer from './components/Footer.tsx';
 import Header from './components/Header.tsx';
-import KTComponent from './theme/core';
+import KTComponent from './metronic/core';
 import { useEffect } from 'react';
-import KTLayout from './theme/app/layouts/demo1.js';
+import KTLayout from './metronic/app/layouts/demo1.js';
 import SearchModal from "./components/SearchModal.tsx";
 
 function App() {  
