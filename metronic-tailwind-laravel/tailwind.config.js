@@ -600,7 +600,6 @@ export default {
 	},
 	plugins: [
 		require('./resources/metronic/core/plugins/plugin'),
-		require('./resources/metronic/core/plugins/layouts/demo1'),
 		require('./resources/metronic/core/plugins/components/theme'),
 		require('./resources/metronic/core/plugins/components/breakpoints'),
 		require('./resources/metronic/core/plugins/components/typography'),

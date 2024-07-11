@@ -1,0 +1,5465 @@
+@font-face {
+  font-family: 'keenicons-duotone';
+  src:
+    url('fonts/keenicons-duotone.ttf?gcn9yo') format('truetype'),
+    url('fonts/keenicons-duotone.woff?gcn9yo') format('woff'),
+    url('fonts/keenicons-duotone.svg?gcn9yo#keenicons-duotone') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ki-duotone {
+  line-height: 1;
+  position: relative;
+  display: inline-flex;
+}
+
+.ki-duotone:after, 
+.ki-duotone:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'keenicons-duotone' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-flex;
+}
+
+.ki-abstract-1.ki-duotone:after {
+  content: "\e900";
+  
+  opacity: 0.3;
+}
+.ki-abstract-1.ki-duotone:before {
+  content: "\e901";
+  position: absolute;
+  
+}
+.ki-abstract-2.ki-duotone:after {
+  content: "\e902";
+  
+  opacity: 0.3;
+}
+.ki-abstract-2.ki-duotone:before {
+  content: "\e903";
+  position: absolute;
+  
+}
+.ki-abstract-3.ki-duotone:after {
+  content: "\e904";
+  
+  opacity: 0.3;
+}
+.ki-abstract-3.ki-duotone:before {
+  content: "\e905";
+  position: absolute;
+  
+}
+.ki-abstract-4.ki-duotone:after {
+  content: "\e906";
+  
+  opacity: 0.3;
+}
+.ki-abstract-4.ki-duotone:before {
+  content: "\e907";
+  position: absolute;
+  
+}
+.ki-abstract-5.ki-duotone:after {
+  content: "\e908";
+  
+  opacity: 0.3;
+}
+.ki-abstract-5.ki-duotone:before {
+  content: "\e909";
+  position: absolute;
+  
+}
+.ki-abstract-6.ki-duotone:before {
+  content: "\e90a";
+}
+.ki-abstract-7.ki-duotone:after {
+  content: "\e90b";
+  
+  opacity: 0.3;
+}
+.ki-abstract-7.ki-duotone:before {
+  content: "\e90c";
+  position: absolute;
+  
+}
+.ki-abstract-8.ki-duotone:after {
+  content: "\e90d";
+  
+  opacity: 0.3;
+}
+.ki-abstract-8.ki-duotone:before {
+  content: "\e90e";
+  position: absolute;
+  
+}
+.ki-abstract-9.ki-duotone:after {
+  content: "\e90f";
+  
+  opacity: 0.3;
+}
+.ki-abstract-9.ki-duotone:before {
+  content: "\e910";
+  position: absolute;
+  
+}
+.ki-abstract-10.ki-duotone:after {
+  content: "\e911";
+  
+  opacity: 0.3;
+}
+.ki-abstract-10.ki-duotone:before {
+  content: "\e912";
+  position: absolute;
+  
+}
+.ki-abstract-11.ki-duotone:after {
+  content: "\e913";
+  
+  opacity: 0.3;
+}
+.ki-abstract-11.ki-duotone:before {
+  content: "\e914";
+  position: absolute;
+  
+}
+.ki-abstract-12.ki-duotone:after {
+  content: "\e915";
+  
+  opacity: 0.3;
+}
+.ki-abstract-12.ki-duotone:before {
+  content: "\e916";
+  position: absolute;
+  
+}
+.ki-abstract-13.ki-duotone:after {
+  content: "\e917";
+  
+  opacity: 0.3;
+}
+.ki-abstract-13.ki-duotone:before {
+  content: "\e918";
+  position: absolute;
+  
+}
+.ki-abstract-14.ki-duotone:after {
+  content: "\e919";
+  
+}
+.ki-abstract-14.ki-duotone:before {
+  content: "\e91a";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-15.ki-duotone:after {
+  content: "\e91b";
+  
+  opacity: 0.3;
+}
+.ki-abstract-15.ki-duotone:before {
+  content: "\e91c";
+  position: absolute;
+  
+}
+.ki-abstract-16.ki-duotone:after {
+  content: "\e91d";
+  
+  opacity: 0.3;
+}
+.ki-abstract-16.ki-duotone:before {
+  content: "\e91e";
+  position: absolute;
+  
+}
+.ki-abstract-17.ki-duotone:after {
+  content: "\e91f";
+  
+}
+.ki-abstract-17.ki-duotone:before {
+  content: "\e920";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-18.ki-duotone:after {
+  content: "\e921";
+  
+}
+.ki-abstract-18.ki-duotone:before {
+  content: "\e922";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-19.ki-duotone:after {
+  content: "\e923";
+  
+}
+.ki-abstract-19.ki-duotone:before {
+  content: "\e924";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-20.ki-duotone:after {
+  content: "\e925";
+  
+}
+.ki-abstract-20.ki-duotone:before {
+  content: "\e926";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-21.ki-duotone:after {
+  content: "\e927";
+  
+  opacity: 0.3;
+}
+.ki-abstract-21.ki-duotone:before {
+  content: "\e928";
+  position: absolute;
+  
+}
+.ki-abstract-22.ki-duotone:after {
+  content: "\e929";
+  
+  opacity: 0.3;
+}
+.ki-abstract-22.ki-duotone:before {
+  content: "\e92a";
+  position: absolute;
+  
+}
+.ki-abstract-23.ki-duotone:after {
+  content: "\e92b";
+  
+  opacity: 0.3;
+}
+.ki-abstract-23.ki-duotone:before {
+  content: "\e92c";
+  position: absolute;
+  
+}
+.ki-abstract-24.ki-duotone:after {
+  content: "\e92d";
+  
+}
+.ki-abstract-24.ki-duotone:before {
+  content: "\e92e";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-25.ki-duotone:after {
+  content: "\e92f";
+  
+  opacity: 0.3;
+}
+.ki-abstract-25.ki-duotone:before {
+  content: "\e930";
+  position: absolute;
+  
+}
+.ki-abstract-26.ki-duotone:after {
+  content: "\e931";
+  
+  opacity: 0.3;
+}
+.ki-abstract-26.ki-duotone:before {
+  content: "\e932";
+  position: absolute;
+  
+}
+.ki-abstract-27.ki-duotone:after {
+  content: "\e933";
+  
+}
+.ki-abstract-27.ki-duotone:before {
+  content: "\e934";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-28.ki-duotone:after {
+  content: "\e935";
+  
+}
+.ki-abstract-28.ki-duotone:before {
+  content: "\e936";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-29.ki-duotone:after {
+  content: "\e937";
+  
+}
+.ki-abstract-29.ki-duotone:before {
+  content: "\e938";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-30.ki-duotone:after {
+  content: "\e939";
+  
+}
+.ki-abstract-30.ki-duotone:before {
+  content: "\e93a";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-31.ki-duotone:after {
+  content: "\e93b";
+  
+}
+.ki-abstract-31.ki-duotone:before {
+  content: "\e93c";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-32.ki-duotone:after {
+  content: "\e93d";
+  
+}
+.ki-abstract-32.ki-duotone:before {
+  content: "\e93e";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-33.ki-duotone:after {
+  content: "\e93f";
+  
+  opacity: 0.3;
+}
+.ki-abstract-33.ki-duotone:before {
+  content: "\e940";
+  position: absolute;
+  
+}
+.ki-abstract-34.ki-duotone:after {
+  content: "\e941";
+  
+  opacity: 0.3;
+}
+.ki-abstract-34.ki-duotone:before {
+  content: "\e942";
+  position: absolute;
+  
+}
+.ki-abstract-35.ki-duotone:after {
+  content: "\e943";
+  
+}
+.ki-abstract-35.ki-duotone:before {
+  content: "\e944";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-36.ki-duotone:after {
+  content: "\e945";
+  
+}
+.ki-abstract-36.ki-duotone:before {
+  content: "\e946";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-37.ki-duotone:after {
+  content: "\e947";
+  
+  opacity: 0.3;
+}
+.ki-abstract-37.ki-duotone:before {
+  content: "\e948";
+  position: absolute;
+  
+}
+.ki-abstract-38.ki-duotone:after {
+  content: "\e949";
+  
+}
+.ki-abstract-38.ki-duotone:before {
+  content: "\e94a";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-39.ki-duotone:after {
+  content: "\e94b";
+  
+  opacity: 0.3;
+}
+.ki-abstract-39.ki-duotone:before {
+  content: "\e94c";
+  position: absolute;
+  
+}
+.ki-abstract-40.ki-duotone:after {
+  content: "\e94d";
+  
+}
+.ki-abstract-40.ki-duotone:before {
+  content: "\e94e";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-41.ki-duotone:after {
+  content: "\e94f";
+  
+}
+.ki-abstract-41.ki-duotone:before {
+  content: "\e950";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-42.ki-duotone:after {
+  content: "\e951";
+  
+  opacity: 0.3;
+}
+.ki-abstract-42.ki-duotone:before {
+  content: "\e952";
+  position: absolute;
+  
+}
+.ki-abstract-43.ki-duotone:after {
+  content: "\e953";
+  
+  opacity: 0.3;
+}
+.ki-abstract-43.ki-duotone:before {
+  content: "\e954";
+  position: absolute;
+  
+}
+.ki-abstract-44.ki-duotone:after {
+  content: "\e955";
+  
+}
+.ki-abstract-44.ki-duotone:before {
+  content: "\e956";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-45.ki-duotone:after {
+  content: "\e957";
+  
+}
+.ki-abstract-45.ki-duotone:before {
+  content: "\e958";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-abstract-46.ki-duotone:after {
+  content: "\e959";
+  
+  opacity: 0.3;
+}
+.ki-abstract-46.ki-duotone:before {
+  content: "\e95a";
+  position: absolute;
+  
+}
+.ki-abstract-47.ki-duotone:after {
+  content: "\e95b";
+  
+  opacity: 0.3;
+}
+.ki-abstract-47.ki-duotone:before {
+  content: "\e95c";
+  position: absolute;
+  
+}
+.ki-abstract-48.ki-duotone:after {
+  content: "\e95d";
+  
+  opacity: 0.3;
+}
+.ki-abstract-48.ki-duotone:before {
+  content: "\e95e";
+  position: absolute;
+  
+}
+.ki-abstract-49.ki-duotone:after {
+  content: "\e95f";
+  
+  opacity: 0.3;
+}
+.ki-abstract-49.ki-duotone:before {
+  content: "\e960";
+  position: absolute;
+  
+}
+.ki-abstract.ki-duotone:after {
+  content: "\e961";
+  
+  opacity: 0.3;
+}
+.ki-abstract.ki-duotone:before {
+  content: "\e962";
+  position: absolute;
+  
+}
+.ki-add-files.ki-duotone:after {
+  content: "\e963";
+  
+  opacity: 0.3;
+}
+.ki-add-files.ki-duotone:before {
+  content: "\e964";
+  position: absolute;
+  
+}
+.ki-add-folder.ki-duotone:after {
+  content: "\e965";
+  
+  opacity: 0.3;
+}
+.ki-add-folder.ki-duotone:before {
+  content: "\e966";
+  position: absolute;
+  
+}
+.ki-add-notepad.ki-duotone:after {
+  content: "\e967";
+  
+  opacity: 0.3;
+}
+.ki-add-notepad.ki-duotone:before {
+  content: "\e968";
+  position: absolute;
+  
+}
+.ki-additem.ki-duotone:after {
+  content: "\e969";
+  
+  opacity: 0.3;
+}
+.ki-additem.ki-duotone:before {
+  content: "\e96a";
+  position: absolute;
+  
+}
+.ki-address-book.ki-duotone:after {
+  content: "\e96b";
+  
+}
+.ki-address-book.ki-duotone:before {
+  content: "\e96c";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-airplane-square.ki-duotone:after {
+  content: "\e96d";
+  
+  opacity: 0.3;
+}
+.ki-airplane-square.ki-duotone:before {
+  content: "\e96e";
+  position: absolute;
+  
+}
+.ki-airplane.ki-duotone:after {
+  content: "\e96f";
+  
+  opacity: 0.3;
+}
+.ki-airplane.ki-duotone:before {
+  content: "\e970";
+  position: absolute;
+  
+}
+.ki-airpod.ki-duotone:after {
+  content: "\e971";
+  
+  opacity: 0.3;
+}
+.ki-airpod.ki-duotone:before {
+  content: "\e972";
+  position: absolute;
+  
+}
+.ki-android.ki-duotone:after {
+  content: "\e973";
+  
+}
+.ki-android.ki-duotone:before {
+  content: "\e974";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-angular.ki-duotone:after {
+  content: "\e975";
+  
+}
+.ki-angular.ki-duotone:before {
+  content: "\e976";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-apple.ki-duotone:before {
+  content: "\e977";
+}
+.ki-archive-tick.ki-duotone:after {
+  content: "\e978";
+  
+  opacity: 0.3;
+}
+.ki-archive-tick.ki-duotone:before {
+  content: "\e979";
+  position: absolute;
+  
+}
+.ki-archive.ki-duotone:after {
+  content: "\e97a";
+  
+  opacity: 0.3;
+}
+.ki-archive.ki-duotone:before {
+  content: "\e97b";
+  position: absolute;
+  
+}
+.ki-arrow-circle-left.ki-duotone:after {
+  content: "\e97c";
+  
+  opacity: 0.3;
+}
+.ki-arrow-circle-left.ki-duotone:before {
+  content: "\e97d";
+  position: absolute;
+  
+}
+.ki-arrow-circle-right.ki-duotone:after {
+  content: "\e97e";
+  
+  opacity: 0.3;
+}
+.ki-arrow-circle-right.ki-duotone:before {
+  content: "\e97f";
+  position: absolute;
+  
+}
+.ki-arrow-down-left.ki-duotone:after {
+  content: "\e980";
+  
+  opacity: 0.3;
+}
+.ki-arrow-down-left.ki-duotone:before {
+  content: "\e981";
+  position: absolute;
+  
+}
+.ki-arrow-down-refraction.ki-duotone:after {
+  content: "\e982";
+  
+}
+.ki-arrow-down-refraction.ki-duotone:before {
+  content: "\e983";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-arrow-down-right.ki-duotone:after {
+  content: "\e984";
+  
+  opacity: 0.3;
+}
+.ki-arrow-down-right.ki-duotone:before {
+  content: "\e985";
+  position: absolute;
+  
+}
+.ki-arrow-down.ki-duotone:after {
+  content: "\e986";
+  
+  opacity: 0.3;
+}
+.ki-arrow-down.ki-duotone:before {
+  content: "\e987";
+  position: absolute;
+  
+}
+.ki-arrow-left.ki-duotone:after {
+  content: "\e988";
+  
+  opacity: 0.3;
+}
+.ki-arrow-left.ki-duotone:before {
+  content: "\e989";
+  position: absolute;
+  
+}
+.ki-arrow-mix.ki-duotone:after {
+  content: "\e98a";
+  
+  opacity: 0.3;
+}
+.ki-arrow-mix.ki-duotone:before {
+  content: "\e98b";
+  position: absolute;
+  
+}
+.ki-arrow-right-left.ki-duotone:after {
+  content: "\e98c";
+  
+}
+.ki-arrow-right-left.ki-duotone:before {
+  content: "\e98d";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-arrow-right.ki-duotone:after {
+  content: "\e98e";
+  
+  opacity: 0.3;
+}
+.ki-arrow-right.ki-duotone:before {
+  content: "\e98f";
+  position: absolute;
+  
+}
+.ki-arrow-two-diagonals.ki-duotone:after {
+  content: "\e990";
+  
+  opacity: 0.3;
+}
+.ki-arrow-two-diagonals.ki-duotone:before {
+  content: "\e991";
+  position: absolute;
+  
+}
+.ki-arrow-up-down.ki-duotone:after {
+  content: "\e992";
+  
+}
+.ki-arrow-up-down.ki-duotone:before {
+  content: "\e993";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-arrow-up-left.ki-duotone:after {
+  content: "\e994";
+  
+  opacity: 0.3;
+}
+.ki-arrow-up-left.ki-duotone:before {
+  content: "\e995";
+  position: absolute;
+  
+}
+.ki-arrow-up-refraction.ki-duotone:after {
+  content: "\e996";
+  
+}
+.ki-arrow-up-refraction.ki-duotone:before {
+  content: "\e997";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-arrow-up-right.ki-duotone:after {
+  content: "\e998";
+  
+  opacity: 0.3;
+}
+.ki-arrow-up-right.ki-duotone:before {
+  content: "\e999";
+  position: absolute;
+  
+}
+.ki-arrow-up.ki-duotone:after {
+  content: "\e99a";
+  
+  opacity: 0.3;
+}
+.ki-arrow-up.ki-duotone:before {
+  content: "\e99b";
+  position: absolute;
+  
+}
+.ki-arrow-zigzag.ki-duotone:after {
+  content: "\e99c";
+  
+}
+.ki-arrow-zigzag.ki-duotone:before {
+  content: "\e99d";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-arrows-circle.ki-duotone:after {
+  content: "\e99e";
+  
+  opacity: 0.3;
+}
+.ki-arrows-circle.ki-duotone:before {
+  content: "\e99f";
+  position: absolute;
+  
+}
+.ki-arrows-loop.ki-duotone:after {
+  content: "\e9a0";
+  
+  opacity: 0.3;
+}
+.ki-arrows-loop.ki-duotone:before {
+  content: "\e9a1";
+  position: absolute;
+  
+}
+.ki-artificial-intelligence.ki-duotone:after {
+  content: "\e9a2";
+  
+  opacity: 0.3;
+}
+.ki-artificial-intelligence.ki-duotone:before {
+  content: "\e9a3";
+  position: absolute;
+  
+}
+.ki-autobrightness.ki-duotone:after {
+  content: "\e9a4";
+  
+  opacity: 0.3;
+}
+.ki-autobrightness.ki-duotone:before {
+  content: "\e9a5";
+  position: absolute;
+  
+}
+.ki-avalanche-avax.ki-duotone:after {
+  content: "\e9a6";
+  
+  opacity: 0.3;
+}
+.ki-avalanche-avax.ki-duotone:before {
+  content: "\e9a7";
+  position: absolute;
+  
+}
+.ki-award.ki-duotone:after {
+  content: "\e9a8";
+  
+  opacity: 0.3;
+}
+.ki-award.ki-duotone:before {
+  content: "\e9a9";
+  position: absolute;
+  
+}
+.ki-badge.ki-duotone:after {
+  content: "\e9aa";
+  
+  opacity: 0.3;
+}
+.ki-badge.ki-duotone:before {
+  content: "\e9ab";
+  position: absolute;
+  
+}
+.ki-bandage.ki-duotone:after {
+  content: "\e9ac";
+  
+  opacity: 0.3;
+}
+.ki-bandage.ki-duotone:before {
+  content: "\e9ad";
+  position: absolute;
+  
+}
+.ki-bank.ki-duotone:after {
+  content: "\e9ae";
+  
+  opacity: 0.3;
+}
+.ki-bank.ki-duotone:before {
+  content: "\e9af";
+  position: absolute;
+  
+}
+.ki-bar-chart.ki-duotone:after {
+  content: "\e9b0";
+  
+}
+.ki-bar-chart.ki-duotone:before {
+  content: "\e9b1";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-barcode.ki-duotone:after {
+  content: "\e9b2";
+  
+}
+.ki-barcode.ki-duotone:before {
+  content: "\e9b3";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-basket-ok.ki-duotone:after {
+  content: "\e9b4";
+  
+  opacity: 0.3;
+}
+.ki-basket-ok.ki-duotone:before {
+  content: "\e9b5";
+  position: absolute;
+  
+}
+.ki-basket.ki-duotone:after {
+  content: "\e9b6";
+  
+  opacity: 0.3;
+}
+.ki-basket.ki-duotone:before {
+  content: "\e9b7";
+  position: absolute;
+  
+}
+.ki-behance.ki-duotone:after {
+  content: "\e9b8";
+  
+}
+.ki-behance.ki-duotone:before {
+  content: "\e9b9";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-bill.ki-duotone:after {
+  content: "\e9ba";
+  
+  opacity: 0.3;
+}
+.ki-bill.ki-duotone:before {
+  content: "\e9bb";
+  position: absolute;
+  
+}
+.ki-binance-usd-busd.ki-duotone:after {
+  content: "\e9bc";
+  
+}
+.ki-binance-usd-busd.ki-duotone:before {
+  content: "\e9bd";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-binance.ki-duotone:after {
+  content: "\e9be";
+  
+  opacity: 0.3;
+}
+.ki-binance.ki-duotone:before {
+  content: "\e9bf";
+  position: absolute;
+  
+}
+.ki-bitcoin.ki-duotone:after {
+  content: "\e9c0";
+  
+  opacity: 0.3;
+}
+.ki-bitcoin.ki-duotone:before {
+  content: "\e9c1";
+  position: absolute;
+  
+}
+.ki-black-down.ki-duotone:before {
+  content: "\e9c2";
+}
+.ki-black-left-line.ki-duotone:after {
+  content: "\e9c3";
+  
+}
+.ki-black-left-line.ki-duotone:before {
+  content: "\e9c4";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-black-left.ki-duotone:before {
+  content: "\e9c5";
+}
+.ki-black-right-line.ki-duotone:after {
+  content: "\e9c6";
+  
+}
+.ki-black-right-line.ki-duotone:before {
+  content: "\e9c7";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-black-right.ki-duotone:before {
+  content: "\e9c8";
+}
+.ki-black-up.ki-duotone:before {
+  content: "\e9c9";
+}
+.ki-bluetooth.ki-duotone:after {
+  content: "\e9ca";
+  
+}
+.ki-bluetooth.ki-duotone:before {
+  content: "\e9cb";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-book-open.ki-duotone:after {
+  content: "\e9cc";
+  
+  opacity: 0.3;
+}
+.ki-book-open.ki-duotone:before {
+  content: "\e9cd";
+  position: absolute;
+  
+}
+.ki-book-square.ki-duotone:after {
+  content: "\e9ce";
+  
+  opacity: 0.3;
+}
+.ki-book-square.ki-duotone:before {
+  content: "\e9cf";
+  position: absolute;
+  
+}
+.ki-book.ki-duotone:after {
+  content: "\e9d0";
+  
+  opacity: 0.3;
+}
+.ki-book.ki-duotone:before {
+  content: "\e9d1";
+  position: absolute;
+  
+}
+.ki-bookmark-2.ki-duotone:after {
+  content: "\e9d2";
+  
+  opacity: 0.3;
+}
+.ki-bookmark-2.ki-duotone:before {
+  content: "\e9d3";
+  position: absolute;
+  
+}
+.ki-bookmark.ki-duotone:after {
+  content: "\e9d4";
+  
+  opacity: 0.3;
+}
+.ki-bookmark.ki-duotone:before {
+  content: "\e9d5";
+  position: absolute;
+  
+}
+.ki-bootstrap.ki-duotone:after {
+  content: "\e9d6";
+  
+  opacity: 0.3;
+}
+.ki-bootstrap.ki-duotone:before {
+  content: "\e9d7";
+  position: absolute;
+  
+}
+.ki-briefcase.ki-duotone:after {
+  content: "\e9d8";
+  
+  opacity: 0.3;
+}
+.ki-briefcase.ki-duotone:before {
+  content: "\e9d9";
+  position: absolute;
+  
+}
+.ki-brifecase-cros.ki-duotone:after {
+  content: "\e9da";
+  
+  opacity: 0.3;
+}
+.ki-brifecase-cros.ki-duotone:before {
+  content: "\e9db";
+  position: absolute;
+  
+}
+.ki-brifecase-tick.ki-duotone:after {
+  content: "\e9dc";
+  
+  opacity: 0.3;
+}
+.ki-brifecase-tick.ki-duotone:before {
+  content: "\e9dd";
+  position: absolute;
+  
+}
+.ki-brifecase-timer.ki-duotone:after {
+  content: "\e9de";
+  
+  opacity: 0.3;
+}
+.ki-brifecase-timer.ki-duotone:before {
+  content: "\e9df";
+  position: absolute;
+  
+}
+.ki-brush.ki-duotone:after {
+  content: "\e9e0";
+  
+  opacity: 0.3;
+}
+.ki-brush.ki-duotone:before {
+  content: "\e9e1";
+  position: absolute;
+  
+}
+.ki-bucket-square.ki-duotone:after {
+  content: "\e9e2";
+  
+  opacity: 0.3;
+}
+.ki-bucket-square.ki-duotone:before {
+  content: "\e9e3";
+  position: absolute;
+  
+}
+.ki-bucket.ki-duotone:after {
+  content: "\e9e4";
+  
+  opacity: 0.3;
+}
+.ki-bucket.ki-duotone:before {
+  content: "\e9e5";
+  position: absolute;
+  
+}
+.ki-burger-menu-1.ki-duotone:after {
+  content: "\e9e6";
+  
+  opacity: 0.3;
+}
+.ki-burger-menu-1.ki-duotone:before {
+  content: "\e9e7";
+  position: absolute;
+  
+}
+.ki-burger-menu-2.ki-duotone:after {
+  content: "\e9e8";
+  
+  opacity: 0.3;
+}
+.ki-burger-menu-2.ki-duotone:before {
+  content: "\e9e9";
+  position: absolute;
+  
+}
+.ki-burger-menu-3.ki-duotone:after {
+  content: "\e9ea";
+  
+  opacity: 0.3;
+}
+.ki-burger-menu-3.ki-duotone:before {
+  content: "\e9eb";
+  position: absolute;
+  
+}
+.ki-burger-menu-4.ki-duotone:before {
+  content: "\e9ec";
+}
+.ki-burger-menu-5.ki-duotone:before {
+  content: "\e9ed";
+}
+.ki-burger-menu-6.ki-duotone:before {
+  content: "\e9ee";
+}
+.ki-burger-menu.ki-duotone:after {
+  content: "\e9ef";
+  
+  opacity: 0.3;
+}
+.ki-burger-menu.ki-duotone:before {
+  content: "\e9f0";
+  position: absolute;
+  
+}
+.ki-bus.ki-duotone:after {
+  content: "\e9f1";
+  
+  opacity: 0.3;
+}
+.ki-bus.ki-duotone:before {
+  content: "\e9f2";
+  position: absolute;
+  
+}
+.ki-calculator.ki-duotone:after {
+  content: "\e9f3";
+  
+  opacity: 0.3;
+}
+.ki-calculator.ki-duotone:before {
+  content: "\e9f4";
+  position: absolute;
+  
+}
+.ki-calculatoror.ki-duotone:after {
+  content: "\e9f5";
+  
+  opacity: 0.3;
+}
+.ki-calculatoror.ki-duotone:before {
+  content: "\e9f6";
+  position: absolute;
+  
+}
+.ki-calendar-2.ki-duotone:after {
+  content: "\e9f7";
+  
+  opacity: 0.3;
+}
+.ki-calendar-2.ki-duotone:before {
+  content: "\e9f8";
+  position: absolute;
+  
+}
+.ki-calendar-8.ki-duotone:after {
+  content: "\e9f9";
+  
+  opacity: 0.3;
+}
+.ki-calendar-8.ki-duotone:before {
+  content: "\e9fa";
+  position: absolute;
+  
+}
+.ki-calendar-add.ki-duotone:after {
+  content: "\e9fb";
+  
+  opacity: 0.3;
+}
+.ki-calendar-add.ki-duotone:before {
+  content: "\e9fc";
+  position: absolute;
+  
+}
+.ki-calendar-edit.ki-duotone:after {
+  content: "\e9fd";
+  
+  opacity: 0.3;
+}
+.ki-calendar-edit.ki-duotone:before {
+  content: "\e9fe";
+  position: absolute;
+  
+}
+.ki-calendar-remove.ki-duotone:after {
+  content: "\e9ff";
+  
+  opacity: 0.3;
+}
+.ki-calendar-remove.ki-duotone:before {
+  content: "\ea00";
+  position: absolute;
+  
+}
+.ki-calendar-search.ki-duotone:after {
+  content: "\ea01";
+  
+  opacity: 0.3;
+}
+.ki-calendar-search.ki-duotone:before {
+  content: "\ea02";
+  position: absolute;
+  
+}
+.ki-calendar-tick.ki-duotone:after {
+  content: "\ea03";
+  
+  opacity: 0.3;
+}
+.ki-calendar-tick.ki-duotone:before {
+  content: "\ea04";
+  position: absolute;
+  
+}
+.ki-calendar.ki-duotone:after {
+  content: "\ea05";
+  
+  opacity: 0.3;
+}
+.ki-calendar.ki-duotone:before {
+  content: "\ea06";
+  position: absolute;
+  
+}
+.ki-call.ki-duotone:after {
+  content: "\ea07";
+  
+  opacity: 0.3;
+}
+.ki-call.ki-duotone:before {
+  content: "\ea08";
+  position: absolute;
+  
+}
+.ki-capsule.ki-duotone:after {
+  content: "\ea09";
+  
+  opacity: 0.3;
+}
+.ki-capsule.ki-duotone:before {
+  content: "\ea0a";
+  position: absolute;
+  
+}
+.ki-car.ki-duotone:after {
+  content: "\ea0b";
+  
+  opacity: 0.3;
+}
+.ki-car.ki-duotone:before {
+  content: "\ea0c";
+  position: absolute;
+  
+}
+.ki-category.ki-duotone:after {
+  content: "\ea0d";
+  
+  opacity: 0.3;
+}
+.ki-category.ki-duotone:before {
+  content: "\ea0e";
+  position: absolute;
+  
+}
+.ki-cd.ki-duotone:after {
+  content: "\ea0f";
+  
+}
+.ki-cd.ki-duotone:before {
+  content: "\ea10";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-celsius-cel.ki-duotone:after {
+  content: "\ea11";
+  
+}
+.ki-celsius-cel.ki-duotone:before {
+  content: "\ea12";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-chart-line-down-2.ki-duotone:after {
+  content: "\ea13";
+  
+  opacity: 0.3;
+}
+.ki-chart-line-down-2.ki-duotone:before {
+  content: "\ea14";
+  position: absolute;
+  
+}
+.ki-chart-line-down.ki-duotone:after {
+  content: "\ea15";
+  
+  opacity: 0.3;
+}
+.ki-chart-line-down.ki-duotone:before {
+  content: "\ea16";
+  position: absolute;
+  
+}
+.ki-chart-line-star.ki-duotone:after {
+  content: "\ea17";
+  
+}
+.ki-chart-line-star.ki-duotone:before {
+  content: "\ea18";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-chart-line-up-2.ki-duotone:after {
+  content: "\ea19";
+  
+}
+.ki-chart-line-up-2.ki-duotone:before {
+  content: "\ea1a";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-chart-line-up.ki-duotone:after {
+  content: "\ea1b";
+  
+}
+.ki-chart-line-up.ki-duotone:before {
+  content: "\ea1c";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-chart-line.ki-duotone:after {
+  content: "\ea1d";
+  
+  opacity: 0.3;
+}
+.ki-chart-line.ki-duotone:before {
+  content: "\ea1e";
+  position: absolute;
+  
+}
+.ki-chart-pie-3.ki-duotone:after {
+  content: "\ea1f";
+  
+}
+.ki-chart-pie-3.ki-duotone:before {
+  content: "\ea20";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-chart-pie-4.ki-duotone:after {
+  content: "\ea21";
+  
+}
+.ki-chart-pie-4.ki-duotone:before {
+  content: "\ea22";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-chart-pie-simple.ki-duotone:after {
+  content: "\ea23";
+  
+}
+.ki-chart-pie-simple.ki-duotone:before {
+  content: "\ea24";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-chart-pie-too.ki-duotone:after {
+  content: "\ea25";
+  
+  opacity: 0.3;
+}
+.ki-chart-pie-too.ki-duotone:before {
+  content: "\ea26";
+  position: absolute;
+  
+}
+.ki-chart-simple-2.ki-duotone:after {
+  content: "\ea27";
+  
+}
+.ki-chart-simple-2.ki-duotone:before {
+  content: "\ea28";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-chart-simple-3.ki-duotone:after {
+  content: "\ea29";
+  
+}
+.ki-chart-simple-3.ki-duotone:before {
+  content: "\ea2a";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-chart-simple.ki-duotone:after {
+  content: "\ea2b";
+  
+}
+.ki-chart-simple.ki-duotone:before {
+  content: "\ea2c";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-chart.ki-duotone:after {
+  content: "\ea2d";
+  
+}
+.ki-chart.ki-duotone:before {
+  content: "\ea2e";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-check-circle.ki-duotone:after {
+  content: "\ea2f";
+  
+  opacity: 0.3;
+}
+.ki-check-circle.ki-duotone:before {
+  content: "\ea30";
+  position: absolute;
+  
+}
+.ki-check-squared.ki-duotone:after {
+  content: "\ea31";
+  
+  opacity: 0.3;
+}
+.ki-check-squared.ki-duotone:before {
+  content: "\ea32";
+  position: absolute;
+  
+}
+.ki-check.ki-duotone:before {
+  content: "\ea33";
+}
+.ki-cheque.ki-duotone:after {
+  content: "\ea34";
+  
+}
+.ki-cheque.ki-duotone:before {
+  content: "\ea35";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-chrome.ki-duotone:after {
+  content: "\ea36";
+  
+  opacity: 0.3;
+}
+.ki-chrome.ki-duotone:before {
+  content: "\ea37";
+  position: absolute;
+  
+}
+.ki-classmates.ki-duotone:after {
+  content: "\ea38";
+  
+}
+.ki-classmates.ki-duotone:before {
+  content: "\ea39";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-click.ki-duotone:after {
+  content: "\ea3a";
+  
+}
+.ki-click.ki-duotone:before {
+  content: "\ea3b";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-clipboard.ki-duotone:after {
+  content: "\ea3c";
+  
+  opacity: 0.3;
+}
+.ki-clipboard.ki-duotone:before {
+  content: "\ea3d";
+  position: absolute;
+  
+}
+.ki-cloud-add.ki-duotone:after {
+  content: "\ea3e";
+  
+}
+.ki-cloud-add.ki-duotone:before {
+  content: "\ea3f";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-cloud-change.ki-duotone:after {
+  content: "\ea40";
+  
+}
+.ki-cloud-change.ki-duotone:before {
+  content: "\ea41";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-cloud-download.ki-duotone:after {
+  content: "\ea42";
+  
+  opacity: 0.3;
+}
+.ki-cloud-download.ki-duotone:before {
+  content: "\ea43";
+  position: absolute;
+  
+}
+.ki-cloud.ki-duotone:before {
+  content: "\ea44";
+}
+.ki-code.ki-duotone:after {
+  content: "\ea45";
+  
+  opacity: 0.3;
+}
+.ki-code.ki-duotone:before {
+  content: "\ea46";
+  position: absolute;
+  
+}
+.ki-coffee.ki-duotone:after {
+  content: "\ea47";
+  
+  opacity: 0.3;
+}
+.ki-coffee.ki-duotone:before {
+  content: "\ea48";
+  position: absolute;
+  
+}
+.ki-color-swatch.ki-duotone:after {
+  content: "\ea49";
+  
+  opacity: 0.3;
+}
+.ki-color-swatch.ki-duotone:before {
+  content: "\ea4a";
+  position: absolute;
+  
+}
+.ki-colors-square.ki-duotone:after {
+  content: "\ea4b";
+  
+  opacity: 0.3;
+}
+.ki-colors-square.ki-duotone:before {
+  content: "\ea4c";
+  position: absolute;
+  
+}
+.ki-compass.ki-duotone:after {
+  content: "\ea4d";
+  
+}
+.ki-compass.ki-duotone:before {
+  content: "\ea4e";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-copy-success.ki-duotone:after {
+  content: "\ea4f";
+  
+}
+.ki-copy-success.ki-duotone:before {
+  content: "\ea50";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-copy.ki-duotone:before {
+  content: "\ea51";
+}
+.ki-courier-express.ki-duotone:after {
+  content: "\ea52";
+  
+}
+.ki-courier-express.ki-duotone:before {
+  content: "\ea53";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-courier.ki-duotone:after {
+  content: "\ea54";
+  
+  opacity: 0.3;
+}
+.ki-courier.ki-duotone:before {
+  content: "\ea55";
+  position: absolute;
+  
+}
+.ki-credit-cart.ki-duotone:after {
+  content: "\ea56";
+  
+  opacity: 0.3;
+}
+.ki-credit-cart.ki-duotone:before {
+  content: "\ea57";
+  position: absolute;
+  
+}
+.ki-cross-circle.ki-duotone:after {
+  content: "\ea58";
+  
+  opacity: 0.3;
+}
+.ki-cross-circle.ki-duotone:before {
+  content: "\ea59";
+  position: absolute;
+  
+}
+.ki-cross-square.ki-duotone:after {
+  content: "\ea5a";
+  
+  opacity: 0.3;
+}
+.ki-cross-square.ki-duotone:before {
+  content: "\ea5b";
+  position: absolute;
+  
+}
+.ki-cross.ki-duotone:before {
+  content: "\ea5c";
+}
+.ki-crown-2.ki-duotone:after {
+  content: "\ea5d";
+  
+  opacity: 0.3;
+}
+.ki-crown-2.ki-duotone:before {
+  content: "\ea5e";
+  position: absolute;
+  
+}
+.ki-crown.ki-duotone:after {
+  content: "\ea5f";
+  
+  opacity: 0.3;
+}
+.ki-crown.ki-duotone:before {
+  content: "\ea60";
+  position: absolute;
+  
+}
+.ki-css.ki-duotone:after {
+  content: "\ea61";
+  
+  opacity: 0.3;
+}
+.ki-css.ki-duotone:before {
+  content: "\ea62";
+  position: absolute;
+  
+}
+.ki-cube-2.ki-duotone:after {
+  content: "\ea63";
+  
+  opacity: 0.3;
+}
+.ki-cube-2.ki-duotone:before {
+  content: "\ea64";
+  position: absolute;
+  
+}
+.ki-cube-3.ki-duotone:after {
+  content: "\ea65";
+  
+  opacity: 0.3;
+}
+.ki-cube-3.ki-duotone:before {
+  content: "\ea66";
+  position: absolute;
+  
+}
+.ki-cup.ki-duotone:after {
+  content: "\ea67";
+  
+  opacity: 0.3;
+}
+.ki-cup.ki-duotone:before {
+  content: "\ea68";
+  position: absolute;
+  
+}
+.ki-cursor.ki-duotone:after {
+  content: "\ea69";
+  
+  opacity: 0.3;
+}
+.ki-cursor.ki-duotone:before {
+  content: "\ea6a";
+  position: absolute;
+  
+}
+.ki-dash.ki-duotone:after {
+  content: "\ea6b";
+  
+  opacity: 0.3;
+}
+.ki-dash.ki-duotone:before {
+  content: "\ea6c";
+  position: absolute;
+  
+}
+.ki-data.ki-duotone:after {
+  content: "\ea6d";
+  
+}
+.ki-data.ki-duotone:before {
+  content: "\ea6e";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-delete-files.ki-duotone:after {
+  content: "\ea6f";
+  
+  opacity: 0.3;
+}
+.ki-delete-files.ki-duotone:before {
+  content: "\ea70";
+  position: absolute;
+  
+}
+.ki-delete-folder.ki-duotone:after {
+  content: "\ea71";
+  
+  opacity: 0.3;
+}
+.ki-delete-folder.ki-duotone:before {
+  content: "\ea72";
+  position: absolute;
+  
+}
+.ki-delivery-2.ki-duotone:after {
+  content: "\ea73";
+  
+  opacity: 0.3;
+}
+.ki-delivery-2.ki-duotone:before {
+  content: "\ea74";
+  position: absolute;
+  
+}
+.ki-delivery-3.ki-duotone:after {
+  content: "\ea75";
+  
+  opacity: 0.3;
+}
+.ki-delivery-3.ki-duotone:before {
+  content: "\ea76";
+  position: absolute;
+  
+}
+.ki-delivery-24.ki-duotone:after {
+  content: "\ea77";
+  
+  opacity: 0.3;
+}
+.ki-delivery-24.ki-duotone:before {
+  content: "\ea78";
+  position: absolute;
+  
+}
+.ki-delivery-door.ki-duotone:after {
+  content: "\ea79";
+  
+  opacity: 0.3;
+}
+.ki-delivery-door.ki-duotone:before {
+  content: "\ea7a";
+  position: absolute;
+  
+}
+.ki-delivery-geolocation.ki-duotone:after {
+  content: "\ea7b";
+  
+  opacity: 0.3;
+}
+.ki-delivery-geolocation.ki-duotone:before {
+  content: "\ea7c";
+  position: absolute;
+  
+}
+.ki-delivery-time.ki-duotone:after {
+  content: "\ea7d";
+  
+  opacity: 0.3;
+}
+.ki-delivery-time.ki-duotone:before {
+  content: "\ea7e";
+  position: absolute;
+  
+}
+.ki-delivery.ki-duotone:after {
+  content: "\ea7f";
+  
+  opacity: 0.3;
+}
+.ki-delivery.ki-duotone:before {
+  content: "\ea80";
+  position: absolute;
+  
+}
+.ki-design-1.ki-duotone:after {
+  content: "\ea81";
+  
+  opacity: 0.3;
+}
+.ki-design-1.ki-duotone:before {
+  content: "\ea82";
+  position: absolute;
+  
+}
+.ki-design-2.ki-duotone:after {
+  content: "\ea83";
+  
+  opacity: 0.3;
+}
+.ki-design-2.ki-duotone:before {
+  content: "\ea84";
+  position: absolute;
+  
+}
+.ki-desktop-mobile.ki-duotone:after {
+  content: "\ea85";
+  
+  opacity: 0.3;
+}
+.ki-desktop-mobile.ki-duotone:before {
+  content: "\ea86";
+  position: absolute;
+  
+}
+.ki-devices-2.ki-duotone:after {
+  content: "\ea87";
+  
+  opacity: 0.3;
+}
+.ki-devices-2.ki-duotone:before {
+  content: "\ea88";
+  position: absolute;
+  
+}
+.ki-devices.ki-duotone:after {
+  content: "\ea89";
+  
+  opacity: 0.3;
+}
+.ki-devices.ki-duotone:before {
+  content: "\ea8a";
+  position: absolute;
+  
+}
+.ki-diamonds.ki-duotone:after {
+  content: "\ea8b";
+  
+}
+.ki-diamonds.ki-duotone:before {
+  content: "\ea8c";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-directbox-default.ki-duotone:after {
+  content: "\ea8d";
+  
+  opacity: 0.3;
+}
+.ki-directbox-default.ki-duotone:before {
+  content: "\ea8e";
+  position: absolute;
+  
+}
+.ki-disconnect.ki-duotone:after {
+  content: "\ea8f";
+  
+}
+.ki-disconnect.ki-duotone:before {
+  content: "\ea90";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-discount.ki-duotone:after {
+  content: "\ea91";
+  
+  opacity: 0.3;
+}
+.ki-discount.ki-duotone:before {
+  content: "\ea92";
+  position: absolute;
+  
+}
+.ki-disguise.ki-duotone:after {
+  content: "\ea93";
+  
+  opacity: 0.3;
+}
+.ki-disguise.ki-duotone:before {
+  content: "\ea94";
+  position: absolute;
+  
+}
+.ki-disk.ki-duotone:after {
+  content: "\ea95";
+  
+  opacity: 0.3;
+}
+.ki-disk.ki-duotone:before {
+  content: "\ea96";
+  position: absolute;
+  
+}
+.ki-dislike.ki-duotone:after {
+  content: "\ea97";
+  
+}
+.ki-dislike.ki-duotone:before {
+  content: "\ea98";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-dj.ki-duotone:before {
+  content: "\ea99";
+}
+.ki-document.ki-duotone:after {
+  content: "\ea9a";
+  
+  opacity: 0.3;
+}
+.ki-document.ki-duotone:before {
+  content: "\ea9b";
+  position: absolute;
+  
+}
+.ki-double-check.ki-duotone:after {
+  content: "\ea9c";
+  
+}
+.ki-double-check.ki-duotone:before {
+  content: "\ea9d";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-dollar.ki-duotone:after {
+  content: "\ea9e";
+  
+  opacity: 0.3;
+}
+.ki-dollar.ki-duotone:before {
+  content: "\ea9f";
+  position: absolute;
+  
+}
+.ki-dots-circle-vertical.ki-duotone:after {
+  content: "\eaa0";
+  
+  opacity: 0.3;
+}
+.ki-dots-circle-vertical.ki-duotone:before {
+  content: "\eaa1";
+  position: absolute;
+  
+}
+.ki-dots-circle.ki-duotone:after {
+  content: "\eaa2";
+  
+  opacity: 0.3;
+}
+.ki-dots-circle.ki-duotone:before {
+  content: "\eaa3";
+  position: absolute;
+  
+}
+.ki-dots-horizontal.ki-duotone:before {
+  content: "\eaa4";
+}
+.ki-dots-square-vertical.ki-duotone:after {
+  content: "\eaa5";
+  
+  opacity: 0.3;
+}
+.ki-dots-square-vertical.ki-duotone:before {
+  content: "\eaa6";
+  position: absolute;
+  
+}
+.ki-dots-square.ki-duotone:after {
+  content: "\eaa7";
+  
+  opacity: 0.3;
+}
+.ki-dots-square.ki-duotone:before {
+  content: "\eaa8";
+  position: absolute;
+  
+}
+.ki-dots-vertical.ki-duotone:after {
+  content: "\eaa9";
+  
+}
+.ki-dots-vertical.ki-duotone:before {
+  content: "\eaaa";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-double-check-circle.ki-duotone:after {
+  content: "\eaab";
+  
+  opacity: 0.3;
+}
+.ki-double-check-circle.ki-duotone:before {
+  content: "\eaac";
+  position: absolute;
+  
+}
+.ki-double-down.ki-duotone:after {
+  content: "\eaad";
+  
+}
+.ki-double-down.ki-duotone:before {
+  content: "\eaae";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-double-left-arrow.ki-duotone:after {
+  content: "\eaaf";
+  
+  opacity: 0.3;
+}
+.ki-double-left-arrow.ki-duotone:before {
+  content: "\eab0";
+  position: absolute;
+  
+}
+.ki-double-left.ki-duotone:after {
+  content: "\eab1";
+  
+}
+.ki-double-left.ki-duotone:before {
+  content: "\eab2";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-double-right-arrow.ki-duotone:after {
+  content: "\eab3";
+  
+  opacity: 0.3;
+}
+.ki-double-right-arrow.ki-duotone:before {
+  content: "\eab4";
+  position: absolute;
+  
+}
+.ki-double-right.ki-duotone:after {
+  content: "\eab5";
+  
+}
+.ki-double-right.ki-duotone:before {
+  content: "\eab6";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-double-up.ki-duotone:after {
+  content: "\eab7";
+  
+}
+.ki-double-up.ki-duotone:before {
+  content: "\eab8";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-down-square.ki-duotone:after {
+  content: "\eab9";
+  
+  opacity: 0.3;
+}
+.ki-down-square.ki-duotone:before {
+  content: "\eaba";
+  position: absolute;
+  
+}
+.ki-down.ki-duotone:before {
+  content: "\eabb";
+}
+.ki-dribbble.ki-duotone:after {
+  content: "\eabc";
+  
+}
+.ki-dribbble.ki-duotone:before {
+  content: "\eabd";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-drop.ki-duotone:after {
+  content: "\eabe";
+  
+}
+.ki-drop.ki-duotone:before {
+  content: "\eabf";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-dropbox.ki-duotone:after {
+  content: "\eac0";
+  
+  opacity: 0.3;
+}
+.ki-dropbox.ki-duotone:before {
+  content: "\eac1";
+  position: absolute;
+  
+}
+.ki-educare-ekt.ki-duotone:after {
+  content: "\eac2";
+  
+  opacity: 0.3;
+}
+.ki-educare-ekt.ki-duotone:before {
+  content: "\eac3";
+  position: absolute;
+  
+}
+.ki-electricity.ki-duotone:after {
+  content: "\eac4";
+  
+  opacity: 0.3;
+}
+.ki-electricity.ki-duotone:before {
+  content: "\eac5";
+  position: absolute;
+  
+}
+.ki-electronic-clock.ki-duotone:after {
+  content: "\eac6";
+  
+  opacity: 0.3;
+}
+.ki-electronic-clock.ki-duotone:before {
+  content: "\eac7";
+  position: absolute;
+  
+}
+.ki-element-1.ki-duotone:after {
+  content: "\eac8";
+  
+  opacity: 0.3;
+}
+.ki-element-1.ki-duotone:before {
+  content: "\eac9";
+  position: absolute;
+  
+}
+.ki-element-2.ki-duotone:after {
+  content: "\eaca";
+  
+}
+.ki-element-2.ki-duotone:before {
+  content: "\eacb";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-element-3.ki-duotone:after {
+  content: "\eacc";
+  
+  opacity: 0.3;
+}
+.ki-element-3.ki-duotone:before {
+  content: "\eacd";
+  position: absolute;
+  
+}
+.ki-element-4.ki-duotone:after {
+  content: "\eace";
+  
+}
+.ki-element-4.ki-duotone:before {
+  content: "\eacf";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-element-5.ki-duotone:after {
+  content: "\ead0";
+  
+}
+.ki-element-5.ki-duotone:before {
+  content: "\ead1";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-element-6.ki-duotone:after {
+  content: "\ead2";
+  
+  opacity: 0.3;
+}
+.ki-element-6.ki-duotone:before {
+  content: "\ead3";
+  position: absolute;
+  
+}
+.ki-element-7.ki-duotone:after {
+  content: "\ead4";
+  
+}
+.ki-element-7.ki-duotone:before {
+  content: "\ead5";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-element-8.ki-duotone:after {
+  content: "\ead6";
+  
+  opacity: 0.3;
+}
+.ki-element-8.ki-duotone:before {
+  content: "\ead7";
+  position: absolute;
+  
+}
+.ki-element-9.ki-duotone:after {
+  content: "\ead8";
+  
+  opacity: 0.3;
+}
+.ki-element-9.ki-duotone:before {
+  content: "\ead9";
+  position: absolute;
+  
+}
+.ki-element-10.ki-duotone:after {
+  content: "\eada";
+  
+}
+.ki-element-10.ki-duotone:before {
+  content: "\eadb";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-element-11.ki-duotone:after {
+  content: "\eadc";
+  
+}
+.ki-element-11.ki-duotone:before {
+  content: "\eadd";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-element-12.ki-duotone:after {
+  content: "\eade";
+  
+  opacity: 0.3;
+}
+.ki-element-12.ki-duotone:before {
+  content: "\eadf";
+  position: absolute;
+  
+}
+.ki-element-equal.ki-duotone:after {
+  content: "\eae0";
+  
+  opacity: 0.3;
+}
+.ki-element-equal.ki-duotone:before {
+  content: "\eae1";
+  position: absolute;
+  
+}
+.ki-element-plus.ki-duotone:after {
+  content: "\eae2";
+  
+}
+.ki-element-plus.ki-duotone:before {
+  content: "\eae3";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-emoji-happy.ki-duotone:after {
+  content: "\eae4";
+  
+  opacity: 0.3;
+}
+.ki-emoji-happy.ki-duotone:before {
+  content: "\eae5";
+  position: absolute;
+  
+}
+.ki-enjin-coin-enj.ki-duotone:after {
+  content: "\eae6";
+  
+}
+.ki-enjin-coin-enj.ki-duotone:before {
+  content: "\eae7";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-ensure.ki-duotone:after {
+  content: "\eae8";
+  
+}
+.ki-ensure.ki-duotone:before {
+  content: "\eae9";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-entrance-left.ki-duotone:after {
+  content: "\eaea";
+  
+}
+.ki-entrance-left.ki-duotone:before {
+  content: "\eaeb";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-entrance-right.ki-duotone:after {
+  content: "\eaec";
+  
+  opacity: 0.3;
+}
+.ki-entrance-right.ki-duotone:before {
+  content: "\eaed";
+  position: absolute;
+  
+}
+.ki-eraser.ki-duotone:after {
+  content: "\eaee";
+  
+  opacity: 0.3;
+}
+.ki-eraser.ki-duotone:before {
+  content: "\eaef";
+  position: absolute;
+  
+}
+.ki-euro.ki-duotone:after {
+  content: "\eaf0";
+  
+  opacity: 0.3;
+}
+.ki-euro.ki-duotone:before {
+  content: "\eaf1";
+  position: absolute;
+  
+}
+.ki-exit-down.ki-duotone:after {
+  content: "\eaf2";
+  
+  opacity: 0.3;
+}
+.ki-exit-down.ki-duotone:before {
+  content: "\eaf3";
+  position: absolute;
+  
+}
+.ki-exit-left.ki-duotone:after {
+  content: "\eaf4";
+  
+  opacity: 0.3;
+}
+.ki-exit-left.ki-duotone:before {
+  content: "\eaf5";
+  position: absolute;
+  
+}
+.ki-exit-right-corner.ki-duotone:after {
+  content: "\eaf6";
+  
+  opacity: 0.3;
+}
+.ki-exit-right-corner.ki-duotone:before {
+  content: "\eaf7";
+  position: absolute;
+  
+}
+.ki-exit-right.ki-duotone:after {
+  content: "\eaf8";
+  
+  opacity: 0.3;
+}
+.ki-exit-right.ki-duotone:before {
+  content: "\eaf9";
+  position: absolute;
+  
+}
+.ki-exit-up.ki-duotone:after {
+  content: "\eafa";
+  
+  opacity: 0.3;
+}
+.ki-exit-up.ki-duotone:before {
+  content: "\eafb";
+  position: absolute;
+  
+}
+.ki-external-drive.ki-duotone:after {
+  content: "\eafc";
+  
+}
+.ki-external-drive.ki-duotone:before {
+  content: "\eafd";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-eye-slash.ki-duotone:after {
+  content: "\eafe";
+  
+}
+.ki-eye-slash.ki-duotone:before {
+  content: "\eaff";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-eye.ki-duotone:after {
+  content: "\eb00";
+  
+}
+.ki-eye.ki-duotone:before {
+  content: "\eb01";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-face-id.ki-duotone:after {
+  content: "\eb02";
+  
+  opacity: 0.3;
+}
+.ki-face-id.ki-duotone:before {
+  content: "\eb03";
+  position: absolute;
+  
+}
+.ki-facebook.ki-duotone:after {
+  content: "\eb04";
+  
+  opacity: 0.3;
+}
+.ki-facebook.ki-duotone:before {
+  content: "\eb05";
+  position: absolute;
+  
+}
+.ki-fasten.ki-duotone:after {
+  content: "\eb06";
+  
+  opacity: 0.3;
+}
+.ki-fasten.ki-duotone:before {
+  content: "\eb07";
+  position: absolute;
+  
+}
+.ki-fatrows.ki-duotone:after {
+  content: "\eb08";
+  
+}
+.ki-fatrows.ki-duotone:before {
+  content: "\eb09";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-feather.ki-duotone:after {
+  content: "\eb0a";
+  
+  opacity: 0.3;
+}
+.ki-feather.ki-duotone:before {
+  content: "\eb0b";
+  position: absolute;
+  
+}
+.ki-figma.ki-duotone:after {
+  content: "\eb0c";
+  
+  opacity: 0.3;
+}
+.ki-figma.ki-duotone:before {
+  content: "\eb0d";
+  position: absolute;
+  
+}
+.ki-file-added.ki-duotone:after {
+  content: "\eb0e";
+  
+}
+.ki-file-added.ki-duotone:before {
+  content: "\eb0f";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-file-deleted.ki-duotone:after {
+  content: "\eb10";
+  
+}
+.ki-file-deleted.ki-duotone:before {
+  content: "\eb11";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-file-down.ki-duotone:after {
+  content: "\eb12";
+  
+  opacity: 0.3;
+}
+.ki-file-down.ki-duotone:before {
+  content: "\eb13";
+  position: absolute;
+  
+}
+.ki-file-left.ki-duotone:after {
+  content: "\eb14";
+  
+  opacity: 0.3;
+}
+.ki-file-left.ki-duotone:before {
+  content: "\eb15";
+  position: absolute;
+  
+}
+.ki-file-right.ki-duotone:after {
+  content: "\eb16";
+  
+  opacity: 0.3;
+}
+.ki-file-right.ki-duotone:before {
+  content: "\eb17";
+  position: absolute;
+  
+}
+.ki-file-sheet.ki-duotone:after {
+  content: "\eb18";
+  
+}
+.ki-file-sheet.ki-duotone:before {
+  content: "\eb19";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-file-up.ki-duotone:after {
+  content: "\eb1a";
+  
+  opacity: 0.3;
+}
+.ki-file-up.ki-duotone:before {
+  content: "\eb1b";
+  position: absolute;
+  
+}
+.ki-files.ki-duotone:after {
+  content: "\eb1c";
+  
+}
+.ki-files.ki-duotone:before {
+  content: "\eb1d";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-filter-edit.ki-duotone:after {
+  content: "\eb1e";
+  
+  opacity: 0.3;
+}
+.ki-filter-edit.ki-duotone:before {
+  content: "\eb1f";
+  position: absolute;
+  
+}
+.ki-filter-search.ki-duotone:after {
+  content: "\eb20";
+  
+  opacity: 0.3;
+}
+.ki-filter-search.ki-duotone:before {
+  content: "\eb21";
+  position: absolute;
+  
+}
+.ki-filter-square.ki-duotone:after {
+  content: "\eb22";
+  
+}
+.ki-filter-square.ki-duotone:before {
+  content: "\eb23";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-filter-tablet.ki-duotone:after {
+  content: "\eb24";
+  
+  opacity: 0.3;
+}
+.ki-filter-tablet.ki-duotone:before {
+  content: "\eb25";
+  position: absolute;
+  
+}
+.ki-filter-tick.ki-duotone:after {
+  content: "\eb26";
+  
+  opacity: 0.3;
+}
+.ki-filter-tick.ki-duotone:before {
+  content: "\eb27";
+  position: absolute;
+  
+}
+.ki-filter.ki-duotone:after {
+  content: "\eb28";
+  
+}
+.ki-filter.ki-duotone:before {
+  content: "\eb29";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-financial-schedule.ki-duotone:after {
+  content: "\eb2a";
+  
+  opacity: 0.3;
+}
+.ki-financial-schedule.ki-duotone:before {
+  content: "\eb2b";
+  position: absolute;
+  
+}
+.ki-fingerprint-scanning.ki-duotone:after {
+  content: "\eb2c";
+  
+}
+.ki-fingerprint-scanning.ki-duotone:before {
+  content: "\eb2d";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-flag.ki-duotone:after {
+  content: "\eb2e";
+  
+  opacity: 0.3;
+}
+.ki-flag.ki-duotone:before {
+  content: "\eb2f";
+  position: absolute;
+  
+}
+.ki-flash-circle.ki-duotone:after {
+  content: "\eb30";
+  
+  opacity: 0.3;
+}
+.ki-flash-circle.ki-duotone:before {
+  content: "\eb31";
+  position: absolute;
+  
+}
+.ki-flask.ki-duotone:after {
+  content: "\eb32";
+  
+  opacity: 0.3;
+}
+.ki-flask.ki-duotone:before {
+  content: "\eb33";
+  position: absolute;
+  
+}
+.ki-focus.ki-duotone:after {
+  content: "\eb34";
+  
+  opacity: 0.3;
+}
+.ki-focus.ki-duotone:before {
+  content: "\eb35";
+  position: absolute;
+  
+}
+.ki-folder-added.ki-duotone:after {
+  content: "\eb36";
+  
+  opacity: 0.3;
+}
+.ki-folder-added.ki-duotone:before {
+  content: "\eb37";
+  position: absolute;
+  
+}
+.ki-folder-down.ki-duotone:after {
+  content: "\eb38";
+  
+  opacity: 0.3;
+}
+.ki-folder-down.ki-duotone:before {
+  content: "\eb39";
+  position: absolute;
+  
+}
+.ki-folder-up.ki-duotone:after {
+  content: "\eb3a";
+  
+  opacity: 0.3;
+}
+.ki-folder-up.ki-duotone:before {
+  content: "\eb3b";
+  position: absolute;
+  
+}
+.ki-folder.ki-duotone:after {
+  content: "\eb3c";
+  
+  opacity: 0.3;
+}
+.ki-folder.ki-duotone:before {
+  content: "\eb3d";
+  position: absolute;
+  
+}
+.ki-frame.ki-duotone:after {
+  content: "\eb3e";
+  
+  opacity: 0.3;
+}
+.ki-frame.ki-duotone:before {
+  content: "\eb3f";
+  position: absolute;
+  
+}
+.ki-geolocation-home.ki-duotone:after {
+  content: "\eb40";
+  
+  opacity: 0.3;
+}
+.ki-geolocation-home.ki-duotone:before {
+  content: "\eb41";
+  position: absolute;
+  
+}
+.ki-geolocation.ki-duotone:after {
+  content: "\eb42";
+  
+  opacity: 0.3;
+}
+.ki-geolocation.ki-duotone:before {
+  content: "\eb43";
+  position: absolute;
+  
+}
+.ki-ghost.ki-duotone:after {
+  content: "\eb44";
+  
+}
+.ki-ghost.ki-duotone:before {
+  content: "\eb45";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-gift.ki-duotone:after {
+  content: "\eb46";
+  
+}
+.ki-gift.ki-duotone:before {
+  content: "\eb47";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-github.ki-duotone:after {
+  content: "\eb48";
+  
+  opacity: 0.3;
+}
+.ki-github.ki-duotone:before {
+  content: "\eb49";
+  position: absolute;
+  
+}
+.ki-glass.ki-duotone:after {
+  content: "\eb4a";
+  
+  opacity: 0.3;
+}
+.ki-glass.ki-duotone:before {
+  content: "\eb4b";
+  position: absolute;
+  
+}
+.ki-google-play.ki-duotone:after {
+  content: "\eb4c";
+  
+  opacity: 0.3;
+}
+.ki-google-play.ki-duotone:before {
+  content: "\eb4d";
+  position: absolute;
+  
+}
+.ki-google.ki-duotone:after {
+  content: "\eb4e";
+  
+  opacity: 0.3;
+}
+.ki-google.ki-duotone:before {
+  content: "\eb4f";
+  position: absolute;
+  
+}
+.ki-graph-2.ki-duotone:after {
+  content: "\eb50";
+  
+  opacity: 0.3;
+}
+.ki-graph-2.ki-duotone:before {
+  content: "\eb51";
+  position: absolute;
+  
+}
+.ki-graph-3.ki-duotone:after {
+  content: "\eb52";
+  
+  opacity: 0.3;
+}
+.ki-graph-3.ki-duotone:before {
+  content: "\eb53";
+  position: absolute;
+  
+}
+.ki-graph-4.ki-duotone:after {
+  content: "\eb54";
+  
+}
+.ki-graph-4.ki-duotone:before {
+  content: "\eb55";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-graph-up.ki-duotone:after {
+  content: "\eb56";
+  
+  opacity: 0.3;
+}
+.ki-graph-up.ki-duotone:before {
+  content: "\eb57";
+  position: absolute;
+  
+}
+.ki-graph.ki-duotone:after {
+  content: "\eb58";
+  
+  opacity: 0.3;
+}
+.ki-graph.ki-duotone:before {
+  content: "\eb59";
+  position: absolute;
+  
+}
+.ki-grid-2.ki-duotone:after {
+  content: "\eb5a";
+  
+  opacity: 0.3;
+}
+.ki-grid-2.ki-duotone:before {
+  content: "\eb5b";
+  position: absolute;
+  
+}
+.ki-grid.ki-duotone:after {
+  content: "\eb5c";
+  
+  opacity: 0.3;
+}
+.ki-grid.ki-duotone:before {
+  content: "\eb5d";
+  position: absolute;
+  
+}
+.ki-handcart.ki-duotone:before {
+  content: "\eb5e";
+}
+.ki-happyemoji.ki-duotone:after {
+  content: "\eb5f";
+  
+  opacity: 0.3;
+}
+.ki-happyemoji.ki-duotone:before {
+  content: "\eb60";
+  position: absolute;
+  
+}
+.ki-heart-circle.ki-duotone:after {
+  content: "\eb61";
+  
+  opacity: 0.3;
+}
+.ki-heart-circle.ki-duotone:before {
+  content: "\eb62";
+  position: absolute;
+  
+}
+.ki-heart.ki-duotone:after {
+  content: "\eb63";
+  
+  opacity: 0.3;
+}
+.ki-heart.ki-duotone:before {
+  content: "\eb64";
+  position: absolute;
+  
+}
+.ki-home-1.ki-duotone:after {
+  content: "\eb65";
+  
+  opacity: 0.3;
+}
+.ki-home-1.ki-duotone:before {
+  content: "\eb66";
+  position: absolute;
+  
+}
+.ki-home-2.ki-duotone:after {
+  content: "\eb67";
+  
+  opacity: 0.3;
+}
+.ki-home-2.ki-duotone:before {
+  content: "\eb68";
+  position: absolute;
+  
+}
+.ki-home-3.ki-duotone:after {
+  content: "\eb69";
+  
+  opacity: 0.3;
+}
+.ki-home-3.ki-duotone:before {
+  content: "\eb6a";
+  position: absolute;
+  
+}
+.ki-home.ki-duotone:before {
+  content: "\eb6b";
+}
+.ki-html.ki-duotone:after {
+  content: "\eb6c";
+  
+  opacity: 0.3;
+}
+.ki-html.ki-duotone:before {
+  content: "\eb6d";
+  position: absolute;
+  
+}
+.ki-icon.ki-duotone:after {
+  content: "\eb6e";
+  
+  opacity: 0.3;
+}
+.ki-icon.ki-duotone:before {
+  content: "\eb6f";
+  position: absolute;
+  
+}
+.ki-illustrator.ki-duotone:after {
+  content: "\eb70";
+  
+  opacity: 0.3;
+}
+.ki-illustrator.ki-duotone:before {
+  content: "\eb71";
+  position: absolute;
+  
+}
+.ki-information-1.ki-duotone:after {
+  content: "\eb72";
+  
+  opacity: 0.3;
+}
+.ki-information-1.ki-duotone:before {
+  content: "\eb73";
+  position: absolute;
+  
+}
+.ki-information-2.ki-duotone:after {
+  content: "\eb74";
+  
+  opacity: 0.3;
+}
+.ki-information-2.ki-duotone:before {
+  content: "\eb75";
+  position: absolute;
+  
+}
+.ki-information-3.ki-duotone:after {
+  content: "\eb76";
+  
+  opacity: 0.3;
+}
+.ki-information-3.ki-duotone:before {
+  content: "\eb77";
+  position: absolute;
+  
+}
+.ki-information-4.ki-duotone:after {
+  content: "\eb78";
+  
+  opacity: 0.3;
+}
+.ki-information-4.ki-duotone:before {
+  content: "\eb79";
+  position: absolute;
+  
+}
+.ki-information.ki-duotone:after {
+  content: "\eb7a";
+  
+  opacity: 0.3;
+}
+.ki-information.ki-duotone:before {
+  content: "\eb7b";
+  position: absolute;
+  
+}
+.ki-instagram.ki-duotone:after {
+  content: "\eb7c";
+  
+  opacity: 0.3;
+}
+.ki-instagram.ki-duotone:before {
+  content: "\eb7d";
+  position: absolute;
+  
+}
+.ki-joystick.ki-duotone:after {
+  content: "\eb7e";
+  
+}
+.ki-joystick.ki-duotone:before {
+  content: "\eb7f";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-js-2.ki-duotone:after {
+  content: "\eb80";
+  
+}
+.ki-js-2.ki-duotone:before {
+  content: "\eb81";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-js.ki-duotone:after {
+  content: "\eb82";
+  
+}
+.ki-js.ki-duotone:before {
+  content: "\eb83";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-kanban.ki-duotone:after {
+  content: "\eb84";
+  
+}
+.ki-kanban.ki-duotone:before {
+  content: "\eb85";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-key-square.ki-duotone:after {
+  content: "\eb86";
+  
+  opacity: 0.3;
+}
+.ki-key-square.ki-duotone:before {
+  content: "\eb87";
+  position: absolute;
+  
+}
+.ki-key.ki-duotone:after {
+  content: "\eb88";
+  
+  opacity: 0.3;
+}
+.ki-key.ki-duotone:before {
+  content: "\eb89";
+  position: absolute;
+  
+}
+.ki-keyboard.ki-duotone:after {
+  content: "\eb8a";
+  
+}
+.ki-keyboard.ki-duotone:before {
+  content: "\eb8b";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-laptop.ki-duotone:after {
+  content: "\eb8c";
+  
+  opacity: 0.3;
+}
+.ki-laptop.ki-duotone:before {
+  content: "\eb8d";
+  position: absolute;
+  
+}
+.ki-laravel.ki-duotone:after {
+  content: "\eb8e";
+  
+  opacity: 0.3;
+}
+.ki-laravel.ki-duotone:before {
+  content: "\eb8f";
+  position: absolute;
+  
+}
+.ki-left-square.ki-duotone:after {
+  content: "\eb90";
+  
+  opacity: 0.3;
+}
+.ki-left-square.ki-duotone:before {
+  content: "\eb91";
+  position: absolute;
+  
+}
+.ki-left.ki-duotone:before {
+  content: "\eb92";
+}
+.ki-like-2.ki-duotone:after {
+  content: "\eb93";
+  
+  opacity: 0.3;
+}
+.ki-like-2.ki-duotone:before {
+  content: "\eb94";
+  position: absolute;
+  
+}
+.ki-like-folder.ki-duotone:after {
+  content: "\eb95";
+  
+  opacity: 0.3;
+}
+.ki-like-folder.ki-duotone:before {
+  content: "\eb96";
+  position: absolute;
+  
+}
+.ki-like-shapes.ki-duotone:after {
+  content: "\eb97";
+  
+  opacity: 0.3;
+}
+.ki-like-shapes.ki-duotone:before {
+  content: "\eb98";
+  position: absolute;
+  
+}
+.ki-like-tag.ki-duotone:after {
+  content: "\eb99";
+  
+  opacity: 0.3;
+}
+.ki-like-tag.ki-duotone:before {
+  content: "\eb9a";
+  position: absolute;
+  
+}
+.ki-like.ki-duotone:after {
+  content: "\eb9b";
+  
+}
+.ki-like.ki-duotone:before {
+  content: "\eb9c";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-loading.ki-duotone:after {
+  content: "\eb9d";
+  
+}
+.ki-loading.ki-duotone:before {
+  content: "\eb9e";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-lock-2.ki-duotone:after {
+  content: "\eb9f";
+  
+}
+.ki-lock-2.ki-duotone:before {
+  content: "\eba0";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-lock-3.ki-duotone:after {
+  content: "\eba1";
+  
+  opacity: 0.3;
+}
+.ki-lock-3.ki-duotone:before {
+  content: "\eba2";
+  position: absolute;
+  
+}
+.ki-lock.ki-duotone:after {
+  content: "\eba3";
+  
+  opacity: 0.3;
+}
+.ki-lock.ki-duotone:before {
+  content: "\eba4";
+  position: absolute;
+  
+}
+.ki-logistic.ki-duotone:after {
+  content: "\eba5";
+  
+  opacity: 0.3;
+}
+.ki-logistic.ki-duotone:before {
+  content: "\eba6";
+  position: absolute;
+  
+}
+.ki-lots-shopping.ki-duotone:after {
+  content: "\eba7";
+  
+  opacity: 0.3;
+}
+.ki-lots-shopping.ki-duotone:before {
+  content: "\eba8";
+  position: absolute;
+  
+}
+.ki-lovely.ki-duotone:after {
+  content: "\eba9";
+  
+  opacity: 0.3;
+}
+.ki-lovely.ki-duotone:before {
+  content: "\ebaa";
+  position: absolute;
+  
+}
+.ki-lts.ki-duotone:after {
+  content: "\ebab";
+  
+}
+.ki-lts.ki-duotone:before {
+  content: "\ebac";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-magnifier.ki-duotone:after {
+  content: "\ebad";
+  
+  opacity: 0.3;
+}
+.ki-magnifier.ki-duotone:before {
+  content: "\ebae";
+  position: absolute;
+  
+}
+.ki-map.ki-duotone:after {
+  content: "\ebaf";
+  
+  opacity: 0.3;
+}
+.ki-map.ki-duotone:before {
+  content: "\ebb0";
+  position: absolute;
+  
+}
+.ki-mask.ki-duotone:after {
+  content: "\ebb1";
+  
+  opacity: 0.3;
+}
+.ki-mask.ki-duotone:before {
+  content: "\ebb2";
+  position: absolute;
+  
+}
+.ki-maximize.ki-duotone:after {
+  content: "\ebb3";
+  
+  opacity: 0.3;
+}
+.ki-maximize.ki-duotone:before {
+  content: "\ebb4";
+  position: absolute;
+  
+}
+.ki-medal-star.ki-duotone:after {
+  content: "\ebb5";
+  
+  opacity: 0.3;
+}
+.ki-medal-star.ki-duotone:before {
+  content: "\ebb6";
+  position: absolute;
+  
+}
+.ki-menu.ki-duotone:after {
+  content: "\ebb7";
+  
+  opacity: 0.3;
+}
+.ki-menu.ki-duotone:before {
+  content: "\ebb8";
+  position: absolute;
+  
+}
+.ki-message-add.ki-duotone:after {
+  content: "\ebb9";
+  
+  opacity: 0.3;
+}
+.ki-message-add.ki-duotone:before {
+  content: "\ebba";
+  position: absolute;
+  
+}
+.ki-message-edit.ki-duotone:after {
+  content: "\ebbb";
+  
+  opacity: 0.3;
+}
+.ki-message-edit.ki-duotone:before {
+  content: "\ebbc";
+  position: absolute;
+  
+}
+.ki-message-minus.ki-duotone:after {
+  content: "\ebbd";
+  
+  opacity: 0.3;
+}
+.ki-message-minus.ki-duotone:before {
+  content: "\ebbe";
+  position: absolute;
+  
+}
+.ki-message-notify.ki-duotone:after {
+  content: "\ebbf";
+  
+  opacity: 0.3;
+}
+.ki-message-notify.ki-duotone:before {
+  content: "\ebc0";
+  position: absolute;
+  
+}
+.ki-message-programming.ki-duotone:after {
+  content: "\ebc1";
+  
+  opacity: 0.3;
+}
+.ki-message-programming.ki-duotone:before {
+  content: "\ebc2";
+  position: absolute;
+  
+}
+.ki-message-question.ki-duotone:after {
+  content: "\ebc3";
+  
+  opacity: 0.3;
+}
+.ki-message-question.ki-duotone:before {
+  content: "\ebc4";
+  position: absolute;
+  
+}
+.ki-message-text-2.ki-duotone:after {
+  content: "\ebc5";
+  
+  opacity: 0.3;
+}
+.ki-message-text-2.ki-duotone:before {
+  content: "\ebc6";
+  position: absolute;
+  
+}
+.ki-message-text.ki-duotone:after {
+  content: "\ebc7";
+  
+  opacity: 0.3;
+}
+.ki-message-text.ki-duotone:before {
+  content: "\ebc8";
+  position: absolute;
+  
+}
+.ki-messages.ki-duotone:after {
+  content: "\ebc9";
+  
+  opacity: 0.3;
+}
+.ki-messages.ki-duotone:before {
+  content: "\ebca";
+  position: absolute;
+  
+}
+.ki-microsoft.ki-duotone:after {
+  content: "\ebcb";
+  
+}
+.ki-microsoft.ki-duotone:before {
+  content: "\ebcc";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-milk.ki-duotone:after {
+  content: "\ebcd";
+  
+  opacity: 0.3;
+}
+.ki-milk.ki-duotone:before {
+  content: "\ebce";
+  position: absolute;
+  
+}
+.ki-minus-circle.ki-duotone:after {
+  content: "\ebcf";
+  
+  opacity: 0.3;
+}
+.ki-minus-circle.ki-duotone:before {
+  content: "\ebd0";
+  position: absolute;
+  
+}
+.ki-minus-folder.ki-duotone:after {
+  content: "\ebd1";
+  
+  opacity: 0.3;
+}
+.ki-minus-folder.ki-duotone:before {
+  content: "\ebd2";
+  position: absolute;
+  
+}
+.ki-minus-squared.ki-duotone:after {
+  content: "\ebd3";
+  
+  opacity: 0.3;
+}
+.ki-minus-squared.ki-duotone:before {
+  content: "\ebd4";
+  position: absolute;
+  
+}
+.ki-minus.ki-duotone:before {
+  content: "\ebd5";
+}
+.ki-moon.ki-duotone:after {
+  content: "\ebd6";
+  
+}
+.ki-moon.ki-duotone:before {
+  content: "\ebd7";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-more-2.ki-duotone:after {
+  content: "\ebd8";
+  
+  opacity: 0.3;
+}
+.ki-more-2.ki-duotone:before {
+  content: "\ebd9";
+  position: absolute;
+  
+}
+.ki-mouse-circle.ki-duotone:after {
+  content: "\ebda";
+  
+}
+.ki-mouse-circle.ki-duotone:before {
+  content: "\ebdb";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-mouse-square.ki-duotone:after {
+  content: "\ebdc";
+  
+  opacity: 0.3;
+}
+.ki-mouse-square.ki-duotone:before {
+  content: "\ebdd";
+  position: absolute;
+  
+}
+.ki-mouse.ki-duotone:after {
+  content: "\ebde";
+  
+  opacity: 0.3;
+}
+.ki-mouse.ki-duotone:before {
+  content: "\ebdf";
+  position: absolute;
+  
+}
+.ki-nexo.ki-duotone:after {
+  content: "\ebe0";
+  
+  opacity: 0.3;
+}
+.ki-nexo.ki-duotone:before {
+  content: "\ebe1";
+  position: absolute;
+  
+}
+.ki-night-day.ki-duotone:after {
+  content: "\ebe2";
+  
+  opacity: 0.3;
+}
+.ki-night-day.ki-duotone:before {
+  content: "\ebe3";
+  position: absolute;
+  
+}
+.ki-note-2.ki-duotone:after {
+  content: "\ebe4";
+  
+  opacity: 0.3;
+}
+.ki-note-2.ki-duotone:before {
+  content: "\ebe5";
+  position: absolute;
+  
+}
+.ki-note.ki-duotone:after {
+  content: "\ebe6";
+  
+  opacity: 0.3;
+}
+.ki-note.ki-duotone:before {
+  content: "\ebe7";
+  position: absolute;
+  
+}
+.ki-notepad-bookmark.ki-duotone:after {
+  content: "\ebe8";
+  
+}
+.ki-notepad-bookmark.ki-duotone:before {
+  content: "\ebe9";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-notepad-edit.ki-duotone:after {
+  content: "\ebea";
+  
+  opacity: 0.3;
+}
+.ki-notepad-edit.ki-duotone:before {
+  content: "\ebeb";
+  position: absolute;
+  
+}
+.ki-notepad.ki-duotone:after {
+  content: "\ebec";
+  
+  opacity: 0.3;
+}
+.ki-notepad.ki-duotone:before {
+  content: "\ebed";
+  position: absolute;
+  
+}
+.ki-notification-1.ki-duotone:after {
+  content: "\ebee";
+  
+}
+.ki-notification-1.ki-duotone:before {
+  content: "\ebef";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-notification-bing.ki-duotone:after {
+  content: "\ebf0";
+  
+}
+.ki-notification-bing.ki-duotone:before {
+  content: "\ebf1";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-notification-circle.ki-duotone:after {
+  content: "\ebf2";
+  
+}
+.ki-notification-circle.ki-duotone:before {
+  content: "\ebf3";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-notification-favorite.ki-duotone:after {
+  content: "\ebf4";
+  
+}
+.ki-notification-favorite.ki-duotone:before {
+  content: "\ebf5";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-notification-on.ki-duotone:after {
+  content: "\ebf6";
+  
+  opacity: 0.3;
+}
+.ki-notification-on.ki-duotone:before {
+  content: "\ebf7";
+  position: absolute;
+  
+}
+.ki-notification-status.ki-duotone:after {
+  content: "\ebf8";
+  
+  opacity: 0.3;
+}
+.ki-notification-status.ki-duotone:before {
+  content: "\ebf9";
+  position: absolute;
+  
+}
+.ki-notification.ki-duotone:after {
+  content: "\ebfa";
+  
+  opacity: 0.3;
+}
+.ki-notification.ki-duotone:before {
+  content: "\ebfb";
+  position: absolute;
+  
+}
+.ki-ocean.ki-duotone:after {
+  content: "\ebfc";
+  
+}
+.ki-ocean.ki-duotone:before {
+  content: "\ebfd";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-office-bag.ki-duotone:after {
+  content: "\ebfe";
+  
+  opacity: 0.3;
+}
+.ki-office-bag.ki-duotone:before {
+  content: "\ebff";
+  position: absolute;
+  
+}
+.ki-package.ki-duotone:after {
+  content: "\ec00";
+  
+  opacity: 0.3;
+}
+.ki-package.ki-duotone:before {
+  content: "\ec01";
+  position: absolute;
+  
+}
+.ki-pad.ki-duotone:after {
+  content: "\ec02";
+  
+  opacity: 0.3;
+}
+.ki-pad.ki-duotone:before {
+  content: "\ec03";
+  position: absolute;
+  
+}
+.ki-pails.ki-duotone:after {
+  content: "\ec04";
+  
+  opacity: 0.3;
+}
+.ki-pails.ki-duotone:before {
+  content: "\ec05";
+  position: absolute;
+  
+}
+.ki-paintbucket.ki-duotone:after {
+  content: "\ec06";
+  
+  opacity: 0.3;
+}
+.ki-paintbucket.ki-duotone:before {
+  content: "\ec07";
+  position: absolute;
+  
+}
+.ki-paper-clip.ki-duotone:before {
+  content: "\ec08";
+}
+.ki-paper-plane.ki-duotone:after {
+  content: "\ec09";
+  
+}
+.ki-paper-plane.ki-duotone:before {
+  content: "\ec0a";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-parcel-tracking.ki-duotone:after {
+  content: "\ec0b";
+  
+}
+.ki-parcel-tracking.ki-duotone:before {
+  content: "\ec0c";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-parcel.ki-duotone:after {
+  content: "\ec0d";
+  
+  opacity: 0.3;
+}
+.ki-parcel.ki-duotone:before {
+  content: "\ec0e";
+  position: absolute;
+  
+}
+.ki-password-check.ki-duotone:after {
+  content: "\ec0f";
+  
+}
+.ki-password-check.ki-duotone:before {
+  content: "\ec10";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-paypal.ki-duotone:after {
+  content: "\ec11";
+  
+}
+.ki-paypal.ki-duotone:before {
+  content: "\ec12";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-pencil.ki-duotone:after {
+  content: "\ec13";
+  
+  opacity: 0.3;
+}
+.ki-pencil.ki-duotone:before {
+  content: "\ec14";
+  position: absolute;
+  
+}
+.ki-people.ki-duotone:after {
+  content: "\ec15";
+  
+}
+.ki-people.ki-duotone:before {
+  content: "\ec16";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-percentage.ki-duotone:after {
+  content: "\ec17";
+  
+}
+.ki-percentage.ki-duotone:before {
+  content: "\ec18";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-phone.ki-duotone:after {
+  content: "\ec19";
+  
+  opacity: 0.3;
+}
+.ki-phone.ki-duotone:before {
+  content: "\ec1a";
+  position: absolute;
+  
+}
+.ki-photoshop.ki-duotone:after {
+  content: "\ec1b";
+  
+  opacity: 0.3;
+}
+.ki-photoshop.ki-duotone:before {
+  content: "\ec1c";
+  position: absolute;
+  
+}
+.ki-picture.ki-duotone:after {
+  content: "\ec1d";
+  
+  opacity: 0.3;
+}
+.ki-picture.ki-duotone:before {
+  content: "\ec1e";
+  position: absolute;
+  
+}
+.ki-pill.ki-duotone:before {
+  content: "\ec1f";
+}
+.ki-pin.ki-duotone:after {
+  content: "\ec20";
+  
+  opacity: 0.3;
+}
+.ki-pin.ki-duotone:before {
+  content: "\ec21";
+  position: absolute;
+  
+}
+.ki-plus-circle.ki-duotone:after {
+  content: "\ec22";
+  
+  opacity: 0.3;
+}
+.ki-plus-circle.ki-duotone:before {
+  content: "\ec23";
+  position: absolute;
+  
+}
+.ki-plus-squared.ki-duotone:after {
+  content: "\ec24";
+  
+  opacity: 0.3;
+}
+.ki-plus-squared.ki-duotone:before {
+  content: "\ec25";
+  position: absolute;
+  
+}
+.ki-plus.ki-duotone:before {
+  content: "\ec26";
+}
+.ki-pointers.ki-duotone:after {
+  content: "\ec27";
+  
+  opacity: 0.3;
+}
+.ki-pointers.ki-duotone:before {
+  content: "\ec28";
+  position: absolute;
+  
+}
+.ki-price-tag.ki-duotone:after {
+  content: "\ec29";
+  
+  opacity: 0.3;
+}
+.ki-price-tag.ki-duotone:before {
+  content: "\ec2a";
+  position: absolute;
+  
+}
+.ki-printer.ki-duotone:after {
+  content: "\ec2b";
+  
+  opacity: 0.3;
+}
+.ki-printer.ki-duotone:before {
+  content: "\ec2c";
+  position: absolute;
+  
+}
+.ki-profile-circle.ki-duotone:after {
+  content: "\ec2d";
+  
+  opacity: 0.3;
+}
+.ki-profile-circle.ki-duotone:before {
+  content: "\ec2e";
+  position: absolute;
+  
+}
+.ki-pulse.ki-duotone:after {
+  content: "\ec2f";
+  
+  opacity: 0.3;
+}
+.ki-pulse.ki-duotone:before {
+  content: "\ec30";
+  position: absolute;
+  
+}
+.ki-purchase.ki-duotone:after {
+  content: "\ec31";
+  
+  opacity: 0.3;
+}
+.ki-purchase.ki-duotone:before {
+  content: "\ec32";
+  position: absolute;
+  
+}
+.ki-python.ki-duotone:after {
+  content: "\ec33";
+  
+  opacity: 0.3;
+}
+.ki-python.ki-duotone:before {
+  content: "\ec34";
+  position: absolute;
+  
+}
+.ki-question-2.ki-duotone:after {
+  content: "\ec35";
+  
+  opacity: 0.3;
+}
+.ki-question-2.ki-duotone:before {
+  content: "\ec36";
+  position: absolute;
+  
+}
+.ki-question.ki-duotone:after {
+  content: "\ec37";
+  
+  opacity: 0.3;
+}
+.ki-question.ki-duotone:before {
+  content: "\ec38";
+  position: absolute;
+  
+}
+.ki-questionnaire-tablet.ki-duotone:after {
+  content: "\ec39";
+  
+  opacity: 0.3;
+}
+.ki-questionnaire-tablet.ki-duotone:before {
+  content: "\ec3a";
+  position: absolute;
+  
+}
+.ki-ranking.ki-duotone:after {
+  content: "\ec3b";
+  
+  opacity: 0.3;
+}
+.ki-ranking.ki-duotone:before {
+  content: "\ec3c";
+  position: absolute;
+  
+}
+.ki-react.ki-duotone:after {
+  content: "\ec3d";
+  
+  opacity: 0.3;
+}
+.ki-react.ki-duotone:before {
+  content: "\ec3e";
+  position: absolute;
+  
+}
+.ki-receipt-square.ki-duotone:after {
+  content: "\ec3f";
+  
+  opacity: 0.3;
+}
+.ki-receipt-square.ki-duotone:before {
+  content: "\ec40";
+  position: absolute;
+  
+}
+.ki-rescue.ki-duotone:after {
+  content: "\ec41";
+  
+  opacity: 0.3;
+}
+.ki-rescue.ki-duotone:before {
+  content: "\ec42";
+  position: absolute;
+  
+}
+.ki-right-left.ki-duotone:after {
+  content: "\ec43";
+  
+}
+.ki-right-left.ki-duotone:before {
+  content: "\ec44";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-right-square.ki-duotone:after {
+  content: "\ec45";
+  
+  opacity: 0.3;
+}
+.ki-right-square.ki-duotone:before {
+  content: "\ec46";
+  position: absolute;
+  
+}
+.ki-right.ki-duotone:before {
+  content: "\ec47";
+}
+.ki-rocket.ki-duotone:after {
+  content: "\ec48";
+  
+  opacity: 0.3;
+}
+.ki-rocket.ki-duotone:before {
+  content: "\ec49";
+  position: absolute;
+  
+}
+.ki-route.ki-duotone:after {
+  content: "\ec4a";
+  
+}
+.ki-route.ki-duotone:before {
+  content: "\ec4b";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-router.ki-duotone:after {
+  content: "\ec4c";
+  
+  opacity: 0.3;
+}
+.ki-router.ki-duotone:before {
+  content: "\ec4d";
+  position: absolute;
+  
+}
+.ki-row-horizontal.ki-duotone:after {
+  content: "\ec4e";
+  
+}
+.ki-row-horizontal.ki-duotone:before {
+  content: "\ec4f";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-row-vertical.ki-duotone:after {
+  content: "\ec50";
+  
+}
+.ki-row-vertical.ki-duotone:before {
+  content: "\ec51";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-safe-home.ki-duotone:after {
+  content: "\ec52";
+  
+  opacity: 0.3;
+}
+.ki-safe-home.ki-duotone:before {
+  content: "\ec53";
+  position: absolute;
+  
+}
+.ki-satellite.ki-duotone:after {
+  content: "\ec54";
+  
+  opacity: 0.3;
+}
+.ki-satellite.ki-duotone:before {
+  content: "\ec55";
+  position: absolute;
+  
+}
+.ki-save-2.ki-duotone:after {
+  content: "\ec56";
+  
+  opacity: 0.3;
+}
+.ki-save-2.ki-duotone:before {
+  content: "\ec57";
+  position: absolute;
+  
+}
+.ki-save-deposit.ki-duotone:after {
+  content: "\ec58";
+  
+}
+.ki-save-deposit.ki-duotone:before {
+  content: "\ec59";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-scan-barcode.ki-duotone:after {
+  content: "\ec5a";
+  
+}
+.ki-scan-barcode.ki-duotone:before {
+  content: "\ec5b";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-screen.ki-duotone:after {
+  content: "\ec5c";
+  
+  opacity: 0.3;
+}
+.ki-screen.ki-duotone:before {
+  content: "\ec5d";
+  position: absolute;
+  
+}
+.ki-scroll.ki-duotone:after {
+  content: "\ec5e";
+  
+  opacity: 0.3;
+}
+.ki-scroll.ki-duotone:before {
+  content: "\ec5f";
+  position: absolute;
+  
+}
+.ki-search-list.ki-duotone:after {
+  content: "\ec60";
+  
+  opacity: 0.3;
+}
+.ki-search-list.ki-duotone:before {
+  content: "\ec61";
+  position: absolute;
+  
+}
+.ki-security-user.ki-duotone:after {
+  content: "\ec62";
+  
+  opacity: 0.3;
+}
+.ki-security-user.ki-duotone:before {
+  content: "\ec63";
+  position: absolute;
+  
+}
+.ki-setting-2.ki-duotone:after {
+  content: "\ec64";
+  
+  opacity: 0.3;
+}
+.ki-setting-2.ki-duotone:before {
+  content: "\ec65";
+  position: absolute;
+  
+}
+.ki-setting-3.ki-duotone:after {
+  content: "\ec66";
+  
+  opacity: 0.3;
+}
+.ki-setting-3.ki-duotone:before {
+  content: "\ec67";
+  position: absolute;
+  
+}
+.ki-setting-4.ki-duotone:before {
+  content: "\ec68";
+}
+.ki-setting.ki-duotone:after {
+  content: "\ec69";
+  
+  opacity: 0.3;
+}
+.ki-setting.ki-duotone:before {
+  content: "\ec6a";
+  position: absolute;
+  
+}
+.ki-share.ki-duotone:after {
+  content: "\ec6b";
+  
+  opacity: 0.3;
+}
+.ki-share.ki-duotone:before {
+  content: "\ec6c";
+  position: absolute;
+  
+}
+.ki-shield-cross.ki-duotone:after {
+  content: "\ec6d";
+  
+  opacity: 0.3;
+}
+.ki-shield-cross.ki-duotone:before {
+  content: "\ec6e";
+  position: absolute;
+  
+}
+.ki-shield-search.ki-duotone:after {
+  content: "\ec6f";
+  
+  opacity: 0.3;
+}
+.ki-shield-search.ki-duotone:before {
+  content: "\ec70";
+  position: absolute;
+  
+}
+.ki-shield-slash.ki-duotone:after {
+  content: "\ec71";
+  
+}
+.ki-shield-slash.ki-duotone:before {
+  content: "\ec72";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-shield-tick.ki-duotone:after {
+  content: "\ec73";
+  
+  opacity: 0.3;
+}
+.ki-shield-tick.ki-duotone:before {
+  content: "\ec74";
+  position: absolute;
+  
+}
+.ki-shield.ki-duotone:after {
+  content: "\ec75";
+  
+  opacity: 0.3;
+}
+.ki-shield.ki-duotone:before {
+  content: "\ec76";
+  position: absolute;
+  
+}
+.ki-ship.ki-duotone:after {
+  content: "\ec77";
+  
+  opacity: 0.3;
+}
+.ki-ship.ki-duotone:before {
+  content: "\ec78";
+  position: absolute;
+  
+}
+.ki-shop.ki-duotone:after {
+  content: "\ec79";
+  
+}
+.ki-shop.ki-duotone:before {
+  content: "\ec7a";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-simcard-2.ki-duotone:after {
+  content: "\ec7b";
+  
+  opacity: 0.3;
+}
+.ki-simcard-2.ki-duotone:before {
+  content: "\ec7c";
+  position: absolute;
+  
+}
+.ki-simcard.ki-duotone:after {
+  content: "\ec7d";
+  
+  opacity: 0.3;
+}
+.ki-simcard.ki-duotone:before {
+  content: "\ec7e";
+  position: absolute;
+  
+}
+.ki-size.ki-duotone:after {
+  content: "\ec7f";
+  
+  opacity: 0.3;
+}
+.ki-size.ki-duotone:before {
+  content: "\ec80";
+  position: absolute;
+  
+}
+.ki-slack.ki-duotone:after {
+  content: "\ec81";
+  
+}
+.ki-slack.ki-duotone:before {
+  content: "\ec82";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-slider-horizontal-2.ki-duotone:after {
+  content: "\ec83";
+  
+}
+.ki-slider-horizontal-2.ki-duotone:before {
+  content: "\ec84";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-slider-horizontal.ki-duotone:after {
+  content: "\ec85";
+  
+  opacity: 0.3;
+}
+.ki-slider-horizontal.ki-duotone:before {
+  content: "\ec86";
+  position: absolute;
+  
+}
+.ki-slider-vertica.ki-duotone:after {
+  content: "\ec87";
+  
+  opacity: 0.3;
+}
+.ki-slider-vertica.ki-duotone:before {
+  content: "\ec88";
+  position: absolute;
+  
+}
+.ki-slider-vertical.ki-duotone:after {
+  content: "\ec89";
+  
+}
+.ki-slider-vertical.ki-duotone:before {
+  content: "\ec8a";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-slider.ki-duotone:after {
+  content: "\ec8b";
+  
+  opacity: 0.3;
+}
+.ki-slider.ki-duotone:before {
+  content: "\ec8c";
+  position: absolute;
+  
+}
+.ki-sms.ki-duotone:after {
+  content: "\ec8d";
+  
+  opacity: 0.3;
+}
+.ki-sms.ki-duotone:before {
+  content: "\ec8e";
+  position: absolute;
+  
+}
+.ki-snapchat.ki-duotone:after {
+  content: "\ec8f";
+  
+}
+.ki-snapchat.ki-duotone:before {
+  content: "\ec90";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-social-media.ki-duotone:after {
+  content: "\ec91";
+  
+}
+.ki-social-media.ki-duotone:before {
+  content: "\ec92";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-soft-2.ki-duotone:after {
+  content: "\ec93";
+  
+  opacity: 0.3;
+}
+.ki-soft-2.ki-duotone:before {
+  content: "\ec94";
+  position: absolute;
+  
+}
+.ki-soft-3.ki-duotone:after {
+  content: "\ec95";
+  
+}
+.ki-soft-3.ki-duotone:before {
+  content: "\ec96";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-soft.ki-duotone:after {
+  content: "\ec97";
+  
+  opacity: 0.3;
+}
+.ki-soft.ki-duotone:before {
+  content: "\ec98";
+  position: absolute;
+  
+}
+.ki-some-files.ki-duotone:after {
+  content: "\ec99";
+  
+  opacity: 0.3;
+}
+.ki-some-files.ki-duotone:before {
+  content: "\ec9a";
+  position: absolute;
+  
+}
+.ki-sort.ki-duotone:after {
+  content: "\ec9b";
+  
+  opacity: 0.3;
+}
+.ki-sort.ki-duotone:before {
+  content: "\ec9c";
+  position: absolute;
+  
+}
+.ki-speaker.ki-duotone:after {
+  content: "\ec9d";
+  
+  opacity: 0.3;
+}
+.ki-speaker.ki-duotone:before {
+  content: "\ec9e";
+  position: absolute;
+  
+}
+.ki-spotify.ki-duotone:after {
+  content: "\ec9f";
+  
+}
+.ki-spotify.ki-duotone:before {
+  content: "\eca0";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-spring-framework.ki-duotone:before {
+  content: "\eca1";
+}
+.ki-square-brackets.ki-duotone:after {
+  content: "\eca2";
+  
+  opacity: 0.3;
+}
+.ki-square-brackets.ki-duotone:before {
+  content: "\eca3";
+  position: absolute;
+  
+}
+.ki-star.ki-duotone:before {
+  content: "\eca4";
+}
+.ki-status.ki-duotone:after {
+  content: "\eca5";
+  
+  opacity: 0.3;
+}
+.ki-status.ki-duotone:before {
+  content: "\eca6";
+  position: absolute;
+  
+}
+.ki-subtitle.ki-duotone:after {
+  content: "\eca7";
+  
+  opacity: 0.3;
+}
+.ki-subtitle.ki-duotone:before {
+  content: "\eca8";
+  position: absolute;
+  
+}
+.ki-sun.ki-duotone:after {
+  content: "\eca9";
+  
+  opacity: 0.3;
+}
+.ki-sun.ki-duotone:before {
+  content: "\ecaa";
+  position: absolute;
+  
+}
+.ki-support.ki-duotone:after {
+  content: "\ecab";
+  
+  opacity: 0.3;
+}
+.ki-support.ki-duotone:before {
+  content: "\ecac";
+  position: absolute;
+  
+}
+.ki-switch.ki-duotone:after {
+  content: "\ecad";
+  
+}
+.ki-switch.ki-duotone:before {
+  content: "\ecae";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-syringe.ki-duotone:after {
+  content: "\ecaf";
+  
+  opacity: 0.3;
+}
+.ki-syringe.ki-duotone:before {
+  content: "\ecb0";
+  position: absolute;
+  
+}
+.ki-tab-tablet.ki-duotone:after {
+  content: "\ecb1";
+  
+  opacity: 0.3;
+}
+.ki-tab-tablet.ki-duotone:before {
+  content: "\ecb2";
+  position: absolute;
+  
+}
+.ki-tablet-delete.ki-duotone:after {
+  content: "\ecb3";
+  
+  opacity: 0.3;
+}
+.ki-tablet-delete.ki-duotone:before {
+  content: "\ecb4";
+  position: absolute;
+  
+}
+.ki-tablet-down.ki-duotone:after {
+  content: "\ecb5";
+  
+  opacity: 0.3;
+}
+.ki-tablet-down.ki-duotone:before {
+  content: "\ecb6";
+  position: absolute;
+  
+}
+.ki-tablet-ok.ki-duotone:after {
+  content: "\ecb7";
+  
+  opacity: 0.3;
+}
+.ki-tablet-ok.ki-duotone:before {
+  content: "\ecb8";
+  position: absolute;
+  
+}
+.ki-tablet-text-down.ki-duotone:after {
+  content: "\ecb9";
+  
+  opacity: 0.3;
+}
+.ki-tablet-text-down.ki-duotone:before {
+  content: "\ecba";
+  position: absolute;
+  
+}
+.ki-tablet-text-up.ki-duotone:after {
+  content: "\ecbb";
+  
+}
+.ki-tablet-text-up.ki-duotone:before {
+  content: "\ecbc";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-tablet-up.ki-duotone:after {
+  content: "\ecbd";
+  
+  opacity: 0.3;
+}
+.ki-tablet-up.ki-duotone:before {
+  content: "\ecbe";
+  position: absolute;
+  
+}
+.ki-tablet.ki-duotone:after {
+  content: "\ecbf";
+  
+}
+.ki-tablet.ki-duotone:before {
+  content: "\ecc0";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-tag-cross.ki-duotone:after {
+  content: "\ecc1";
+  
+}
+.ki-tag-cross.ki-duotone:before {
+  content: "\ecc2";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-tag.ki-duotone:after {
+  content: "\ecc3";
+  
+  opacity: 0.3;
+}
+.ki-tag.ki-duotone:before {
+  content: "\ecc4";
+  position: absolute;
+  
+}
+.ki-teacher.ki-duotone:after {
+  content: "\ecc5";
+  
+  opacity: 0.3;
+}
+.ki-teacher.ki-duotone:before {
+  content: "\ecc6";
+  position: absolute;
+  
+}
+.ki-technology-1.ki-duotone:after {
+  content: "\ecc7";
+  
+}
+.ki-technology-1.ki-duotone:before {
+  content: "\ecc8";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-technology-2.ki-duotone:after {
+  content: "\ecc9";
+  
+  opacity: 0.3;
+}
+.ki-technology-2.ki-duotone:before {
+  content: "\ecca";
+  position: absolute;
+  
+}
+.ki-technology-3.ki-duotone:after {
+  content: "\eccb";
+  
+  opacity: 0.3;
+}
+.ki-technology-3.ki-duotone:before {
+  content: "\eccc";
+  position: absolute;
+  
+}
+.ki-technology-4.ki-duotone:after {
+  content: "\eccd";
+  
+  opacity: 0.3;
+}
+.ki-technology-4.ki-duotone:before {
+  content: "\ecce";
+  position: absolute;
+  
+}
+.ki-telephone-geolocation.ki-duotone:after {
+  content: "\eccf";
+  
+  opacity: 0.3;
+}
+.ki-telephone-geolocation.ki-duotone:before {
+  content: "\ecd0";
+  position: absolute;
+  
+}
+.ki-test-tubes.ki-duotone:after {
+  content: "\ecd1";
+  
+  opacity: 0.3;
+}
+.ki-test-tubes.ki-duotone:before {
+  content: "\ecd2";
+  position: absolute;
+  
+}
+.ki-text-bold.ki-duotone:after {
+  content: "\ecd3";
+  
+  opacity: 0.3;
+}
+.ki-text-bold.ki-duotone:before {
+  content: "\ecd4";
+  position: absolute;
+  
+}
+.ki-text-circle.ki-duotone:after {
+  content: "\ecd5";
+  
+  opacity: 0.3;
+}
+.ki-text-circle.ki-duotone:before {
+  content: "\ecd6";
+  position: absolute;
+  
+}
+.ki-text-italic.ki-duotone:after {
+  content: "\ecd7";
+  
+  opacity: 0.3;
+}
+.ki-text-italic.ki-duotone:before {
+  content: "\ecd8";
+  position: absolute;
+  
+}
+.ki-text-number.ki-duotone:after {
+  content: "\ecd9";
+  
+  opacity: 0.3;
+}
+.ki-text-number.ki-duotone:before {
+  content: "\ecda";
+  position: absolute;
+  
+}
+.ki-text-strikethrough.ki-duotone:after {
+  content: "\ecdb";
+  
+  opacity: 0.3;
+}
+.ki-text-strikethrough.ki-duotone:before {
+  content: "\ecdc";
+  position: absolute;
+  
+}
+.ki-text-underline.ki-duotone:after {
+  content: "\ecdd";
+  
+  opacity: 0.3;
+}
+.ki-text-underline.ki-duotone:before {
+  content: "\ecde";
+  position: absolute;
+  
+}
+.ki-text.ki-duotone:before {
+  content: "\ecdf";
+}
+.ki-textalign-center.ki-duotone:after {
+  content: "\ece0";
+  
+}
+.ki-textalign-center.ki-duotone:before {
+  content: "\ece1";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-textalign-justifycenter.ki-duotone:after {
+  content: "\ece2";
+  
+}
+.ki-textalign-justifycenter.ki-duotone:before {
+  content: "\ece3";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-textalign-left.ki-duotone:after {
+  content: "\ece4";
+  
+}
+.ki-textalign-left.ki-duotone:before {
+  content: "\ece5";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-textalign-right.ki-duotone:after {
+  content: "\ece6";
+  
+}
+.ki-textalign-right.ki-duotone:before {
+  content: "\ece7";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-thermometer.ki-duotone:after {
+  content: "\ece8";
+  
+  opacity: 0.3;
+}
+.ki-thermometer.ki-duotone:before {
+  content: "\ece9";
+  position: absolute;
+  
+}
+.ki-theta-theta.ki-duotone:after {
+  content: "\ecea";
+  
+}
+.ki-theta-theta.ki-duotone:before {
+  content: "\eceb";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-tiktok.ki-duotone:after {
+  content: "\ecec";
+  
+  opacity: 0.3;
+}
+.ki-tiktok.ki-duotone:before {
+  content: "\eced";
+  position: absolute;
+  
+}
+.ki-time.ki-duotone:after {
+  content: "\ecee";
+  
+  opacity: 0.3;
+}
+.ki-time.ki-duotone:before {
+  content: "\ecef";
+  position: absolute;
+  
+}
+.ki-timer.ki-duotone:after {
+  content: "\ecf0";
+  
+  opacity: 0.3;
+}
+.ki-timer.ki-duotone:before {
+  content: "\ecf1";
+  position: absolute;
+  
+}
+.ki-to-left.ki-duotone:before {
+  content: "\ecf2";
+}
+.ki-to-right.ki-duotone:before {
+  content: "\ecf3";
+}
+.ki-toggle-off-circle.ki-duotone:after {
+  content: "\ecf4";
+  
+  opacity: 0.3;
+}
+.ki-toggle-off-circle.ki-duotone:before {
+  content: "\ecf5";
+  position: absolute;
+  
+}
+.ki-toggle-off.ki-duotone:after {
+  content: "\ecf6";
+  
+  opacity: 0.3;
+}
+.ki-toggle-off.ki-duotone:before {
+  content: "\ecf7";
+  position: absolute;
+  
+}
+.ki-toggle-on-circle.ki-duotone:after {
+  content: "\ecf8";
+  
+  opacity: 0.3;
+}
+.ki-toggle-on-circle.ki-duotone:before {
+  content: "\ecf9";
+  position: absolute;
+  
+}
+.ki-toggle-on.ki-duotone:after {
+  content: "\ecfa";
+  
+  opacity: 0.3;
+}
+.ki-toggle-on.ki-duotone:before {
+  content: "\ecfb";
+  position: absolute;
+  
+}
+.ki-trash-square.ki-duotone:after {
+  content: "\ecfc";
+  
+  opacity: 0.3;
+}
+.ki-trash-square.ki-duotone:before {
+  content: "\ecfd";
+  position: absolute;
+  
+}
+.ki-trash.ki-duotone:after {
+  content: "\ecfe";
+  
+  opacity: 0.3;
+}
+.ki-trash.ki-duotone:before {
+  content: "\ecff";
+  position: absolute;
+  
+}
+.ki-tree.ki-duotone:after {
+  content: "\ed00";
+  
+  opacity: 0.3;
+}
+.ki-tree.ki-duotone:before {
+  content: "\ed01";
+  position: absolute;
+  
+}
+.ki-trello.ki-duotone:after {
+  content: "\ed02";
+  
+  opacity: 0.3;
+}
+.ki-trello.ki-duotone:before {
+  content: "\ed03";
+  position: absolute;
+  
+}
+.ki-ts.ki-duotone:after {
+  content: "\ed04";
+  
+  opacity: 0.3;
+}
+.ki-ts.ki-duotone:before {
+  content: "\ed05";
+  position: absolute;
+  
+}
+.ki-twitch.ki-duotone:after {
+  content: "\ed06";
+  
+  opacity: 0.3;
+}
+.ki-twitch.ki-duotone:before {
+  content: "\ed07";
+  position: absolute;
+  
+}
+.ki-twitter.ki-duotone:after {
+  content: "\ed08";
+  
+  opacity: 0.3;
+}
+.ki-twitter.ki-duotone:before {
+  content: "\ed09";
+  position: absolute;
+  
+}
+.ki-two-credit-cart.ki-duotone:after {
+  content: "\ed0a";
+  
+  opacity: 0.3;
+}
+.ki-two-credit-cart.ki-duotone:before {
+  content: "\ed0b";
+  position: absolute;
+  
+}
+.ki-underlining.ki-duotone:after {
+  content: "\ed0c";
+  
+  opacity: 0.3;
+}
+.ki-underlining.ki-duotone:before {
+  content: "\ed0d";
+  position: absolute;
+  
+}
+.ki-up-diagonal.ki-duotone:after {
+  content: "\ed0e";
+  
+  opacity: 0.3;
+}
+.ki-up-diagonal.ki-duotone:before {
+  content: "\ed0f";
+  position: absolute;
+  
+}
+.ki-up-down.ki-duotone:after {
+  content: "\ed10";
+  
+  opacity: 0.3;
+}
+.ki-up-down.ki-duotone:before {
+  content: "\ed11";
+  position: absolute;
+  
+}
+.ki-up-square.ki-duotone:after {
+  content: "\ed12";
+  
+  opacity: 0.3;
+}
+.ki-up-square.ki-duotone:before {
+  content: "\ed13";
+  position: absolute;
+  
+}
+.ki-up.ki-duotone:before {
+  content: "\ed14";
+}
+.ki-update-file.ki-duotone:after {
+  content: "\ed15";
+  
+  opacity: 0.3;
+}
+.ki-update-file.ki-duotone:before {
+  content: "\ed16";
+  position: absolute;
+  
+}
+.ki-update-folder.ki-duotone:after {
+  content: "\ed17";
+  
+  opacity: 0.3;
+}
+.ki-update-folder.ki-duotone:before {
+  content: "\ed18";
+  position: absolute;
+  
+}
+.ki-user-edit.ki-duotone:after {
+  content: "\ed19";
+  
+  opacity: 0.3;
+}
+.ki-user-edit.ki-duotone:before {
+  content: "\ed1a";
+  position: absolute;
+  
+}
+.ki-user-square.ki-duotone:after {
+  content: "\ed1b";
+  
+  opacity: 0.3;
+}
+.ki-user-square.ki-duotone:before {
+  content: "\ed1c";
+  position: absolute;
+  
+}
+.ki-user-tick.ki-duotone:after {
+  content: "\ed1d";
+  
+}
+.ki-user-tick.ki-duotone:before {
+  content: "\ed1e";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-user.ki-duotone:after {
+  content: "\ed1f";
+  
+  opacity: 0.3;
+}
+.ki-user.ki-duotone:before {
+  content: "\ed20";
+  position: absolute;
+  
+}
+.ki-users.ki-duotone:after {
+  content: "\ed21";
+  
+  opacity: 0.3;
+}
+.ki-users.ki-duotone:before {
+  content: "\ed22";
+  position: absolute;
+  
+}
+.ki-verify.ki-duotone:after {
+  content: "\ed23";
+  
+  opacity: 0.3;
+}
+.ki-verify.ki-duotone:before {
+  content: "\ed24";
+  position: absolute;
+  
+}
+.ki-vibe-vibe.ki-duotone:after {
+  content: "\ed25";
+  
+}
+.ki-vibe-vibe.ki-duotone:before {
+  content: "\ed26";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-virus.ki-duotone:after {
+  content: "\ed27";
+  
+  opacity: 0.3;
+}
+.ki-virus.ki-duotone:before {
+  content: "\ed28";
+  position: absolute;
+  
+}
+.ki-vue.ki-duotone:after {
+  content: "\ed29";
+  
+  opacity: 0.3;
+}
+.ki-vue.ki-duotone:before {
+  content: "\ed2a";
+  position: absolute;
+  
+}
+.ki-vuesax.ki-duotone:after {
+  content: "\ed2b";
+  
+  opacity: 0.4;
+}
+.ki-vuesax.ki-duotone:before {
+  content: "\ed2c";
+  position: absolute;
+  
+}
+.ki-wallet.ki-duotone:after {
+  content: "\ed2d";
+  
+  opacity: 0.3;
+}
+.ki-wallet.ki-duotone:before {
+  content: "\ed2e";
+  position: absolute;
+  
+}
+.ki-wanchain-wan.ki-duotone:after {
+  content: "\ed2f";
+  
+}
+.ki-wanchain-wan.ki-duotone:before {
+  content: "\ed30";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-watch.ki-duotone:after {
+  content: "\ed31";
+  
+  opacity: 0.3;
+}
+.ki-watch.ki-duotone:before {
+  content: "\ed32";
+  position: absolute;
+  
+}
+.ki-whatsapp.ki-duotone:after {
+  content: "\ed33";
+  
+  opacity: 0.4;
+}
+.ki-whatsapp.ki-duotone:before {
+  content: "\ed34";
+  position: absolute;
+  
+}
+.ki-wifi-home.ki-duotone:after {
+  content: "\ed35";
+  
+  opacity: 0.3;
+}
+.ki-wifi-home.ki-duotone:before {
+  content: "\ed36";
+  position: absolute;
+  
+}
+.ki-wifi-square.ki-duotone:after {
+  content: "\ed37";
+  
+  opacity: 0.3;
+}
+.ki-wifi-square.ki-duotone:before {
+  content: "\ed38";
+  position: absolute;
+  
+}
+.ki-wifi.ki-duotone:after {
+  content: "\ed39";
+  
+}
+.ki-wifi.ki-duotone:before {
+  content: "\ed3a";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-wireframe.ki-duotone:after {
+  content: "\ed3b";
+  
+}
+.ki-wireframe.ki-duotone:before {
+  content: "\ed3c";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-wlan.ki-duotone:after {
+  content: "\ed3d";
+  
+  opacity: 0.3;
+}
+.ki-wlan.ki-duotone:before {
+  content: "\ed3e";
+  position: absolute;
+  
+}
+.ki-wrench.ki-duotone:after {
+  content: "\ed3f";
+  
+  opacity: 0.3;
+}
+.ki-wrench.ki-duotone:before {
+  content: "\ed40";
+  position: absolute;
+  
+}
+.ki-xaomi.ki-duotone:after {
+  content: "\ed41";
+  
+}
+.ki-xaomi.ki-duotone:before {
+  content: "\ed42";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-xd.ki-duotone:after {
+  content: "\ed43";
+  
+  opacity: 0.3;
+}
+.ki-xd.ki-duotone:before {
+  content: "\ed44";
+  position: absolute;
+  
+}
+.ki-xmr.ki-duotone:after {
+  content: "\ed45";
+  
+}
+.ki-xmr.ki-duotone:before {
+  content: "\ed46";
+  position: absolute;
+  
+  opacity: 0.3;
+}
+.ki-yii.ki-duotone:after {
+  content: "\ed47";
+  
+  opacity: 0.3;
+}
+.ki-yii.ki-duotone:before {
+  content: "\ed48";
+  position: absolute;
+  
+}
+.ki-youtube.ki-duotone:after {
+  content: "\ed49";
+  
+}
+.ki-youtube.ki-duotone:before {
+  content: "\ed4a";
+  position: absolute;
+  
+  opacity: 0.3;
+}

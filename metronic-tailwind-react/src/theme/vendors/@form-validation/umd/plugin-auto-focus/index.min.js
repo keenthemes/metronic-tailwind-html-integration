@@ -1,0 +1,11 @@
+/** 
+ * FormValidation (https://formvalidation.io)
+ * The best validation library for JavaScript
+ * (c) 2013 - 2023 Nguyen Huu Phuoc <me@phuoc.ng>
+ *
+ * @license https://formvalidation.io/license
+ * @package @form-validation/plugin-auto-focus
+ * @version 2.4.0
+ */
+
+!function(t,o){"object"==typeof exports&&"undefined"!=typeof module?module.exports=o(require("@form-validation/core"),require("@form-validation/plugin-field-status")):"function"==typeof define&&define.amd?define(["@form-validation/core","@form-validation/plugin-field-status"],o):((t="undefined"!=typeof globalThis?globalThis:t||self).FormValidation=t.FormValidation||{},t.FormValidation.plugins=t.FormValidation.plugins||{},t.FormValidation.plugins.AutoFocus=o(t.FormValidation,t.FormValidation.plugins))}(this,(function(t,o){"use strict";var i=function(t,o){return i=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,o){t.__proto__=o}||function(t,o){for(var i in o)Object.prototype.hasOwnProperty.call(o,i)&&(t[i]=o[i])},i(t,o)};return function(t){function n(o){var i=t.call(this,o)||this;return i.opts=Object.assign({},{onPrefocus:function(){}},o),i.invalidFormHandler=i.onFormInvalid.bind(i),i}return function(t,o){if("function"!=typeof o&&null!==o)throw new TypeError("Class extends value "+String(o)+" is not a constructor or null");function n(){this.constructor=t}i(t,o),t.prototype=null===o?Object.create(o):(n.prototype=o.prototype,new n)}(n,t),n.prototype.install=function(){this.core.on("core.form.invalid",this.invalidFormHandler).registerPlugin(n.FIELD_STATUS_PLUGIN,new o.FieldStatus)},n.prototype.uninstall=function(){this.core.off("core.form.invalid",this.invalidFormHandler).deregisterPlugin(n.FIELD_STATUS_PLUGIN)},n.prototype.onEnabled=function(){this.core.enablePlugin(n.FIELD_STATUS_PLUGIN)},n.prototype.onDisabled=function(){this.core.disablePlugin(n.FIELD_STATUS_PLUGIN)},n.prototype.onFormInvalid=function(){if(this.isEnabled){var t=this.core.getPlugin(n.FIELD_STATUS_PLUGIN).getStatuses(),o=Object.keys(this.core.getFields()).filter((function(o){return"Invalid"===t.get(o)}));if(o.length>0){var i=o[0],e=this.core.getElements(i);if(e.length>0){var r=e[0],l={firstElement:r,field:i};this.core.emit("plugins.autofocus.prefocus",l),this.opts.onPrefocus(l),r.focus()}}}},n.FIELD_STATUS_PLUGIN="___autoFocusFieldStatus",n}(t.Plugin)}));
