@@ -1,40 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p>
+	<a href="https://keenthemes.com/metronic">
+		<img src="https://keenthemes.com/static/metronic/tailwind/docs/dist/assets/media/app/default-logo.svg" alt="Metronic"/>
+	</a>
+</p>
 
-## Getting Started
+## Setup example
 
-First, run the development server:
+- Copy the `src` folder from the `metronic-tailwind-html` package and paste it into the NextJs `src` directory.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Rename the copied folder to `metronic` so that the directory structure should now look like this: `src/metronic`. This step imports the necessary styles and assets from the original HTML package into your NextJs project.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- In the `src/metronic/core` folder, delete the unnecessary `index.ts` file. This file is not needed for Single Page Application (SPA) integration as it could cause conflicts. Instead, rename the `index.spa.ts` file to `index.ts` to ensure proper integration.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Replace HTML initialization with default instance export in `src/metronic/app/layouts/demo1.js`.
 
-## Learn More
+  Replace the code part below:
 
-To learn more about Next.js, take a look at the following resources:
+    ```javascript
+    KTDom.ready(() => {
+        KTLayout.init();
+    });
+    ```
+  with
+    ```javascript
+    export default KTLayout;
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your NextJs project's `public` directory.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+- Create `public/fonts` folder and move all the files listed below to this folder.
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-duotone.svg`
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-duotone.ttf`
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-duotone.woff`
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-filled.svg`
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-filled.ttf`
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-filled.woff`
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-outline.svg`
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-outline.ttf`
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-outline.woff`
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-solid.svg`
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-solid.ttf`
+  - `metronic/vendors/keenicons/duotone/fonts/keenicons-solid.woff`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Install the required Node.js packages by running `npm install`. Start the NextJs development server by running `npm run dev`.
