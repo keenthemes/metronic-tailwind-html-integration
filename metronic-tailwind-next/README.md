@@ -47,7 +47,7 @@
   - `metronic/vendors/keenicons/duotone/fonts/keenicons-solid.woff`
 
 
-- Update all file references in the `style.css` for icons. Change the font file paths to start with `/` instead of `./` as they are in the original files.
+- Update all file references in the `style.css` for icons. Change the font file paths to start with `/fonts/` instead of `fonts/` as they are in the original files.
 
 
 - Install the required Node.js packages by running `npm install`. Start the NextJs development server by running `npm run dev`.
