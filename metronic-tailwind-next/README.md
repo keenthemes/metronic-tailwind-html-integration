@@ -15,18 +15,11 @@
 - In the `src/metronic/core` folder, delete the unnecessary `index.ts` file. This file is not needed for Single Page Application (SPA) integration as it could cause conflicts. Instead, rename the `index.spa.ts` file to `index.ts` to ensure proper integration.
 
 
-- Replace HTML initialization with default instance export in `src/metronic/app/layouts/demo1.js`.
-
-  Replace the code part below:
-
+- Remove `KTLayout` instance initialization from `src/metronic/app/layouts/demo1.js`.
     ```javascript
     KTDom.ready(() => {
         KTLayout.init();
     });
-    ```
-  with
-    ```javascript
-    export default KTLayout;
     ```
 
 - Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your NextJs project's `public` directory.
