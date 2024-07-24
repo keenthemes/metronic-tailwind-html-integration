@@ -599,7 +599,6 @@ export default {
 	},
 	plugins: [
 		require('./src/metronic/core/plugins/plugin'),
-		require('./src/metronic/core/plugins/layouts/demo1'),
 		require('./src/metronic/core/plugins/components/theme'),
 		require('./src/metronic/core/plugins/components/breakpoints'),
 		require('./src/metronic/core/plugins/components/typography'),
