@@ -6,19 +6,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Prerequisites
 
-Before getting started, you will need to purchase the Metronic theme, which includes the Tailwind CSS source files. After purchasing, follow these steps:
+Before getting started, you will need to purchase the Metronic theme, which includes the Tailwind CSS source files.
 
-### Installation
+To integrate Metronic Tailwind into your Angular project, you need to follow these steps:
 
-1. Copy the `src` folder from the `metronic-tailwind-html` package and paste it into the `src` directory of your Angular project. Rename the copied folder to `metronic` so that the directory structure should now look like this: `src/metronic`. This step imports the necessary styles and assets from the original HTML package into your Angular project.
+1. Purchase the Metronic theme, which includes the Tailwind CSS source files.
 
-2. Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your Angular project's `src/assets` directory. The resulting directory structure should look like this: `src/assets/metronic/assets`.
+2. After purchasing, refer to the official documentation for detailed instructions on integrating Metronic Tailwind into your Angular project.
 
-3. Install the required Node.js packages by running `npm install` in the root directory of your Angular project.
+3. The documentation can be found at the following link:
 
-4. Build the assets by running `ng build` in the root directory of your Angular project.
-
-5. Start the Angular development server by running `ng serve`.
-
-That's it! You now have the Metronic Tailwind template integrated into your Angular project.
-
+   https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/angular
