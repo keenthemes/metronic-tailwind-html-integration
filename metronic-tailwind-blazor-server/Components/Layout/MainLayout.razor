@@ -1,23 +1,23 @@
 ﻿@inherits LayoutComponentBase
+@inject IJSRuntime JS
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
+<div class="flex grow">
+<Sidebar />
+<div class="wrapper flex grow flex-col">
+    <Header />
+    <main class="grow content pt-5" id="content" role="content">
+    <div class="container-fixed">
+        <!-- place your content here  -->
     </div>
-
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
     </main>
+    <Footer />
+</div>
+<SearchModal />
 </div>
 
-<div id="blazor-error-ui">
-    An unhandled error has occurred.
-    <a href="" class="reload">Reload</a>
-    <a class="dismiss">🗙</a>
-</div>
+@code {
+    protected override void OnAfterRender(bool firstRender){
+        JS.InvokeVoidAsync("KTComponent.init");
+        JS.InvokeVoidAsync("KTLayout.init");
+    }
+}

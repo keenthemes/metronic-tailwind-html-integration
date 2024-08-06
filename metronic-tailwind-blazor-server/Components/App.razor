@@ -1,20 +1,41 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full light" data-theme="true">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="/" />
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="app.css" />
-    <link rel="stylesheet" href="metronic-tailwind-blazor-server.styles.css" />
+    <link rel="stylesheet" href="assets/vendors/keenicons/styles.bundle.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <HeadOutlet />
 </head>
 
-<body>
-    <Routes />
-    <script src="_framework/blazor.web.js"></script>
+<body class="flex h-full demo1 sidebar-fixed header-fixed bg-[#fefefe] dark:bg-coal-500">
+<script>
+    const defaultThemeMode = 'light'; // light|dark|system
+    let themeMode;
+
+    if (document.documentElement) {
+        if (localStorage.getItem('theme')) {
+            themeMode = localStorage.getItem('theme');
+        } else if (document.documentElement.hasAttribute('data-theme-mode')) {
+            themeMode = document.documentElement.getAttribute('data-theme-mode');
+        } else {
+            themeMode = defaultThemeMode;
+        }
+
+        if (themeMode === 'system') {
+            themeMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        document.documentElement.classList.add(themeMode);
+    }
+</script>
+<Routes />
+<script src="assets/js/core.bundle.js"></script>
+<script src="assets/js/layouts/demo1.js"></script>
+<script src="_framework/blazor.web.js"></script>
 </body>
 
 </html>
