@@ -5,7 +5,6 @@
 </p>
 
 ## Setup example
-### Copy Source Folder
 
 - Copy the `src` folder from the `metronic-tailwind-html` package and paste it into the React `src` directory.
 

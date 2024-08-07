@@ -5,26 +5,32 @@
 </p>
 
 ## Setup example
-### Copy Source Folder
 
-- Copy the `src` folder from the `metronic-tailwind-html` package and paste it into the React `src` directory.
-
-
-- Rename the copied folder to `metronic` so that the directory structure should now look like this: `src/metronic`. This step imports the necessary styles and assets from the original HTML package into your React project.
-
-
-- In the `src/metronic/core` folder, delete the unnecessary `index.ts` file. This file is not needed for Single Page Application (SPA) integration as it could cause conflicts. Instead, rename the `index.spa.ts` file to `index.ts` to ensure proper integration.
-
-
-- Remove `KTLayout` instance initialization from `src/metronic/app/layouts/demo1.js`.
-    ```javascript
-    KTDom.ready(() => {
-        KTLayout.init();
-    });
-    ```
-
-
- - Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your React project's `public` directory.
-
-
-- Install the required Node.js packages by running `npm install`. Start the React development server by running `npm run dev`.
+- Copy entire `metronic-tailwind-html` folder and paste it into the Blazor app root directly.
+- Rename copied folder to `metronic`.
+- Change output folder paths in following files.<br>
+  <b>webpack.config.js</b>
+  ```
+  ...
+  const dist = value.dist.replace("../wwwroot/assets", "");
+  ...
+  output: {
+     ...
+     path: path.resolve(__dirname, "../wwwroot/assets"),
+     ...
+  },
+  ...
+  ```
+- Change your terminal directory to `metronic`.
+  ```
+  cd metronic
+  ```
+- Install npm packages and build theme assets using the following command.<br>
+  ```
+  npm install & npm run dev
+  ```
+- Copy media folder from `metronic/dist/` to `wwwroot`.
+- Run Metronic 9 Blazor Server example app with command.
+  ```
+  dotnet run watch
+  ```

@@ -484,3 +484,4 @@ $RECYCLE.BIN/
 *.swp
 
 /wwwroot/assets/
+/metronic/
