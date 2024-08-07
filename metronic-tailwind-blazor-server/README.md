@@ -1,36 +1,39 @@
 <p>
-	<a href="https://keenthemes.com/metronic">
-		<img src="https://keenthemes.com/static/metronic/tailwind/docs/dist/assets/media/app/default-logo.svg" alt="Metronic"/>
-	</a>
+    <a href="https://keenthemes.com/metronic">
+        <img src="https://keenthemes.com/static/metronic/tailwind/docs/dist/assets/media/app/default-logo.svg" alt="Metronic"/>
+    </a>
 </p>
 
-## Setup example
+1. Copy the entire `metronic-tailwind-html` folder and paste it into the root directory of your Blazor app. Rename the copied folder to `metronic`.
 
-- Copy entire `metronic-tailwind-html` folder and paste it into the Blazor app root directly.
-- Rename copied folder to `metronic`.
-- Change output folder paths in following files.<br>
-  <b>webpack.config.js</b>
-  ```
-  ...
-  const dist = value.dist.replace("../wwwroot/assets", "");
-  ...
-  output: {
-     ...
-     path: path.resolve(__dirname, "../wwwroot/assets"),
-     ...
-  },
-  ...
-  ```
-- Change your terminal directory to `metronic`.
-  ```
-  cd metronic
-  ```
-- Install npm packages and build theme assets using the following command.<br>
-  ```
-  npm install & npm run dev
-  ```
-- Copy media folder from `metronic/dist/` to `wwwroot`.
-- Run Metronic 9 Blazor Server example app with command.
-  ```
-  dotnet run watch
-  ```
+2. Copy the `media` folder from `metronic/dist/` and paste it into the `wwwroot/` directory.
+
+3. Modify the `webpack.config.js` file to update the output folder paths:
+    ```javascript
+    ...
+    const dist = value.dist.replace("../wwwroot/assets", "");
+    ...
+    output: {
+       ...
+       path: path.resolve(__dirname, "../wwwroot/assets"),
+       ...
+    },
+    ...
+    ```
+
+4. Open your terminal and navigate to the `metronic` directory:
+    ```bash
+    cd metronic
+    ```
+
+5. Install the necessary npm packages and build the theme assets by running the following command:
+    ```bash
+    npm install & npm run dev
+    ```
+
+6. Start the Metronic 9 Blazor Server example app with the following command:
+    ```bash
+    dotnet run watch
+    ```
+
+By following these steps, you should be able to set up and run the Metronic theme in your Blazor application. For more detailed information, visit the [Metronic website](https://keenthemes.com/metronic).
