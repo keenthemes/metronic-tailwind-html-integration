@@ -20,15 +20,13 @@ To install the seed projects, you must purchase Metronic from [ThemeForest](http
 
 The seed projects are compatible with the latest version of Metronic and are maintained to align with [Recent Releases](https://keenthemes.com/metronic/tailwind/docs/changelog).
 
-## Frontend Framework Guides
+## Framework Guides
 
-- [React](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/frontend/react)
-- [Vue](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/frontend/vue)
-- [Angular](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/frontend/angular)
-
-## Backend Framework Guides
-
-- [Laravel](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/backend/laravel)
+- [React](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/react)
+- [Next.js](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/nextjs)
+- [Vue](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/vue)
+- [Angular](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/angular)
+- [Laravel](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/laravel)
 
 ## Metronic Composer
 
