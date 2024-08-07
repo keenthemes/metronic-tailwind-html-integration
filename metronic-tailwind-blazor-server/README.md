@@ -4,6 +4,8 @@
     </a>
 </p>
 
+## Setup example
+
 1. Copy the entire `metronic-tailwind-html` folder and paste it into the root directory of your Blazor app. Rename the copied folder to `metronic`.
 
 2. Copy the `media` folder from `metronic/dist/` and paste it into the `wwwroot/` directory.
