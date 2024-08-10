@@ -20,7 +20,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
     @vite('resources/css/app.scss')
 </head>
 
-<body class="flex h-full demo1 sidebar-fixed header-fixed bg-[#fefefe] dark:bg-coal-500">
+<body class="antialiased flex h-full demo1 sidebar-fixed header-fixed bg-[#fefefe] dark:bg-coal-500">
     <!--begin::Theme mode setup on page load-->
     <script>
         const defaultThemeMode = 'light'; // light|dark|system

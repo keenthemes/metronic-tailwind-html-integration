@@ -3801,7 +3801,7 @@ function Header() {
               </span>
             </div>
             <div className="menu-separator"></div>
-            <div className="flex flex-col" data-menu-dismiss="true">
+            <div className="flex flex-col">
               <div className="menu-item">
                 <a
                   className="menu-link"
