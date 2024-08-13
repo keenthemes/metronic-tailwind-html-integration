@@ -27,6 +27,7 @@ The seed projects are compatible with the latest version of Metronic and are mai
 - [Vue](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/vue)
 - [Angular](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/angular)
 - [Laravel](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/laravel)
+- [Blazor Server](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/blazor-server)
 
 ## Metronic Composer
 
