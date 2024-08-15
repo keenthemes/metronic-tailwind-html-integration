@@ -218,18 +218,21 @@ export default function SearchModal() {
                                                 <div className="flex -space-x-2">
                                                     <div className="flex">
                                                         <img
+                                                            alt=""
                                                             className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                             src="/media/avatars/300-4.png"
                                                         />
                                                     </div>
                                                     <div className="flex">
                                                         <img
+                                                            alt=""
                                                             className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                             src="/media/avatars/300-1.png"
                                                         />
                                                     </div>
                                                     <div className="flex">
                                                         <img
+                                                            alt=""
                                                             className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                             src="/media/avatars/300-2.png"
                                                         />
@@ -271,18 +274,21 @@ export default function SearchModal() {
                                                 <div className="flex -space-x-2">
                                                     <div className="flex">
                                                         <img
+                                                            alt=""
                                                             className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                             src="/media/avatars/300-14.png"
                                                         />
                                                     </div>
                                                     <div className="flex">
                                                         <img
+                                                            alt=""
                                                             className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                             src="/media/avatars/300-12.png"
                                                         />
                                                     </div>
                                                     <div className="flex">
                                                         <img
+                                                            alt=""
                                                             className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                             src="/media/avatars/300-9.png"
                                                         />
@@ -480,18 +486,21 @@ export default function SearchModal() {
                                         <div className="flex -space-x-2">
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-4.png"
                                                 />
                                             </div>
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-1.png"
                                                 />
                                             </div>
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-2.png"
                                                 />
@@ -533,18 +542,21 @@ export default function SearchModal() {
                                         <div className="flex -space-x-2">
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-14.png"
                                                 />
                                             </div>
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-12.png"
                                                 />
                                             </div>
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-9.png"
                                                 />
@@ -580,24 +592,28 @@ export default function SearchModal() {
                                         <div className="flex -space-x-2">
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-6.png"
                                                 />
                                             </div>
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-3.png"
                                                 />
                                             </div>
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-1.png"
                                                 />
                                             </div>
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-8.png"
                                                 />
@@ -633,12 +649,14 @@ export default function SearchModal() {
                                         <div className="flex -space-x-2">
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-18.png"
                                                 />
                                             </div>
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-17.png"
                                                 />
@@ -674,18 +692,21 @@ export default function SearchModal() {
                                         <div className="flex -space-x-2">
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-14.png"
                                                 />
                                             </div>
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-20.png"
                                                 />
                                             </div>
                                             <div className="flex">
                                                 <img
+                                                    alt=""
                                                     className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                                     src="/media/avatars/300-21.png"
                                                 />
@@ -873,7 +894,7 @@ export default function SearchModal() {
                                 <div className="menu-item">
                                     <div className="menu-link flex items-center">
                                         <div className="flex items-center grow gap-2.5">
-                                            <img src="/media/file-types/pdf.svg"/>
+                                            <img alt="" src="/media/file-types/pdf.svg"/>
                                             <div className="flex flex-col">
                       <span className="text-sm font-semibold text-gray-900 cursor-pointer hover:text-primary mb-px">
                         Project-pitch.pdf
@@ -891,7 +912,7 @@ export default function SearchModal() {
                                 <div className="menu-item">
                                     <div className="menu-link flex items-center">
                                         <div className="flex items-center grow gap-2.5">
-                                            <img src="/media/file-types/doc.svg"/>
+                                            <img alt="" src="/media/file-types/doc.svg"/>
                                             <div className="flex flex-col">
                       <span className="text-sm font-semibold text-gray-900 cursor-pointer hover:text-primary mb-px">
                         Report-v1.docx
@@ -909,7 +930,7 @@ export default function SearchModal() {
                                 <div className="menu-item">
                                     <div className="menu-link flex items-center">
                                         <div className="flex items-center grow gap-2.5">
-                                            <img src="/media/file-types/javascript.svg"/>
+                                            <img alt="" src="/media/file-types/javascript.svg"/>
                                             <div className="flex flex-col">
                       <span className="text-sm font-semibold text-gray-900 cursor-pointer hover:text-primary mb-px">
                         Framework-App.js
@@ -927,7 +948,7 @@ export default function SearchModal() {
                                 <div className="menu-item">
                                     <div className="menu-link flex items-center">
                                         <div className="flex items-center grow gap-2.5">
-                                            <img src="/media/file-types/ai.svg"/>
+                                            <img alt="" src="/media/file-types/ai.svg"/>
                                             <div className="flex flex-col">
                       <span className="text-sm font-semibold text-gray-900 cursor-pointer hover:text-primary mb-px">
                         Framework-App.js
@@ -945,7 +966,7 @@ export default function SearchModal() {
                                 <div className="menu-item">
                                     <div className="menu-link flex items-center">
                                         <div className="flex items-center grow gap-2.5">
-                                            <img src="/media/file-types/php.svg"/>
+                                            <img alt="" src="/media/file-types/php.svg"/>
                                             <div className="flex flex-col">
                       <span className="text-sm font-semibold text-gray-900 cursor-pointer hover:text-primary mb-px">
                         appController.js

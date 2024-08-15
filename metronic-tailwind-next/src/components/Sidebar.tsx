@@ -12,20 +12,24 @@ function Sidebar() {
   >
     <a className="dark:hidden" href="html/demo1.html">
       <img
+        alt=""
         className="default-logo min-h-[22px] max-w-none"
         src="/media/app/default-logo.svg"
       />
       <img
+        alt=""
         className="small-logo min-h-[22px] max-w-none"
         src="/media/app/mini-logo.svg"
       />
     </a>
     <a className="hidden dark:block" href="html/demo1.html">
       <img
+        alt=""
         className="default-logo min-h-[22px] max-w-none"
         src="/media/app/default-logo-dark.svg"
       />
       <img
+        alt=""
         className="small-logo min-h-[22px] max-w-none"
         src="/media/app/mini-logo.svg"
       />

@@ -14,7 +14,7 @@ function Header() {
   >
     <div className="flex gap-1 lg:hidden items-center -ml-1">
       <a className="shrink-0" href="html/demo1.html">
-        <img className="max-h-[25px] w-full" src="/media/app/mini-logo.svg" />
+        <img alt="" className="max-h-[25px] w-full" src="/media/app/mini-logo.svg" />
       </a>
       <div className="flex items-center">
         <button
@@ -1683,18 +1683,21 @@ function Header() {
                   <div className="flex -space-x-2">
                     <div className="flex">
                       <img
+                        alt=""
                         className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-[30px]"
                         src="/media/avatars/300-4.png"
                       />
                     </div>
                     <div className="flex">
                       <img
+                        alt=""
                         className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-[30px]"
                         src="/media/avatars/300-1.png"
                       />
                     </div>
                     <div className="flex">
                       <img
+                        alt=""
                         className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-[30px]"
                         src="/media/avatars/300-2.png"
                       />
@@ -1894,7 +1897,7 @@ function Header() {
                 <div className="flex flex-col gap-1.5">
                   <div className="card shadow-none flex bg-primary flex-col gap-2.5 p-3 rounded-br-none">
                     <p className="text-2sm font-medium text-light">
-                      Haven't seen the build yet, I'll look now.
+                      Haven&apos;t seen the build yet, I&apos;ll look now.
                     </p>
                   </div>
                   <div className="flex items-center justify-end relative">
@@ -2547,7 +2550,7 @@ function Header() {
                         </span>
                       </div>
                       <div className="card shadow-none flex items-center flex-row gap-1.5 p-2.5 rounded-lg bg-light-active">
-                        <img className="h-5" src="/media/file-types/pdf.svg" />
+                        <img alt="" className="h-5" src="/media/file-types/pdf.svg" />
                         <a
                           className="hover:text-primary-active font-medium text-gray-700 text-xs me-1"
                           href="#"
@@ -2627,6 +2630,7 @@ function Header() {
                       <div className="card shadow-none flex items-center flex-row gap-1.5 p-2.5 rounded-lg bg-light-active">
                         <div className="flex items-center justify-center w-[26px] h-[30px] shrink-0 bg-light rounded border border-gray-200">
                           <img
+                            alt=""
                             className="h-5"
                             src="/media/file-types/figma.svg"
                           />
@@ -2790,6 +2794,7 @@ function Header() {
                       <div className="card shadow-none flex items-center justify-between flex-row gap-1.5 p-2.5 rounded-lg bg-light-active">
                         <div className="flex items-center gap-1.5">
                           <img
+                            alt=""
                             className="h-6"
                             src="/media/file-types/xls.svg"
                           />
@@ -2885,12 +2890,14 @@ function Header() {
                           <div className="flex -space-x-2">
                             <div className="flex">
                               <img
+                                alt=""
                                 className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                 src="/media/avatars/300-3.png"
                               />
                             </div>
                             <div className="flex">
                               <img
+                                alt=""
                                 className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                 src="/media/avatars/300-2.png"
                               />
@@ -3082,18 +3089,21 @@ function Header() {
                           <div className="flex -space-x-2">
                             <div className="flex">
                               <img
+                                alt=""
                                 className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                 src="/media/avatars/300-4.png"
                               />
                             </div>
                             <div className="flex">
                               <img
+                                alt=""
                                 className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                 src="/media/avatars/300-1.png"
                               />
                             </div>
                             <div className="flex">
                               <img
+                                alt=""
                                 className="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6"
                                 src="/media/avatars/300-2.png"
                               />
@@ -3190,6 +3200,7 @@ function Header() {
                       <div className="card shadow-none flex items-center justify-between flex-row gap-1.5 p-2.5 rounded-lg bg-light-active">
                         <div className="flex items-center gap-1.5">
                           <img
+                            alt=""
                             className="h-6"
                             src="/media/file-types/word.svg"
                           />
@@ -3237,6 +3248,7 @@ function Header() {
                       <div className="card shadow-none flex items-center justify-between flex-row gap-1.5 p-2.5 rounded-lg bg-light-active">
                         <div className="flex items-center gap-1.5">
                           <img
+                            alt=""
                             className="h-6"
                             src="/media/file-types/svg.svg"
                           />
@@ -3327,7 +3339,7 @@ function Header() {
                           </a>
                           <span className="text-gray-700 font-medium">
                             This design is simply stunning! From layout to
-                            color, it's a work of art!
+                            color, it&apos;s a work of art!
                           </span>
                         </div>
                         <label className="input input-sm">
@@ -3546,6 +3558,7 @@ function Header() {
                       <div className="card shadow-none flex items-center flex-row gap-1.5 p-2.5 rounded-lg bg-light-active">
                         <div className="flex items-center justify-center w-[26px] h-[30px] shrink-0 bg-white rounded border border-gray-200">
                           <img
+                            alt=""
                             className="h-5"
                             src="/media/brand-logos/jira.svg"
                           />
