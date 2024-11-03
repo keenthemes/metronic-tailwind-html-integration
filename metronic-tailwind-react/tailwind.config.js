@@ -571,10 +571,29 @@ export default {
 					}
 				},
 				table: {
-					px: '1rem',
+					px: {
+						xs: '0.5rem',
+						sm: '0.75rem',
+						DEFAULT: '1rem',
+						lg: '1.25rem'
+					},
 					py: {
-						head: '0.625rem',
-						body: '0.75rem'
+						xs: {
+							head: '0.225rem',
+							body: '0.35rem'
+						},
+						sm: {
+							head: '0.425rem',
+							body: '0.5rem'
+						},
+						DEFAULT: {
+							head: '0.625rem',
+							body: '0.75rem'
+						},
+						lg: {
+							head: '0.825rem',
+							body: '0.95rem'
+						}
 					}
 				}
 			},
