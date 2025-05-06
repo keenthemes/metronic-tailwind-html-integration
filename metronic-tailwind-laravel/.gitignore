@@ -1,5 +1,4 @@
 /.phpunit.cache
-/bootstrap/ssr
 /node_modules
 /public/build
 /public/hot
