@@ -8,38 +8,22 @@ Support: https://devs.keenthemes.com
 Follow: https://www.twitter.com/keenthemes
 License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
 -->
-<!doctype html>
-<html class="h-full" data-theme="true" data-theme-mode="light" lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Metronic - Tailwind CSS</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body class="antialiased flex h-full demo1 sidebar-fixed header-fixed bg-[#fefefe] dark:bg-coal-500">
-	<!--begin::Theme mode setup on page load-->
-	<script>
-	const defaultThemeMode = 'light'; // light|dark|system
-		let themeMode;
-
-		if ( document.documentElement ) {
-			if ( localStorage.getItem('theme')) {
-					themeMode = localStorage.getItem('theme');
-			} else if ( document.documentElement.hasAttribute('data-theme-mode')) {
-				themeMode = document.documentElement.getAttribute('data-theme-mode');
-			} else {
-				themeMode = defaultThemeMode;
-			}
-
-			if (themeMode === 'system') {
-				themeMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-			}
-
-			document.documentElement.classList.add(themeMode);
-		}
-	</script>
-	<!--end::Theme mode setup on page load-->
-  <app-root></app-root>
-</body>
+<!DOCTYPE html>
+<html lang="en" class="h-full" data-kt-theme="true" data-kt-theme-mode="light" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Metronic - Tailwind CSS</title>
+    <base href="/" />
+    <meta content="follow, index" name="robots"/>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+    <link href="assets/media/app/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+    <link href="assets/media/app/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+    <link href="assets/media/app/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+    <link href="assets/media/app/favicon.ico" rel="shortcut icon"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body class="antialiased flex h-full text-base text-foreground bg-background demo1 kt-sidebar-fixed kt-header-fixed">
+    <app-root></app-root>
+    <!-- Angular will inject scripts here -->
+  </body>
 </html>

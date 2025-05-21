@@ -30,9 +30,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/styles.css",
+              "src/assets/vendors/apexcharts/apexcharts.css",
+              "src/assets/vendors/keenicons/styles.bundle.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/core.bundle.js",
+			  "src/assets/vendors/ktui/ktui.min.js",
+              "src/assets/vendors/apexcharts/apexcharts.min.js",
+              "src/assets/js/widgets/general.js",
+              "src/assets/js/layouts/demo1.js"
+            ]
           },
           "configurations": {
             "production": {

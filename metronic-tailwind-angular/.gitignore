@@ -41,5 +41,4 @@ testem.log
 .DS_Store
 Thumbs.db
 
-/src/assets/media
-/src/metronic
+/src/assets
