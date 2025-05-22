@@ -6,11 +6,10 @@ import { SidebarComponent } from './layouts/sidebar/sidebar.component';
 import { SearchModalComponent } from './partials/search-modal/search-modal.component';
 
 @Component({
-	selector: 'app-root',
-	standalone: true,
-	imports: [RouterOutlet, HeaderComponent, FooterComponent, SidebarComponent, SearchModalComponent],
-	templateUrl: './app.component.html',
-	styleUrl: './app.component.scss'
+    selector: 'app-root',
+    imports: [RouterOutlet, HeaderComponent, FooterComponent, SidebarComponent, SearchModalComponent],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent implements AfterViewInit, OnInit {
 	title = 'metronic-tailwind-angular';
