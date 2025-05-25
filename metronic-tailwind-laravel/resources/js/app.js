@@ -1,5 +1,4 @@
-import "./bootstrap";
+import './bootstrap';
 
-import "../metronic/core/index";
-import "../metronic/app/layouts/demo1";
-
+import '../metronic/core/index';
+import '@keenthemes/ktui/src/index';
