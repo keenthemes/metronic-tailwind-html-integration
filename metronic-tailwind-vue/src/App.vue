@@ -19,11 +19,13 @@ import SearchModal from './components/SearchModal.vue';
 import {nextTick, onMounted} from "vue";
 import KTUI from "@keenthemes/ktui/src/index.ts";
 import KTComponent from "./metronic/core/index.ts";
+import KTLayout from './metronic/app/layouts/demo1.js';
 
 onMounted(() => {
 	nextTick(() => {
 		KTUI.init();
 		KTComponent.init();
+		KTLayout.init();
 	}, 0)
 })
 </script>
