@@ -23,3 +23,5 @@
 - Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your Vue project's `public` directory.
 
 - Install the required Node.js packages by running `npm install`. Start the Vue development server by running `npm run dev`.
+
+- Generate Tailwind CSS output using the command `npm run build:css`.
