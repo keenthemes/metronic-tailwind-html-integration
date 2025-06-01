@@ -3,8 +3,8 @@
 @import "./metronic/vendors/keenicons/solid/style.css";
 @import "./metronic/vendors/keenicons/outline/style.css";
 
-@import "./metronic/css/styles.css";
+@import "./metronic/dist/styles.css";
 
 #app {
-	display: contents;
+    display: contents;
 }

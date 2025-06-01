@@ -1,14 +1,9 @@
-export default {
-  plugins: {
+export const plugins = {
     'postcss-import': {},
     'tailwindcss/nesting': 'postcss-nesting',
     'postcss-preset-env': {
-      features: {
-        'nesting-rules': false,
-        "is-pseudo-class": false,
-      },
+        features: { 'nesting-rules': false },
     },
-    'tailwindcss': {},
-    'autoprefixer': {},
-  },
-}
+    tailwindcss: {},
+    autoprefixer: {},
+};

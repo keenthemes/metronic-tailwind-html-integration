@@ -8,21 +8,18 @@
 
 - Copy the `src` folder from the `metronic-tailwind-html` package and paste it into the Vue `src` directory.
 
-
 - Rename the copied folder to `metronic` so that the directory structure should now look like this: `src/metronic`. This step imports the necessary styles and assets from the original HTML package into your Vue project.
-
 
 - In the `src/metronic/core` folder, delete the unnecessary `index.ts` file. This file is not needed for Single Page Application (SPA) integration as it could cause conflicts. Instead, rename the `index.spa.ts` file to `index.ts` to ensure proper integration.
 
-
 - Remove `KTLayout` instance initialization from `src/metronic/app/layouts/demo1.js`.
-    ```javascript
-    KTDom.ready(() => {
-        KTLayout.init();
-    });
-    ```
 
- - Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your Vue project's `public` directory.
+  ```javascript
+  KTDom.ready(() => {
+  	KTLayout.init();
+  });
+  ```
 
+- Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your Vue project's `public` directory.
 
 - Install the required Node.js packages by running `npm install`. Start the Vue development server by running `npm run dev`.
