@@ -14,10 +14,30 @@
 
 - Remove `KTLayout` instance initialization from `src/metronic/app/layouts/demo1.js`.
 
-  ```javascript
+  ```js
   KTDom.ready(() => {
   	KTLayout.init();
   });
+  ```
+- Fix the import paths in `src/metronic/css/styles.css` so that the final paths look like this:
+  ```css
+  /* Tailwind core */
+  @import 'tailwindcss';
+  
+  /* Tailwind scan sources */
+  @source '@keenthemes/ktui/styles.css';
+  
+  /* Theme configs */
+  @import "./config.ktui.css";
+  
+  /* KTUI styles */
+  @import '@keenthemes/ktui/styles.css';
+  
+  /* Metronic components  */
+  @import "./components/index.css";
+  
+  /* Demos */
+  @import "./demos/demo1.css";
   ```
 
 - Copy the `media` folder from the `metronic-tailwind-html` package's `dist/assets/media` directory into your Vue project's `public` directory.
