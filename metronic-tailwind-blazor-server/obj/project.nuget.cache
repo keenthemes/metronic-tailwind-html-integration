@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "o5uUX+PQJ7tKd+2Oo5WKE43drThdG0hdo+VsAopnEbnh8XyChuki7SvzORNAKzlTRQd8dVtOWeL6pniP7p9BYQ==",
+  "dgSpecHash": "avqAABKtqfQ=",
   "success": true,
   "projectFilePath": "/Users/laurisstepanovs/Documents/keenthemes/products/metronic-tailwind-html-integration/metronic-tailwind-blazor-server/metronic-tailwind-blazor-server.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/laurisstepanovs/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/laurisstepanovs/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/laurisstepanovs/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

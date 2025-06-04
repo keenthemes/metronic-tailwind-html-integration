@@ -3,10 +3,10 @@
 
 <div class="flex grow">
 <Sidebar />
-<div class="wrapper flex grow flex-col">
+<div class="kt-wrapper flex grow flex-col">
     <Header />
-    <main class="grow content pt-5" id="content" role="content">
-        <div class="container-fixed">
+    <main class="grow pt-5" id="content" role="content">
+        <div class="kt-container-fixed">
             @Body
         </div>
     </main>
@@ -16,7 +16,7 @@
 </div>
 
 @code {
-    protected override void OnAfterRender(bool firstRender){
+    protected override void OnAfterRender(bool firstRender) {
         JS.InvokeVoidAsync("KTComponent.init");
         JS.InvokeVoidAsync("KTLayout.init");
     }
