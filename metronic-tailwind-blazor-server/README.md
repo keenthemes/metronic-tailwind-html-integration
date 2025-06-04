@@ -10,85 +10,11 @@
 
 2. Copy the `media` folder from `metronic/dist/` and paste it into the `wwwroot/assets/` directory.
 
-3. Modify the `webpack.config.js` file to update the output folder paths:
-    ```javascript
-    //...
-    const dist = value.dist.replace("../wwwroot/assets", "");
-    //...
-    output: {
-       //...
-       path: path.resolve(__dirname, "../wwwroot/assets"),
-       //...
-    },
-    ...
-    ```
-   Update output paths in `webpack.vendors.js`
+3. Update output path in `webpack.vendors.js`
    ```javascript
    module.exports = {
-      entry: {
-         keenicons: [
-            {
-               //...
-               dist: '../wwwroot/assets/vendors/keenicons/styles.bundle.css',
-               //...
-            },
-            {
-               //...
-               dist: '../wwwroot/assets/vendors/keenicons/fonts',
-               //...
-            }
-         ],
-         '@form-validation': [
-            {
-               //...
-               dist: '../wwwroot/assets/vendors/@form-validation',
-               //...
-            },
-            {
-               //...
-               dist: '../wwwroot/assets/vendors/@form-validation/form-validation.bundle.js',
-               //...
-            },
-         ],
-         leaflet: [
-            {
-               //...
-               dist: '../wwwroot/assets/vendors/leaflet/leaflet.bundle.css',
-               //...
-            },
-            {
-               //...
-               dist: '../wwwroot/assets/vendors/leaflet/leaflet.bundle.js',
-               //...
-            },
-         ],
-         apexcharts: [
-            {
-               //...
-               dist: '../wwwroot/assets/vendors/apexcharts/apexcharts.css',
-               //...
-            },
-            {
-               //...
-               dist: '../wwwroot/assets/vendors/apexcharts/apexcharts.min.js',
-               //...
-            },
-         ],
-         prismjs: [
-            {
-               //...
-               dist: '../wwwroot/assets/vendors/prismjs/prismjs.min.js',
-               //...
-            }
-         ],
-         clipboard: [
-            {
-               //...
-               dist: '../wwwroot/assets/vendors/clipboard/clipboard.min.js',
-               //...
-            }
-         ]
-      }
+      output: '../wwwroot/assets',
+      ...
    };
    ```
    And update output paths in `package.json` for the following build commands.
