@@ -1,0 +1,5 @@
+Flask==2.3.3
+python-dotenv==1.0.0
+Flask-WTF==1.1.1
+pytest==7.4.2
+pytest-flask==1.2.0

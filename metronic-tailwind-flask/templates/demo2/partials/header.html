@@ -1,0 +1,132 @@
+<!-- Header -->
+<header class="flex items-center transition-[height] shrink-0 bg-background h-(--header-height)" data-kt-sticky="true" data-kt-sticky-class="transition-[height] fixed z-10 top-0 left-0 right-0 backdrop-blur-md bg-background/70 border-b border-border" data-kt-sticky-name="header" data-kt-sticky-offset="200px" id="header">
+ <!-- Container -->
+ <div class="kt-container-fixed flex justify-between items-center lg:gap-4" id="headerContainer">
+  <!-- Logo -->
+  <div class="flex items-center gap-2 lg:gap-5 2xl:-ml-[60px]">
+   <a href="{{ url_for('demo2.index') }}">
+    <img class="dark:hidden min-h-[42px]" src="{{ url_for('static', filename='media/app/mini-logo-circle.svg') }}"/>
+    <img class="hidden dark:inline-block min-h-[42px]" src="{{ url_for('static', filename='media/app/mini-logo-circle-dark.svg') }}"/>
+   </a>
+  </div>
+  <!-- End of Logo -->
+  <!-- Topbar -->
+  <div class="flex items-center gap-2 lg:gap-3.5">
+   <!-- Search -->
+   <button class="kt-btn kt-btn-icon kt-btn-ghost size-9" data-kt-search="#search_modal" data-kt-search-trigger="true">
+    <i class="ki-filled ki-magnifier text-base"></i>
+   </button>
+   <!-- End of Search -->
+   <!-- Notifications -->
+   <div class="kt-menu" data-kt-menu="true">
+    <div class="kt-menu-item" data-kt-menu-item-offset="10px, 10px" data-kt-menu-item-placement="bottom-end" data-kt-menu-item-placement-rtl="bottom-start" data-kt-menu-item-toggle="dropdown" data-kt-menu-item-trigger="click">
+     <button class="kt-menu-toggle kt-btn kt-btn-icon kt-btn-ghost size-9 relative">
+      <i class="ki-filled ki-notification-on text-base"></i>
+      <span class="kt-badge kt-badge-dot kt-badge-danger size-[6px] absolute top-0.5 right-0.5 transform translate-x-1/2 -translate-y-1/2"></span>
+     </button>
+     <div class="kt-menu-dropdown kt-menu-default w-full max-w-[460px]" data-kt-menu-dismiss="true">
+      <div class="kt-menu-item">
+       <div class="kt-menu-content text-sm text-secondary-foreground">
+        <span class="kt-menu-title text-sm text-foreground font-medium mb-2">Notifications</span>
+        <div class="flex flex-col gap-5">
+         <div class="flex items-center gap-3.5">
+          <img alt="" class="size-9 rounded-full border-2 border-green-500 shrink-0" src="{{ url_for('static', filename='media/avatars/300-2.png') }}"/>
+          <div class="flex flex-col gap-1">
+           <div class="text-2sm font-medium text-foreground">
+            New order received
+           </div>
+           <span class="text-2xs text-secondary-foreground">2 min ago</span>
+          </div>
+         </div>
+         <div class="flex items-center gap-3.5">
+          <img alt="" class="size-9 shrink-0 rounded-full border-2 border-green-500" src="{{ url_for('static', filename='media/avatars/300-2.png') }}"/>
+          <div class="flex flex-col gap-1">
+           <div class="text-2sm font-medium text-foreground">
+            Payment completed
+           </div>
+           <span class="text-2xs text-secondary-foreground">1 hour ago</span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- End of Notifications -->
+   <!-- Chat -->
+   <button class="kt-btn kt-btn-icon kt-btn-ghost size-9">
+    <i class="ki-filled ki-messages text-base"></i>
+   </button>
+   <!-- End of Chat -->
+   <!-- User Menu -->
+   <div class="kt-menu" data-kt-menu="true">
+    <div class="kt-menu-item" data-kt-menu-item-offset="10px, 10px" data-kt-menu-item-placement="bottom-end" data-kt-menu-item-placement-rtl="bottom-start" data-kt-menu-item-toggle="dropdown" data-kt-menu-item-trigger="click">
+     <div class="kt-menu-toggle kt-btn kt-btn-icon size-9 rounded-full">
+      <img alt="" class="size-8 rounded-full justify-center border border-border-secondary shrink-0" src="{{ url_for('static', filename='media/avatars/300-2.png') }}"/>
+     </div>
+     <div class="kt-menu-dropdown kt-menu-default w-full max-w-[250px]" data-kt-menu-dismiss="true">
+      <div class="kt-menu-item">
+       <div class="kt-menu-content flex items-center justify-between px-4 py-1.5">
+        <div class="flex items-center gap-1.5">
+         <div class="flex flex-col gap-1.5">
+          <span class="text-sm text-foreground font-semibold">Cody Fisher</span>
+          <span class="text-xs text-secondary-foreground">c.fisher@gmail.com</span>
+         </div>
+        </div>
+        <span class="kt-badge kt-badge-xs kt-badge-primary kt-badge-outline">Pro</span>
+       </div>
+      </div>
+      <div class="kt-menu-separator"></div>
+      <div class="kt-menu-item">
+       <a class="kt-menu-link" href="#">
+        <span class="kt-menu-icon">
+         <i class="ki-filled ki-badge"></i>
+        </span>
+        <span class="kt-menu-title">Public Profile</span>
+       </a>
+      </div>
+      <div class="kt-menu-item">
+       <a class="kt-menu-link" href="#">
+        <span class="kt-menu-icon">
+         <i class="ki-filled ki-profile-circle"></i>
+        </span>
+        <span class="kt-menu-title">My Account</span>
+       </a>
+      </div>
+      <div class="kt-menu-item">
+       <a class="kt-menu-link" href="#">
+        <span class="kt-menu-icon">
+         <i class="ki-filled ki-setting-2"></i>
+        </span>
+        <span class="kt-menu-title">Settings</span>
+       </a>
+      </div>
+      <div class="kt-menu-separator"></div>
+      <div class="kt-menu-item">
+       <div class="kt-menu-content">
+        <label class="kt-switch kt-switch-sm">
+         <span class="kt-switch-label">Dark Mode</span>
+         <input name="check" type="checkbox" value="1"/>
+        </label>
+       </div>
+      </div>
+      <div class="kt-menu-separator"></div>
+      <div class="kt-menu-item">
+       <a class="kt-menu-link" href="#">
+        <span class="kt-menu-icon">
+         <i class="ki-filled ki-entrance-left"></i>
+        </span>
+        <span class="kt-menu-title">Sign out</span>
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- End of User Menu -->
+  </div>
+  <!-- End of Topbar -->
+ </div>
+ <!-- End of Container -->
+</header>
+<!-- End of Header -->

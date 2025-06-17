@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class="h-full" data-kt-theme="true" data-kt-theme-mode="light" dir="ltr" lang="en">
+<head>
+    {% include 'partials/head.html' %}
+</head>
+<body class="kt-page bg-background">
+    {% include 'partials/theme-mode.html' %}
+
+    <!-- Header -->
+    {% include 'demo2/partials/header.html' %}
+
+    <!-- Main -->
+    <div class="flex grow pt-5" id="kt_app_main">
+        <!-- Main Container -->
+        <div class="flex flex-col grow">
+            <!-- Navbar -->
+            {% include 'demo2/partials/navbar.html' %}
+
+            <!-- Toolbar -->
+            {% include 'demo2/partials/toolbar.html' %}
+
+            <!-- Content -->
+            <div class="flex flex-col grow">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+
+    {% include 'partials/scripts.html' %}
+</body>
+</html>
