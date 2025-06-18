@@ -1,243 +1,153 @@
 # Getting Started with Metronic v9 HTML + Flask Integration
 
-Welcome to the complete Metronic v9 HTML Tailwind CSS integration with Flask! This guide will help you understand and start using this powerful combination.
+Welcome to the Metronic v9 HTML Tailwind CSS integration with Flask! This guide helps you quickly get started with this powerful combination.
 
 ---
 
 ## 👤 Who Is This For?
-- Developers seeking a modern Flask starter kit with Metronic v9 (Tailwind) UI
-- Teams building admin dashboards, analytics, or SaaS platforms
-- Anyone wanting a modular, production-ready Flask + Tailwind project
+- Developers seeking a modern Flask starter with Metronic v9 (Tailwind) UI
+- Teams building admin dashboards or SaaS platforms
+- Anyone wanting a production-ready Flask + Tailwind project
 
 ---
 
-## ✅ Before You Begin
-- Python 3.8+ installed ([check version](https://www.python.org/downloads/))
-- pip (Python package manager)
-- Git
+## ✅ Prerequisites
+- Python 3.8+ ([download](https://www.python.org/downloads/))
+- Basic knowledge of [Flask](https://flask.palletsprojects.com/) and [Jinja2](https://jinja.palletsprojects.com/)
 - A valid Metronic license (for commercial use)
-- Downloaded Metronic assets (see below)
+- Downloaded Metronic assets (see [INSTALLATION.md](INSTALLATION.md))
 
 ---
 
 ## ⚠️ Assets Directory Notice
-The `assets/` directory is **gitignored** to avoid repository bloat and licensing issues. **You must manually copy the Metronic assets into `assets/` after cloning.**
-- See [INSTALLATION.md](INSTALLATION.md#restoring-assets) for details on restoring assets.
+The `assets/` directory is **gitignored**. **You must manually copy the Metronic assets into `assets/` after cloning.**
+- See [INSTALLATION.md](INSTALLATION.md#restoring-assets) for asset restoration details.
 
 ---
 
 ## 🚀 Quick Start (3 Steps)
 
-### 1. Setup the Environment
-
-**Automated Setup (Recommended):**
+### 1. Setup Environment
 ```bash
-# macOS/Linux
-./setup.sh
+# Automated setup (Recommended)
+./setup.sh        # macOS/Linux
+setup.bat         # Windows
 
-# Windows
-setup.bat
-```
-
-**Manual Setup:**
-```bash
+# Manual setup
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env
 ```
 
-### 2. Start the Application
-
+### 2. Start Application
 ```bash
-# Using start scripts
 ./start.sh        # macOS/Linux
 start.bat         # Windows
-
-# Or manually
-python3 run.py
+# Or: python3 run.py
 ```
 
-### 3. Explore the Demos
+### 3. Explore Demos
+- **Demo 1 (Sidebar):** http://127.0.0.1:5000/demo1/
+- **Demo 2 (Header):** http://127.0.0.1:5000/demo2/
 
-Open your browser and visit:
-- **Demo 1 (Sidebar Layout):** http://127.0.0.1:5000/demo1/
-- **Demo 2 (Header Layout):** http://127.0.0.1:5000/demo2/
-
-## 🎯 Demo Layouts Overview
-
-### Demo 1 - Sidebar Layout
-- **URL:** `/demo1/`
-- **Features:** Fixed sidebar navigation, dashboard metrics, charts
-- **Use Case:** Traditional admin dashboards, internal tools
-- **Layout:** `templates/layouts/sidebar_layout.html`
-
-### Demo 2 - Header Layout
-- **URL:** `/demo2/`
-- **Features:** Top header navigation, analytics dashboard, traffic sources
-- **Use Case:** Public-facing dashboards, analytics platforms
-- **Layout:** `templates/layouts/header_layout.html`
+---
 
 ## 📁 Project Structure
 
 ```
 metronic-tailwind-flask/
 ├── 📄 Documentation
-│   ├── README.md              # Main project overview
-│   ├── INSTALLATION.md        # Detailed setup instructions
-│   └── GETTING_STARTED.md     # This file
-│
-├── 🔧 Setup Scripts
-│   ├── setup.sh / setup.bat   # Initial project setup
-│   └── start.sh / start.bat   # Daily development startup
+│   ├── README.md, INSTALLATION.md, GETTING_STARTED.md
 │
 ├── 🐍 Flask Application
 │   ├── app/                   # Main application package
-│   │   ├── __init__.py       # Application factory
-│   │   ├── config.py         # Configuration management
-│   │   ├── models.py         # Mock data models
-│   │   ├── main/             # Main blueprint (redirects)
-│   │   ├── demo1/            # Demo 1 blueprint (sidebar)
-│   │   └── demo2/            # Demo 2 blueprint (header)
+│   │   ├── demo1/, demo2/     # Blueprint demos
+│   │   └── models.py          # Minimal context helpers
 │   │
-│   ├── templates/            # Jinja2 templates
-│   │   ├── base.html         # Master template
-│   │   ├── layouts/          # Layout templates
-│   │   ├── partials/         # Reusable components
-│   │   ├── demo1/            # Demo 1 pages
-│   │   └── demo2/            # Demo 2 pages
+│   ├── templates/             # Jinja2 templates
+│   │   ├── partials/          # Global partials
+│   │   ├── demo1/, demo2/     # Demo-specific templates
 │   │
-│   └── tests/                # Test suite
+│   └── tests/                 # Test suite
 │
 ├── 🎨 Assets (from Metronic)
-│   ├── css/                  # Stylesheets
-│   ├── js/                   # JavaScript files
-│   ├── media/                # Images and icons
-│   └── vendors/              # Third-party libraries
+│   ├── css/, js/, media/, vendors/
 │
 └── ⚙️ Configuration
-    ├── requirements.txt      # Python dependencies
-    ├── run.py               # Application entry point
-    ├── .env.example         # Environment template
-    └── .flaskenv           # Flask settings
+    ├── requirements.txt, run.py, .env.example
 ```
 
-## 🛠️ Development Guide
+---
+
+## 🛠️ Development Essentials
 
 ### Adding New Pages
-
-1. **Create Route:** Add to appropriate blueprint (`app/demo1/routes.py` or `app/demo2/routes.py`)
+1. **Create Route:** Add to appropriate blueprint in `app/demo1/routes.py` or `app/demo2/routes.py`
 2. **Create Template:** Add HTML file in `templates/demo1/` or `templates/demo2/`
-3. **Update Navigation:** Modify partials if needed
 
-**Example:**
+For routing patterns, see [Flask routing docs](https://flask.palletsprojects.com/en/2.3.x/quickstart/#routing).
+
+### Template Structure
+Templates extend Metronic layouts with minimal context:
 ```python
-# In app/demo1/routes.py
+# Simple route example
 @bp.route('/new-page')
 def new_page():
-    context = get_dashboard_context()
+    context = {'page_title': 'My Page'}
     return render_template('demo1/new-page.html', **context)
 ```
 
-### Customizing Layouts
+For templating patterns, see [Jinja2 docs](https://jinja.palletsprojects.com/en/3.1.x/templates/).
 
-- **Sidebar Layout:** Edit `templates/layouts/sidebar_layout.html`
-- **Header Layout:** Edit `templates/layouts/header_layout.html`
-- **Common Elements:** Modify files in `templates/partials/`
-
-### Working with Mock Data
-
-Mock data is generated in `app/models.py`:
-```python
-# Get dashboard data
-context = get_dashboard_context()
-
-# Get analytics data
-context = get_analytics_context()
-
-# Create custom data
-user = User("John Doe", "john@example.com")
-```
+---
 
 ## 🧪 Testing
 
 ```bash
-# Run all tests
-pytest
-
-# Run with coverage
-pytest --cov=app
-
-# Run specific tests
-pytest tests/test_demo1.py -v
+pytest                    # Run all tests
+pytest --cov=app         # Run with coverage
+pytest tests/test_demo1.py -v  # Run specific tests
 ```
 
-## 📚 Key Files Reference
+For testing patterns, see [Flask testing docs](https://flask.palletsprojects.com/en/2.3.x/testing/).
 
-| File | Purpose |
-|------|---------|
-| `app/__init__.py` | Application factory, blueprint registration |
-| `app/config.py` | Environment-specific configurations |
-| `app/models.py` | Mock data classes and generators |
-| `templates/base.html` | Master template with common HTML structure |
-| `templates/partials/head.html` | HTML head with CSS imports |
-| `templates/partials/scripts.html` | JavaScript imports and initialization |
-| `run.py` | Application entry point |
+---
 
-## 🎨 Customization Tips
+## 🎨 Customization
 
-### Changing Colors/Themes
-- Metronic uses CSS custom properties
-- Modify `assets/css/styles.css` or add custom CSS
+### Layouts
+- **Sidebar Layout:** `templates/demo1/base.html`
+- **Header Layout:** `templates/demo2/base.html`
+- **Common Elements:** `templates/partials/`
+
+### Styling
+- Modify `assets/css/styles.css` for custom styles
 - Use Metronic's built-in theme switching
+- See [Tailwind CSS docs](https://tailwindcss.com/docs) for utility classes
 
-### Adding New Components
-- Copy component HTML from Metronic documentation
-- Create Jinja2 macros for reusable components
-- Update asset imports if needed
+### Components
+For Metronic-specific components (charts, datatables, etc.), refer to [Metronic documentation](https://keenthemes.com/metronic).
 
-### Database Integration
-- Replace mock data in `app/models.py`
-- Add SQLAlchemy or your preferred ORM
-- Update context functions to use real data
+---
 
-## 🔍 Troubleshooting
+## 📚 Key Resources
 
-### Common Issues
+| Resource | Purpose |
+|----------|---------|
+| [Flask Documentation](https://flask.palletsprojects.com/) | Framework fundamentals |
+| [Jinja2 Templates](https://jinja.palletsprojects.com/) | Template syntax |
+| [Metronic Docs](https://keenthemes.com/metronic) | UI components |
+| [INTEGRATION.md](INTEGRATION.md) | Detailed integration guide |
 
-1. **Assets not loading:** Check `url_for('static', filename='...')` paths
-2. **Template errors:** Verify template inheritance and block names
-3. **Import errors:** Ensure virtual environment is activated
-4. **Styling issues:** Check CSS file paths and Metronic documentation
-
-### Getting Help
-
-- **Installation Issues:** See `INSTALLATION.md`
-- **Flask Questions:** [Flask Documentation](https://flask.palletsprojects.com/)
-- **Metronic Styling:** [Metronic Docs](https://keenthemes.com/metronic/tailwind/docs)
-- **Tailwind CSS:** [Tailwind Documentation](https://tailwindcss.com/docs)
+---
 
 ## 🚀 Next Steps
 
-1. **Explore Both Demos:** Compare sidebar vs header layouts
-2. **Review Code Structure:** Understand the Flask blueprint pattern
-3. **Customize Templates:** Modify layouts to match your needs
-4. **Add Real Data:** Replace mock data with your data sources
-5. **Deploy:** Prepare for production deployment
-
-## 📝 Additional Resources
-
-- **Flask Best Practices:** Application factory pattern, blueprints, configuration
-- **Metronic Components:** Buttons, cards, tables, forms, charts
-- **Tailwind Utilities:** Responsive design, spacing, colors
-- **Jinja2 Templates:** Template inheritance, macros, filters
+1. **Explore Templates:** Check out both demo layouts
+2. **Read Integration Guide:** See [INTEGRATION.md](INTEGRATION.md) for detailed setup
+3. **Customize:** Modify templates and add your own pages
+4. **Deploy:** Follow [Flask deployment patterns](https://flask.palletsprojects.com/en/2.3.x/deploying/)
 
 ---
 
-**Happy Coding!** 🎉
-
-This integration gives you a solid foundation for building professional web applications with Flask and Metronic's beautiful UI components.
-
----
-
-*For advanced setup, troubleshooting, and deployment, see [INSTALLATION.md](INSTALLATION.md). For converting Metronic HTML to Flask, see [INTEGRATION.md](INTEGRATION.md).*
+**Ready to build amazing dashboards!** 🎉

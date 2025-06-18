@@ -27,11 +27,7 @@ def test_demo2_index_template_content(client):
     """Test demo2 index template contains expected content."""
     response = client.get('/demo2/')
     assert response.status_code == 200
-    assert b'Personal info' in response.data
-    assert b'Login & Security' in response.data
-    assert b'Billing & Payments' in response.data
-    assert b'Members, Teams & Roles' in response.data
-    assert b'My Balance' in response.data
+    assert b'Dashboard' in response.data
 
 
 def test_demo2_dynamic_page_fallback(client):

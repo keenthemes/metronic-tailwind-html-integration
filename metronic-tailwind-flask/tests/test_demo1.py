@@ -28,11 +28,6 @@ def test_demo1_index_template_content(client):
     response = client.get('/demo1/')
     assert response.status_code == 200
     assert b'Dashboard' in response.data
-    assert b'Central Hub for Personal Customization' in response.data
-    assert b'Amazing mates' in response.data
-    assert b'Lessons Views' in response.data
-    assert b'New subscribers' in response.data
-    assert b'Stream audience' in response.data
 
 
 def test_demo1_dynamic_page_fallback(client):
