@@ -2,17 +2,29 @@
 
 Welcome to the complete Metronic v9 HTML Tailwind CSS integration with Flask! This guide will help you understand and start using this powerful combination.
 
-## 📋 What You Get
+---
 
-This integration provides:
+## 👤 Who Is This For?
+- Developers seeking a modern Flask starter kit with Metronic v9 (Tailwind) UI
+- Teams building admin dashboards, analytics, or SaaS platforms
+- Anyone wanting a modular, production-ready Flask + Tailwind project
 
-- ✅ **Complete Flask Application** with modern architecture patterns
-- ✅ **Two Demo Layouts** showcasing different Metronic designs
-- ✅ **Full Asset Integration** with all Metronic CSS, JS, and media files
-- ✅ **Responsive Design** maintaining Metronic's professional appearance
-- ✅ **Mock Data System** for realistic dashboard content
-- ✅ **Testing Framework** for reliable development
-- ✅ **Automated Setup Scripts** for quick installation
+---
+
+## ✅ Before You Begin
+- Python 3.8+ installed ([check version](https://www.python.org/downloads/))
+- pip (Python package manager)
+- Git
+- A valid Metronic license (for commercial use)
+- Downloaded Metronic assets (see below)
+
+---
+
+## ⚠️ Assets Directory Notice
+The `assets/` directory is **gitignored** to avoid repository bloat and licensing issues. **You must manually copy the Metronic assets into `assets/` after cloning.**
+- See [INSTALLATION.md](INSTALLATION.md#restoring-assets) for details on restoring assets.
+
+---
 
 ## 🚀 Quick Start (3 Steps)
 
@@ -225,3 +237,7 @@ pytest tests/test_demo1.py -v
 **Happy Coding!** 🎉
 
 This integration gives you a solid foundation for building professional web applications with Flask and Metronic's beautiful UI components.
+
+---
+
+*For advanced setup, troubleshooting, and deployment, see [INSTALLATION.md](INSTALLATION.md).*

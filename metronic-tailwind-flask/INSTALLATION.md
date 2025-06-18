@@ -1,350 +1,140 @@
 # Metronic v9 HTML + Flask Integration - Complete Installation Guide
 
-This guide provides step-by-step instructions to set up and run the Metronic v9 HTML Tailwind CSS integration with Flask.
+---
+
+## 🏁 Quick Reference
+- **Project summary:** See [README.md](README.md)
+- **Beginner setup:** See [GETTING_STARTED.md](GETTING_STARTED.md)
+- **This guide:** Full installation, troubleshooting, and deployment
+
+---
 
 ## Prerequisites
+- Python 3.8+
+- pip
+- Git
+- Metronic license & assets (see below)
 
-Before starting, ensure you have the following installed on your system:
+---
 
-- **Python 3.8+** (Check with `python3 --version`)
-- **pip** (Python package manager)
-- **Git** (for version control)
+## ⚠️ Restoring the `assets/` Directory
+The `assets/` directory is **gitignored** to keep the repository lightweight and avoid licensing issues. **You must manually copy the Metronic assets into `assets/` after cloning.**
 
-### Installing Python (if needed)
+**How to restore:**
+1. Download the Metronic v9 HTML (Tailwind) package from your Keenthemes account.
+2. Copy the contents of the Metronic `html/tailwind/dist/assets/` directory into your project's `assets/` directory.
+3. Your structure should look like:
+   ```
+   metronic-tailwind-flask/
+   └── assets/
+       ├── css/
+       ├── js/
+       ├── media/
+       └── vendors/
+   ```
 
-#### macOS:
-```bash
-# Using Homebrew
-brew install python3
-
-# Or download from python.org
-# https://www.python.org/downloads/
-```
-
-#### Ubuntu/Debian:
-```bash
-sudo apt update
-sudo apt install python3 python3-pip python3-venv
-```
-
-#### Windows:
-Download Python from [python.org](https://www.python.org/downloads/) and install with "Add to PATH" option checked.
+---
 
 ## Complete Setup Instructions
 
-### Step 1: Navigate to Project Directory
-
+### 1. Navigate to Project Directory
 ```bash
 cd metronic-tailwind-flask
 ```
 
-### Step 2: Create Virtual Environment
-
-Creating a virtual environment isolates your project dependencies from system Python packages.
-
-#### Option A: Using `venv` (Recommended)
-
+### 2. Create Virtual Environment
 ```bash
-# Create virtual environment
 python3 -m venv venv
-
-# Alternative names you can use:
-# python3 -m venv flask-env
-# python3 -m venv .venv
 ```
 
-#### Option B: Using `virtualenv` (if installed)
+### 3. Activate Virtual Environment
+- **macOS/Linux:**
+  ```bash
+  source venv/bin/activate
+  ```
+- **Windows (CMD):**
+  ```cmd
+  venv\Scripts\activate
+  ```
+- **Windows (PowerShell):**
+  ```powershell
+  venv\Scripts\Activate.ps1
+  ```
 
-```bash
-# Install virtualenv if not available
-pip3 install virtualenv
-
-# Create virtual environment
-virtualenv venv
-```
-
-### Step 3: Activate Virtual Environment
-
-#### macOS/Linux:
-```bash
-source venv/bin/activate
-```
-
-#### Windows (Command Prompt):
-```cmd
-venv\Scripts\activate
-```
-
-#### Windows (PowerShell):
-```powershell
-venv\Scripts\Activate.ps1
-```
-
-**Note:** After activation, your terminal prompt should show `(venv)` at the beginning, indicating the virtual environment is active.
-
-### Step 4: Upgrade pip (Recommended)
-
+### 4. Upgrade pip (Recommended)
 ```bash
 pip install --upgrade pip
 ```
 
-### Step 5: Install Dependencies
-
+### 5. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-This will install:
-- Flask==2.3.3
-- python-dotenv==1.0.0
-- Flask-WTF==1.1.1
-- pytest==7.4.2
-- pytest-flask==1.2.0
-
-### Step 6: Environment Configuration
-
+### 6. Environment Configuration
 ```bash
-# Copy environment template
 cp .env.example .env
-
-# Edit the .env file with your preferred settings
-# You can use any text editor:
-nano .env
-# or
-code .env
-# or
-vim .env
+# Edit .env as needed (set SECRET_KEY, etc)
 ```
 
-**Default .env contents:**
-```env
-SECRET_KEY=your-secret-key-here
-FLASK_APP=run.py
-FLASK_ENV=development
-FLASK_DEBUG=1
-```
+### 7. Restore Metronic Assets
+See the section above on restoring the `assets/` directory.
 
-**Important:** Change the `SECRET_KEY` to a random string for security:
-```bash
-# Generate a secure secret key
-python3 -c "import secrets; print(secrets.token_hex(32))"
-```
-
-### Step 7: Verify Installation
-
-Test that the Flask app can be imported without errors:
-
+### 8. Verify Installation
 ```bash
 python3 -c "from app import create_app; app = create_app(); print('✅ Flask app created successfully!')"
 ```
 
-### Step 8: Run the Application
-
-#### Method 1: Using Python directly
+### 9. Run the Application
 ```bash
 python3 run.py
-```
-
-#### Method 2: Using Flask CLI
-```bash
-flask run
-```
-
-#### Method 3: With custom host/port
-```bash
-flask run --host=0.0.0.0 --port=8000
-```
-
-### Step 9: Access the Application
-
-Open your web browser and navigate to:
-
-- **Main Application:** http://127.0.0.1:5000
-- **Demo 1 (Sidebar Layout):** http://127.0.0.1:5000/demo1/
-- **Demo 2 (Header Layout):** http://127.0.0.1:5000/demo2/
-
-## Testing the Installation
-
-### Run Basic Tests
-
-```bash
-# Run all tests
-pytest
-
-# Run with verbose output
-pytest -v
-
-# Run specific test file
-pytest tests/test_demo1.py
-
-# Run with coverage report
-pytest --cov=app
-```
-
-### Manual Testing Checklist
-
-1. ✅ **Home page redirects:** Visit http://127.0.0.1:5000 → should redirect to demo1
-2. ✅ **Demo 1 loads:** Visit http://127.0.0.1:5000/demo1/ → sidebar layout with dashboard
-3. ✅ **Demo 2 loads:** Visit http://127.0.0.1:5000/demo2/ → header layout with analytics
-4. ✅ **Navigation works:** Click between demo1 and demo2 links
-5. ✅ **Assets load:** Check browser developer tools for CSS/JS errors
-6. ✅ **Responsive design:** Test on different screen sizes
-
-## Troubleshooting
-
-### Common Issues and Solutions
-
-#### 1. Python Command Not Found
-```bash
-# Try these alternatives:
-python3 --version
-python --version
-py --version  # Windows
-```
-
-#### 2. Virtual Environment Activation Issues
-
-**macOS/Linux:**
-```bash
-# If source command fails, try:
-. venv/bin/activate
-
-# Or use full path:
-/path/to/your/project/venv/bin/activate
-```
-
-**Windows PowerShell Execution Policy:**
-```powershell
-# If you get execution policy error:
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
-#### 3. Package Installation Errors
-
-```bash
-# Upgrade pip first:
-pip install --upgrade pip
-
-# Clear pip cache:
-pip cache purge
-
-# Install with verbose output:
-pip install -r requirements.txt -v
-```
-
-#### 4. Flask Import Errors
-
-```bash
-# Ensure virtual environment is activated
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate     # Windows
-
-# Verify Flask installation
-pip list | grep Flask
-
-# Reinstall if needed
-pip uninstall Flask
-pip install Flask==2.3.3
-```
-
-#### 5. Template Not Found Errors
-
-```bash
-# Verify directory structure
-ls -la templates/
-ls -la templates/layouts/
-ls -la templates/partials/
-
-# Check Flask is looking in correct directory
-python3 -c "from app import create_app; app = create_app(); print(app.template_folder)"
-```
-
-#### 6. Static Files Not Loading
-
-```bash
-# Verify assets directory
-ls -la assets/
-ls -la assets/css/
-ls -la assets/js/
-
-# Check Flask static configuration
-python3 -c "from app import create_app; app = create_app(); print(app.static_folder)"
-```
-
-## Development Workflow
-
-### Daily Development Setup
-
-```bash
-# 1. Navigate to project
-cd metronic-tailwind-flask
-
-# 2. Activate virtual environment
-source venv/bin/activate  # macOS/Linux
 # or
-venv\Scripts\activate     # Windows
-
-# 3. Start development server
 flask run
-
-# 4. When done, deactivate virtual environment
-deactivate
 ```
-
-### Adding New Dependencies
-
-```bash
-# Install new package
-pip install package-name
-
-# Update requirements file
-pip freeze > requirements.txt
-```
-
-### Project Structure Verification
-
-```bash
-# Check complete project structure
-find . -type f -name "*.py" | sort
-find . -type f -name "*.html" | sort
-```
-
-## Production Deployment Notes
-
-### Environment Variables for Production
-
-```env
-SECRET_KEY=your-production-secret-key
-FLASK_ENV=production
-FLASK_DEBUG=0
-```
-
-### Security Considerations
-
-1. **Change SECRET_KEY:** Use a strong, unique secret key
-2. **Environment Variables:** Never commit `.env` file to version control
-3. **Debug Mode:** Ensure `FLASK_DEBUG=0` in production
-4. **HTTPS:** Use HTTPS in production environments
-
-## Additional Resources
-
-- **Flask Documentation:** https://flask.palletsprojects.com/
-- **Metronic Documentation:** https://keenthemes.com/metronic/tailwind/docs
-- **Python Virtual Environments:** https://docs.python.org/3/tutorial/venv.html
-- **Tailwind CSS:** https://tailwindcss.com/docs
-
-## Support
-
-If you encounter issues:
-
-1. Check this troubleshooting guide
-2. Verify your Python and pip versions
-3. Ensure virtual environment is properly activated
-4. Check Flask and dependency versions match requirements.txt
-5. Review browser developer console for frontend errors
-
-For Metronic-specific styling issues, refer to the official Metronic documentation.
 
 ---
 
-**Next Steps:** Once installation is complete, see `README.md` for usage instructions and development guidelines.
+## 📝 Post-Install Checklist
+- [ ] Home page redirects to Demo 1
+- [ ] Demo 1 loads with sidebar layout
+- [ ] Demo 2 loads with header layout
+- [ ] Navigation works between demos
+- [ ] All assets (CSS/JS/images) load (check browser dev tools)
+- [ ] Responsive design works on all screen sizes
+
+---
+
+## 🛠️ Development Workflow
+- Activate your virtual environment before working
+- Use `pytest` to run tests
+- Add new dependencies with `pip install` and update `requirements.txt`
+- See [README.md](README.md) for project structure and customization tips
+
+---
+
+## 🚀 Production Deployment
+- Set `FLASK_ENV=production` and `FLASK_DEBUG=0` in your `.env`
+- Use a strong, unique `SECRET_KEY`
+- Serve with a production WSGI server (e.g., Gunicorn or uWSGI)
+- Use HTTPS in production
+- Never commit your `.env` file
+
+---
+
+## ❓ Where to Get Help
+- [GETTING_STARTED.md](GETTING_STARTED.md): Beginner-friendly guide
+- [README.md](README.md): Project summary and structure
+- [Flask Documentation](https://flask.palletsprojects.com/)
+- [Metronic Docs](https://keenthemes.com/metronic/tailwind/docs)
+
+---
+
+**If you encounter issues:**
+1. Double-check the `assets/` directory and all file paths
+2. Ensure your virtual environment is activated
+3. Review error messages and consult the troubleshooting section above
+4. Search the official Flask and Metronic documentation
+
+---
+
+*Happy building with Flask & Metronic!*
