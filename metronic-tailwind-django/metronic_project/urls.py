@@ -19,11 +19,13 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('apps.demo1.urls')),
-    path('demo2/', include('apps.demo2.urls')),
+    path('demo1/', include('demo1.urls')),
+    path('demo2/', include('demo2.urls')),
+    path('', RedirectView.as_view(url='/demo1/', permanent=False)),
 ]
 
 # Serve static files during development
