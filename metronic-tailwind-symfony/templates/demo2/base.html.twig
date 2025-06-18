@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class="h-full" data-kt-theme="true" data-kt-theme-mode="light" dir="ltr" lang="en">
+<head>
+    {% include 'partials/head.html.twig' %}
+</head>
+<body class="antialiased flex h-full text-base text-foreground bg-background [--header-height:100px] data-[kt-sticky-header=on]:[--header-height:60px]">
+    {% include 'partials/theme-mode.html.twig' %}
+
+    <!-- Main -->
+	<div class="flex grow flex-col in-data-[kt-sticky-header=on]:pt-(--header-height)">
+		<!-- Header -->
+		{% include 'demo2/partials/header.html.twig' %}
+
+		<!-- Navbar -->
+		{% include 'demo2/partials/navbar.html.twig' %}
+
+		<!-- Toolbar -->
+		{% include 'demo2/partials/toolbar.html.twig' %}
+
+		<!-- Content -->
+		<main class="grow" id="content" role="content">
+			{% block content %}{% endblock %}
+		</main>
+
+		<!-- Footer -->
+		{% include 'demo2/partials/footer.html.twig' %}
+    </div>
+
+    {% include 'partials/scripts.html.twig' %}
+</body>
+</html>

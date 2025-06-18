@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="h-full" data-kt-theme="true" data-kt-theme-mode="light" dir="ltr" lang="en">
+<head>
+    {% include 'partials/head.html.twig' %}
+</head>
+<body class="antialiased flex h-full text-base text-foreground bg-background">
+    {% include 'partials/theme-mode.html.twig' %}
+
+    <div class="flex items-center justify-center min-h-screen bg-gray-100">
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+                <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Metronic Tailwind Integration</div>
+                    <h1 class="block mt-1 text-lg leading-tight font-medium text-black">Choose Your Demo</h1>
+                    <p class="mt-2 text-gray-500">Select one of the available demo layouts to explore the Metronic Tailwind integration with Symfony.</p>
+
+                    <div class="mt-6 space-y-4">
+                        {% for demo in demos %}
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h3 class="font-semibold text-gray-900">{{ demo.name }}</h3>
+                                <p class="text-sm text-gray-600 mt-1">{{ demo.description }}</p>
+                                <a href="{{ demo.url }}" class="inline-block mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors">
+                                    View Demo
+                                </a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'partials/scripts.html.twig' %}
+</body>
+</html>
