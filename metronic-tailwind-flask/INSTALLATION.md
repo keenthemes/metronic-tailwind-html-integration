@@ -123,6 +123,7 @@ flask run
 
 ## ❓ Where to Get Help
 - [GETTING_STARTED.md](GETTING_STARTED.md): Beginner-friendly guide
+- [INTEGRATION.md](INTEGRATION.md): Complete guide for converting Metronic HTML to Flask
 - [README.md](README.md): Project summary and structure
 - [Flask Documentation](https://flask.palletsprojects.com/)
 - [Metronic Docs](https://keenthemes.com/metronic/tailwind/docs)

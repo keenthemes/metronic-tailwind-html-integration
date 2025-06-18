@@ -240,4 +240,4 @@ This integration gives you a solid foundation for building professional web appl
 
 ---
 
-*For advanced setup, troubleshooting, and deployment, see [INSTALLATION.md](INSTALLATION.md).*
+*For advanced setup, troubleshooting, and deployment, see [INSTALLATION.md](INSTALLATION.md). For converting Metronic HTML to Flask, see [INTEGRATION.md](INTEGRATION.md).*

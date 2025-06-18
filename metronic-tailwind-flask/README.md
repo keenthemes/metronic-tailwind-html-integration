@@ -20,7 +20,7 @@ This project provides a robust Flask starter kit using Metronic v9 HTML (Tailwin
 ---
 
 ## ⚠️ Assets Directory Notice
-The `assets/` directory contains all Metronic CSS, JS, images, and vendor files. **It is gitignored by default** to avoid repository bloat and licensing issues. If you clone this repo, you must manually copy the Metronic assets into `assets/` as described in [INSTALLATION.md](INSTALLATION.md).
+The `assets/` directory contains all Metronic CSS, JS, images, and vendor files. **It is gitignored by default**. If you clone this repo, you must manually copy the Metronic assets into `assets/` as described in [INSTALLATION.md](INSTALLATION.md).
 
 ---
 
@@ -130,6 +130,7 @@ This integration follows the Metronic license terms. **You must have a valid Met
 ## Support & Resources
 - [GETTING_STARTED.md](GETTING_STARTED.md): Beginner-friendly guide
 - [INSTALLATION.md](INSTALLATION.md): Detailed setup and troubleshooting
+- [INTEGRATION.md](INTEGRATION.md): Complete guide for converting Metronic HTML to Flask
 - [Flask Documentation](https://flask.palletsprojects.com/)
 - [Metronic Documentation](https://keenthemes.com/metronic/tailwind/docs)
 
