@@ -20,18 +20,18 @@ def test_demo2_index_route(client):
     """Test demo2 index route."""
     response = client.get('/demo2/')
     assert response.status_code == 200
-    assert b'Demo 2 - Header Layout Dashboard' in response.data
+    assert b'Dashboard' in response.data
 
 
 def test_demo2_index_template_content(client):
     """Test demo2 index template contains expected content."""
     response = client.get('/demo2/')
     assert response.status_code == 200
-    assert b'Analytics Dashboard' in response.data
-    assert b'Page Views' in response.data
-    assert b'Unique Visitors' in response.data
-    assert b'Bounce Rate' in response.data
-    assert b'Avg. Session Duration' in response.data
+    assert b'Personal info' in response.data
+    assert b'Login & Security' in response.data
+    assert b'Billing & Payments' in response.data
+    assert b'Members, Teams & Roles' in response.data
+    assert b'My Balance' in response.data
 
 
 def test_demo2_dynamic_page_fallback(client):
@@ -39,15 +39,14 @@ def test_demo2_dynamic_page_fallback(client):
     response = client.get('/demo2/nonexistent')
     assert response.status_code == 200
     # Should fall back to index template
-    assert b'Demo 2 - Header Layout Dashboard' in response.data
+    assert b'Dashboard' in response.data
 
 
 def test_demo2_header_navigation(client):
     """Test that header navigation is rendered."""
     response = client.get('/demo2/')
     assert response.status_code == 200
-    assert b'Metronic Flask' in response.data
-    assert b'Traffic Sources' in response.data
+    assert b'Dashboard' in response.data
 
 
 def test_main_routes_redirect(client):

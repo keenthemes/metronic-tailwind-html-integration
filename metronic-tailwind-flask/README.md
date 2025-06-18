@@ -95,11 +95,11 @@ metronic-tailwind-flask/
 ## Testing
 Run the test suite:
 ```bash
-pytest
+pytest tests -v
 ```
 With coverage:
 ```bash
-pytest --cov=app
+pytest tests --cov=app
 ```
 
 ---

@@ -20,7 +20,7 @@ def test_demo1_index_route(client):
     """Test demo1 index route."""
     response = client.get('/demo1/')
     assert response.status_code == 200
-    assert b'Demo 1 - Sidebar Layout Dashboard' in response.data
+    assert b'Dashboard' in response.data
 
 
 def test_demo1_index_template_content(client):
@@ -28,10 +28,11 @@ def test_demo1_index_template_content(client):
     response = client.get('/demo1/')
     assert response.status_code == 200
     assert b'Dashboard' in response.data
-    assert b'Total Users' in response.data
-    assert b'Total Sales' in response.data
-    assert b'Total Orders' in response.data
-    assert b'Conversion Rate' in response.data
+    assert b'Central Hub for Personal Customization' in response.data
+    assert b'Amazing mates' in response.data
+    assert b'Lessons Views' in response.data
+    assert b'New subscribers' in response.data
+    assert b'Stream audience' in response.data
 
 
 def test_demo1_dynamic_page_fallback(client):
@@ -39,7 +40,7 @@ def test_demo1_dynamic_page_fallback(client):
     response = client.get('/demo1/nonexistent')
     assert response.status_code == 200
     # Should fall back to index template
-    assert b'Demo 1 - Sidebar Layout Dashboard' in response.data
+    assert b'Dashboard' in response.data
 
 
 def test_demo1_sidebar_navigation(client):

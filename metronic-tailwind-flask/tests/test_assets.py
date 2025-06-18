@@ -20,19 +20,9 @@ def test_asset_files():
         'vendors/apexcharts/apexcharts.min.js'
     ]
 
-    print("🔍 Checking required asset files...")
-    all_exist = True
-
     for asset in required_assets:
         asset_path = os.path.join(static_folder, asset)
-        if os.path.exists(asset_path):
-            file_size = os.path.getsize(asset_path)
-            print(f"✅ {asset} ({file_size:,} bytes)")
-        else:
-            print(f"❌ {asset} - NOT FOUND")
-            all_exist = False
-
-    return all_exist
+        assert os.path.exists(asset_path), f"Asset {asset} not found at {asset_path}"
 
 
 def test_asset_urls():
@@ -43,8 +33,6 @@ def test_asset_urls():
     with app.app_context():
         from flask import url_for
 
-        print("\n🔗 Testing asset URL generation...")
-
         test_assets = [
             ('css/styles.css', 'Main CSS'),
             ('js/core.bundle.js', 'Core JS'),
@@ -53,94 +41,50 @@ def test_asset_urls():
         ]
 
         for asset_path, description in test_assets:
-            try:
-                url = url_for('static', filename=asset_path)
-                print(f"✅ {description}: {url}")
-            except Exception as e:
-                print(f"❌ {description}: Error - {e}")
-                return False
-
-        return True
+            url = url_for('static', filename=asset_path)
+            assert url is not None, f"Failed to generate URL for {description}"
+            assert asset_path in url, f"URL {url} doesn't contain asset path {asset_path}"
 
 
 def test_flask_serving():
     """Test Flask serving with test client."""
     app = create_app()
 
-    print("\n🌐 Testing Flask asset serving...")
-
     with app.test_client() as client:
         # Test main CSS file
         response = client.get('/assets/css/styles.css')
-        if response.status_code == 200:
-            print(f"✅ CSS file served (Content-Type: {response.content_type})")
-        else:
-            print(f"❌ CSS file failed: {response.status_code}")
-            return False
+        assert response.status_code == 200, f"CSS file failed with status {response.status_code}"
 
         # Test main JS file
         response = client.get('/assets/js/core.bundle.js')
-        if response.status_code == 200:
-            print(f"✅ JS file served (Content-Type: {response.content_type})")
-        else:
-            print(f"❌ JS file failed: {response.status_code}")
-            return False
+        assert response.status_code == 200, f"JS file failed with status {response.status_code}"
 
         # Test demo page rendering
         response = client.get('/demo1/')
-        if response.status_code == 200:
-            html_content = response.get_data(as_text=True)
-            if 'css/styles.css' in html_content:
-                print("✅ Demo page includes CSS reference")
-            else:
-                print("❌ Demo page missing CSS reference")
-                return False
+        assert response.status_code == 200, f"Demo page failed with status {response.status_code}"
 
-            if 'js/core.bundle.js' in html_content:
-                print("✅ Demo page includes JS reference")
-            else:
-                print("❌ Demo page missing JS reference")
-                return False
-        else:
-            print(f"❌ Demo page failed: {response.status_code}")
-            return False
-
-        return True
+        html_content = response.get_data(as_text=True)
+        assert 'css/styles.css' in html_content, "Demo page missing CSS reference"
+        assert 'js/core.bundle.js' in html_content, "Demo page missing JS reference"
 
 
 def test_template_references():
     """Test that templates reference the correct assets."""
-    print("\n📄 Checking template asset references...")
-
     # Check head.html
     head_path = 'templates/partials/head.html'
-    if os.path.exists(head_path):
-        with open(head_path, 'r') as f:
-            head_content = f.read()
-            if 'css/styles.css' in head_content:
-                print("✅ head.html references correct CSS file")
-            else:
-                print("❌ head.html missing correct CSS reference")
-                return False
-    else:
-        print("❌ head.html not found")
-        return False
+    assert os.path.exists(head_path), "head.html not found"
+
+    with open(head_path, 'r') as f:
+        head_content = f.read()
+        assert 'css/styles.css' in head_content, "head.html missing correct CSS reference"
 
     # Check scripts.html
     scripts_path = 'templates/partials/scripts.html'
-    if os.path.exists(scripts_path):
-        with open(scripts_path, 'r') as f:
-            scripts_content = f.read()
-            if 'js/core.bundle.js' in scripts_content:
-                print("✅ scripts.html references correct JS file")
-            else:
-                print("❌ scripts.html missing correct JS reference")
-                return False
-    else:
-        print("❌ scripts.html not found")
-        return False
+    assert os.path.exists(scripts_path), "scripts.html not found"
 
-    return True
+    with open(scripts_path, 'r') as f:
+        scripts_content = f.read()
+        assert 'js/core.bundle.js' in scripts_content, "scripts.html missing correct JS reference"
 
 
 def main():
@@ -160,10 +104,12 @@ def main():
 
     for test_name, test_func in tests:
         print(f"\n📋 Testing {test_name}...")
-        if test_func():
+        try:
+            test_func()
             passed += 1
-        else:
-            print(f"❌ {test_name} test failed")
+            print(f"✅ {test_name} test passed")
+        except AssertionError as e:
+            print(f"❌ {test_name} test failed: {e}")
 
     print("\n" + "=" * 50)
     print(f"📊 Asset Test Results: {passed}/{total} tests passed")
