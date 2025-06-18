@@ -11,11 +11,6 @@ class HomeController extends AbstractController
     #[Route('/', name: 'home')]
     public function index(): Response
     {
-        return $this->render('home.html.twig', [
-            'demos' => [
-                ['name' => 'Demo 1 - Sidebar Layout', 'url' => '/demo1', 'description' => 'Classic sidebar navigation with dashboard'],
-                ['name' => 'Demo 2 - Header Layout', 'url' => '/demo2', 'description' => 'Modern header navigation with project management']
-            ]
-        ]);
+        return $this->redirectToRoute('demo1_index');
     }
 }
