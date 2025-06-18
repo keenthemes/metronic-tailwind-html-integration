@@ -22,12 +22,15 @@ The seed projects are compatible with the latest version of Metronic and are mai
 
 ## Framework Guides
 
-- [React](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/react)
-- [Next.js](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/nextjs)
+- [React](https://docs.keenthemes.com/metronic-react)
+- [Next.js](https://docs.keenthemes.com/metronic-nextjs)
 - [Vue](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/vue)
 - [Angular](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/angular)
 - [Laravel](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/laravel)
 - [Blazor Server](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/blazor-server)
+- [Flask](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/flask)
+- [Django](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/django)
+- [Symfony](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/symfony)
 
 ## Metronic Composer
 
