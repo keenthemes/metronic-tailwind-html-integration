@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="h-full" data-kt-theme="true" data-kt-theme-mode="light" dir="ltr" lang="en">
+<head>
+    {% include 'partials/head.html' %}
+</head>
+<body class="antialiased flex h-full text-base text-foreground bg-background demo1 kt-sidebar-fixed kt-header-fixed">
+    {% include 'partials/theme-mode.html' %}
+
+    <!-- Page -->
+    <!-- Main -->
+    <div class="flex grow">
+        {% include 'demo1/partials/sidebar.html' %}
+
+        <!-- Wrapper -->
+        <div class="kt-wrapper flex grow flex-col">
+            {% include 'demo1/partials/header.html' %}
+
+            <!-- Content -->
+            <main class="grow pt-5" id="content" role="content">
+                {% block content %}{% endblock %}
+            </main>
+            <!-- End of Content -->
+
+            {% include 'demo1/partials/footer.html' %}
+        </div>
+        <!-- End of Wrapper -->
+    </div>
+    <!-- End of Main -->
+    <!-- End of Page -->
+
+    {% include 'partials/scripts.html' %}
+</body>
+</html>

@@ -1,0 +1,6 @@
+Django>=5.1.0,<5.2.0
+pytest-django>=4.8.0
+whitenoise>=6.6.0
+coverage>=7.4.0
+pytest-xdist>=3.5.0
+pytest-randomly>=3.15.0
