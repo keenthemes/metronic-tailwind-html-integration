@@ -1,0 +1,54 @@
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###
+
+###> symfony/asset-mapper ###
+/public/assets/
+/assets/vendor/
+###< symfony/asset-mapper ###
+
+# Metronic core assets
+/assets/css/
+/assets/fonts/
+/assets/js/
+/assets/media/
+/assets/vendors/
+
+# Additional Symfony development files
+/.env.test.local
+/public/hot
+/public/storage
+/storage/*.key
+/tests/coverage/
+/.phpunit.result.cache
+
+# IDE and OS files specific to project
+/.vscode/
+/.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Composer
+/auth.json
+
+# Node.js (if used for build tools)
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Build artifacts
+/build/
+/dist/
