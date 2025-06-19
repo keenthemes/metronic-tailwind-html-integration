@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Metronic Custom Styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  /* Metronic Button Styles */
+  .kt-btn {
+    @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .kt-btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500;
+  }
+
+  .kt-btn-outline {
+    @apply border border-border bg-transparent text-foreground hover:bg-background hover:text-foreground;
+  }
+
+  .kt-btn-ghost {
+    @apply bg-transparent text-foreground hover:bg-background;
+  }
+
+  .kt-btn-icon {
+    @apply p-2;
+  }
+
+  .kt-btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+
+  /* Card Styles */
+  .kt-card {
+    @apply bg-background border border-border rounded-lg shadow-sm;
+  }
+
+  .kt-card-header {
+    @apply flex items-center justify-between p-5 border-b border-border;
+  }
+
+  .kt-card-title {
+    @apply text-lg font-semibold text-foreground;
+  }
+
+  .kt-card-content {
+    @apply p-5;
+  }
+
+  .kt-card-footer {
+    @apply flex items-center justify-between p-5 border-t border-border;
+  }
+
+  /* Menu Styles */
+  .kt-menu {
+    @apply bg-background border border-border rounded-lg shadow-lg;
+  }
+
+  .kt-menu-item {
+    @apply relative;
+  }
+
+  .kt-menu-link {
+    @apply flex items-center px-4 py-2 text-sm text-foreground hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors;
+  }
+
+  .kt-menu-icon {
+    @apply w-5 h-5 mr-3 text-muted-foreground;
+  }
+
+  .kt-menu-title {
+    @apply flex-1;
+  }
+
+  .kt-menu-arrow {
+    @apply ml-auto;
+  }
+
+  /* Container Styles */
+  .kt-container-fixed {
+    @apply container mx-auto px-4 lg:px-8;
+  }
+
+  /* Header Styles */
+  .kt-header {
+    @apply bg-background border-b border-border;
+  }
+
+  /* Wrapper Styles */
+  .kt-wrapper {
+    @apply min-h-0;
+  }
+
+  /* Link Styles */
+  .kt-link {
+    @apply text-blue-600 hover:text-blue-800 font-medium transition-colors;
+  }
+
+  .kt-link-underlined {
+    @apply underline;
+  }
+
+  .kt-link-dashed {
+    @apply border-b border-dashed border-current;
+  }
+
+  /* Toggle Group */
+  .kt-toggle-group {
+    @apply inline-flex rounded-lg border border-border;
+  }
+
+  .kt-toggle-group .kt-btn {
+    @apply rounded-none border-0 first:rounded-l-lg last:rounded-r-lg;
+  }
+}
+
+@layer utilities {
+  /* Custom spacing utilities */
+  .space-x-2\.5 > * + * {
+    margin-left: 0.625rem;
+  }
+
+  .gap-7\.5 {
+    gap: 1.875rem;
+  }
+
+  /* Hide scrollbar but allow scrolling */
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+}
