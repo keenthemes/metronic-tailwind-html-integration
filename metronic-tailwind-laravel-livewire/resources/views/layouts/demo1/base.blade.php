@@ -14,7 +14,9 @@
 
             <!-- Wrapper -->
             <div class="kt-wrapper flex grow flex-col">
+                @persist('mega-menu')
                 <livewire:demo1.header />
+                @endpersist
 
                 <!-- Content -->
                 <main class="grow pt-5" id="content" role="content">
