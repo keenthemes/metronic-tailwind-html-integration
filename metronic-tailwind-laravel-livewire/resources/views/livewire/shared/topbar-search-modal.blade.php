@@ -1,6 +1,7 @@
 <div>
-    <button class="group kt-btn kt-btn-ghost kt-btn-icon size-9 rounded-full hover:bg-primary/10 hover:[&_i]:text-primary">
-        <i class="ki-filled ki-magnifier text-lg group-hover:text-primary">
+    <button
+        class="kt-btn kt-btn-ghost kt-btn-icon hover:bg-primary/10 hover:[&_i]:text-primary group size-9 rounded-full">
+        <i class="ki-filled ki-magnifier group-hover:text-primary text-lg">
         </i>
     </button>
 </div>
