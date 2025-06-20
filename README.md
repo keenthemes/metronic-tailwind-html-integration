@@ -31,6 +31,7 @@ The seed projects are compatible with the latest version of Metronic and are mai
 - [Flask](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/flask)
 - [Django](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/django)
 - [Symfony](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/symfony)
+- [Laravel Livewire](https://keenthemes.com/metronic/tailwind/docs/getting-started/integration/laravel-livewire)
 
 ## Metronic Composer
 
