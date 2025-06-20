@@ -2,30 +2,32 @@
 <html class="h-full" data-kt-theme="true" data-kt-theme-mode="light" dir="ltr" lang="en">
 <head>
     @include('layouts.partials.head')
+    @livewireStyles
 </head>
 <body class="antialiased flex h-full text-base text-foreground bg-background [--header-height:100px] data-[kt-sticky-header=on]:[--header-height:60px]">
-    @include('layouts.partials.theme-mode')
+    <livewire:shared.theme-toggle />
 
     <!-- Main -->
 	<div class="flex grow flex-col in-data-[kt-sticky-header=on]:pt-(--header-height)">
 		<!-- Header -->
-		@include('layouts.demo2.partials.header')
+		<livewire:demo2.header />
 
 		<!-- Navbar -->
-		@include('layouts.demo2.partials.navbar')
+		<livewire:demo2.navbar />
 
 		<!-- Toolbar -->
-		@include('layouts.demo2.partials.toolbar')
+		<livewire:demo2.toolbar />
 
 		<!-- Content -->
 		<main class="grow" id="content" role="content">
-			@yield('content')
+			{{ $slot }}
 		</main>
 
 		<!-- Footer -->
-		@include('layouts.demo2.partials.footer')
+		<livewire:demo2.footer />
     </div>
 
     @include('layouts.partials.scripts')
+    @livewireScripts
 </body>
 </html>

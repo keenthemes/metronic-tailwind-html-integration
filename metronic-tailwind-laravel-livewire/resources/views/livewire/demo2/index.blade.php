@@ -1,7 +1,5 @@
-@extends('demo2/base')
-
-@section('content')
-    <!-- Container -->
+<div>
+<!-- Container -->
     <div class="kt-container-fixed" id="contentContainer">
     </div>
     <!-- End of Container -->
@@ -34,7 +32,7 @@
            </div>
           </div>
           <div class="mb-4">
-           <a class="kt-link" href="{{ url(\'html/demo2/account/members/team-info.html\') }}">
+           <a class="kt-link" href="html/demo2/account/members/team-info.html">
             View page
             <i class="ki-filled ki-right text-xs">
             </i>
@@ -55,7 +53,7 @@
            </div>
           </div>
           <div class="mb-4">
-           <a class="kt-link" href="{{ url(\'html/demo2/account/security/security-log.html\') }}">
+           <a class="kt-link" href="html/demo2/account/security/security-log.html">
             View page
             <i class="ki-filled ki-right text-xs">
             </i>
@@ -76,7 +74,7 @@
            </div>
           </div>
           <div class="mb-4">
-           <a class="kt-link" href="{{ url(\'html/demo2/account/billing/basic.html\') }}">
+           <a class="kt-link" href="html/demo2/account/billing/basic.html">
             View page
             <i class="ki-filled ki-right text-xs">
             </i>
@@ -97,7 +95,7 @@
            </div>
           </div>
           <div class="mb-4">
-           <a class="kt-link" href="{{ url(\'html/demo2/account/members/roles.html\') }}">
+           <a class="kt-link" href="html/demo2/account/members/roles.html">
             View page
             <i class="ki-filled ki-right text-xs">
             </i>
@@ -120,7 +118,7 @@
             </button>
             <div class="kt-menu-dropdown kt-menu-default w-full max-w-[200px]" data-kt-menu-dismiss="true">
              <div class="kt-menu-item">
-              <a class="kt-menu-link" href="{{ url(\'html/demo2/account/home/settings-enterprise.html\') }}">
+              <a class="kt-menu-link" href="html/demo2/account/home/settings-enterprise.html">
                <span class="kt-menu-icon">
                 <i class="ki-filled ki-setting-3">
                 </i>
@@ -131,7 +129,7 @@
               </a>
              </div>
              <div class="kt-menu-item">
-              <a class="kt-menu-link" href="{{ url(\'html/demo2/account/members/import-members.html\') }}">
+              <a class="kt-menu-link" href="html/demo2/account/members/import-members.html">
                <span class="kt-menu-icon">
                 <i class="ki-filled ki-some-files">
                 </i>
@@ -142,7 +140,7 @@
               </a>
              </div>
              <div class="kt-menu-item">
-              <a class="kt-menu-link" href="{{ url(\'html/demo2/account/activity.html\') }}">
+              <a class="kt-menu-link" href="html/demo2/account/activity.html">
                <span class="kt-menu-icon">
                 <i class="ki-filled ki-cloud-change">
                 </i>
@@ -215,13 +213,13 @@
           <div class="flex flex-col justify-center gap-4">
            <div class="flex -space-x-2">
             <div class="flex">
-             <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="{{ asset(\'assets/media/avatars/300-4.png\') }}"/>
+             <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="assets/media/avatars/300-4.png"/>
             </div>
             <div class="flex">
-             <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="{{ asset(\'assets/media/avatars/300-1.png\') }}"/>
+             <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="assets/media/avatars/300-1.png"/>
             </div>
             <div class="flex">
-             <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="{{ asset(\'assets/media/avatars/300-2.png\') }}"/>
+             <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="assets/media/avatars/300-2.png"/>
             </div>
             <div class="flex">
              <span class="hover:z-5 relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-10 text-white text-xs ring-background bg-green-500">
@@ -247,7 +245,7 @@
           </div>
          </div>
          <div class="kt-card-footer justify-center">
-          <a class="kt-link kt-link-underlined kt-link-dashed" href="{{ url(\'html/demo2/account/home/get-started.html\') }}">
+          <a class="kt-link kt-link-underlined kt-link-dashed" href="html/demo2/account/home/get-started.html">
            Get Started
           </a>
          </div>
@@ -321,7 +319,7 @@
           <div class="grid gap-5">
            <div class="flex items-center justify-between flex-wrap border border-border dark:bg-secondary-transparent rounded-xl gap-2 p-3.5">
             <div class="flex items-center flex-wrap gap-3.5">
-             <img alt="" class="size-8 shrink-0" src="{{ asset(\'assets/media/brand-logos/google-webdev.svg\') }}"/>
+             <img alt="" class="size-8 shrink-0" src="assets/media/brand-logos/google-webdev.svg"/>
              <div class="flex flex-col">
               <div class="flex items-center gap-1.5">
                <a class="text-sm font-medium text-mono hover:text-primary" href="#">
@@ -346,7 +344,7 @@
            </div>
            <div class="flex items-center justify-between flex-wrap border border-border dark:bg-secondary-transparent rounded-xl gap-2 p-3.5">
             <div class="flex items-center flex-wrap gap-3.5">
-             <img alt="" class="size-8 shrink-0" src="{{ asset(\'assets/media/brand-logos/equacoin.svg\') }}"/>
+             <img alt="" class="size-8 shrink-0" src="assets/media/brand-logos/equacoin.svg"/>
              <div class="flex flex-col">
               <div class="flex items-center gap-1.5">
                <a class="text-sm font-medium text-mono hover:text-primary" href="#">
@@ -371,7 +369,7 @@
            </div>
            <div class="flex items-center justify-between flex-wrap border border-border dark:bg-secondary-transparent rounded-xl gap-2 p-3.5">
             <div class="flex items-center flex-wrap gap-3.5">
-             <img alt="" class="size-8 shrink-0" src="{{ asset(\'assets/media/brand-logos/evernote.svg\') }}"/>
+             <img alt="" class="size-8 shrink-0" src="assets/media/brand-logos/evernote.svg"/>
              <div class="flex flex-col">
               <div class="flex items-center gap-1.5">
                <a class="text-sm font-medium text-mono hover:text-primary" href="#">
@@ -396,7 +394,7 @@
            </div>
            <div class="flex items-center justify-between flex-wrap border border-border dark:bg-secondary-transparent rounded-xl gap-2 p-3.5">
             <div class="flex items-center flex-wrap gap-3.5">
-             <img alt="" class="size-8 shrink-0" src="{{ asset(\'assets/media/brand-logos/inferno.svg\') }}"/>
+             <img alt="" class="size-8 shrink-0" src="assets/media/brand-logos/inferno.svg"/>
              <div class="flex flex-col">
               <div class="flex items-center gap-1.5">
                <a class="text-sm font-medium text-mono hover:text-primary" href="#">
@@ -445,10 +443,10 @@
            <div class="flex items-center justify-between gap-2.5">
             <div class="flex items-center gap-2.5">
              <div class="">
-              <img class="h-9 rounded-full" src="{{ asset(\'assets/media/avatars/gray/1.png\') }}"/>
+              <img class="h-9 rounded-full" src="assets/media/avatars/gray/1.png"/>
              </div>
              <div class="flex flex-col gap-0.5">
-              <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="{{ url(\'html/demo2/public-profile/teams.html\') }}">
+              <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="html/demo2/public-profile/teams.html">
                Esther Howard
               </a>
               <span class="text-sm text-secondary-foreground">
@@ -466,10 +464,10 @@
            <div class="flex items-center justify-between gap-2.5">
             <div class="flex items-center gap-2.5">
              <div class="">
-              <img class="h-9 rounded-full" src="{{ asset(\'assets/media/avatars/gray/2.png\') }}"/>
+              <img class="h-9 rounded-full" src="assets/media/avatars/gray/2.png"/>
              </div>
              <div class="flex flex-col gap-0.5">
-              <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="{{ url(\'html/demo2/public-profile/teams.html\') }}">
+              <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="html/demo2/public-profile/teams.html">
                Tyler Hero
               </a>
               <span class="text-sm text-secondary-foreground">
@@ -487,10 +485,10 @@
            <div class="flex items-center justify-between gap-2.5">
             <div class="flex items-center gap-2.5">
              <div class="">
-              <img class="h-9 rounded-full" src="{{ asset(\'assets/media/avatars/gray/3.png\') }}"/>
+              <img class="h-9 rounded-full" src="assets/media/avatars/gray/3.png"/>
              </div>
              <div class="flex flex-col gap-0.5">
-              <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="{{ url(\'html/demo2/public-profile/teams.html\') }}">
+              <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="html/demo2/public-profile/teams.html">
                Arlene McCoy
               </a>
               <span class="text-sm text-secondary-foreground">
@@ -508,10 +506,10 @@
            <div class="flex items-center justify-between gap-2.5">
             <div class="flex items-center gap-2.5">
              <div class="">
-              <img class="h-9 rounded-full" src="{{ asset(\'assets/media/avatars/gray/4.png\') }}"/>
+              <img class="h-9 rounded-full" src="assets/media/avatars/gray/4.png"/>
              </div>
              <div class="flex flex-col gap-0.5">
-              <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="{{ url(\'html/demo2/public-profile/teams.html\') }}">
+              <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="html/demo2/public-profile/teams.html">
                Cody Fisher
               </a>
               <span class="text-sm text-secondary-foreground">
@@ -652,13 +650,13 @@
                 <td>
                  <div class="flex -space-x-2">
                   <div class="flex">
-                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset(\'assets/media/avatars/300-4.png\') }}"/>
+                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-4.png"/>
                   </div>
                   <div class="flex">
-                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset(\'assets/media/avatars/300-1.png\') }}"/>
+                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-1.png"/>
                   </div>
                   <div class="flex">
-                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset(\'assets/media/avatars/300-2.png\') }}"/>
+                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-2.png"/>
                   </div>
                   <div class="flex">
                    <span class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-green-500">
@@ -723,7 +721,7 @@
                 <td>
                  <div class="flex -space-x-2">
                   <div class="flex">
-                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset(\'assets/media/avatars/300-4.png\') }}"/>
+                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-4.png"/>
                   </div>
                   <div class="flex">
                    <span class="hover:z-5 relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] uppercase text-white ring-background bg-yellow-500">
@@ -788,13 +786,13 @@
                 <td>
                  <div class="flex -space-x-2">
                   <div class="flex">
-                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset(\'assets/media/avatars/300-4.png\') }}"/>
+                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-4.png"/>
                   </div>
                   <div class="flex">
-                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset(\'assets/media/avatars/300-1.png\') }}"/>
+                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-1.png"/>
                   </div>
                   <div class="flex">
-                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset(\'assets/media/avatars/300-2.png\') }}"/>
+                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-2.png"/>
                   </div>
                   <div class="flex">
                    <span class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-violet-500">
@@ -859,10 +857,10 @@
                 <td>
                  <div class="flex -space-x-2">
                   <div class="flex">
-                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset(\'assets/media/avatars/300-24.png\') }}"/>
+                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-24.png"/>
                   </div>
                   <div class="flex">
-                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset(\'assets/media/avatars/300-7.png\') }}"/>
+                   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-7.png"/>
                   </div>
                  </div>
                 </td>
@@ -955,4 +953,4 @@
      </div>
     </div>
     <!-- End of Container -->
-@endsection
+</div>

@@ -1,6 +1,4 @@
-@extends('livewire.demo1.base')
-
-@section('content')
+<div>
 <!-- Container -->
 <div class="kt-container-fixed" id="contentContainer">
 </div>
@@ -17,7 +15,7 @@
    </div>
   </div>
   <div class="flex items-center gap-2.5">
-   <a class="kt-btn kt-btn-outline" href="{{ url('html/demo1/public-profile/profiles/default.html') }}">
+   <a class="kt-btn kt-btn-outline" href="html/demo1/public-profile/profiles/default.html">
 	View Profile
    </a>
   </div>
@@ -33,14 +31,14 @@
 	<div class="grid grid-cols-2 gap-5 lg:gap-7.5 h-full items-stretch">
 	 <style>
 	  .channel-stats-bg {
-   background-image: url('{{ asset('assets/media/images/2600x1600/bg-3.png') }}');
+   background-image: url('assets/media/images/2600x1600/bg-3.png');
 }
 .dark .channel-stats-bg {
-   background-image: url('{{ asset('assets/media/images/2600x1600/bg-3-dark.png') }}');
+   background-image: url('assets/media/images/2600x1600/bg-3-dark.png');
 }
 	 </style>
 	 <div class="kt-card flex-col justify-between gap-6 h-full bg-cover rtl:bg-[left_top_-1.7rem] bg-[right_top_-1.7rem] bg-no-repeat channel-stats-bg">
-	  <img alt="" class="w-7 mt-4 ms-5" src="{{ asset('assets/media/brand-logos/linkedin-2.svg') }}"/>
+	  <img alt="" class="w-7 mt-4 ms-5" src="assets/media/brand-logos/linkedin-2.svg"/>
 	  <div class="flex flex-col gap-1 pb-4 px-5">
 	   <span class="text-3xl font-semibold text-mono">
 		9.3k
@@ -51,7 +49,7 @@
 	  </div>
 	 </div>
 	 <div class="kt-card flex-col justify-between gap-6 h-full bg-cover rtl:bg-[left_top_-1.7rem] bg-[right_top_-1.7rem] bg-no-repeat channel-stats-bg">
-	  <img alt="" class="w-7 mt-4 ms-5" src="{{ asset('assets/media/brand-logos/youtube-2.svg') }}"/>
+	  <img alt="" class="w-7 mt-4 ms-5" src="assets/media/brand-logos/youtube-2.svg"/>
 	  <div class="flex flex-col gap-1 pb-4 px-5">
 	   <span class="text-3xl font-semibold text-mono">
 		24k
@@ -62,7 +60,7 @@
 	  </div>
 	 </div>
 	 <div class="kt-card flex-col justify-between gap-6 h-full bg-cover rtl:bg-[left_top_-1.7rem] bg-[right_top_-1.7rem] bg-no-repeat channel-stats-bg">
-	  <img alt="" class="w-7 mt-4 ms-5" src="{{ asset('assets/media/brand-logos/instagram-03.svg') }}"/>
+	  <img alt="" class="w-7 mt-4 ms-5" src="assets/media/brand-logos/instagram-03.svg"/>
 	  <div class="flex flex-col gap-1 pb-4 px-5">
 	   <span class="text-3xl font-semibold text-mono">
 		608
@@ -73,8 +71,8 @@
 	  </div>
 	 </div>
 	 <div class="kt-card flex-col justify-between gap-6 h-full bg-cover rtl:bg-[left_top_-1.7rem] bg-[right_top_-1.7rem] bg-no-repeat channel-stats-bg">
-	  <img alt="" class="dark:hidden w-7 mt-4 ms-5" src="{{ asset('assets/media/brand-logos/tiktok.svg') }}"/>
-	  <img alt="" class="hidden dark:block w-7 mt-4 ms-5" src="{{ asset('assets/media/brand-logos/tiktok-dark.svg') }}"/>
+	  <img alt="" class="dark:hidden w-7 mt-4 ms-5" src="assets/media/brand-logos/tiktok.svg"/>
+	  <img alt="" class="hidden dark:block w-7 mt-4 ms-5" src="assets/media/brand-logos/tiktok-dark.svg"/>
 	  <div class="flex flex-col gap-1 pb-4 px-5">
 	   <span class="text-3xl font-semibold text-mono">
 		2.5k
@@ -89,10 +87,10 @@
    <div class="lg:col-span-2">
 	<style>
 	 .entry-callout-bg {
-   background-image: url('{{ asset('assets/media/images/2600x1600/2.png') }}');
+   background-image: url('assets/media/images/2600x1600/2.png');
 }
 .dark .entry-callout-bg {
-   background-image: url('{{ asset('assets/media/images/2600x1600/2-dark.png') }}');
+   background-image: url('assets/media/images/2600x1600/2-dark.png');
 }
 	</style>
 	<div class="kt-card h-full h-full">
@@ -100,13 +98,13 @@
 	  <div class="flex flex-col justify-center gap-4">
 	   <div class="flex -space-x-2">
 		<div class="flex">
-		 <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="{{ asset('assets/media/avatars/300-4.png') }}"/>
+		 <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="assets/media/avatars/300-4.png"/>
 		</div>
 		<div class="flex">
-		 <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="{{ asset('assets/media/avatars/300-1.png') }}"/>
+		 <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="assets/media/avatars/300-1.png"/>
 		</div>
 		<div class="flex">
-		 <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="{{ asset('assets/media/avatars/300-2.png') }}"/>
+		 <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-10" src="assets/media/avatars/300-2.png"/>
 		</div>
 		<div class="flex">
 		 <span class="hover:z-5 relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-10 text-white text-xs ring-background bg-green-500">
@@ -132,7 +130,7 @@
 	  </div>
 	 </div>
 	 <div class="kt-card-footer justify-center">
-	  <a class="kt-link kt-link-underlined kt-link-dashed" href="{{ url('html/demo1/account/home/get-started.html') }}">
+	  <a class="kt-link kt-link-underlined kt-link-dashed" href="html/demo1/account/home/get-started.html">
 	   Get Started
 	  </a>
 	 </div>
@@ -156,7 +154,7 @@
 		</button>
 		<div class="kt-menu-dropdown kt-menu-default w-full max-w-[200px]" data-kt-menu-dismiss="true">
 		 <div class="kt-menu-item">
-		  <a class="kt-menu-link" href="{{ url('html/demo1/account/activity.html') }}">
+		  <a class="kt-menu-link" href="html/demo1/account/activity.html">
 		   <span class="kt-menu-icon">
 			<i class="ki-filled ki-cloud-change">
 			</i>
@@ -193,18 +191,18 @@
 		  </div>
 		  <div class="kt-menu-dropdown kt-menu-default w-full max-w-[175px]">
 		   <div class="kt-menu-item">
-			<a class="kt-menu-link" href="{{ url('html/demo1/account/home/settings-sidebar.html') }}">
+			<a class="kt-menu-link" href="html/demo1/account/home/settings-sidebar.html">
 			 <span class="kt-menu-icon">
 			  <i class="ki-filled ki-sms">
 			  </i>
 			 </span>
 			 <span class="kt-menu-title">
-			  SMS
+			  Email
 			 </span>
 			</a>
 		   </div>
 		   <div class="kt-menu-item">
-			<a class="kt-menu-link" href="{{ url('html/demo1/account/home/settings-sidebar.html') }}">
+			<a class="kt-menu-link" href="html/demo1/account/home/settings-sidebar.html">
 			 <span class="kt-menu-icon">
 			  <i class="ki-filled ki-message-notify">
 			  </i>
@@ -215,7 +213,7 @@
 			</a>
 		   </div>
 		   <div class="kt-menu-item">
-			<a class="kt-menu-link" href="{{ url('html/demo1/account/home/settings-sidebar.html') }}">
+			<a class="kt-menu-link" href="html/demo1/account/home/settings-sidebar.html">
 			 <span class="kt-menu-icon">
 			  <i class="ki-filled ki-notification-status">
 			  </i>
@@ -241,7 +239,7 @@
 		 <div class="kt-menu-separator">
 		 </div>
 		 <div class="kt-menu-item">
-		  <a class="kt-menu-link" href="{{ url('html/demo1/account/home/settings-enterprise.html') }}">
+		  <a class="kt-menu-link" href="html/demo1/account/home/settings-enterprise.html">
 		   <span class="kt-menu-icon">
 			<i class="ki-filled ki-setting-3">
 			</i>
@@ -418,7 +416,7 @@
 		 09:00 - 09:30
 		</span>
 	   </div>
-	   <img alt="" class="size-7" src="{{ asset('assets/media/brand-logos/zoom.svg') }}"/>
+	   <img alt="" class="size-7" src="assets/media/brand-logos/zoom.svg"/>
 	  </div>
 	  <p class="text-sm font-normal text-foreground leading-5.5 mb-8">
 	   Team meeting to discuss strategies, outline
@@ -446,13 +444,13 @@
 		</div>
 		<div class="flex -space-x-2">
 		 <div class="flex">
-		  <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-4.png') }}"/>
+		  <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-4.png"/>
 		 </div>
 		 <div class="flex">
-		  <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-1.png') }}"/>
+		  <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-1.png"/>
 		 </div>
 		 <div class="flex">
-		  <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-2.png') }}"/>
+		  <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-2.png"/>
 		 </div>
 		 <div class="flex">
 		  <span class="hover:z-5 relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white text-xs ring-background bg-green-500">
@@ -586,13 +584,13 @@
 			<td>
 			 <div class="flex -space-x-2">
 			  <div class="flex">
-			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-4.png') }}"/>
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-4.png"/>
 			  </div>
 			  <div class="flex">
-			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-1.png') }}"/>
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-1.png"/>
 			  </div>
 			  <div class="flex">
-			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-2.png') }}"/>
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-2.png"/>
 			  </div>
 			  <div class="flex">
 			   <span class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-green-500">
@@ -602,7 +600,911 @@
 			 </div>
 			</td>
 		   </tr>
-		   {{-- Additional table rows would continue here with similar asset() conversions --}}
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="2"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   Marketing Team
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Campaigns & market analysis
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label indeterminate">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none" style="width: 50.0%">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 15 Oct, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-4.png"/>
+			  </div>
+			  <div class="flex">
+			   <span class="hover:z-5 relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] uppercase text-white ring-background bg-yellow-500">
+				g
+			   </span>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="3"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   HR Department
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Talent acquisition, employee welfare
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 10 Oct, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-4.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-1.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-2.png"/>
+			  </div>
+			  <div class="flex">
+			   <span class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-violet-500">
+				+A
+			   </span>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="4"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   Sales Division
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Customer relations, sales strategy
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 05 Oct, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-24.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-7.png"/>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="5"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   Development Team
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Software development
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label indeterminate">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none" style="width: 50.0%">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 01 Oct, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-3.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-8.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-9.png"/>
+			  </div>
+			  <div class="flex">
+			   <span class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-destructive">
+				+5
+			   </span>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="6"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   Quality Assurance
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Product testing
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 25 Sep, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-6.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-5.png"/>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="7"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   Finance Team
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Financial planning
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 20 Sep, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-10.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-11.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-12.png"/>
+			  </div>
+			  <div class="flex">
+			   <span class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-primary-foreground ring-background bg-primary">
+				+8
+			   </span>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="8"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   Customer Support
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Customer service
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label indeterminate">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none" style="width: 50.0%">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 15 Sep, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-13.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-14.png"/>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="9"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   R&D Team
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Research & development
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 10 Sep, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-15.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-16.png"/>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="10"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   Operations Team
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Operations management
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 05 Sep, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-17.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-18.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-19.png"/>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="11"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   IT Support
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Technical support
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 01 Sep, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-20.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-21.png"/>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="12"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   Legal Team
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Legal support
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 25 Aug, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-22.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-23.png"/>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="13"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   Logistics Team
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Supply chain
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label indeterminate">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none" style="width: 50.0%">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 20 Aug, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-24.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-25.png"/>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="14"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   Procurement Team
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Supplier management
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 15 Aug, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-26.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-27.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-28.png"/>
+			  </div>
+			  <div class="flex">
+			   <span class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-violet-500">
+				+3
+			   </span>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
+		   <tr>
+			<td>
+			 <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-row-check="true" type="checkbox" value="15"/>
+			</td>
+			<td>
+			 <div class="flex flex-col gap-2">
+			  <a class="leading-none font-medium text-sm text-mono hover:text-primary" href="#">
+			   Training Team
+			  </a>
+			  <span class="text-2sm text-secondary-foreground font-normal leading-3">
+			   Employee training
+			  </span>
+			 </div>
+			</td>
+			<td>
+			 <div class="kt-rating">
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label checked">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			  <div class="kt-rating-label">
+			   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+			   </i>
+			   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+			   </i>
+			  </div>
+			 </div>
+			</td>
+			<td>
+			 10 Aug, 2024
+			</td>
+			<td>
+			 <div class="flex -space-x-2">
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-29.png"/>
+			  </div>
+			  <div class="flex">
+			   <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-30.png"/>
+			  </div>
+			 </div>
+			</td>
+		   </tr>
 		  </tbody>
 		 </table>
 		</div>
@@ -630,4 +1532,4 @@
  </div>
 </div>
 <!-- End of Container -->
-@endsection
+</div>
