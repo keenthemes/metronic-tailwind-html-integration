@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>metronic_tailwind_aspnet_core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\media\store\client\600x600\9.png" />
+    <Content Remove="wwwroot\assets\media\store\client\600x600\8.png" />
+    <Content Remove="wwwroot\assets\media\store\client\600x600\11.png" />
+    <Content Remove="wwwroot\assets\media\images\600x400\33.jpg" />
+    <Content Remove="wwwroot\assets\media\images\600x400\31.jpg" />
+    <Content Remove="wwwroot\assets\media\images\600x400\30.jpg" />
+    <Content Remove="wwwroot\assets\media\images\600x400\24.jpg" />
+    <Content Remove="wwwroot\assets\media\images\600x400\23.jpg" />
+    <Content Remove="wwwroot\assets\media\images\600x400\21.jpg" />
+    <Content Remove="wwwroot\assets\media\images\600x400\20.jpg" />
+    <Content Remove="wwwroot\assets\media\images\600x400\18.jpg" />
+    <Content Remove="wwwroot\assets\media\images\600x400\17.jpg" />
+    <Content Remove="wwwroot\assets\media\flags\north-korea.svg" />
+    <Content Remove="wwwroot\assets\media\flags\norfolk-island.svg" />
+    <Content Remove="wwwroot\assets\media\flags\mauritius.svg" />
+    <Content Remove="wwwroot\assets\media\brand-logos\yii.svg" />
+    <Content Remove="wwwroot\assets\media\brand-logos\yarn.svg" />
+    <Content Remove="wwwroot\assets\media\brand-logos\xostme-ltd.svg" />
+    <Content Remove="wwwroot\assets\media\brand-logos\tiktok-3.svg" />
+    <Content Remove="wwwroot\assets\media\brand-logos\go.svg" />
+    <Content Remove="wwwroot\assets\media\brand-logos\gitlab.svg" />
+    <Content Remove="wwwroot\assets\media\brand-logos\general-electric.svg" />
+    <Content Remove="wwwroot\assets\media\brand-logos\gamer-trophy.svg" />
+    <Content Remove="wwwroot\assets\media\brand-logos\gamer-diamond.svg" />
+  </ItemGroup>
+
+</Project>
