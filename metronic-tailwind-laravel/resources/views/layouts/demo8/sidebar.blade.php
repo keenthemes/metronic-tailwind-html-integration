@@ -1,25 +1,20 @@
 <!-- Sidebar -->
-<div class="fixed top-0 bottom-0 z-20 hidden lg:flex flex-col shrink-0 w-(--sidebar-width) bg-background [--kt-drawer-enable:true] lg:[--kt-drawer-enable:false]" data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start flex top-0 bottom-0" id="sidebar">
-    <!-- Sidebar Header -->
-    <div class="flex items-center justify-between shrink-0 px-3.5 h-[70px]" id="sidebar_header">
-        @include('partials.logo')
-    </div>
-    <!-- End of Sidebar Header -->
-    <!-- Sidebar menu -->
-    <div class="flex items-stretch grow shrink-0 justify-center my-5" id="sidebar_menu">
-        <div class="kt-scrollable-y-auto grow" data-kt-scrollable="true" data-kt-scrollable-dependencies="#sidebar_header, #sidebar_footer" data-kt-scrollable-height="auto" data-kt-scrollable-offset="0px" data-kt-scrollable-wrappers="#sidebar_menu">
-            @include('partials.sidebar-menu')
-        </div>
-    </div>
-    <!-- End of Sidebar kt-menu-->
-    <!-- Footer -->
-    <div class="flex flex-col gap-2 shrink-0 px-3.5" id="sidebar_footer">
-        <a class="kt-btn kt-btn-outline w-full" href="#">
-            <i class="ki-filled ki-questionnaire-tablet">
-            </i>
-            Docs & Components
+<div class="fixed top-0 bottom-0 z-20 hidden lg:flex flex-col items-stretch shrink-0 bg-muted [--kt-drawer-enable:true] lg:[--kt-drawer-enable:false]" data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start flex" id="sidebar">
+    <div class="hidden lg:flex items-center justify-center shrink-0 pt-8 pb-3.5" id="sidebar_header">
+        <a href="html/demo8.html">
+            <img class="dark:hidden min-h-[42px]" src="assets/media/app/mini-logo-square-gray.svg"/>
+            <img class="hidden dark:block min-h-[42px]" src="assets/media/app/mini-logo-square-gray-dark.svg"/>
         </a>
     </div>
-    <!-- End of Footer -->
+    <div class="kt-scrollable-y-hover grow gap-2.5 shrink-0 flex items-center pt-5 lg:pt-0 ps-3 pe-3 lg:pe-0 flex-col" data-kt-scrollable="true" data-kt-scrollable-dependencies="#sidebar_header,#sidebar_footer" data-kt-scrollable-height="auto" data-kt-scrollable-offset="80px" data-kt-scrollable-wrappers="#sidebar_menu_wrapper" id="sidebar_menu_wrapper">
+        @include('layouts.demo8.partials.sidebar-menu')
+    </div>
+    <div class="flex flex-col gap-5 items-center shrink-0 pb-4" id="sidebar_footer">
+        <div class="flex flex-col gap-1.5">
+            @include('partials.chat-drawer')
+            @include('layouts.demo8.partials.apps-dropdown')
+        </div>
+        @include('partials.topbar-user-dropdown')
+    </div>
 </div>
 <!-- End of Sidebar -->
