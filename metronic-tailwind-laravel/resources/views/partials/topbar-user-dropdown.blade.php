@@ -15,7 +15,7 @@
                         Cody Fisher
                     </span>
                     <a class="hover:text-primary text-xs font-medium leading-none text-secondary-foreground"
-                        href="html/demo1/account/home/get-started.html">
+                        href="#">
                         c.fisher@gmail.com
                     </a>
                 </div>
@@ -30,14 +30,14 @@
                 </div>
             </li>
             <li>
-                <a class="kt-dropdown-menu-link" href="html/demo1/public-profile/profiles/default.html">
+                <a class="kt-dropdown-menu-link" href="#">
                     <i class="ki-filled ki-badge">
                     </i>
                     Public Profile
                 </a>
             </li>
             <li>
-                <a class="kt-dropdown-menu-link" href="html/demo1/account/home/user-profile.html">
+                <a class="kt-dropdown-menu-link" href="#">
                     <i class="ki-filled ki-profile-circle">
                     </i>
                     My Profile
@@ -56,14 +56,14 @@
                 <div class="kt-dropdown-menu w-[220px]" data-kt-dropdown-menu="true">
                     <ul class="kt-dropdown-menu-sub">
                         <li>
-                            <a class="kt-dropdown-menu-link" href="html/demo1/account/home/get-started.html">
+                            <a class="kt-dropdown-menu-link" href="#">
                                 <i class="ki-filled ki-coffee">
                                 </i>
                                 Get Started
                             </a>
                         </li>
                         <li>
-                            <a class="kt-dropdown-menu-link" href="html/demo1/account/home/user-profile.html">
+                            <a class="kt-dropdown-menu-link" href="#">
                                 <i class="ki-filled ki-some-files">
                                 </i>
                                 My Profile
@@ -87,21 +87,21 @@
                             </a>
                         </li>
                         <li>
-                            <a class="kt-dropdown-menu-link" href="html/demo1/account/security/overview.html">
+                            <a class="kt-dropdown-menu-link" href="#">
                                 <i class="ki-filled ki-medal-star">
                                 </i>
                                 Security
                             </a>
                         </li>
                         <li>
-                            <a class="kt-dropdown-menu-link" href="html/demo1/account/members/teams.html">
+                            <a class="kt-dropdown-menu-link" href="#">
                                 <i class="ki-filled ki-setting">
                                 </i>
                                 Members & Roles
                             </a>
                         </li>
                         <li>
-                            <a class="kt-dropdown-menu-link" href="html/demo1/account/integrations.html">
+                            <a class="kt-dropdown-menu-link" href="#">
                                 <i class="ki-filled ki-switch">
                                 </i>
                                 Integrations
@@ -112,7 +112,7 @@
                             </div>
                         </li>
                         <li>
-                            <a class="kt-dropdown-menu-link" href="html/demo1/account/security/overview.html">
+                            <a class="kt-dropdown-menu-link" href="#">
                                 <span class="flex items-center gap-2">
                                     <i class="ki-filled ki-shield-tick">
                                     </i>
@@ -225,7 +225,7 @@
                     name="check" type="checkbox" value="1" />
             </div>
             <a class="kt-btn kt-btn-outline w-full justify-center"
-                href="html/demo1/authentication/classic/sign-in.html">
+                href="#">
                 Log out
             </a>
         </div>

@@ -10,7 +10,7 @@
 					<span class="text-sm text-foreground font-semibold leading-none">
 						Cody Fisher
 					</span>
-					<a class="text-xs text-secondary-foreground hover:text-primary font-medium leading-none" href="html/demo10/account/home/get-started.html">
+					<a class="text-xs text-secondary-foreground hover:text-primary font-medium leading-none" href="#">
 						c.fisher@gmail.com
 					</a>
 				</div>
@@ -25,14 +25,14 @@
 				</div>
 			</li>
 			<li>
-				<a class="kt-dropdown-menu-link" href="html/demo10/public-profile/profiles/default.html">
+				<a class="kt-dropdown-menu-link" href="#">
 					<i class="ki-filled ki-badge">
 					</i>
 					Public Profile
 				</a>
 			</li>
 			<li>
-				<a class="kt-dropdown-menu-link" href="html/demo10/account/home/user-profile.html">
+				<a class="kt-dropdown-menu-link" href="#">
 					<i class="ki-filled ki-profile-circle">
 					</i>
 					My Profile
@@ -51,14 +51,14 @@
 				<div class="kt-dropdown-menu w-[220px]" data-kt-dropdown-menu="true">
 					<ul class="kt-dropdown-menu-sub">
 						<li>
-							<a class="kt-dropdown-menu-link" href="html/demo10/account/home/get-started.html">
+							<a class="kt-dropdown-menu-link" href="#">
 								<i class="ki-filled ki-coffee">
 								</i>
 								Get Started
 							</a>
 						</li>
 						<li>
-							<a class="kt-dropdown-menu-link" href="html/demo10/account/home/user-profile.html">
+							<a class="kt-dropdown-menu-link" href="#">
 								<i class="ki-filled ki-some-files">
 								</i>
 								My Profile
@@ -81,21 +81,21 @@
 							</a>
 						</li>
 						<li>
-							<a class="kt-dropdown-menu-link" href="html/demo10/account/security/overview.html">
+							<a class="kt-dropdown-menu-link" href="#">
 								<i class="ki-filled ki-medal-star">
 								</i>
 								Security
 							</a>
 						</li>
 						<li>
-							<a class="kt-dropdown-menu-link" href="html/demo10/account/members/teams.html">
+							<a class="kt-dropdown-menu-link" href="#">
 								<i class="ki-filled ki-setting">
 								</i>
 								Members & Roles
 							</a>
 						</li>
 						<li>
-							<a class="kt-dropdown-menu-link" href="html/demo10/account/integrations.html">
+							<a class="kt-dropdown-menu-link" href="#">
 								<i class="ki-filled ki-switch">
 								</i>
 								Integrations
@@ -106,7 +106,7 @@
 							</div>
 						</li>
 						<li>
-							<a class="kt-dropdown-menu-link" href="html/demo10/account/security/overview.html">
+							<a class="kt-dropdown-menu-link" href="#">
 								<span class="flex items-center gap-2">
 									<i class="ki-filled ki-shield-tick">
 									</i>
@@ -210,7 +210,7 @@
 				</span>
 				<input class="kt-switch" data-kt-theme-switch-state="dark" data-kt-theme-switch-toggle="true" name="check" type="checkbox" value="1" />
 			</div>
-			<a class="kt-btn kt-btn-outline justify-center w-full" href="html/demo10/authentication/classic/sign-in.html">
+			<a class="kt-btn kt-btn-outline justify-center w-full" href="#">
 				Log out
 			</a>
 		</div>

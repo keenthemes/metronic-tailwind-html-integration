@@ -64,7 +64,7 @@
 							</div>
 							<div class="kt-menu-dropdown kt-menu-default w-full max-w-[175px]">
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="html/demo10/account/home/settings-sidebar.html">
+									<a class="kt-menu-link" href="#">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-sms">
 											</i>
@@ -75,7 +75,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="html/demo10/account/home/settings-sidebar.html">
+									<a class="kt-menu-link" href="#">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-message-notify">
 											</i>
@@ -86,7 +86,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="html/demo10/account/home/settings-sidebar.html">
+									<a class="kt-menu-link" href="#">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-notification-status">
 											</i>
@@ -1287,7 +1287,7 @@
 	</div>
 	<!--End of Notifications Drawer-->
 	<!-- End of Notifications -->
-	<a class="kt-btn kt-btn-ghost kt-btn-icon size-8 hover:bg-background hover:[&_i]:text-primary" href="html/demo10/authentication/classic/sign-in.html">
+	<a class="kt-btn kt-btn-ghost kt-btn-icon size-8 hover:bg-background hover:[&_i]:text-primary" href="#">
 		<i class="ki-filled ki-exit-right">
 		</i>
 	</a>

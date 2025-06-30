@@ -3,14 +3,14 @@
     <!-- Sidebar Primary -->
     <div class="flex flex-col items-stretch shrink-0 gap-5 py-5 w-[70px] border-e border-input" id="sidebar_primary">
         <div class="hidden lg:flex items-center justify-center shrink-0" id="sidebar_primary_header">
-            <a href="html/demo4.html">
+            <a href="#">
                 <img class="dark:hidden min-h-[30px]" src="assets/media/app/mini-logo-gray.svg"/>
                 <img class="hidden dark:block min-h-[30px]" src="assets/media/app/mini-logo-gray-dark.svg"/>
             </a>
         </div>
         <div class="flex grow shrink-0" id="sidebar_primary_content">
             <div class="kt-scrollable-y-hover grow gap-2.5 shrink-0 flex ps-4 flex-col" data-kt-scrollable="true" data-kt-scrollable-dependencies="#sidebar_primary_header,#sidebar_primary_footer" data-kt-scrollable-height="auto" data-kt-scrollable-offset="80px" data-kt-scrollable-wrappers="#sidebar_primary_content">
-                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="html/demo4.html">
+                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="#">
                     <span class="kt-menu-icon">
                     <i class="ki-filled ki-chart-line-star text-lg">
                     </i>
@@ -19,7 +19,7 @@
                     Dashboard
                     </span>
                 </a>
-                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="html/demo4/public-profile/profiles/default.html">
+                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="#">
                     <span class="kt-menu-icon">
                     <i class="ki-filled ki-profile-circle text-lg">
                     </i>
@@ -28,7 +28,7 @@
                     Profile
                     </span>
                 </a>
-                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="html/demo4/account/home/get-started.html">
+                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="#">
                     <span class="kt-menu-icon">
                     <i class="ki-filled ki-setting-2 text-lg">
                     </i>
@@ -37,7 +37,7 @@
                     Account
                     </span>
                 </a>
-                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="html/demo4/network/get-started.html">
+                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="#">
                     <span class="kt-menu-icon">
                     <i class="ki-filled ki-users text-lg">
                     </i>
@@ -46,7 +46,7 @@
                     Network
                     </span>
                 </a>
-                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="html/demo4/authentication/get-started.html">
+                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="#">
                     <span class="kt-menu-icon">
                     <i class="ki-filled ki-security-user text-lg">
                     </i>
@@ -55,7 +55,7 @@
                     Authentication
                     </span>
                 </a>
-                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="html/demo4/store-client/home.html">
+                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="#">
                     <span class="kt-menu-icon">
                     <i class="ki-filled ki-handcart text-lg">
                     </i>
@@ -64,7 +64,7 @@
                     Store - Client
                     </span>
                 </a>
-                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="html/demo4/account/security/security-log.html">
+                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="#">
                     <span class="kt-menu-icon">
                     <i class="ki-filled ki-shop text-lg">
                     </i>
@@ -73,7 +73,7 @@
                     Security Logs
                     </span>
                 </a>
-                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="html/demo4/account/notifications.html">
+                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="#">
                     <span class="kt-menu-icon">
                     <i class="ki-filled ki-cheque text-lg">
                     </i>
@@ -82,7 +82,7 @@
                     Notifications
                     </span>
                 </a>
-                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="html/demo4/account/members/roles.html">
+                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="#">
                     <span class="kt-menu-icon">
                     <i class="ki-filled ki-code text-lg">
                     </i>
@@ -91,7 +91,7 @@
                     ACL
                     </span>
                 </a>
-                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="html/demo4/account/api-keys.html">
+                <a class="kt-btn kt-btn-icon kt-btn-ghost rounded-md size-9 border border-transparent hover:bg-background hover:[&_i]:text-primary hover:border-border [.active&]:bg-background [.active&]:[&_i]:text-primary [.active&]:border-border" data-kt-tooltip="" data-kt-tooltip-placement="right" href="#">
                     <span class="kt-menu-icon">
                     <i class="ki-filled ki-question text-lg">
                     </i>
@@ -134,49 +134,49 @@
                     </div>
                     <div class="kt-menu-accordion gap-px">
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/home/get-started.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Get Started
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/home/user-profile.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             User Profile
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/home/company-profile.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Company Profile
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/home/settings-sidebar.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Settings - With Sidebar
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/home/settings-enterprise.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Settings - Enterprise
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/home/settings-plain.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Settings - Plain
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/home/settings-modal.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Settings - Modal
                         </span>
@@ -202,28 +202,28 @@
                     </div>
                     <div class="kt-menu-accordion gap-px">
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/billing/basic.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Billing - Basic
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/billing/enterprise.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Billing - Enterprise
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/billing/plans.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Plans
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/billing/history.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Billing History
                         </span>
@@ -249,56 +249,56 @@
                     </div>
                     <div class="kt-menu-accordion gap-px">
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/security/get-started.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Get Started
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/security/overview.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Security Overview
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/security/allowed-ip-addresses.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Allowed IP Addresses
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/security/privacy-settings.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Privacy Settings
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/security/device-management.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Device Management
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/security/backup-and-recovery.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Backup & Recovery
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/security/current-sessions.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Current Sessions
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/security/security-log.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Security Log
                         </span>
@@ -324,63 +324,63 @@
                     </div>
                     <div class="kt-menu-accordion gap-px">
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/members/team-starter.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Teams Starter
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/members/teams.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Teams
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/members/team-info.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Team Info
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/members/members-starter.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Members Starter
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/members/team-members.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Team Members
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/members/import-members.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Import Members
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/members/roles.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Roles
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/members/permissions-toggle.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Permissions - Toggler
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/members/permissions-check.html">
+                        <a class="kt-menu-link py-2 ps-5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Permissions - Check
                         </span>
@@ -389,21 +389,21 @@
                     </div>
                 </div>
                 <div class="kt-menu-item">
-                    <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/integrations.html">
+                    <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                     <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                         Integrations
                     </span>
                     </a>
                 </div>
                 <div class="kt-menu-item">
-                    <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/notifications.html">
+                    <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                     <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                         Notifications
                     </span>
                     </a>
                 </div>
                 <div class="kt-menu-item">
-                    <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/api-keys.html">
+                    <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                     <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                         API Keys
                     </span>
@@ -432,21 +432,21 @@
                     </div>
                     <div class="kt-menu-accordion gap-px">
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/appearance.html">
+                        <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Appearance
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/invite-a-friend.html">
+                        <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Invite a Friend
                         </span>
                         </a>
                     </div>
                     <div class="kt-menu-item">
-                        <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="html/demo4/account/activity.html">
+                        <a class="kt-menu-link py-2 ps-2.5 pe-2.5 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
                         <span class="kt-menu-title text-sm text-foreground kt-menu-item-active:font-medium kt-menu-item-active:text-primary kt-menu-link-hover:text-primary">
                             Activity
                         </span>

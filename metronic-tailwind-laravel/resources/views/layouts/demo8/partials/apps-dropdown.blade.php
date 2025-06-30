@@ -109,7 +109,7 @@
 			</div>
 		</div>
 		<div class="grid p-5 border-t border-t-border">
-			<a class="kt-btn kt-btn-outline justify-center" href="html/demo8/account/integrations.html">
+			<a class="kt-btn kt-btn-outline justify-center" href="#">
 				Go to Apps
 			</a>
 		</div>

@@ -58,7 +58,7 @@
 						</div>
 						<div class="kt-menu-dropdown kt-menu-default w-full max-w-[175px]">
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="html/demo8/account/home/settings-sidebar.html">
+								<a class="kt-menu-link" href="#">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-sms">
 										</i>
@@ -69,7 +69,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="html/demo8/account/home/settings-sidebar.html">
+								<a class="kt-menu-link" href="#">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-message-notify">
 										</i>
@@ -80,7 +80,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="html/demo8/account/home/settings-sidebar.html">
+								<a class="kt-menu-link" href="#">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-notification-status">
 										</i>

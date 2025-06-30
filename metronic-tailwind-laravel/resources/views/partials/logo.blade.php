@@ -1,7 +1,7 @@
 <div>
     <!-- Logo -->
     <div class="flex items-center gap-2 lg:gap-5 2xl:-ml-[60px]">
-        <a href="html/demo2.html">
+        <a href="#">
             <img class="min-h-[42px] dark:hidden" src="assets/media/app/mini-logo-circle.svg" />
             <img class="hidden min-h-[42px] dark:inline-block" src="assets/media/app/mini-logo-circle-dark.svg" />
         </a>
@@ -24,7 +24,7 @@
                     </button>
                     <div class="kt-menu-dropdown kt-menu-default w-48">
                         <div class="kt-menu-item">
-                            <a class="kt-menu-link" href="html/demo2/public-profile/profiles/default.html"
+                            <a class="kt-menu-link" href="#"
                                 tabindex="0">
                                 <span class="kt-menu-icon">
                                     <i class="ki-filled ki-profile-circle">
@@ -36,7 +36,7 @@
                             </a>
                         </div>
                         <div class="kt-menu-item active">
-                            <a class="kt-menu-link" href="html/demo2.html" tabindex="0">
+                            <a class="kt-menu-link" href="#" tabindex="0">
                                 <span class="kt-menu-icon">
                                     <i class="ki-filled ki-setting-2">
                                     </i>
@@ -47,7 +47,7 @@
                             </a>
                         </div>
                         <div class="kt-menu-item">
-                            <a class="kt-menu-link" href="html/demo2/network/get-started.html" tabindex="0">
+                            <a class="kt-menu-link" href="#" tabindex="0">
                                 <span class="kt-menu-icon">
                                     <i class="ki-filled ki-users">
                                     </i>
@@ -58,7 +58,7 @@
                             </a>
                         </div>
                         <div class="kt-menu-item">
-                            <a class="kt-menu-link" href="html/demo2/authentication/get-started.html" tabindex="0">
+                            <a class="kt-menu-link" href="#" tabindex="0">
                                 <span class="kt-menu-icon">
                                     <i class="ki-filled ki-security-user">
                                     </i>
@@ -69,7 +69,7 @@
                             </a>
                         </div>
                         <div class="kt-menu-item">
-                            <a class="kt-menu-link" href="html/demo2/store-client/home.html" tabindex="0">
+                            <a class="kt-menu-link" href="#" tabindex="0">
                                 <span class="kt-menu-icon">
                                     <i class="ki-filled ki-handcart">
                                     </i>

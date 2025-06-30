@@ -5,7 +5,7 @@
     <div class="kt-container-fixed flex items-stretch justify-between lg:gap-4" id="headerContainer">
         <!-- Mobile Logo -->
         <div class="-ms-1 flex items-center gap-2.5 lg:hidden">
-            <a class="shrink-0" href="html/demo1.html">
+            <a class="shrink-0" href="#">
                 <img class="max-h-[25px] w-full" src="assets/media/app/mini-logo.svg" />
             </a>
             <div class="flex items-center">

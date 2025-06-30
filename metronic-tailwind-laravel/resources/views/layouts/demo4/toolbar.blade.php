@@ -6,7 +6,7 @@
             <h1 class="font-medium text-base text-mono">
             </h1>
             <div class="flex items-center flex-wrap gap-1 text-sm">
-                <a class="text-secondary-foreground hover:text-primary" href="html/demo4.html">
+                <a class="text-secondary-foreground hover:text-primary" href="#">
                 Home
                 </a>
             </div>
@@ -15,7 +15,7 @@
             @include('partials.topbar-search-modal')
             @include('partials.topbar-notification-dropdown')
             <!-- End of Notifications -->
-            <a class="kt-btn kt-btn-outline" href="html/demo4/account/home/get-started.html">
+            <a class="kt-btn kt-btn-outline" href="#">
             <i class="ki-filled ki-exit-down">
             </i>
             Export

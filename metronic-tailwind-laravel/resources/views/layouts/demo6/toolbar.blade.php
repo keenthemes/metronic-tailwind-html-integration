@@ -8,7 +8,7 @@
             </h1>
         </div>
         <div class="flex items-center flex-wrap gap-1.5 lg:gap-3.5">
-            <a class="kt-btn kt-btn-outline" href="html/demo6/account/home/get-started.html">
+            <a class="kt-btn kt-btn-outline" href="#">
                 <i class="ki-filled ki-exit-down">
                 </i>
                 Export

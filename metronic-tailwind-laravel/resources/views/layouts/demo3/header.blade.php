@@ -8,7 +8,7 @@
                 <i class="ki-filled ki-menu">
                 </i>
                 </button>
-                <a class="mx-1" href="html/demo3.html">
+                <a class="mx-1" href="#">
                 <img class="dark:hidden min-h-[24px]" src="assets/media/app/mini-logo-primary.svg"/>
                 <img class="hidden dark:block min-h-[24px]" src="assets/media/app/mini-logo-primary-dark.svg"/>
                 </a>
@@ -31,7 +31,7 @@
                     </button>
                     <div class="kt-menu-dropdown w-48 py-2">
                     <div class="kt-menu-item">
-                    <a class="kt-menu-link" href="html/demo3/public-profile/profiles/default.html" tabindex="0">
+                    <a class="kt-menu-link" href="#" tabindex="0">
                         <span class="kt-menu-icon">
                         <i class="ki-filled ki-profile-circle">
                         </i>
@@ -42,7 +42,7 @@
                     </a>
                     </div>
                     <div class="kt-menu-item active">
-                    <a class="kt-menu-link" href="html/demo3.html" tabindex="0">
+                    <a class="kt-menu-link" href="#" tabindex="0">
                         <span class="kt-menu-icon">
                         <i class="ki-filled ki-setting-2">
                         </i>
@@ -53,7 +53,7 @@
                     </a>
                     </div>
                     <div class="kt-menu-item">
-                    <a class="kt-menu-link" href="html/demo3/network/get-started.html" tabindex="0">
+                    <a class="kt-menu-link" href="#" tabindex="0">
                         <span class="kt-menu-icon">
                         <i class="ki-filled ki-users">
                         </i>
@@ -64,7 +64,7 @@
                     </a>
                     </div>
                     <div class="kt-menu-item">
-                    <a class="kt-menu-link" href="html/demo3/authentication/get-started.html" tabindex="0">
+                    <a class="kt-menu-link" href="#" tabindex="0">
                         <span class="kt-menu-icon">
                         <i class="ki-filled ki-security-user">
                         </i>
@@ -75,7 +75,7 @@
                     </a>
                     </div>
                     <div class="kt-menu-item">
-                    <a class="kt-menu-link" href="html/demo3/store-client/home.html" tabindex="0">
+                    <a class="kt-menu-link" href="#" tabindex="0">
                         <span class="kt-menu-icon">
                         <i class="ki-filled ki-handcart">
                         </i>
@@ -94,7 +94,7 @@
         <!-- Topbar -->
         <div class="flex items-center lg:gap-3.5">
             <!-- Action -->
-            <a class="kt-btn kt-btn-primary mr-1 sm:me-0" href="html/demo3/account/home/get-started.html">
+            <a class="kt-btn kt-btn-primary mr-1 sm:me-0" href="#">
                 Get Started
             </a>
             <!-- End of Action -->

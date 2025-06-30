@@ -35,7 +35,7 @@
                                 </div>
                             </div>
                             <div class="mb-4">
-                                <a class="kt-link" href="html/demo2/account/members/team-info.html">
+                                <a class="kt-link" href="#">
                                     View page
                                     <i class="ki-filled ki-right text-xs">
                                     </i>
@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                             <div class="mb-4">
-                                <a class="kt-link" href="html/demo2/account/security/security-log.html">
+                                <a class="kt-link" href="#">
                                     View page
                                     <i class="ki-filled ki-right text-xs">
                                     </i>
@@ -81,7 +81,7 @@
                                 </div>
                             </div>
                             <div class="mb-4">
-                                <a class="kt-link" href="html/demo2/account/billing/basic.html">
+                                <a class="kt-link" href="#">
                                     View page
                                     <i class="ki-filled ki-right text-xs">
                                     </i>
@@ -104,7 +104,7 @@
                                 </div>
                             </div>
                             <div class="mb-4">
-                                <a class="kt-link" href="html/demo2/account/members/roles.html">
+                                <a class="kt-link" href="#">
                                     View page
                                     <i class="ki-filled ki-right text-xs">
                                     </i>
@@ -132,7 +132,7 @@
                                         data-kt-menu-dismiss="true">
                                         <div class="kt-menu-item">
                                             <a class="kt-menu-link"
-                                                href="html/demo2/account/home/settings-enterprise.html">
+                                                href="#">
                                                 <span class="kt-menu-icon">
                                                     <i class="ki-filled ki-setting-3">
                                                     </i>
@@ -144,7 +144,7 @@
                                         </div>
                                         <div class="kt-menu-item">
                                             <a class="kt-menu-link"
-                                                href="html/demo2/account/members/import-members.html">
+                                                href="#">
                                                 <span class="kt-menu-icon">
                                                     <i class="ki-filled ki-some-files">
                                                     </i>
@@ -155,7 +155,7 @@
                                             </a>
                                         </div>
                                         <div class="kt-menu-item">
-                                            <a class="kt-menu-link" href="html/demo2/account/activity.html">
+                                            <a class="kt-menu-link" href="#">
                                                 <span class="kt-menu-icon">
                                                     <i class="ki-filled ki-cloud-change">
                                                     </i>
@@ -268,7 +268,7 @@
                         </div>
                         <div class="kt-card-footer justify-center">
                             <a class="kt-link kt-link-underlined kt-link-dashed"
-                                href="html/demo2/account/home/get-started.html">
+                                href="#">
                                 Get Started
                             </a>
                         </div>
@@ -491,7 +491,7 @@
                                         </div>
                                         <div class="flex flex-col gap-0.5">
                                             <a class="hover:text-primary flex items-center gap-1.5 text-sm font-medium leading-none text-mono"
-                                                href="html/demo2/public-profile/teams.html">
+                                                href="#">
                                                 Esther Howard
                                             </a>
                                             <span class="text-sm text-secondary-foreground">
@@ -513,7 +513,7 @@
                                         </div>
                                         <div class="flex flex-col gap-0.5">
                                             <a class="hover:text-primary flex items-center gap-1.5 text-sm font-medium leading-none text-mono"
-                                                href="html/demo2/public-profile/teams.html">
+                                                href="#">
                                                 Tyler Hero
                                             </a>
                                             <span class="text-sm text-secondary-foreground">
@@ -535,7 +535,7 @@
                                         </div>
                                         <div class="flex flex-col gap-0.5">
                                             <a class="hover:text-primary flex items-center gap-1.5 text-sm font-medium leading-none text-mono"
-                                                href="html/demo2/public-profile/teams.html">
+                                                href="#">
                                                 Arlene McCoy
                                             </a>
                                             <span class="text-sm text-secondary-foreground">
@@ -557,7 +557,7 @@
                                         </div>
                                         <div class="flex flex-col gap-0.5">
                                             <a class="hover:text-primary flex items-center gap-1.5 text-sm font-medium leading-none text-mono"
-                                                href="html/demo2/public-profile/teams.html">
+                                                href="#">
                                                 Cody Fisher
                                             </a>
                                             <span class="text-sm text-secondary-foreground">

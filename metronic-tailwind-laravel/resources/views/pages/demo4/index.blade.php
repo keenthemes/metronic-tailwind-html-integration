@@ -21,7 +21,7 @@
                 <i class="ki-filled ki-badge text-2xl text-muted-foreground">
                 </i>
                 <div class="flex flex-col gap-2.5 mb-2">
-                    <a class="text-base font-semibold leading-none text-mono hover:text-primary" href="html/demo4/account/members/team-info.html">
+                    <a class="text-base font-semibold leading-none text-mono hover:text-primary" href="#">
                     Seats
                     </a>
                     <span class="text-sm font-medium text-secondary-foreground leading-5">
@@ -30,7 +30,7 @@
                 </div>
                 </div>
                 <div class="flex mb-4 items-center gap-1 cursor-pointer">
-                <a class="kt-link" href="html/demo4/public-profile/network.html">
+                <a class="kt-link" href="#">
                     View page
                     <i class="ki-filled ki-right text-primary text-xs">
                     </i>
@@ -42,7 +42,7 @@
                 <i class="ki-filled ki-security-user text-2xl text-muted-foreground">
                 </i>
                 <div class="flex flex-col gap-2.5 mb-2">
-                    <a class="text-base font-semibold leading-none text-mono hover:text-primary" href="html/demo4/account/security/security-log.html">
+                    <a class="text-base font-semibold leading-none text-mono hover:text-primary" href="#">
                     Login & Security
                     </a>
                     <span class="text-sm font-medium text-secondary-foreground leading-5">
@@ -51,7 +51,7 @@
                 </div>
                 </div>
                 <div class="flex mb-4 items-center gap-1 cursor-pointer">
-                <a class="kt-link" href="html/demo4/public-profile/network.html">
+                <a class="kt-link" href="#">
                     View page
                     <i class="ki-filled ki-right text-primary text-xs">
                     </i>
@@ -84,7 +84,7 @@
                         <img class="h-9 rounded-full" src="assets/media/avatars/gray/1.png"/>
                     </div>
                     <div class="flex flex-col gap-0.5">
-                        <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="html/demo4/public-profile/teams.html">
+                        <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
                         Esther Howard
                         </a>
                         <span class="text-sm text-secondary-foreground">
@@ -105,7 +105,7 @@
                         <img class="h-9 rounded-full" src="assets/media/avatars/gray/2.png"/>
                     </div>
                     <div class="flex flex-col gap-0.5">
-                        <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="html/demo4/public-profile/teams.html">
+                        <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
                         Tyler Hero
                         </a>
                         <span class="text-sm text-secondary-foreground">
@@ -126,7 +126,7 @@
                         <img class="h-9 rounded-full" src="assets/media/avatars/gray/3.png"/>
                     </div>
                     <div class="flex flex-col gap-0.5">
-                        <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="html/demo4/public-profile/teams.html">
+                        <a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
                         Arlene McCoy
                         </a>
                         <span class="text-sm text-secondary-foreground">

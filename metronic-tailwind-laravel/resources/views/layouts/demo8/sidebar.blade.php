@@ -1,7 +1,7 @@
 <!-- Sidebar -->
 <div class="fixed top-0 bottom-0 z-20 hidden lg:flex flex-col items-stretch shrink-0 bg-muted [--kt-drawer-enable:true] lg:[--kt-drawer-enable:false]" data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start flex" id="sidebar">
     <div class="hidden lg:flex items-center justify-center shrink-0 pt-8 pb-3.5" id="sidebar_header">
-        <a href="html/demo8.html">
+        <a href="#">
             <img class="dark:hidden min-h-[42px]" src="assets/media/app/mini-logo-square-gray.svg"/>
             <img class="hidden dark:block min-h-[42px]" src="assets/media/app/mini-logo-square-gray-dark.svg"/>
         </a>

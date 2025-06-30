@@ -9,7 +9,7 @@
 				</i>
 			</button>
 			<div class="flex items-center gap-2">
-				<a class="flex items-center shrink-0" href="html/demo9.html">
+				<a class="flex items-center shrink-0" href="#">
 					<img class="dark:hidden w-8 shrink-0" src="assets/media/app/mini-logo-circle.svg" />
 					<img class="hidden dark:inline-block w-8 shrink-0" src="assets/media/app/mini-logo-circle-dark.svg" />
 				</a>
@@ -33,7 +33,7 @@
 						</button>
 						<div class="kt-menu-dropdown w-48 py-2">
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="html/demo9/public-profile/profiles/default.html" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-profile-circle">
 										</i>
@@ -44,7 +44,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="html/demo9.html" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-setting-2">
 										</i>

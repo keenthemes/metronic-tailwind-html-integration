@@ -21,14 +21,14 @@
                             </div>
                             <div class="kt-menu-dropdown kt-menu-default min-w-[200px] py-2">
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2.html" tabindex="0">
+                                    <a class="kt-menu-link" href="#" tabindex="0">
                                         <span class="kt-menu-title">
                                             Dashboard
                                         </span>
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/home/get-started.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Get Started
@@ -36,7 +36,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/home/user-profile.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             User Profile
@@ -44,7 +44,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/home/company-profile.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Company Profile
@@ -52,7 +52,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/home/settings-sidebar.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Settings - With Sidebar
@@ -60,7 +60,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/home/settings-enterprise.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Settings - Enterprise
@@ -68,7 +68,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/home/settings-plain.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Settings - Plain
@@ -76,7 +76,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/home/settings-modal.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Settings - Modal
@@ -100,14 +100,14 @@
                             </div>
                             <div class="kt-menu-dropdown kt-menu-default min-w-[200px] py-2">
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/billing/basic.html" tabindex="0">
+                                    <a class="kt-menu-link" href="#" tabindex="0">
                                         <span class="kt-menu-title">
                                             Billing - Basic
                                         </span>
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/billing/enterprise.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Billing - Enterprise
@@ -115,14 +115,14 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/billing/plans.html" tabindex="0">
+                                    <a class="kt-menu-link" href="#" tabindex="0">
                                         <span class="kt-menu-title">
                                             Plans
                                         </span>
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/billing/history.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Billing History
@@ -146,7 +146,7 @@
                             </div>
                             <div class="kt-menu-dropdown kt-menu-default min-w-[200px] py-2">
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/security/get-started.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Get Started
@@ -154,7 +154,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/security/overview.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Security Overview
@@ -163,14 +163,14 @@
                                 </div>
                                 <div class="kt-menu-item">
                                     <a class="kt-menu-link"
-                                        href="html/demo2/account/security/allowed-ip-addresses.html" tabindex="0">
+                                        href="#" tabindex="0">
                                         <span class="kt-menu-title">
                                             Allowed IP Addresses
                                         </span>
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/security/privacy-settings.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Privacy Settings
@@ -178,7 +178,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/security/device-management.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Device Management
@@ -187,14 +187,14 @@
                                 </div>
                                 <div class="kt-menu-item">
                                     <a class="kt-menu-link"
-                                        href="html/demo2/account/security/backup-and-recovery.html" tabindex="0">
+                                        href="#" tabindex="0">
                                         <span class="kt-menu-title">
                                             Backup & Recovery
                                         </span>
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/security/current-sessions.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Current Sessions
@@ -202,7 +202,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/security/security-log.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Security Log
@@ -226,7 +226,7 @@
                             </div>
                             <div class="kt-menu-dropdown kt-menu-default min-w-[200px] py-2">
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/members/team-starter.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Teams Starter
@@ -234,7 +234,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/members/teams.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Teams
@@ -242,7 +242,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/members/team-info.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Team Info
@@ -250,7 +250,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/members/members-starter.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Members Starter
@@ -258,7 +258,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/members/team-members.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Team Members
@@ -266,7 +266,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/members/import-members.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Import Members
@@ -274,7 +274,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/members/roles.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Roles
@@ -282,7 +282,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/members/permissions-toggle.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Permissions - Toggler
@@ -290,7 +290,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/members/permissions-check.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Permissions - Check
@@ -301,7 +301,7 @@
                         </div>
                         <div
                             class="kt-menu-item kt-menu-item-active:border-b-mono kt-menu-item-here:border-b-mono border-b-2 border-b-transparent">
-                            <a class="kt-menu-link gap-2.5 pb-2 lg:pb-4" href="html/demo2/account/integrations.html"
+                            <a class="kt-menu-link gap-2.5 pb-2 lg:pb-4" href="#"
                                 tabindex="0">
                                 <span
                                     class="kt-menu-title kt-menu-item-active:text-mono kt-menu-item-active:font-medium kt-menu-item-here:text-mono kt-menu-item-here:font-medium kt-menu-item-show:text-mono kt-menu-link-hover:text-mono text-nowrap text-sm text-foreground">
@@ -311,7 +311,7 @@
                         </div>
                         <div
                             class="kt-menu-item kt-menu-item-active:border-b-mono kt-menu-item-here:border-b-mono border-b-2 border-b-transparent">
-                            <a class="kt-menu-link gap-2.5 pb-2 lg:pb-4" href="html/demo2/account/notifications.html"
+                            <a class="kt-menu-link gap-2.5 pb-2 lg:pb-4" href="#"
                                 tabindex="0">
                                 <span
                                     class="kt-menu-title kt-menu-item-active:text-mono kt-menu-item-active:font-medium kt-menu-item-here:text-mono kt-menu-item-here:font-medium kt-menu-item-show:text-mono kt-menu-link-hover:text-mono text-nowrap text-sm text-foreground">
@@ -321,7 +321,7 @@
                         </div>
                         <div
                             class="kt-menu-item kt-menu-item-active:border-b-mono kt-menu-item-here:border-b-mono border-b-2 border-b-transparent">
-                            <a class="kt-menu-link gap-2.5 pb-2 lg:pb-4" href="html/demo2/account/api-keys.html"
+                            <a class="kt-menu-link gap-2.5 pb-2 lg:pb-4" href="#"
                                 tabindex="0">
                                 <span
                                     class="kt-menu-title kt-menu-item-active:text-mono kt-menu-item-active:font-medium kt-menu-item-here:text-mono kt-menu-item-here:font-medium kt-menu-item-show:text-mono kt-menu-link-hover:text-mono text-nowrap text-sm text-foreground">
@@ -344,14 +344,14 @@
                             </div>
                             <div class="kt-menu-dropdown kt-menu-default min-w-[200px] py-2">
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/appearance.html" tabindex="0">
+                                    <a class="kt-menu-link" href="#" tabindex="0">
                                         <span class="kt-menu-title">
                                             Appearance
                                         </span>
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/invite-a-friend.html"
+                                    <a class="kt-menu-link" href="#"
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Invite a Friend
@@ -359,7 +359,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/activity.html" tabindex="0">
+                                    <a class="kt-menu-link" href="#" tabindex="0">
                                         <span class="kt-menu-title">
                                             Activity
                                         </span>

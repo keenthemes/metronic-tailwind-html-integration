@@ -67,7 +67,7 @@
                                 <div class="kt-menu-dropdown kt-menu-default w-full max-w-[175px]"
                                     data-kt-menu-dismiss="true">
                                     <div class="kt-menu-item">
-                                        <a class="kt-menu-link" href="html/demo1/account/members/teams.html">
+                                        <a class="kt-menu-link" href="#">
                                             <span class="kt-menu-icon">
                                                 <i class="ki-filled ki-users">
                                                 </i>
@@ -96,7 +96,7 @@
                                         <div class="kt-menu-dropdown kt-menu-default w-full max-w-[175px]">
                                             <div class="kt-menu-item">
                                                 <a class="kt-menu-link"
-                                                    href="html/demo1/account/members/import-members.html">
+                                                    href="#">
                                                     <span class="kt-menu-icon">
                                                         <i class="ki-filled ki-shield-search">
                                                         </i>
@@ -108,7 +108,7 @@
                                             </div>
                                             <div class="kt-menu-item">
                                                 <a class="kt-menu-link"
-                                                    href="html/demo1/account/members/import-members.html">
+                                                    href="#">
                                                     <span class="kt-menu-icon">
                                                         <i class="ki-filled ki-calendar">
                                                         </i>
@@ -120,7 +120,7 @@
                                             </div>
                                             <div class="kt-menu-item">
                                                 <a class="kt-menu-link"
-                                                    href="html/demo1/account/members/import-members.html">
+                                                    href="#">
                                                     <span class="kt-menu-icon">
                                                         <i class="ki-filled ki-filter-edit">
                                                         </i>
@@ -134,7 +134,7 @@
                                     </div>
                                     <div class="kt-menu-item">
                                         <a class="kt-menu-link"
-                                            href="html/demo1/account/security/privacy-settings.html">
+                                            href="#">
                                             <span class="kt-menu-icon">
                                                 <i class="ki-filled ki-setting-3">
                                                 </i>

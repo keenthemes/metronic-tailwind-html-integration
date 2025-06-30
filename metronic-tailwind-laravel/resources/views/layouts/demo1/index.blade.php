@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="flex items-center gap-2.5">
-                <a class="kt-btn kt-btn-outline" href="html/demo1/public-profile/profiles/default.html">
+                <a class="kt-btn kt-btn-outline" href="#">
                     View Profile
                 </a>
             </div>
@@ -144,7 +144,7 @@
                         </div>
                         <div class="kt-card-footer justify-center">
                             <a class="kt-link kt-link-underlined kt-link-dashed"
-                                href="html/demo1/account/home/get-started.html">
+                                href="#">
                                 Get Started
                             </a>
                         </div>
@@ -171,7 +171,7 @@
                                     <div class="kt-menu-dropdown kt-menu-default w-full max-w-[200px]"
                                         data-kt-menu-dismiss="true">
                                         <div class="kt-menu-item">
-                                            <a class="kt-menu-link" href="html/demo1/account/activity.html">
+                                            <a class="kt-menu-link" href="#">
                                                 <span class="kt-menu-icon">
                                                     <i class="ki-filled ki-cloud-change">
                                                     </i>
@@ -213,7 +213,7 @@
                                             <div class="kt-menu-dropdown kt-menu-default w-full max-w-[175px]">
                                                 <div class="kt-menu-item">
                                                     <a class="kt-menu-link"
-                                                        href="html/demo1/account/home/settings-sidebar.html">
+                                                        href="#">
                                                         <span class="kt-menu-icon">
                                                             <i class="ki-filled ki-sms">
                                                             </i>
@@ -225,7 +225,7 @@
                                                 </div>
                                                 <div class="kt-menu-item">
                                                     <a class="kt-menu-link"
-                                                        href="html/demo1/account/home/settings-sidebar.html">
+                                                        href="#">
                                                         <span class="kt-menu-icon">
                                                             <i class="ki-filled ki-message-notify">
                                                             </i>
@@ -237,7 +237,7 @@
                                                 </div>
                                                 <div class="kt-menu-item">
                                                     <a class="kt-menu-link"
-                                                        href="html/demo1/account/home/settings-sidebar.html">
+                                                        href="#">
                                                         <span class="kt-menu-icon">
                                                             <i class="ki-filled ki-notification-status">
                                                             </i>
@@ -265,7 +265,7 @@
                                         </div>
                                         <div class="kt-menu-item">
                                             <a class="kt-menu-link"
-                                                href="html/demo1/account/home/settings-enterprise.html">
+                                                href="#">
                                                 <span class="kt-menu-icon">
                                                     <i class="ki-filled ki-setting-3">
                                                     </i>

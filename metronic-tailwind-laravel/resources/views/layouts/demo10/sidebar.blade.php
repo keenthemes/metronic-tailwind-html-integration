@@ -4,7 +4,7 @@
 	<!-- Sidebar Header -->
 	<div class="flex flex-col gap-2.5" id="sidebar_header">
 		<div class="flex items-center gap-2.5 px-3.5 h-[70px]">
-			<a href="html/demo10/index.html">
+			<a href="#">
 				<img class="size-[34px]" src="{{ asset('assets/media/app/mini-logo-circle-success.svg') }}" />
 			</a>
 			<div class="kt-menu kt-menu-default grow" data-kt-menu="true">
@@ -26,7 +26,7 @@
 					</div>
 					<div class="kt-menu-dropdown w-48 py-2">
 						<div class="kt-menu-item">
-							<a class="kt-menu-link" href="html/demo10/public-profile/profiles/default.html" tabindex="0">
+							<a class="kt-menu-link" href="#" tabindex="0">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-profile-circle">
 									</i>
@@ -37,7 +37,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link" href="html/demo10.html" tabindex="0">
+							<a class="kt-menu-link" href="#" tabindex="0">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-setting-2">
 									</i>
@@ -48,7 +48,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link" href="html/demo10/network/get-started.html" tabindex="0">
+							<a class="kt-menu-link" href="#" tabindex="0">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-users">
 									</i>
@@ -59,7 +59,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link" href="html/demo10/authentication/get-started.html" tabindex="0">
+							<a class="kt-menu-link" href="#" tabindex="0">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-security-user">
 									</i>
@@ -75,7 +75,7 @@
 		</div>
 		<div class="flex items-center gap-2.5 px-3.5">
 			<!-- Input -->
-			<a class="kt-btn kt-btn-secondary text-white [&_i]:text-white justify-center min-w-[198px]" href="html/demo10/public-profile/projects/3-columns.html">
+			<a class="kt-btn kt-btn-secondary text-white [&_i]:text-white justify-center min-w-[198px]" href="#">
 				<i class="ki-filled ki-plus">
 				</i>
 				Add New
