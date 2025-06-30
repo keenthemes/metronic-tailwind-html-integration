@@ -4,31 +4,38 @@
         @include('layouts.partials.head')
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="antialiased flex h-full text-base text-foreground bg-background [--header-height:60px] [--sidebar-width:285px] lg:overflow-hidden bg-muted">
+    <body class="antialiased flex h-full text-base text-foreground bg-background [--header-height-default:95px] data-kt-[sticky-header=on]:[--header-height:60px] [--header-height:var(--header-height-default)] [--header-height-mobile:70px]">
         @include('partials.theme-toggle')
 
         <!-- Page -->
         <!-- Main -->
-        <div class="flex grow">
-            @include('layouts.demo7.sidebar')
+        <div class="flex grow flex-col in-data-kt-[sticky-header=on]:pt-(--header-height-default)">
+            @include('layouts.demo7.header')
 
-            <!-- Wrapper -->
-            <div class="flex flex-col grow">
-                @include('layouts.demo7.header')
-
-                <!-- Content -->
-                <main class="grow" id="content" role="content">
-                    <!-- Container -->
-                    <div class="kt-container-fluid">
-                        @yield('content')
+            <!-- Toolbar -->
+            <div class="">
+                <!-- Container -->
+                <div class="kt-container-fixed">
+                    <div class="border-t border-border dark:border-coal-100"></div>
+                    @include('layouts.demo7.toolbar')
+                    <div class="border-b border-border mb-5 lg:mb-7.5">
                     </div>
-                    <!-- End of Container -->
-                </main>
-                <!-- End of Content -->
-
-                @include('layouts.demo7.footer')
+                </div>
+                <!-- End of Container -->
             </div>
-            <!-- End of Wrapper -->
+            <!-- End of Toolbar -->
+
+            <!-- Content -->
+            <main class="grow" id="content" role="content">
+                <!-- Container -->
+                <div class="kt-container-fixed" id="contentContainer">
+                    @yield('content')
+                </div>
+                <!-- End of Container -->
+            </main>
+            <!-- End of Content -->
+
+            @include('layouts.demo7.footer')
         </div>
         <!-- End of Main -->
         <!-- End of Page -->
