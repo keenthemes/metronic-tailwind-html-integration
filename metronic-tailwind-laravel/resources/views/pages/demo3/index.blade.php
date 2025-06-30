@@ -170,21 +170,21 @@
                 </div>
                 <div class="flex items-center flex-wrap gap-4 mb-1">
                 <div class="flex items-center gap-1.5">
-                    <span class="rounded-full size-2 rounded-full kt-badge-success">
+                    <span class="rounded-full size-2 kt-badge-success">
                     </span>
                     <span class="text-sm font-normal text-foreground">
                     Metronic
                     </span>
                 </div>
                 <div class="flex items-center gap-1.5">
-                    <span class="rounded-full size-2 rounded-full kt-badge-destructive">
+                    <span class="rounded-full size-2 kt-badge-destructive">
                     </span>
                     <span class="text-sm font-normal text-foreground">
                     Bundle
                     </span>
                 </div>
                 <div class="flex items-center gap-1.5">
-                    <span class="rounded-full size-2 rounded-full kt-badge-info">
+                    <span class="rounded-full size-2 kt-badge-info">
                     </span>
                     <span class="text-sm font-normal text-foreground">
                     MetronicNest

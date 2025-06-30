@@ -8,7 +8,7 @@
 
 	<!--End of Notifications Drawer-->
 	<!-- End of Notifications -->
-	<a class="kt-btn kt-btn-ghost kt-btn-icon size-8 hover:bg-background hover:[&amp;_i]:text-primary" href="/metronic/tailwind/demo6/authentication/classic/sign-in">
+	<a class="kt-btn kt-btn-ghost kt-btn-icon size-8 hover:bg-background hover:[&amp;_i]:text-primary" href="#">
 		<i class="ki-filled ki-exit-right">
 		</i>
 	</a>

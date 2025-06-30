@@ -10,7 +10,7 @@
 			</div>
 		</div>
 		<div class="flex items-center gap-1">
-			<a class="kt-btn kt-btn-outline" href="/metronic/tailwind/demo5/public-profile/profiles/default">
+			<a class="kt-btn kt-btn-outline" href="#">
 				View Profile
 			</a>
 		</div>

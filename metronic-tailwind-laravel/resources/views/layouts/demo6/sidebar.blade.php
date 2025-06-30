@@ -3,7 +3,7 @@
 	<!-- Sidebar Header -->
 	<div id="sidebar_header">
 		<div class="flex items-center gap-2.5 px-3.5 h-[70px]">
-			<a href="/metronic/tailwind/demo6/index.html">
+			<a href="#">
 				<img class="dark:hidden h-[42px]" src="{{ asset('assets/media/app/mini-logo-circle.svg') }}">
 				<img class="hidden dark:inline-block h-[42px]" src="{{ asset('assets/media/app/mini-logo-circle-dark.svg') }}">
 			</a>
@@ -20,7 +20,7 @@
 					</div>
 					<div class="kt-menu-dropdown w-48 py-2">
 						<div class="kt-menu-item">
-							<a class="kt-menu-link" href="/metronic/tailwind/demo6/public-profile/profiles/default" tabindex="0">
+							<a class="kt-menu-link" href="#" tabindex="0">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-profile-circle">
 									</i>
@@ -31,7 +31,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link" href="/metronic/tailwind/demo6/" tabindex="0">
+							<a class="kt-menu-link" href="#" tabindex="0">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-setting-2">
 									</i>
@@ -42,7 +42,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link" href="/metronic/tailwind/demo6/network/get-started" tabindex="0">
+							<a class="kt-menu-link" href="#" tabindex="0">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-users">
 									</i>
@@ -53,7 +53,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link" href="/metronic/tailwind/demo6/authentication/get-started" tabindex="0">
+							<a class="kt-menu-link" href="#" tabindex="0">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-security-user">
 									</i>
@@ -80,11 +80,7 @@
 	</div>
 	<!-- End of Sidebar Header -->
 	<!-- Sidebar menu -->
-	<div class="flex items-stretch grow shrink-0 justify-center my-5" id="sidebar_menu">
-		<div class="kt-scrollable-y-auto grow" data-kt-scrollable="true" data-kt-scrollable-dependencies="#sidebar_header, #sidebar_footer" data-kt-scrollable-height="auto" data-kt-scrollable-offset="0px" data-kt-scrollable-wrappers="#sidebar_menu" data-kt-scrollable-initialized="true" style="height: 1047px;">
-			@include('layouts.demo6.sidebar-menu')
-		</div>
-	</div>
+	@include('layouts.demo6.partials.sidebar-menu')
 	<!-- End of Sidebar kt-menu-->
 	<!-- Footer -->
 	<div class="flex flex-center justify-between shrink-0 ps-4 pe-3.5 mb-3.5" id="sidebar_footer">

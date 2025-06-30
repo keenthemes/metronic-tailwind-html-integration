@@ -10,7 +10,6 @@
         <!-- Page -->
         <!-- Base -->
         <div class="flex grow">
-            @include('layouts.demo8.header')
             <!-- Wrapper -->
             <div class="flex flex-col lg:flex-row grow pt-(--header-height) lg:pt-0">
                 @include('layouts.demo8.sidebar')

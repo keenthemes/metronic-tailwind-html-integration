@@ -164,7 +164,7 @@
 						</button>
 						<div class="kt-menu-dropdown kt-menu-default w-full max-w-[200px]" data-kt-menu-dismiss="true">
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo9/account/home/settings-enterprise">
+								<a class="kt-menu-link" href="#">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-setting-3">
 										</i>
@@ -175,7 +175,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo9/account/members/import-members">
+								<a class="kt-menu-link" href="#">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-some-files">
 										</i>
@@ -186,7 +186,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo9/account/activity">
+								<a class="kt-menu-link" href="#">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-cloud-change">
 										</i>

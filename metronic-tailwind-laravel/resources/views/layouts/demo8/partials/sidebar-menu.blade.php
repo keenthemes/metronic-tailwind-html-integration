@@ -1,6 +1,6 @@
 <div class="kt-menu flex flex-col gap-2.5 grow" data-kt-menu="true" id="sidebar_menu">
        <div class="kt-menu-item active">
-        <a class="kt-menu-link rounded-[9px] border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border w-[62px] h-[60px] flex flex-col justify-center items-center gap-1 p-2" href="/metronic/tailwind/demo8/">
+        <a class="kt-menu-link rounded-[9px] border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border w-[62px] h-[60px] flex flex-col justify-center items-center gap-1 p-2" href="#">
          <span class="kt-menu-icon kt-menu-item-here:text-primary kt-menu-item-active:text-primary kt-menu-link-hover:text-primary text-secondary-foreground">
           <i class="ki-filled ki-chart-line-star text-xl">
           </i>
@@ -33,42 +33,42 @@
           </div>
           <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/profiles/default">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Default
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/profiles/creator">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Creator
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/profiles/company">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Company
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/profiles/nft">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               NFT
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/profiles/blogger">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Blogger
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/profiles/crm">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               CRM
              </span>
@@ -86,28 +86,28 @@
             </div>
             <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
              <div class="kt-menu-item">
-              <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/profiles/gamer">
+              <a class="kt-menu-link" href="#">
                <span class="kt-menu-title">
                 Gamer
                </span>
               </a>
              </div>
              <div class="kt-menu-item">
-              <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/profiles/feeds">
+              <a class="kt-menu-link" href="#">
                <span class="kt-menu-title">
                 Feeds
                </span>
               </a>
              </div>
              <div class="kt-menu-item">
-              <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/profiles/plain">
+              <a class="kt-menu-link" href="#">
                <span class="kt-menu-title">
                 Plain
                </span>
               </a>
              </div>
              <div class="kt-menu-item">
-              <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/profiles/modal">
+              <a class="kt-menu-link" href="#">
                <span class="kt-menu-title">
                 Modal
                </span>
@@ -129,14 +129,14 @@
           </div>
           <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/projects/3-columns">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               3 Columns
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/projects/2-columns">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               2 Columns
              </span>
@@ -145,28 +145,28 @@
           </div>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/works">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Works
            </span>
           </a>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/teams">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Teams
            </span>
           </a>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/network">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Network
            </span>
           </a>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/activity">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Activity
            </span>
@@ -184,21 +184,21 @@
           </div>
           <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/campaigns/card">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Campaigns - Card
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/campaigns/list">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Campaigns - List
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/public-profile/empty">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Empty
              </span>
@@ -231,49 +231,49 @@
           </div>
           <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/home/get-started">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Get Started
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/home/user-profile">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               User Profile
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/home/company-profile">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Company Profile
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/home/settings-sidebar">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Settings - With Sidebar
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/home/settings-enterprise">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Settings - Enterprise
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/home/settings-plain">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Settings - Plain
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/home/settings-modal">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Settings - Modal
              </span>
@@ -293,28 +293,28 @@
           </div>
           <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/billing/basic">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Billing - Basic
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/billing/enterprise">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Billing - Enterprise
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/billing/plans">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Plans
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/billing/history">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Billing History
              </span>
@@ -334,56 +334,56 @@
           </div>
           <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/security/get-started">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Get Started
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/security/overview">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Security Overview
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/security/allowed-ip-addresses">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Allowed IP Addresses
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/security/privacy-settings">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Privacy Settings
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/security/device-management">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Device Management
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/security/backup-and-recovery">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Backup &amp; Recovery
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/security/current-sessions">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Current Sessions
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/security/security-log">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Security Log
              </span>
@@ -403,63 +403,63 @@
           </div>
           <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/members/team-starter">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Teams Starter
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/members/teams">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Teams
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/members/team-info">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Team Info
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/members/members-starter">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Members Starter
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/members/team-members">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Team Members
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/members/import-members">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Import Members
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/members/roles">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Roles
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/members/permissions-toggle">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Permissions - Toggler
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/members/permissions-check">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Permissions - Check
              </span>
@@ -468,21 +468,21 @@
           </div>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/integrations">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Integrations
            </span>
           </a>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/notifications">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Notifications
            </span>
           </a>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/api-keys">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             API Keys
            </span>
@@ -500,21 +500,21 @@
           </div>
           <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/appearance">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Appearance
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/invite-a-friend">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Invite a Friend
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/account/activity">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Activity
              </span>
@@ -536,7 +536,7 @@
         </div>
         <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px] kt-scrollable-y-auto lg:overflow-visible max-h-[50vh]">
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/get-started">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Get Started
            </span>
@@ -554,35 +554,35 @@
           </div>
           <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/user-cards/mini-cards">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Mini Cards
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/user-cards/team-crew">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Team Crew
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/user-cards/author">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Author
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/user-cards/nft">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               NFT
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/user-cards/social">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Social
              </span>
@@ -602,42 +602,42 @@
           </div>
           <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/user-table/team-crew">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Team Crew
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/user-table/app-roster">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               App Roster
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/user-table/market-authors">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Market Authors
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/user-table/saas-users">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               SaaS Users
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/user-table/store-clients">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Store Clients
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/network/user-table/visitors">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Visitors
              </span>
@@ -659,42 +659,42 @@
         </div>
         <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px] kt-scrollable-y-auto lg:overflow-visible max-h-[50vh]">
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/home">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Home
            </span>
           </a>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/search-results-grid">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Search Results - Grid
            </span>
           </a>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/search-results-list">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Search Results - List
            </span>
           </a>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/product-details">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Product Details
            </span>
           </a>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/shopping-cart">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Shopping Cart
            </span>
           </a>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/wishlist">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Wishlist
            </span>
@@ -712,28 +712,28 @@
           </div>
           <div class="kt-menu-default kt-menu-dropdown gap-0.5 w-[220px]">
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/checkout/order-summary">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Order Summary
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/checkout/shipping-info">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Shipping Info
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/checkout/payment-method">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Payment Method
              </span>
             </a>
            </div>
            <div class="kt-menu-item">
-            <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/checkout/order-placed">
+            <a class="kt-menu-link" href="#">
              <span class="kt-menu-title">
               Order Placed
              </span>
@@ -742,14 +742,14 @@
           </div>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/my-orders">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             My Orders
            </span>
           </a>
          </div>
          <div class="kt-menu-item">
-          <a class="kt-menu-link" href="/metronic/tailwind/demo8/store-client/order-receipt">
+          <a class="kt-menu-link" href="#">
            <span class="kt-menu-title">
             Order Receipt
            </span>

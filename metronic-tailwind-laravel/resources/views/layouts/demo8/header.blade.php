@@ -9,7 +9,7 @@
 				</i>
 			</button>
 			<div class="flex items-center gap-2">
-				<a href="/metronic/tailwind/demo9/">
+				<a href="#">
 					<img class="dark:hidden min-h-[34px]" src="{{ asset('assets/media/app/mini-logo-circle.svg') }}">
 					<img class="hidden dark:inline-block min-h-[34px]" src="{{ asset('assets/media/app/mini-logo-circle-dark.svg') }}">
 				</a>
@@ -33,7 +33,7 @@
 						</button>
 						<div class="kt-menu-dropdown w-48 py-2">
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo9/public-profile/profiles/default" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-profile-circle">
 										</i>
@@ -44,7 +44,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo9/" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-setting-2">
 										</i>
@@ -133,12 +133,12 @@
 					<div class="kt-dropdown-menu w-[250px]" data-kt-dropdown-menu="true">
 						<div class="flex items-center justify-between px-2.5 py-1.5 gap-1.5">
 							<div class="flex items-center gap-2">
-								<img alt="" class="size-9 shrink-0 rounded-full border-2 border-green-500" src="/static/metronic/tailwind/dist/assets/media/avatars/300-2.png">
+								<img alt="" class="size-9 shrink-0 rounded-full border-2 border-green-500" src="{{ asset('assets/media/avatars/300-2.png') }}">
 								<div class="flex flex-col gap-1.5">
 									<span class="text-sm text-foreground font-semibold leading-none">
 										Cody Fisher
 									</span>
-									<a class="text-xs text-secondary-foreground hover:text-primary font-medium leading-none" href="/metronic/tailwind/demo9/account/home/get-started">
+									<a class="text-xs text-secondary-foreground hover:text-primary font-medium leading-none" href="#">
 										c.fisher@gmail.com
 									</a>
 								</div>
@@ -153,14 +153,14 @@
 								</div>
 							</li>
 							<li>
-								<a class="kt-dropdown-menu-link" href="/metronic/tailwind/demo9/public-profile/profiles/default">
+								<a class="kt-dropdown-menu-link" href="#">
 									<i class="ki-filled ki-badge">
 									</i>
 									Public Profile
 								</a>
 							</li>
 							<li>
-								<a class="kt-dropdown-menu-link" href="/metronic/tailwind/demo9/account/home/user-profile">
+								<a class="kt-dropdown-menu-link" href="#">
 									<i class="ki-filled ki-profile-circle">
 									</i>
 									My Profile
@@ -179,14 +179,14 @@
 								<div class="kt-dropdown-menu w-[220px]" data-kt-dropdown-menu="true">
 									<ul class="kt-dropdown-menu-sub">
 										<li>
-											<a class="kt-dropdown-menu-link" href="/metronic/tailwind/demo9/account/home/get-started">
+											<a class="kt-dropdown-menu-link" href="#">
 												<i class="ki-filled ki-coffee">
 												</i>
 												Get Started
 											</a>
 										</li>
 										<li>
-											<a class="kt-dropdown-menu-link" href="/metronic/tailwind/demo9/account/home/user-profile">
+											<a class="kt-dropdown-menu-link" href="#">
 												<i class="ki-filled ki-some-files">
 												</i>
 												My Profile
@@ -209,21 +209,21 @@
 											</a>
 										</li>
 										<li>
-											<a class="kt-dropdown-menu-link" href="/metronic/tailwind/demo9/account/security/overview">
+											<a class="kt-dropdown-menu-link" href="#">
 												<i class="ki-filled ki-medal-star">
 												</i>
 												Security
 											</a>
 										</li>
 										<li>
-											<a class="kt-dropdown-menu-link" href="/metronic/tailwind/demo9/account/members/teams">
+											<a class="kt-dropdown-menu-link" href="#">
 												<i class="ki-filled ki-setting">
 												</i>
 												Members &amp; Roles
 											</a>
 										</li>
 										<li>
-											<a class="kt-dropdown-menu-link" href="/metronic/tailwind/demo9/account/integrations">
+											<a class="kt-dropdown-menu-link" href="#">
 												<i class="ki-filled ki-switch">
 												</i>
 												Integrations
@@ -234,7 +234,7 @@
 											</div>
 										</li>
 										<li>
-											<a class="kt-dropdown-menu-link" href="/metronic/tailwind/demo9/account/security/overview">
+											<a class="kt-dropdown-menu-link" href="#">
 												<span class="flex items-center gap-2">
 													<i class="ki-filled ki-shield-tick">
 													</i>
@@ -262,7 +262,7 @@
 									</span>
 									<span class="ms-auto kt-badge kt-badge-stroke shrink-0">
 										English
-										<img alt="" class="inline-block size-3.5 rounded-full" src="/static/metronic/tailwind/dist/assets/media/flags/united-states.svg">
+										<img alt="" class="inline-block size-3.5 rounded-full" src="{{ asset('assets/media/flags/united-states.svg') }}">
 									</span>
 								</button>
 								<div class="kt-dropdown-menu w-[180px]" data-kt-dropdown-menu="true">
@@ -270,7 +270,7 @@
 										<li class="active">
 											<a class="kt-dropdown-menu-link" href="?dir=ltr">
 												<span class="flex items-center gap-2">
-													<img alt="" class="inline-block size-4 rounded-full" src="/static/metronic/tailwind/dist/assets/media/flags/united-states.svg">
+													<img alt="" class="inline-block size-4 rounded-full" src="{{ asset('assets/media/flags/united-states.svg') }}">
 													<span class="kt-menu-title">
 														English
 													</span>
@@ -282,7 +282,7 @@
 										<li class="">
 											<a class="kt-dropdown-menu-link" href="?dir=rtl">
 												<span class="flex items-center gap-2">
-													<img alt="" class="inline-block size-4 rounded-full" src="/static/metronic/tailwind/dist/assets/media/flags/saudi-arabia.svg">
+													<img alt="" class="inline-block size-4 rounded-full" src="{{ asset('assets/media/flags/saudi-arabia.svg') }}">
 													<span class="kt-menu-title">
 														Arabic(Saudi)
 													</span>
@@ -292,7 +292,7 @@
 										<li class="">
 											<a class="kt-dropdown-menu-link" href="?dir=ltr">
 												<span class="flex items-center gap-2">
-													<img alt="" class="inline-block size-4 rounded-full" src="/static/metronic/tailwind/dist/assets/media/flags/spain.svg">
+													<img alt="" class="inline-block size-4 rounded-full" src="{{ asset('assets/media/flags/spain.svg') }}">
 													<span class="kt-menu-title">
 														Spanish
 													</span>
@@ -302,7 +302,7 @@
 										<li class="">
 											<a class="kt-dropdown-menu-link" href="?dir=ltr">
 												<span class="flex items-center gap-2">
-													<img alt="" class="inline-block size-4 rounded-full" src="/static/metronic/tailwind/dist/assets/media/flags/germany.svg">
+													<img alt="" class="inline-block size-4 rounded-full" src="{{ asset('assets/media/flags/germany.svg') }}">
 													<span class="kt-menu-title">
 														German
 													</span>
@@ -312,7 +312,7 @@
 										<li class="">
 											<a class="kt-dropdown-menu-link" href="?dir=ltr">
 												<span class="flex items-center gap-2">
-													<img alt="" class="inline-block size-4 rounded-full" src="/static/metronic/tailwind/dist/assets/media/flags/japan.svg">
+													<img alt="" class="inline-block size-4 rounded-full" src="{{ asset('assets/media/flags/japan.svg') }}">
 													<span class="kt-menu-title">
 														Japanese
 													</span>
@@ -338,7 +338,7 @@
 								</span>
 								<input class="kt-switch" data-kt-theme-switch-state="dark" data-kt-theme-switch-toggle="true" name="check" type="checkbox" value="1">
 							</div>
-							<a class="kt-btn kt-btn-outline justify-center w-full" href="/metronic/tailwind/demo9/authentication/classic/sign-in">
+							<a class="kt-btn kt-btn-outline justify-center w-full" href="#">
 								Log out
 							</a>
 						</div>
@@ -366,7 +366,7 @@
 						</button>
 						<div class="kt-menu-dropdown kt-menu-default w-full max-w-[200px]" data-kt-menu-dismiss="true">
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo9/account/home/settings-enterprise">
+								<a class="kt-menu-link" href="#">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-setting-3">
 										</i>
@@ -377,7 +377,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo9/account/members/import-members">
+								<a class="kt-menu-link" href="#">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-some-files">
 										</i>
@@ -388,7 +388,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo9/account/activity">
+								<a class="kt-menu-link" href="#">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-cloud-change">
 										</i>

@@ -4,7 +4,7 @@
 			Dashboard
 		</h1>
 		<div class="flex items-center gap-1 text-sm">
-			<a class="text-secondary-foreground hover:text-primary" href="/metronic/tailwind/demo7/">
+			<a class="text-secondary-foreground hover:text-primary" href="#">
 				Home
 			</a>
 			<span class="text-muted-foreground text-sm">
@@ -22,7 +22,7 @@
 		</div>
 	</div>
 	<div class="flex items-center flex-wrap gap-1.5 lg:gap-3.5">
-		<a class="kt-btn kt-btn-outline" href="/metronic/tailwind/demo7/account/home/get-started">
+		<a class="kt-btn kt-btn-outline" href="#">
 			<i class="ki-filled ki-exit-down text-base!">
 			</i>
 			Export

@@ -29,7 +29,7 @@
 						</div>
 					</div>
 					<div class="mb-4">
-						<a class="kt-link" href="/metronic/tailwind/demo9/account/members/team-info">
+						<a class="kt-link" href="#">
 							View page
 							<i class="ki-filled ki-right text-xs">
 							</i>
@@ -50,7 +50,7 @@
 						</div>
 					</div>
 					<div class="mb-4">
-						<a class="kt-link" href="/metronic/tailwind/demo9/account/security/security-log">
+						<a class="kt-link" href="#">
 							View page
 							<i class="ki-filled ki-right text-xs">
 							</i>
@@ -71,7 +71,7 @@
 						</div>
 					</div>
 					<div class="mb-4">
-						<a class="kt-link" href="/metronic/tailwind/demo9/account/billing/basic">
+						<a class="kt-link" href="#">
 							View page
 							<i class="ki-filled ki-right text-xs">
 							</i>
@@ -92,7 +92,7 @@
 						</div>
 					</div>
 					<div class="mb-4">
-						<a class="kt-link" href="/metronic/tailwind/demo9/account/members/roles">
+						<a class="kt-link" href="#">
 							View page
 							<i class="ki-filled ki-right text-xs">
 							</i>
@@ -115,7 +115,7 @@
 							</button>
 							<div class="kt-menu-dropdown kt-menu-default w-full max-w-[200px]" data-kt-menu-dismiss="true">
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo9/account/home/settings-enterprise">
+									<a class="kt-menu-link" href="#">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-setting-3">
 											</i>
@@ -126,7 +126,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo9/account/members/import-members">
+									<a class="kt-menu-link" href="#">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-some-files">
 											</i>
@@ -137,7 +137,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo9/account/activity">
+									<a class="kt-menu-link" href="#">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-cloud-change">
 											</i>
@@ -243,7 +243,7 @@
 					</div>
 				</div>
 				<div class="kt-card-footer justify-center">
-					<a class="kt-link kt-link-underlined kt-link-dashed" href="/metronic/tailwind/demo9/account/home/get-started">
+					<a class="kt-link kt-link-underlined kt-link-dashed" href="#">
 						Get Started
 					</a>
 				</div>
@@ -444,7 +444,7 @@
 									<img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/1.png') }}">
 								</div>
 								<div class="flex flex-col gap-0.5">
-									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="/metronic/tailwind/demo9/public-profile/teams">
+									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
 										Esther Howard
 									</a>
 									<span class="text-sm text-secondary-foreground">
@@ -465,7 +465,7 @@
 									<img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/2.png') }}">
 								</div>
 								<div class="flex flex-col gap-0.5">
-									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="/metronic/tailwind/demo9/public-profile/teams">
+									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
 										Tyler Hero
 									</a>
 									<span class="text-sm text-secondary-foreground">
@@ -486,7 +486,7 @@
 									<img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/3.png') }}">
 								</div>
 								<div class="flex flex-col gap-0.5">
-									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="/metronic/tailwind/demo9/public-profile/teams">
+									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
 										Arlene McCoy
 									</a>
 									<span class="text-sm text-secondary-foreground">
@@ -507,7 +507,7 @@
 									<img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/4.png') }}">
 								</div>
 								<div class="flex flex-col gap-0.5">
-									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="/metronic/tailwind/demo9/public-profile/teams">
+									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
 										Cody Fisher
 									</a>
 									<span class="text-sm text-secondary-foreground">

@@ -6,13 +6,13 @@
 				Team Settings
 			</h1>
 			<div class="flex items-center flex-wrap gap-1 text-sm">
-				<a class="text-secondary-foreground hover:text-primary" href="/metronic/tailwind/demo8/">
+				<a class="text-secondary-foreground hover:text-primary" href="#">
 					Home
 				</a>
 				<span class="text-muted-foreground text-sm">
 					/
 				</span>
-				<a class="text-secondary-foreground hover:text-primary" href="/metronic/tailwind/demo8/">
+				<a class="text-secondary-foreground hover:text-primary" href="#">
 					Client API
 				</a>
 				<span class="text-muted-foreground text-sm">
@@ -46,7 +46,7 @@
 			@include('partials.notification-drawer')
 			<!--End of Notifications Drawer-->
 			<!-- End of Notifications -->
-			<a class="kt-btn kt-btn-sm kt-btn-outline" href="/metronic/tailwind/demo8/account/home/get-started">
+			<a class="kt-btn kt-btn-sm kt-btn-outline" href="#">
 				<i class="ki-filled ki-exit-down text-base!">
 				</i>
 				Export

@@ -23,7 +23,7 @@
 							</p>
 						</div>
 						<div class="flex justify-center">
-							<a class="kt-btn kt-btn-primary" href="/metronic/tailwind/demo6/public-profile/teams">
+							<a class="kt-btn kt-btn-primary" href="#">
 								Create Team
 							</a>
 						</div>
@@ -45,7 +45,7 @@
 							</button>
 							<div class="kt-menu-dropdown kt-menu-default w-full max-w-[200px]" data-kt-menu-dismiss="true">
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo6/account/activity">
+									<a class="kt-menu-link" href="#">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-cloud-change">
 											</i>
@@ -82,7 +82,7 @@
 									</div>
 									<div class="kt-menu-dropdown kt-menu-default w-full max-w-[175px]">
 										<div class="kt-menu-item">
-											<a class="kt-menu-link" href="/metronic/tailwind/demo6/account/home/settings-sidebar">
+											<a class="kt-menu-link" href="#">
 												<span class="kt-menu-icon">
 													<i class="ki-filled ki-sms">
 													</i>
@@ -93,7 +93,7 @@
 											</a>
 										</div>
 										<div class="kt-menu-item">
-											<a class="kt-menu-link" href="/metronic/tailwind/demo6/account/home/settings-sidebar">
+											<a class="kt-menu-link" href="#">
 												<span class="kt-menu-icon">
 													<i class="ki-filled ki-message-notify">
 													</i>
@@ -104,7 +104,7 @@
 											</a>
 										</div>
 										<div class="kt-menu-item">
-											<a class="kt-menu-link" href="/metronic/tailwind/demo6/account/home/settings-sidebar">
+											<a class="kt-menu-link" href="#">
 												<span class="kt-menu-icon">
 													<i class="ki-filled ki-notification-status">
 													</i>
@@ -130,7 +130,7 @@
 								<div class="kt-menu-separator">
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo6/account/home/settings-enterprise">
+									<a class="kt-menu-link" href="#">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-setting-3">
 											</i>
@@ -168,21 +168,21 @@
 					</div>
 					<div class="flex items-center flex-wrap gap-4 mb-1">
 						<div class="flex items-center gap-1.5">
-							<span class="rounded-full size-2 rounded-full kt-badge-success">
+							<span class="rounded-full size-2 kt-badge-success">
 							</span>
 							<span class="text-sm font-normal text-foreground">
 								Metronic
 							</span>
 						</div>
 						<div class="flex items-center gap-1.5">
-							<span class="rounded-full size-2 rounded-full kt-badge-destructive">
+							<span class="rounded-full size-2 kt-badge-destructive">
 							</span>
 							<span class="text-sm font-normal text-foreground">
 								Bundle
 							</span>
 						</div>
 						<div class="flex items-center gap-1.5">
-							<span class="rounded-full size-2 rounded-full kt-badge-info">
+							<span class="rounded-full size-2 kt-badge-info">
 							</span>
 							<span class="text-sm font-normal text-foreground">
 								MetronicNest
@@ -705,7 +705,7 @@
 									<img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/1.png') }}">
 								</div>
 								<div class="flex flex-col gap-0.5">
-									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="/metronic/tailwind/demo6/public-profile/teams">
+									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
 										Esther Howard
 									</a>
 									<span class="text-sm text-secondary-foreground">
@@ -726,7 +726,7 @@
 									<img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/2.png') }}">
 								</div>
 								<div class="flex flex-col gap-0.5">
-									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="/metronic/tailwind/demo6/public-profile/teams">
+									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
 										Tyler Hero
 									</a>
 									<span class="text-sm text-secondary-foreground">
@@ -747,7 +747,7 @@
 									<img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/3.png') }}">
 								</div>
 								<div class="flex flex-col gap-0.5">
-									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="/metronic/tailwind/demo6/public-profile/teams">
+									<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
 										Arlene McCoy
 									</a>
 									<span class="text-sm text-secondary-foreground">

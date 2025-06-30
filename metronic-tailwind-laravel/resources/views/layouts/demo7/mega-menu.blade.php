@@ -1,6 +1,6 @@
 <div class="kt-menu flex-col lg:flex-row gap-5 lg:gap-7.5" data-kt-menu="true" id="mega_menu">
 	<div class="kt-menu-item active">
-		<a class="kt-menu-link border-b border-b-transparent kt-menu-item-active:border-b-gray-400 kt-menu-item-here:border-b-gray-400" href="/metronic/tailwind/demo7/">
+		<a class="kt-menu-link border-b border-b-transparent kt-menu-item-active:border-b-gray-400 kt-menu-item-here:border-b-gray-400" href="#">
 			<span class="kt-menu-title kt-menu-link-hover:text-mono text-sm text-foreground kt-menu-item-show:text-mono kt-menu-item-here:text-mono kt-menu-item-active:font-medium kt-menu-item-here:font-medium">
 				Boards
 			</span>
@@ -22,7 +22,7 @@
 				</span>
 			</span>
 		</div>
-		<div class="kt-menu-dropdown w-full gap-0 lg:max-w-[900px]" style="">
+		<div class="kt-menu-dropdown w-full gap-0 lg:max-w-[900px]">
 			<div class="pt-4 pb-2 lg:p-7.5">
 				<div class="grid lg:grid-cols-2 gap-5 lg:gap-10">
 					<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
@@ -32,7 +32,7 @@
 						<div class="grid lg:grid-cols-2 lg:gap-5">
 							<div class="flex flex-col gap-0.5">
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/profiles/default" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-badge">
 											</i>
@@ -43,7 +43,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/profiles/creator" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-coffee">
 											</i>
@@ -54,7 +54,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/profiles/company" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-abstract-41">
 											</i>
@@ -65,7 +65,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/profiles/nft" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-bitcoin">
 											</i>
@@ -76,7 +76,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/profiles/blogger" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-message-text">
 											</i>
@@ -87,7 +87,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/profiles/crm" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-devices">
 											</i>
@@ -98,7 +98,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/profiles/gamer" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-ghost">
 											</i>
@@ -111,7 +111,7 @@
 							</div>
 							<div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/profiles/feeds" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-book">
 											</i>
@@ -122,7 +122,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/profiles/plain" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-files">
 											</i>
@@ -133,7 +133,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/profiles/modal" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-mouse-square">
 											</i>
@@ -217,7 +217,7 @@
 						<div class="grid lg:grid-cols-2 lg:gap-5">
 							<div class="flex flex-col gap-0.5">
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/projects/3-columns" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-element-6">
 											</i>
@@ -228,7 +228,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/projects/2-columns" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-element-4">
 											</i>
@@ -239,7 +239,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/works" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-office-bag">
 											</i>
@@ -250,7 +250,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/teams" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-people">
 											</i>
@@ -261,7 +261,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/network" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-icon">
 											</i>
@@ -272,7 +272,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/activity" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-chart-line-up-2">
 											</i>
@@ -283,7 +283,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/campaigns/card" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-element-11">
 											</i>
@@ -296,7 +296,7 @@
 							</div>
 							<div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/campaigns/list" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-kanban">
 											</i>
@@ -307,7 +307,7 @@
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/public-profile/empty" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-icon">
 											<i class="ki-filled ki-file-sheet">
 											</i>
@@ -402,14 +402,14 @@
 			</span>
 		</div>
 
-		<div class="kt-menu-dropdown flex-col lg:flex-row gap-0 w-full lg:max-w-[1240px]" style="">
+		<div class="kt-menu-dropdown flex-col lg:flex-row gap-0 w-full lg:max-w-[1240px]">
 			<div class="lg:w-[250px] mt-2 lg:mt-0 lg:border-e lg:border-e-border rounded-xl lg:rounded-l-xl lg:rounded-r-none shrink-0 px-3 py-4 lg:p-7.5 bg-muted/25">
 				<h3 class="text-sm text-foreground font-semibold leading-none ps-2.5 mb-2 lg:mb-5">
 					General Pages
 				</h3>
 				<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 					<div class="kt-menu-item">
-						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="/metronic/tailwind/demo7/account/integrations">
+						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="#">
 							<span class="kt-menu-icon">
 								<i class="ki-filled ki-technology-2">
 								</i>
@@ -420,7 +420,7 @@
 						</a>
 					</div>
 					<div class="kt-menu-item">
-						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="/metronic/tailwind/demo7/account/notifications">
+						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="#">
 							<span class="kt-menu-icon">
 								<i class="ki-filled ki-notification-1">
 								</i>
@@ -431,7 +431,7 @@
 						</a>
 					</div>
 					<div class="kt-menu-item">
-						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="/metronic/tailwind/demo7/account/api-keys">
+						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="#">
 							<span class="kt-menu-icon">
 								<i class="ki-filled ki-key">
 								</i>
@@ -442,7 +442,7 @@
 						</a>
 					</div>
 					<div class="kt-menu-item">
-						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="/metronic/tailwind/demo7/account/appearance">
+						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="#">
 							<span class="kt-menu-icon">
 								<i class="ki-filled ki-eye">
 								</i>
@@ -453,7 +453,7 @@
 						</a>
 					</div>
 					<div class="kt-menu-item">
-						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="/metronic/tailwind/demo7/account/invite-a-friend">
+						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="#">
 							<span class="kt-menu-icon">
 								<i class="ki-filled ki-user-tick">
 								</i>
@@ -464,7 +464,7 @@
 						</a>
 					</div>
 					<div class="kt-menu-item">
-						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="/metronic/tailwind/demo7/account/activity">
+						<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="#">
 							<span class="kt-menu-icon">
 								<i class="ki-filled ki-support">
 								</i>
@@ -516,49 +516,49 @@
 						</h3>
 						<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/home/get-started" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Get Started
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/home/user-profile" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										User Profile
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/home/company-profile" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Company Profile
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/home/settings-sidebar" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										With Sidebar
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/home/settings-enterprise" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Enterprise
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/home/settings-plain" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Plain
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/home/settings-modal" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Modal
 									</span>
@@ -572,28 +572,28 @@
 						</h3>
 						<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/billing/basic" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Basic Billing
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/billing/enterprise" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Enterprise
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/billing/plans" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Plans
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/billing/history" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Billing History
 									</span>
@@ -643,56 +643,56 @@
 						</h3>
 						<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/security/get-started" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Get Started
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/security/overview" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Security Overview
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/security/allowed-ip-addresses" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										IP Addresses
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/security/privacy-settings" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Privacy Settings
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/security/device-management" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Device Management
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/security/backup-and-recovery" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Backup &amp; Recovery
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/security/current-sessions" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Current Sessions
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/security/security-log" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Security Log
 									</span>
@@ -706,63 +706,63 @@
 						</h3>
 						<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/members/team-starter" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Teams Starter
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/members/teams" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Teams
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/members/team-info" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Team Info
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/members/members-starter" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Members Starter
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/members/team-members" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Team Members
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/members/import-members" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Import Members
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/members/roles" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Roles
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/members/permissions-toggle" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Persmissions - Toggler
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/members/permissions-check" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Persmissions - Check
 									</span>
@@ -776,42 +776,42 @@
 						</h3>
 						<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/integrations" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Integrations
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/notifications" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Notifications
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/api-keys" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										API Keys
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/appearance" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Appearance
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/invite-a-friend" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Invite a Friend
 									</span>
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/account/activity" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-title grow-0">
 										Activity
 									</span>
@@ -840,7 +840,7 @@
 			</span>
 		</div>
 
-		<div class="kt-menu-dropdown flex-col gap-0 w-full lg:max-w-[670px]" style="">
+		<div class="kt-menu-dropdown flex-col gap-0 w-full lg:max-w-[670px]">
 			<div class="flex flex-col lg:flex-row">
 				<div class="flex flex-col gap-5 lg:w-[250px] mt-2 lg:mt-0 lg:border-r lg:border-r-border rounded-xl lg:rounded-none lg:rounded-tl-xl shrink-0 px-3 py-4 lg:p-7.5 bg-muted/25">
 					<h3 class="text-sm text-foreground font-semibold leading-none ps-2.5 h-3.5">
@@ -916,28 +916,28 @@
 							</h3>
 							<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/network/user-cards/mini-cards" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Mini Cards
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/network/user-cards/team-crew" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Team Crew
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/network/user-cards/nft" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Authors
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/network/user-cards/social" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											NFT Users
 										</span>
@@ -973,42 +973,42 @@
 							</h3>
 							<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/network/user-table/team-crew" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Team Crew
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/network/user-table/app-roster" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											App Roster
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/network/user-table/market-authors" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Market Authors
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/network/user-table/saas-users" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											SaaS Users
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/network/user-table/store-clients" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Store Clients
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/network/user-table/visitors" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Visitors
 										</span>
@@ -1051,7 +1051,7 @@
 			</span>
 		</div>
 
-		<div class="kt-menu-dropdown w-full gap-0 lg:max-w-[600px]" style="">
+		<div class="kt-menu-dropdown w-full gap-0 lg:max-w-[600px]">
 			<div class="pt-4 pb-2 lg:p-7.5">
 				<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 					<h3 class="text-sm text-foreground font-semibold leading-none ps-2.5 mb-2 lg:mb-5">
@@ -1060,7 +1060,7 @@
 					<div class="grid lg:grid-cols-2 lg:gap-5">
 						<div class="flex flex-col gap-0.5">
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/home" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-home">
 										</i>
@@ -1071,7 +1071,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/search-results-grid" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-grid">
 										</i>
@@ -1082,7 +1082,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/search-results-list" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-tablet-text-up">
 										</i>
@@ -1093,7 +1093,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/product-details" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-picture">
 										</i>
@@ -1104,7 +1104,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/shopping-cart" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-handcart">
 										</i>
@@ -1115,7 +1115,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/wishlist" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-heart">
 										</i>
@@ -1128,7 +1128,7 @@
 						</div>
 						<div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/checkout/order-summary" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-subtitle">
 										</i>
@@ -1139,7 +1139,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/checkout/shipping-info" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-delivery">
 										</i>
@@ -1150,7 +1150,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/checkout/payment-method" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-wallet">
 										</i>
@@ -1161,7 +1161,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/checkout/order-placed" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-check-circle">
 										</i>
@@ -1172,7 +1172,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/my-orders" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-archive">
 										</i>
@@ -1183,7 +1183,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo7/store-client/order-receipt" tabindex="0">
+								<a class="kt-menu-link" href="#" tabindex="0">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-document">
 										</i>
@@ -1229,7 +1229,7 @@
 			</span>
 		</div>
 
-		<div class="kt-menu-dropdown flex-col gap-0 w-full lg:max-w-[700px]" style="">
+		<div class="kt-menu-dropdown flex-col gap-0 w-full lg:max-w-[700px]">
 			<div class="flex flex-col lg:flex-row">
 				<div class="pt-4 pb-2 lg:p-7.5 lg:pb-5 grow">
 					<div class="grid lg:grid-cols-2 gap-5">
@@ -1239,28 +1239,28 @@
 							</h3>
 							<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/classic/sign-in" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Sign In
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/classic/sign-up" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Sign Up
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/classic/2fa" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											2FA
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/classic/check-email" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Check Email
 										</span>
@@ -1272,28 +1272,28 @@
 									</span>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/classic/reset-password/enter-email" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Enter Email
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/classic/reset-password/check-email" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Check Email
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/classic/reset-password/change-password" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Change Password
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/classic/reset-password/password-changed" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Password is Changed
 										</span>
@@ -1307,28 +1307,28 @@
 							</h3>
 							<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/branded/sign-in" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Sign In
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/branded/sign-up" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Sign Up
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/branded/2fa" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											2FA
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/branded/check-email" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Check Email
 										</span>
@@ -1340,28 +1340,28 @@
 									</span>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/branded/reset-password/enter-email" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Enter Email
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/branded/reset-password/check-email" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Check Email
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/branded/reset-password/change-password" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Change Password
 										</span>
 									</a>
 								</div>
 								<div class="kt-menu-item">
-									<a class="kt-menu-link" href="/metronic/tailwind/demo7/authentication/branded/reset-password/password-changed" tabindex="0">
+									<a class="kt-menu-link" href="#" tabindex="0">
 										<span class="kt-menu-title grow-0">
 											Password is Changed
 										</span>
@@ -1377,7 +1377,7 @@
 					</h3>
 					<div class="kt-menu kt-menu-default kt-menu-fit flex-col">
 						<div class="kt-menu-item">
-							<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="/metronic/tailwind/demo7/authentication/welcome-message">
+							<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-like-2">
 									</i>
@@ -1388,7 +1388,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="/metronic/tailwind/demo7/authentication/account-deactivated">
+							<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-shield-cross">
 									</i>
@@ -1399,7 +1399,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="/metronic/tailwind/demo7/authentication/error-404">
+							<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-message-question">
 									</i>
@@ -1410,7 +1410,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="/metronic/tailwind/demo7/authentication/error-500">
+							<a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-information">
 									</i>

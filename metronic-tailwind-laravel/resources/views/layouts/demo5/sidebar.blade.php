@@ -20,7 +20,7 @@
 						</button>
 						<div class="kt-menu-dropdown w-[182px] py-2">
 							<div class="kt-menu-item active">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo5/">
+								<a class="kt-menu-link" href="#">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-calendar">
 										</i>
@@ -31,7 +31,7 @@
 								</a>
 							</div>
 							<div class="kt-menu-item">
-								<a class="kt-menu-link" href="/metronic/tailwind/demo5/">
+								<a class="kt-menu-link" href="#">
 									<span class="kt-menu-icon">
 										<i class="ki-filled ki-calendar">
 										</i>
@@ -54,7 +54,7 @@
 							</div>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-setting text-muted-foreground text-lg">
 									</i>
@@ -65,7 +65,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item active">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-users text-muted-foreground text-lg">
 									</i>
@@ -76,7 +76,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-password-check text-muted-foreground text-lg">
 									</i>
@@ -87,7 +87,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-technology-4 text-muted-foreground text-lg">
 									</i>
@@ -98,7 +98,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-chart-line-star text-muted-foreground text-lg">
 									</i>
@@ -116,7 +116,7 @@
 							</div>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-chart-line-star text-muted-foreground text-lg">
 									</i>
@@ -127,7 +127,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-percentage text-muted-foreground text-lg">
 									</i>
@@ -138,7 +138,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-safe-home text-muted-foreground text-lg">
 									</i>
@@ -149,7 +149,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-status text-muted-foreground text-lg">
 									</i>
@@ -167,7 +167,7 @@
 							</div>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-calendar-8 text-muted-foreground text-lg">
 									</i>
@@ -178,7 +178,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-office-bag text-muted-foreground text-lg">
 									</i>
@@ -189,7 +189,7 @@
 							</a>
 						</div>
 						<div class="kt-menu-item">
-							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="/metronic/tailwind/demo5/">
+							<a class="kt-menu-link py-2 px-2.5 gap-2 rounded-md border border-transparent kt-menu-item-active:border-border kt-menu-item-active:bg-background kt-menu-link-hover:bg-background kt-menu-link-hover:border-border" href="#">
 								<span class="kt-menu-icon">
 									<i class="ki-filled ki-safe-home text-muted-foreground text-lg">
 									</i>
