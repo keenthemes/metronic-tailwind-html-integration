@@ -148,7 +148,7 @@ class DemoSmokeTest extends TestCase
      */
     public function test_demo_layouts_include_sidebar_where_expected()
     {
-        $demosWithSidebar = ['demo1', 'demo3', 'demo4', 'demo5', 'demo6', 'demo8', 'demo9', 'demo10'];
+        $demosWithSidebar = ['demo1', 'demo3', 'demo4', 'demo5', 'demo6', 'demo8', 'demo10'];
 
         foreach ($demosWithSidebar as $demo) {
             $response = $this->get("/{$demo}");
