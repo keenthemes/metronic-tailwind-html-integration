@@ -62,7 +62,11 @@ Route::get('/demo8', function () {
 // Demo 9 routes
 Route::get('/demo9', function () {
     return view('pages.demo9.index');
-});
+})->name('demo9.index');
+
+Route::get('/demo9/profile', function () {
+    return view('pages.demo9.profile');
+})->name('demo9.profile');
 
 // Demo 10 routes
 Route::get('/demo10', function () {
