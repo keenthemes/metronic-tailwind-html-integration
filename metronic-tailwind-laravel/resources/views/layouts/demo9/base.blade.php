@@ -14,27 +14,30 @@
 	<div class="flex grow flex-col in-data-kt-[sticky-header=on]:pt-(--header-height)">
 		@include('layouts.demo9.header')
 
-		@include('layouts.demo9.navbar')
-
-		<!-- Wrapper Container -->
-		<div class="container-fixed w-full flex px-0">
-			<!-- Content -->
-			<main class="flex flex-col grow" id="content" role="content">
-				<!-- Toolbar -->
-				@include('layouts.demo9.toolbar')
-				<!-- End of Toolbar -->
-				<!-- Container -->
-				<div class="kt-container-fixed">
-					@yield('content')
+		<!-- Wrapper -->
+		<div class="flex grow">
+			@include('layouts.demo9.sidebar')
+			<!-- Main -->
+			<div class="flex flex-col grow rounded-xl lg:ms-(--sidebar-width) mt-0 lg:mt-5 m-5">
+				<!-- Wrapper Container -->
+				<div class="w-full flex px-0">
+					<!-- Content -->
+					<main class="flex flex-col grow" id="content" role="content">
+						<!-- Toolbar -->
+						@include('layouts.demo9.toolbar')
+						<!-- End of Toolbar -->
+						<!-- Container -->
+						<div class="kt-container-fixed">
+							@yield('content')
+						</div>
+						<!-- End of Container -->
+						<!-- Footer -->
+						@include('layouts.demo9.footer')
+						<!-- End of Footer -->
+					</main>
+					<!-- End of Content -->
 				</div>
-				<!-- End of Container -->
-				<!-- Footer -->
-				@include('layouts.demo9.footer')
-				<!-- End of Footer -->
-			</main>
-			<!-- End of Content -->
-
-
+			</div>
 		</div>
 		<!-- End of Page -->
 

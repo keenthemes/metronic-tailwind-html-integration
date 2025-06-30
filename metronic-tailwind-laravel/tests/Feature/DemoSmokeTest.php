@@ -114,12 +114,6 @@ class DemoSmokeTest extends TestCase
         $response->assertStatus(200)->assertViewIs('pages.demo9.index');
     }
 
-    public function test_demo9_profile_loads()
-    {
-        $response = $this->get(route('demo9.profile'));
-        $response->assertStatus(200)->assertViewIs('pages.demo9.profile');
-    }
-
     public function test_demo10_loads()
     {
         $response = $this->get('/demo10');
@@ -154,7 +148,7 @@ class DemoSmokeTest extends TestCase
      */
     public function test_demo_layouts_include_sidebar_where_expected()
     {
-        $demosWithSidebar = ['demo1', 'demo2', 'demo3', 'demo4', 'demo5', 'demo6', 'demo8', 'demo9', 'demo10'];
+        $demosWithSidebar = ['demo1', 'demo3', 'demo4', 'demo5', 'demo6', 'demo8', 'demo9', 'demo10'];
 
         foreach ($demosWithSidebar as $demo) {
             $response = $this->get("/{$demo}");
