@@ -22,11 +22,7 @@
                 <main class="flex flex-col grow" id="content" role="content">
                     @include('layouts.demo5.toolbar')
 
-                    <!-- Container -->
-                    <div class="kt-container-fluid">
-                        @yield('content')
-                    </div>
-                    <!-- End of Container -->
+					@yield('content')
 
                     @include('layouts.demo5.footer')
                 </main>
@@ -35,7 +31,8 @@
             <!-- End of Wrapper Container -->
         </div>
         <!-- End of Main -->
-        <!-- End of Page -->
+
+        @include('partials.modals.search')
 
         @include('layouts.partials.scripts')
 
