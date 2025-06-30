@@ -28,7 +28,7 @@
                         <!-- End of Content -->
                     </div>
 
-					@include('layouts.demo8.footer')
+					@include('layouts.demo8.fxooter')
                 </div>
                 <!-- End of Main -->
             </div>
