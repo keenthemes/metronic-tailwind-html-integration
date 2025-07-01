@@ -504,5 +504,3 @@
     </div>
     <!-- End of Container -->
 @endsection
-
-</rewritten_file>
