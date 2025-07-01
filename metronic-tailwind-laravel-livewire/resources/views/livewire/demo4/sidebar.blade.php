@@ -104,10 +104,10 @@
         </div>
         <div class="flex flex-col gap-5 items-center shrink-0" id="sidebar_primary_footer">
             <div class="flex flex-col gap-1.5">
-                            <livewire:partials.topbar-chat />
-            <livewire:partials.topbar-apps />
+                            <livewire:shared.topbar-chat />
+            <livewire:shared.topbar-apps />
         </div>
-        <livewire:partials.topbar-user-dropdown />
+        <livewire:shared.topbar-user-dropdown />
         </div>
     </div>
     <!-- End of Sidebar Primary -->

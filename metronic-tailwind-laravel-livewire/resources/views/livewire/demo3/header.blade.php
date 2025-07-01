@@ -98,11 +98,11 @@
                 Get Started
             </a>
             <!-- End of Action -->
-            <livewire:partials.topbar-search-modal />
-            <livewire:partials.topbar-chat />
-            <livewire:partials.topbar-apps />
-            <livewire:partials.topbar-notification-dropdown />
-            <livewire:partials.topbar-user-dropdown />
+            <livewire:shared.topbar-search-modal />
+            <livewire:shared.topbar-chat />
+            <livewire:shared.topbar-apps />
+            <livewire:shared.topbar-notification-dropdown />
+            <livewire:shared.topbar-user-dropdown />
         </div>
         <!-- End of Topbar -->
     </div>
