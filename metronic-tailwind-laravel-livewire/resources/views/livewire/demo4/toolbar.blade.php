@@ -12,8 +12,8 @@
             </div>
         </div>
         <div class="flex items-center flex-wrap gap-3">
-            @include('partials.topbar-search-modal')
-            @include('partials.topbar-notification-dropdown')
+            <livewire:partials.topbar-search-modal />
+            <livewire:partials.topbar-notification-dropdown />
             <!-- End of Notifications -->
             <a class="kt-btn kt-btn-outline" href="#">
             <i class="ki-filled ki-exit-down">

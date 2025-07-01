@@ -4,6 +4,7 @@
 <head>
 	@include('layouts.partials.head')
 	@vite(['resources/css/app.css', 'resources/js/app.js'])
+	@livewireStyles
 </head>
 
 <body class="antialiased flex h-full text-base text-foreground bg-background [--header-height:60px] [--sidebar-width:270px] lg:overflow-hidden bg-mono dark:bg-background">
@@ -12,28 +13,28 @@
 	<!-- Page -->
 	<div class="flex grow">
 		<!-- Header -->
-		@include('layouts.demo10.header')
+		<livewire:demo10.header />
 		<!-- End of Header -->
 		<!-- Wrapper -->
 		<div class="flex flex-col lg:flex-row grow pt-(--header-height) lg:pt-0">
 			<!-- Sidebar -->
-			@include('layouts.demo10.sidebar')
+			<livewire:demo10.sidebar />
 			<!-- End of Sidebar -->
 			<!-- Main -->
 			<div class="flex flex-col grow lg:rounded-l-xl bg-background border border-input lg:ms-(--sidebar-width)">
 				<div class="flex flex-col grow kt-scrollable-y-auto lg:[--kt-scrollbar-width:auto] pt-5" id="scrollable_content">
 					<main class="grow" role="content">
 						<!-- Toolbar -->
-						@include('layouts.demo10.toolbar')
+						<livewire:demo10.toolbar />
 						<!-- End of Toolbar -->
 						<!-- Container -->
 						<div class="kt-container-fixed">
-							@yield('content')
+							{{ $slot }}
 						</div>
 						<!-- End of Container -->
 					</main>
 					<!-- Footer -->
-					@include('layouts.demo10.footer')
+					<livewire:demo10.footer />
 					<!-- End of Footer -->
 				</div>
 			</div>
@@ -44,8 +45,7 @@
 	<!-- End of Page -->
 
 	@include('layouts.partials.scripts')
-
-	@yield('scripts')
+	@livewireScripts
 </body>
 
 </html>

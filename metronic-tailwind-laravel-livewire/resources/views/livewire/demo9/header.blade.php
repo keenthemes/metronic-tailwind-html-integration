@@ -137,11 +137,11 @@
 			<div class="flex items-center gap-2 me-0.5">
 				<!-- Notifications -->
 				<!--Notifications Drawer-->
-				@include('layouts.demo9.partials.notification')
+				<livewire:demo9.partials.notification />
 				<!--End of Notifications Drawer-->
 				<!-- End of Notifications -->
 				<!-- User -->
-				@include('layouts.demo9.partials.user-dropdown')
+				<livewire:demo9.partials.user-dropdown />
 				<!-- End of User -->
 				<div class="border-e border-border h-5">
 				</div>

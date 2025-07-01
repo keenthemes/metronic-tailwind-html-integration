@@ -7,8 +7,8 @@
         </a>
     </div>
     <div class="kt-scrollable-y-hover grow gap-2.5 shrink-0 flex items-center pt-5 lg:pt-0 ps-3 pe-3 lg:pe-0 flex-col" data-kt-scrollable="true" data-kt-scrollable-dependencies="#sidebar_header,#sidebar_footer" data-kt-scrollable-height="auto" data-kt-scrollable-offset="80px" data-kt-scrollable-wrappers="#sidebar_menu_wrapper" id="sidebar_menu_wrapper">
-        @include('layouts.demo8.partials.sidebar-menu')
+        <livewire:demo8.partials.sidebar-menu />
     </div>
-	@include('layouts.demo8.partials.sidebar-footer')
+	<livewire:demo8.partials.sidebar-footer />
 </div>
 <!-- End of Sidebar -->

@@ -90,15 +90,15 @@
 	<!-- End of Sidebar Header -->
 	<!-- Sidebar menu -->
 	<div class="flex items-stretch grow shrink-0 justify-center my-5" id="sidebar_menu">
-		@include('layouts.demo10.partials.sidebar-menu')
+		<livewire:demo10.partials.sidebar-menu />
 	</div>
 	<!-- End of Sidebar kt-menu-->
 	<!-- Footer -->
 	<div class="flex flex-center justify-between shrink-0 ps-4 pe-3.5 mb-3.5" id="sidebar_footer">
 		<!-- User -->
-		@include('layouts.demo10.partials.user-dropdown')
+		<livewire:demo10.partials.user-dropdown />
 		<!-- End of User -->
-		 @include('layouts.demo10.partials.notification')
+		 <livewire:demo10.partials.notification />
 	</div>
 	<!-- End of Footer -->
 </div>

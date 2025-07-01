@@ -8,6 +8,9 @@ use App\Livewire\Demo4\Index as Demo4Index;
 use App\Livewire\Demo5\Index as Demo5Index;
 use App\Livewire\Demo6\Index as Demo6Index;
 use App\Livewire\Demo7\Index as Demo7Index;
+use App\Livewire\Demo8\Index as Demo8Index;
+use App\Livewire\Demo9\Index as Demo9Index;
+use App\Livewire\Demo10\Index as Demo10Index;
 
 Route::get('/', function () {
     return redirect()->route('demo1.index');
@@ -33,3 +36,12 @@ Route::get('/demo6', Demo6Index::class)->name('demo6.index');
 
 // Demo7 routes
 Route::get('/demo7', Demo7Index::class)->name('demo7.index');
+
+// Demo8 routes
+Route::get('/demo8', Demo8Index::class)->name('demo8.index');
+
+// Demo9 routes
+Route::get('/demo9', Demo9Index::class)->name('demo9.index');
+
+// Demo10 routes
+Route::get('/demo10', Demo10Index::class)->name('demo10.index');
