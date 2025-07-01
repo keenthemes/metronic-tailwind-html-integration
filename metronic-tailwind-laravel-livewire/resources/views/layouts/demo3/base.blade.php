@@ -3,7 +3,6 @@
     <head>
         @include('layouts.partials.head')
         @livewireStyles
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased flex h-full text-base text-foreground bg-background [--header-height:58px] [--sidebar-width:58px] [--navbar-height:56px] lg:overflow-hidden bg-muted">
         <livewire:shared.theme-toggle />
@@ -39,6 +38,5 @@
 
         @include('layouts.partials.scripts')
         @livewireScripts
-        @yield('scripts')
     </body>
 </html>
