@@ -7,7 +7,7 @@
 </head>
 
 <body class="antialiased flex h-full text-base text-foreground bg-background [--header-height:78px]">
-	@include('partials.theme-toggle')
+	<livewire:shared.theme-toggle />
 
 	<!-- Page -->
 	<!-- Main -->

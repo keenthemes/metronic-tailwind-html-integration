@@ -7,7 +7,7 @@
 </head>
 
 <body class="antialiased flex h-full text-base text-foreground bg-background [--header-height:60px] [--sidebar-width:270px] lg:overflow-hidden bg-mono dark:bg-background">
-	@include('partials.theme-toggle')
+	<livewire:shared.theme-toggle />
 
 	<!-- Page -->
 	<div class="flex grow">

@@ -5,7 +5,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased flex h-full text-base text-foreground bg-background [--header-height:60px] [--sidebar-width:90px] bg-muted">
-        @include('partials.theme-toggle')
+		<livewire:shared.theme-toggle />
 
         <!-- Page -->
         <!-- Base -->

@@ -21,7 +21,7 @@
             <div class="flex items-stretch" id="megaMenuWrapper">
                 <div class="flex items-stretch [--kt-reparent-mode:prepend] lg:[--kt-reparent-mode:prepend] [--kt-reparent-target:body] lg:[--kt-reparent-target:#megaMenuWrapper]" data-kt-reparent="true">
                     <div class="hidden lg:flex lg:items-stretch [--kt-drawer-enable:true] lg:[--kt-drawer-enable:false]" data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start fixed z-10 top-0 bottom-0 w-full mr-5 max-w-[250px] p-5 lg:p-0 overflow-auto" id="mega_menu_container">
-                        @include('layouts.demo7.mega-menu')
+                        <livewire:demo7.mega-menu />
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
             <div class="border-e border-border h-5 mx-1.5 lg:mx-3">
             </div>
             <!-- User -->
-            @include('partials.topbar-user-dropdown')
+            <livewire:shared.topbar-user-dropdown />
             <!-- End of User -->
         </div>
         <!-- End of Topbar -->

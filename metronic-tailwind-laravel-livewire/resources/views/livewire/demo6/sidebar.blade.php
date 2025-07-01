@@ -80,12 +80,12 @@
 	</div>
 	<!-- End of Sidebar Header -->
 	<!-- Sidebar menu -->
-	@include('layouts.demo6.partials.sidebar-menu')
+	<livewire:demo6.partials.sidebar-menu />
 	<!-- End of Sidebar kt-menu-->
 	<!-- Footer -->
 	<div class="flex flex-center justify-between shrink-0 ps-4 pe-3.5 mb-3.5" id="sidebar_footer">
-		@include('partials.topbar-user-dropdown')
-		@include('partials.topbar-notification-dropdown')
+		<livewire:shared.topbar-user-dropdown />
+		<livewire:shared.topbar-notification-dropdown />
 	</div>
 	<!-- End of Footer -->
 </div>
