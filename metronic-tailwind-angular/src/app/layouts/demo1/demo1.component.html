@@ -1,0 +1,16 @@
+<!-- Main Layout for Demo1 (Angular) -->
+<div class="root flex grow">
+	<app-sidebar></app-sidebar>
+	<!-- Wrapper -->
+	<div class="kt-wrapper flex grow flex-col">
+		<app-header></app-header>
+		<!-- Content -->
+		<main class="grow pt-5" id="content" role="content">
+			<router-outlet></router-outlet>
+		</main>
+		<!-- End of Content -->
+		<app-footer></app-footer>
+	</div>
+	<!-- End of Wrapper -->
+</div>
+<!-- End of Main -->
