@@ -5,12 +5,12 @@
         data-kt-sticky-name="header" data-kt-sticky-offset="200px" id="header">
         <!-- Container -->
         <div class="kt-container-fixed flex items-center justify-between lg:gap-4" id="headerContainer">
-            @include('partials.logo')
+            <app-logo></app-logo>
             <!-- Topbar -->
             <div class="flex items-center gap-2.5">
-                @include('partials.topbar-notification-dropdown')
-                @include('partials.topbar-chat')
-                @include('partials.topbar-user-dropdown')
+                <app-topbar-notification-dropdown></app-topbar-notification-dropdown>
+                <app-topbar-chat></app-topbar-chat>
+                <app-topbar-user-dropdown></app-topbar-user-dropdown>
             </div>
             <!-- End of Topbar -->
         </div>
