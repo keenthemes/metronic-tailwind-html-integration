@@ -4,8 +4,8 @@
 	<div id="sidebar_header">
 		<div class="flex items-center gap-2.5 px-3.5 h-[70px]">
 			<a href="#">
-				<img class="dark:hidden h-[42px]" src="{{ asset('assets/media/app/mini-logo-circle.svg') }}">
-				<img class="hidden dark:inline-block h-[42px]" src="{{ asset('assets/media/app/mini-logo-circle-dark.svg') }}">
+				<img class="dark:hidden h-[42px]" src="assets/media/app/mini-logo-circle.svg">
+				<img class="hidden dark:inline-block h-[42px]" src="assets/media/app/mini-logo-circle-dark.svg">
 			</a>
 			<div class="kt-menu kt-menu-default grow" data-kt-menu="true">
 				<div class="kt-menu-item grow kt-menu-item-dropdown" data-kt-menu-item-offset="0px,0px" data-kt-menu-item-placement="bottom-start" data-kt-menu-item-toggle="dropdown" data-kt-menu-item-trigger="hover">
@@ -80,7 +80,7 @@
 	</div>
 	<!-- End of Sidebar Header -->
 	<!-- Sidebar menu -->
-	@include('layouts.demo6.partials.sidebar-menu')
+	<app-sidebar-menu></app-sidebar-menu>
 	<!-- End of Sidebar kt-menu-->
 	<!-- Footer -->
 	<div class="flex flex-center justify-between shrink-0 ps-4 pe-3.5 mb-3.5" id="sidebar_footer">

@@ -13,11 +13,9 @@
 
     <!-- Content -->
     <main class="grow" id="content" role="content">
-        @yield('content')
+        <router-outlet></router-outlet>
     </main>
 
     <!-- Footer -->
     <app-footer></app-footer>
 </div>
-
-@include('layouts.partials.scripts')

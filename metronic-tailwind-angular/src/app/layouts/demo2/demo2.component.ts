@@ -7,7 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'body',
-  imports: [ThemeToggleComponent, HeaderComponent, NavbarComponent, ToolbarComponent, FooterComponent],
+  imports: [RouterOutlet, ThemeToggleComponent, HeaderComponent, NavbarComponent, ToolbarComponent, FooterComponent],
   templateUrl: './demo2.component.html',
   styleUrl: './demo2.component.scss'
 })

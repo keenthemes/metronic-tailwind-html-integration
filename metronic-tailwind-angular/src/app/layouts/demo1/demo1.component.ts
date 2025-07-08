@@ -7,7 +7,7 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'body',
-  imports: [ThemeToggleComponent, SidebarComponent, HeaderComponent, FooterComponent, RouterOutlet],
+  imports: [RouterOutlet, ThemeToggleComponent, SidebarComponent, HeaderComponent, FooterComponent, RouterOutlet],
   templateUrl: './demo1.component.html',
   styleUrl: './demo1.component.scss'
 })

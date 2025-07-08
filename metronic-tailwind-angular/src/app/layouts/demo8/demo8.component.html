@@ -13,7 +13,7 @@
                     <app-toolbar></app-toolbar>
                     <!-- Container -->
                     <div class="kt-container-fixed">
-                        @yield('content')
+                        <router-outlet></router-outlet>
                     </div>
                     <!-- End of Container -->
                 </main>
@@ -29,6 +29,3 @@
 <!-- End of Base -->
 <!-- End of Page -->
 
-@include('layouts.partials.scripts')
-
-@yield('scripts')

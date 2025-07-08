@@ -16,7 +16,7 @@
             <div class="flex flex-col grow kt-scrollable-y lg:[scrollbar-width:auto] pt-7 lg:[&_.kt-container-fluid]:pe-4" id="scrollable_content">
                 <!-- Content -->
                 <main class="grow" role="content">
-                    @yield('content')
+                    <router-outlet></router-outlet>
                 </main>
                 <!-- End of Content -->
                 <app-footer></app-footer>
@@ -29,6 +29,3 @@
 <!-- End of Base -->
 <!-- End of Page -->
 
-@include('layouts.partials.scripts')
-
-@yield('scripts')

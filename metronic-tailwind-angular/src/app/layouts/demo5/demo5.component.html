@@ -15,7 +15,7 @@
         <main class="flex flex-col grow" id="content" role="content">
             <app-toolbar></app-toolbar>
 
-			@yield('content')
+			<router-outlet></router-outlet>
 
             <app-footer></app-footer>
         </main>
@@ -27,6 +27,3 @@
 
 <app-modals-search></app-modals-search>
 
-@include('layouts.partials.scripts')
-
-@yield('scripts')

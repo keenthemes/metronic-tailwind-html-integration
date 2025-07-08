@@ -4,10 +4,11 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'body',
-  imports: [ThemeToggleComponent, HeaderComponent, SidebarComponent, ToolbarComponent, FooterComponent],
+  imports: [RouterOutlet, ThemeToggleComponent, HeaderComponent, SidebarComponent, ToolbarComponent, FooterComponent],
   templateUrl: './demo6.component.html',
   styleUrl: './demo6.component.scss'
 })

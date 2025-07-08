@@ -17,7 +17,7 @@
 
                     <!-- Content -->
                     <main class="grow" id="content" role="content">
-                        @yield('content')
+                        <router-outlet></router-outlet>
                     </main>
                     <!-- End of Content -->
 
@@ -32,6 +32,3 @@
 <!-- End of Base -->
 <!-- End of Page -->
 
-@include('layouts.partials.scripts')
-
-@yield('scripts')

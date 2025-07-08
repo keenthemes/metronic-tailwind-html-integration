@@ -13,7 +13,7 @@
     <main class="grow" id="content" role="content">
         <!-- Container -->
         <div class="kt-container-fixed" id="contentContainer">
-            @yield('content')
+            <router-outlet></router-outlet>
         </div>
         <!-- End of Container -->
     </main>
@@ -24,6 +24,3 @@
 <!-- End of Main -->
 <!-- End of Page -->
 
-@include('layouts.partials.scripts')
-
-@yield('scripts')

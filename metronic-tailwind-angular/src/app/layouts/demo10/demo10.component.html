@@ -19,7 +19,7 @@
 					<!-- End of Toolbar -->
 					<!-- Container -->
 					<div class="kt-container-fixed">
-						@yield('content')
+						<router-outlet></router-outlet>
 					</div>
 					<!-- End of Container -->
 				</main>
@@ -34,6 +34,3 @@
 </div>
 <!-- End of Page -->
 
-@include('layouts.partials.scripts')
-
-@yield('scripts')

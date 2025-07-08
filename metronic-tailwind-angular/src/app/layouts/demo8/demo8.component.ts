@@ -3,10 +3,11 @@ import { ThemeToggleComponent } from '../../partials/theme-toggle/theme-toggle.c
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'body',
-  imports: [ThemeToggleComponent, SidebarComponent, ToolbarComponent, FooterComponent],
+  imports: [RouterOutlet, ThemeToggleComponent, SidebarComponent, ToolbarComponent, FooterComponent],
   templateUrl: './demo8.component.html',
   styleUrl: './demo8.component.scss'
 })
