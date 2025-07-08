@@ -1,5 +1,5 @@
 import { Component, HostBinding } from '@angular/core';
-import { ThemeToggleComponent } from '../partials/theme-toggle/theme-toggle.component';
+import { ThemeToggleComponent } from '../../partials/theme-toggle/theme-toggle.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
