@@ -4,7 +4,7 @@ import { SidebarMenuComponent } from '../partials/sidebar-menu/sidebar-menu.comp
 
 @Component({
   selector: 'app-sidebar',
-  imports: [RouterOutlet, SidebarFooterComponent, SidebarMenuComponent],
+  imports: [SidebarFooterComponent, SidebarMenuComponent],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.scss'
 })

@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'body',

@@ -6,10 +6,11 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterOutlet } from '@angular/router';
+import { ModalsSearchComponent } from '../../partials/modals-search/modals-search.component';
 
 @Component({
   selector: 'body',
-  imports: [RouterOutlet, ThemeToggleComponent, HeaderComponent, NavbarComponent, SidebarComponent, ToolbarComponent, FooterComponent],
+  imports: [RouterOutlet, ThemeToggleComponent, HeaderComponent, NavbarComponent, SidebarComponent, ToolbarComponent, FooterComponent, ModalsSearchComponent],
   templateUrl: './demo5.component.html',
   styleUrl: './demo5.component.scss'
 })
