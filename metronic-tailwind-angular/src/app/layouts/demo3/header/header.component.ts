@@ -6,7 +6,7 @@ import { TopbarChatComponent } from '../../../partials/topbar-chat/topbar-chat.c
 import { TopbarSearchModalComponent } from '../../../partials/topbar-search-modal/topbar-search-modal.component';
 
 @Component({
-  selector: 'app-header',
+  selector: '[app-header]',
   imports: [TopbarUserDropdownComponent, TopbarNotificationDropdownComponent, TopbarAppsComponent, TopbarChatComponent, TopbarSearchModalComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
