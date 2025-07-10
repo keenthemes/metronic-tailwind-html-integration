@@ -41,8 +41,7 @@
             "scripts": [
               "src/assets/js/core.bundle.js",
               "src/assets/vendors/ktui/ktui.min.js",
-              "src/assets/vendors/apexcharts/apexcharts.min.js",
-              "src/assets/js/layouts/demo1.js"
+              "src/assets/vendors/apexcharts/apexcharts.min.js"
             ]
           },
           "configurations": {

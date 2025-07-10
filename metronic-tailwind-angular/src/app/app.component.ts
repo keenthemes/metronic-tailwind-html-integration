@@ -2,6 +2,7 @@ import { Component, inject, signal, Renderer2 } from '@angular/core';
 import { Router, NavigationEnd, RouterOutlet } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 import { filter } from 'rxjs/operators';
+import { MetronicInitService } from './core/services/metronic-init.service';
 
 @Component({
   selector: 'app-root',
@@ -15,6 +16,7 @@ export class AppComponent {
   private router = inject(Router);
   private document = inject(DOCUMENT);
   private renderer = inject(Renderer2);
+  private metronicInitService = inject(MetronicInitService);
 
   private demoClassMap: Record<string, string> = {
     demo1: 'demo1 kt-sidebar-fixed kt-header-fixed',
@@ -33,6 +35,7 @@ export class AppComponent {
   constructor() {
     this.router.events.pipe(filter(e => e instanceof NavigationEnd)).subscribe(() => {
       this.updateDemo();
+      this.metronicInitService.init();
     });
     this.updateDemo();
   }
