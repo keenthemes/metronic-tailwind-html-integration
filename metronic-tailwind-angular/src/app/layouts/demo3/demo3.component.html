@@ -2,30 +2,29 @@
 
 <!-- Page -->
 <!-- Base -->
-<div class="flex grow">
-    <app-header></app-header>
+<app-header></app-header>
 
-    <!-- Wrapper -->
-    <div class="flex flex-col lg:flex-row grow pt-(--header-height)">
-        <app-sidebar></app-sidebar>
+<!-- Wrapper -->
+<div class="flex flex-col lg:flex-row grow pt-(--header-height)">
+	<app-sidebar></app-sidebar>
 
-        <!-- Main -->
-        <app-navbar></app-navbar>
+	<!-- Main -->
+	<app-navbar></app-navbar>
 
-        <div class="flex grow rounded-b-xl bg-background border-x border-b border-input lg:mt-(--navbar-height) mx-5 lg:ms-(--sidebar-width) mb-5">
-            <div class="flex flex-col grow kt-scrollable-y lg:[scrollbar-width:auto] pt-7 lg:[&_.kt-container-fluid]:pe-4" id="scrollable_content">
-                <!-- Content -->
-                <main class="grow" role="content">
-                    <router-outlet></router-outlet>
-                </main>
-                <!-- End of Content -->
-                <app-footer></app-footer>
-            </div>
-        </div>
-        <!-- End of Main -->
-    </div>
-    <!-- End of Wrapper -->
+	<div
+		class="flex grow rounded-b-xl bg-background border-x border-b border-input lg:mt-(--navbar-height) mx-5 lg:ms-(--sidebar-width) mb-5">
+		<div class="flex flex-col grow kt-scrollable-y lg:[scrollbar-width:auto] pt-7 lg:[&_.kt-container-fluid]:pe-4"
+			id="scrollable_content">
+			<!-- Content -->
+			<main class="grow" role="content">
+				<router-outlet></router-outlet>
+			</main>
+			<!-- End of Content -->
+			<app-footer></app-footer>
+		</div>
+	</div>
+	<!-- End of Main -->
 </div>
+<!-- End of Wrapper -->
 <!-- End of Base -->
 <!-- End of Page -->
-

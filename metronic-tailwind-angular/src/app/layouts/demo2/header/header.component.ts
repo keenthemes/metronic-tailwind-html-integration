@@ -5,7 +5,7 @@ import { TopbarNotificationDropdownComponent } from '../../../partials/topbar-no
 import { LogoComponent } from '../../../partials/logo/logo.component';
 
 @Component({
-  selector: 'app-header',
+  selector: '[app-header]',
   imports: [TopbarUserDropdownComponent, TopbarChatComponent, TopbarNotificationDropdownComponent, LogoComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
