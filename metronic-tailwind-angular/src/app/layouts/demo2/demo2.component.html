@@ -1,21 +1,22 @@
 <app-theme-toggle></app-theme-toggle>
 
 <!-- Main -->
-<div class="in-data-[kt-sticky-header=on]:pt-(--header-height) flex grow flex-col">
-    <!-- Header -->
-    <app-header></app-header>
+<!-- Header -->
+<header app-header class="h-(--header-height) flex shrink-0 items-center bg-background transition-[height]"
+	data-kt-sticky="true"
+	data-kt-sticky-class="transition-[height] fixed z-10 top-0 left-0 right-0 backdrop-blur-md bg-background/70 border-b border-border"
+	data-kt-sticky-name="header" data-kt-sticky-offset="200px" id="header"></header>
 
-    <!-- Navbar -->
-    <app-navbar></app-navbar>
+<!-- Navbar -->
+<div app-navbar class="mb-5 border-b border-border pb-5 lg:mb-10 lg:pb-0"></div>
 
-    <!-- Toolbar -->
-    <app-toolbar></app-toolbar>
+<!-- Toolbar -->
+<div app-toolbar class="mb-5 lg:mb-10"></div>
 
-    <!-- Content -->
-    <main class="grow" id="content" role="content">
-        <router-outlet></router-outlet>
-    </main>
+<!-- Content -->
+<main class="grow" id="content" role="content">
+	<router-outlet></router-outlet>
+</main>
 
-    <!-- Footer -->
-    <app-footer></app-footer>
-</div>
+<!-- Footer -->
+<footer app-footer class="footer"></footer>

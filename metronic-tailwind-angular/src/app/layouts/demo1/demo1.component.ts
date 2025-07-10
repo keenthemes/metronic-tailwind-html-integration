@@ -7,17 +7,16 @@ import { RouterOutlet } from '@angular/router';
 import { MetronicInitService } from '../../core/services/metronic-init.service';
 
 @Component({
-  selector: 'body',
-  imports: [RouterOutlet, ThemeToggleComponent, SidebarComponent, HeaderComponent, FooterComponent],
-  templateUrl: './demo1.component.html',
-  styleUrl: './demo1.component.scss'
+	selector: 'app-demo1',
+	imports: [RouterOutlet, ThemeToggleComponent, SidebarComponent, HeaderComponent, FooterComponent],
+	templateUrl: './demo1.component.html',
+	styleUrl: './demo1.component.scss'
 })
 export class Demo1Component implements AfterViewInit {
-  @HostBinding('class') bodyClass = 'demo1 kt-sidebar-fixed kt-header-fixed flex h-full bg-background text-base text-foreground antialiased';
+	@HostBinding('class') class = 'flex grow';
+	private metronicInitService = inject(MetronicInitService);
 
-  private metronicInitService = inject(MetronicInitService);
-
-  ngAfterViewInit(): void {
-    this.metronicInitService.init();
-  }
+	ngAfterViewInit(): void {
+		this.metronicInitService.init();
+	}
 }

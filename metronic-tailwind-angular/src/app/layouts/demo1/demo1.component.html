@@ -3,12 +3,12 @@
 <!-- Page -->
 <!-- Main -->
 <div class="flex grow">
-	<app-sidebar></app-sidebar>
+	<div app-sidebar class="kt-sidebar bg-background border-e border-e-border fixed top-0 bottom-0 z-20 hidden lg:flex flex-col items-stretch shrink-0 [--kt-drawer-enable:true] lg:[--kt-drawer-enable:false]"
+	data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start top-0 bottom-0" id="sidebar"></div>
 
 	<!-- Wrapper -->
 	<div class="kt-wrapper flex grow flex-col">
-		<app-header></app-header>
-
+		<header app-header class="kt-header fixed top-0 z-10 start-0 end-0 flex items-stretch shrink-0 bg-background" data-kt-sticky="true" data-kt-sticky-class="border-b border-border" data-kt-sticky-name="header" id="header"></header>
 		<!-- Content -->
 		<main class="grow pt-5" id="content" role="content">
 			<router-outlet></router-outlet>

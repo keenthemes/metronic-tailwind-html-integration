@@ -5,7 +5,7 @@ import { filter } from 'rxjs/operators';
 import { MetronicInitService } from './core/services/metronic-init.service';
 
 @Component({
-  selector: 'app-root',
+  selector: 'body[app-root]',
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
