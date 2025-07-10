@@ -1,27 +1,58 @@
-<!-- Toolbar -->
-<div class="pb-5">
-    <!-- Container -->
-    <div class="kt-container-fluid flex items-center justify-between flex-wrap gap-3">
-        <div class="flex items-center flex-wrap gap-1 lg:gap-5">
-            <h1 class="font-medium text-base text-mono">
-            </h1>
-            <div class="flex items-center flex-wrap gap-1 text-sm">
-                <a class="text-secondary-foreground hover:text-primary" href="#">
-                Home
-                </a>
-            </div>
-        </div>
-        <div class="flex items-center flex-wrap gap-3">
-            <app-topbar-search-modal></app-topbar-search-modal>
-            <app-topbar-notification-dropdown></app-topbar-notification-dropdown>
-            <!-- End of Notifications -->
-            <a class="kt-btn kt-btn-outline" href="#">
-            <i class="ki-filled ki-exit-down">
-            </i>
-            Export
-            </a>
-        </div>
-    </div>
-    <!-- End of Container -->
+<!-- Container -->
+<div class="kt-container-fluid flex items-center justify-between flex-wrap gap-3">
+	<div class="flex items-center flex-wrap gap-1 lg:gap-5">
+		<h1 class="font-medium text-base text-mono">
+			Team Settings
+		</h1>
+		<div class="flex items-center flex-wrap gap-1 text-sm">
+			<a class="text-secondary-foreground hover:text-primary" href="#">
+				Home
+			</a>
+			<span class="text-muted-foreground text-sm">
+				/
+			</span>
+			<a class="text-secondary-foreground hover:text-primary" href="#">
+				Client API
+			</a>
+			<span class="text-muted-foreground text-sm">
+				/
+			</span>
+			<span class="text-secondary-foreground">
+				Configuration
+			</span>
+			<span class="text-muted-foreground text-sm">
+				/
+			</span>
+			<span class="text-mono">
+				Team Settings
+			</span>
+		</div>
+	</div>
+	<div class="flex items-center flex-wrap gap-3">
+		<!-- Search -->
+		<button
+			class="group kt-btn kt-btn-ghost kt-btn-icon size-9 rounded-full hover:bg-primary/10 hover:[&amp;_i]:text-primary"
+			data-kt-modal-toggle="#search_modal">
+			<i class="ki-filled ki-magnifier text-lg group-hover:text-primary">
+			</i>
+		</button>
+		<!-- End of Search -->
+		<!-- Notifications -->
+		<button
+			class="kt-btn kt-btn-ghost kt-btn-icon size-9 rounded-full hover:bg-primary/10 hover:[&amp;_i]:text-primary"
+			data-kt-drawer-toggle="#notifications_drawer">
+			<i class="ki-filled ki-notification-status text-lg">
+			</i>
+		</button>
+		<!--Notifications Drawer-->
+
+		<!--End of Notifications Drawer-->
+		<!-- End of Notifications -->
+		<a class="kt-btn kt-btn-outline" href="/metronic/tailwind/demo4/account/home/get-started">
+			<i class="ki-filled ki-exit-down">
+			</i>
+			Export
+		</a>
+	</div>
 </div>
-<!-- End of Toolbar -->
+<!-- End of Container -->

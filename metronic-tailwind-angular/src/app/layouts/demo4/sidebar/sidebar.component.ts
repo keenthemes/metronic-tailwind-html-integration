@@ -4,7 +4,7 @@ import { TopbarAppsComponent } from '../../../partials/topbar-apps/topbar-apps.c
 import { TopbarChatComponent } from '../../../partials/topbar-chat/topbar-chat.component';
 
 @Component({
-  selector: 'app-sidebar',
+  selector: '[app-sidebar]',
   imports: [TopbarUserDropdownComponent, TopbarAppsComponent, TopbarChatComponent],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.scss'
