@@ -1,4 +1,4 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, inject } from '@angular/core';
 import { ThemeToggleComponent } from '../../partials/theme-toggle/theme-toggle.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -7,6 +7,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterOutlet } from '@angular/router';
 import { ModalsSearchComponent } from '../../partials/modals-search/modals-search.component';
+import { MetronicInitService } from '../../core/services/metronic-init.service';
 
 @Component({
   selector: 'body',
@@ -15,5 +16,10 @@ import { ModalsSearchComponent } from '../../partials/modals-search/modals-searc
   styleUrl: './demo5.component.scss'
 })
 export class Demo5Component {
-  @HostBinding('class') bodyClass = 'antialiased flex h-full text-base text-foreground bg-background [--header-height:54px] [--sidebar-width:200px]';
+  @HostBinding('class') bodyClass = 'flex grow flex-col in-data-kt-[sticky-header=on]:pt-(--header-height)';
+  private metronicInitService = inject(MetronicInitService);
+
+  ngAfterViewInit(): void {
+    this.metronicInitService.init();
+  }
 }

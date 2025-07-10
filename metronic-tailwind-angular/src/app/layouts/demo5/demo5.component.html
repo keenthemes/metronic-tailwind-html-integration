@@ -3,21 +3,25 @@
 <!-- Page -->
 <!-- Main -->
 <div class="flex grow flex-col in-data-kt-[sticky-header=on]:pt-(--header-height)">
-    <app-header></app-header>
+    <header app-header id="header" class="flex items-center transition-[height] shrink-0 bg-background h-(--header-height)" data-kt-sticky="true" data-kt-sticky-name="header" data-kt-sticky-offset="100px" data-kt-sticky-class="transition-[height] fixed z-10 top-0 left-0 right-0 shadow-xs backdrop-blur-md bg-white/70 dark:bg-background/70 border-b border-border">
+	</header>
 
-    <app-navbar></app-navbar>
+	<div app-navbar class="bg-background border-y border-t border-border mb-5 lg:mb-10">
+	</div>
 
     <!-- Wrapper Container -->
     <div class="container-fixed w-full flex px-0 lg:ps-4">
-        <app-sidebar></app-sidebar>
+        <div app-sidebar class="w-(--sidebar-width) shrink-0 hidden lg:flex items-start [--kt-drawer-enable:true] lg:[--kt-drawer-enable:false]" data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start flex top-0 bottom-0" id="sidebar" data-kt-drawer-initialized="true">
+		</div>
 
         <!-- Content -->
         <main class="flex flex-col grow" id="content" role="content">
-            <app-toolbar></app-toolbar>
+            <div app-toolbar class="mb-5 lg:mb-7.5">
+			</div>
 
 			<router-outlet></router-outlet>
 
-            <app-footer></app-footer>
+            <footer app-footer class="footer"></footer>
         </main>
         <!-- End of Content -->
     </div>

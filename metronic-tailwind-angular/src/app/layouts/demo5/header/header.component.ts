@@ -4,7 +4,7 @@ import { TopbarAppsComponent } from '../../../partials/topbar-apps/topbar-apps.c
 import { TopbarNotificationDropdownComponent } from '../../../partials/topbar-notification-dropdown/topbar-notification-dropdown.component';
 
 @Component({
-  selector: 'app-header',
+  selector: '[app-header]',
   imports: [TopbarUserDropdownComponent, TopbarAppsComponent, TopbarNotificationDropdownComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
