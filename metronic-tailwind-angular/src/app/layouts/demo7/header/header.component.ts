@@ -3,7 +3,7 @@ import { TopbarUserDropdownComponent } from '../../../partials/topbar-user-dropd
 import { MegaMenuComponent } from '../mega-menu/mega-menu.component';
 
 @Component({
-  selector: 'app-header',
+  selector: '[app-header]',
   imports: [TopbarUserDropdownComponent, MegaMenuComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'

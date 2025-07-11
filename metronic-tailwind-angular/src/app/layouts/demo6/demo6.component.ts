@@ -8,7 +8,7 @@ import { RouterOutlet } from '@angular/router';
 import { MetronicInitService } from '../../core/services/metronic-init.service';
 
 @Component({
-	selector: 'body',
+	selector: 'app-demo6',
 	imports: [RouterOutlet, ThemeToggleComponent, HeaderComponent, SidebarComponent, ToolbarComponent, FooterComponent],
 	templateUrl: './demo6.component.html',
 	styleUrl: './demo6.component.scss'

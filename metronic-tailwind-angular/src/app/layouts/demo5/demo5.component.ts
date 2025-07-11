@@ -10,7 +10,7 @@ import { ModalsSearchComponent } from '../../partials/modals-search/modals-searc
 import { MetronicInitService } from '../../core/services/metronic-init.service';
 
 @Component({
-  selector: 'body',
+  selector: 'app-demo5',
   imports: [RouterOutlet, ThemeToggleComponent, HeaderComponent, NavbarComponent, SidebarComponent, ToolbarComponent, FooterComponent, ModalsSearchComponent],
   templateUrl: './demo5.component.html',
   styleUrl: './demo5.component.scss'
