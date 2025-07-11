@@ -224,7 +224,7 @@
                 <input class="kt-switch"
                        type="checkbox"
                        [checked]="effectiveTheme() === 'dark'"
-                       (change)="setThemeMode($event.target.checked ? 'dark' : 'light')"
+                       (change)="onThemeToggle($event)"
                        name="check" value="1" />
             </div>
             <a class="kt-btn kt-btn-outline w-full justify-center"

@@ -4,7 +4,7 @@ import { TopbarNotificationDropdownComponent } from '../../../partials/topbar-no
 import { SidebarMenuComponent } from '../partials/sidebar-menu/sidebar-menu.component';
 
 @Component({
-  selector: 'app-sidebar',
+  selector: '[app-sidebar]',
   imports: [TopbarUserDropdownComponent, TopbarNotificationDropdownComponent, SidebarMenuComponent],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.scss'

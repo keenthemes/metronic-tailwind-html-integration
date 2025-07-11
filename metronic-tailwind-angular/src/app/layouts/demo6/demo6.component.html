@@ -3,31 +3,36 @@
 <!-- Page -->
 <!-- Base -->
 <div class="flex grow">
-    <app-header></app-header>
+	<header app-header
+		class="flex lg:hidden items-center fixed z-10 top-0 start-0 end-0 shrink-0 bg-muted h-(--header-height)"
+		id="header">
+	</header>
 
-    <app-sidebar></app-sidebar>
+	<div app-sidebar
+		class="fixed z-20 hidden lg:flex flex-col shrink-0 w-(--sidebar-width) bg-muted [--kt-drawer-enable:true] lg:[--kt-drawer-enable:false]"
+		data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start flex top-0 bottom-0" id="sidebar"
+		data-kt-drawer-initialized="true">
+	</div>
 
-    <!-- Wrapper -->
-    <div class="flex flex-col lg:flex-row grow pt-(--header-height) lg:pt-0">
-        <!-- Main -->
-        <div class="flex flex-col grow items-stretch rounded-xl bg-background border border-input lg:ms-(--sidebar-width) mt-0 lg:mt-[15px] m-[15px]">
-            <div class="flex flex-col grow kt-scrollable-y-auto [--kt-scrollbar-width:auto] pt-5" id="scrollable_content">
-                <main class="grow" role="content">
-                    <app-toolbar></app-toolbar>
+	<!-- Wrapper -->
+	<div class="flex flex-col lg:flex-row grow pt-(--header-height) lg:pt-0">
+		<!-- Main -->
+		<div
+			class="flex flex-col grow items-stretch rounded-xl bg-background border border-input lg:ms-(--sidebar-width) mt-0 lg:mt-[15px] m-[15px]">
+			<div class="flex flex-col grow kt-scrollable-y-auto [--kt-scrollbar-width:auto] pt-5"
+				id="scrollable_content">
+				<main class="grow" role="content">
+					<div app-toolbar class="pb-5"></div>
 
-                    <!-- Container -->
-                    <div class="kt-container-fixed">
-                        <router-outlet></router-outlet>
-                    </div>
-                    <!-- End of Container -->
-                </main>
-                <app-footer></app-footer>
-            </div>
-        </div>
-        <!-- End of Main -->
-    </div>
-    <!-- End of Wrapper -->
+					<router-outlet></router-outlet>
+				</main>
+
+				<footer app-footer class="footer"></footer>
+			</div>
+		</div>
+		<!-- End of Main -->
+	</div>
+	<!-- End of Wrapper -->
 </div>
 <!-- End of Base -->
 <!-- End of Page -->
-
