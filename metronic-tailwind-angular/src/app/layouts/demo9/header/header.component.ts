@@ -3,7 +3,7 @@ import { UserDropdownComponent } from '../partials/user-dropdown/user-dropdown.c
 import { NotificationComponent } from '../partials/notification/notification.component';
 
 @Component({
-  selector: 'app-header',
+  selector: '[app-header]',
   imports: [NotificationComponent, UserDropdownComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
