@@ -3,7 +3,7 @@ import { SidebarFooterComponent } from '../partials/sidebar-footer/sidebar-foote
 import { SidebarMenuComponent } from '../partials/sidebar-menu/sidebar-menu.component';
 
 @Component({
-  selector: 'app-sidebar',
+  selector: '[app-sidebar]',
   imports: [SidebarFooterComponent, SidebarMenuComponent],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.scss'
