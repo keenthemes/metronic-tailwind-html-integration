@@ -1,6 +1,6 @@
-import { Component, inject, signal, Renderer2 } from '@angular/core';
+import { Component, inject, signal, Renderer2, DOCUMENT } from '@angular/core';
 import { Router, NavigationEnd, RouterOutlet } from '@angular/router';
-import { DOCUMENT } from '@angular/common';
+
 import { filter } from 'rxjs/operators';
 import { MetronicInitService } from './core/services/metronic-init.service';
 
