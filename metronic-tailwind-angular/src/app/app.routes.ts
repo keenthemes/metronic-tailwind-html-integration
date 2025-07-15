@@ -21,6 +21,7 @@ import { Demo10Component } from './layouts/demo10/demo10.component';
 import { IndexComponent as Demo10IndexComponent } from './pages/demo10/index/index.component';
 
 export const routes: Routes = [
+  { path: '', pathMatch: 'full', redirectTo: 'demo1' },
   {
     path: 'demo1',
     component: Demo1Component,
