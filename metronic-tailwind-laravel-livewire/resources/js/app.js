@@ -1,17 +1,14 @@
 import './bootstrap';
-import Alpine from 'alpinejs';
-
-// Start Alpine.js
-window.Alpine = Alpine;
-Alpine.start();
+// Alpine.js is automatically included with Livewire, no need to import manually
+// This prevents "multiple instances of Alpine running" error
 
 // Metronic Core JavaScript functionality
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize drawer functionality
     initDrawers();
 
-    // Initialize menu functionality
-    initMenus();
+    // Initialize KTMenu (includes menu functionality)
+    initKTMenu();
 
     // Initialize sticky headers
     initStickyHeaders();
@@ -56,6 +53,21 @@ function initMenus() {
             }
         });
     });
+}
+
+// KTMenu initialization function
+function initKTMenu() {
+    // Initialize KTMenu if available (from Metronic core bundle)
+    if (typeof KTMenu !== 'undefined' && KTMenu.init) {
+        try {
+            KTMenu.init();
+        } catch (error) {
+            console.warn('KTMenu initialization failed:', error);
+        }
+    }
+
+    // Also initialize our custom menu functionality
+    initMenus();
 }
 
 // Sticky header functionality
@@ -111,7 +123,7 @@ document.addEventListener('livewire:init', () => {
     // Re-initialize functionality after Livewire updates
     Livewire.hook('morph.updated', () => {
         initDrawers();
-        initMenus();
+        initKTMenu(); // Use KTMenu initialization instead of just initMenus
         initStickyHeaders();
         initModals();
     });
@@ -121,6 +133,7 @@ document.addEventListener('livewire:init', () => {
 window.MetronicCore = {
     initDrawers,
     initMenus,
+    initKTMenu,
     initStickyHeaders,
     initModals
 };
