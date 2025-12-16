@@ -12,10 +12,10 @@
         "@tailwindcss/typography": "^0.5.10",
         "axios": "^1.6.4",
         "blade-formatter": "^1.42.2",
-        "laravel-vite-plugin": "^1.0",
+        "laravel-vite-plugin": "^2.0",
         "postcss": "^8.4.32",
         "tailwindcss": "^4.1.12",
-        "vite": "^5.0"
+        "vite": "^7.3"
     },
     "dependencies": {
         "@tailwindcss/vite": "^4.1.12",
