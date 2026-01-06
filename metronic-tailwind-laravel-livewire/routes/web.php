@@ -2,7 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Demo1\Index as Demo1Index;
+use App\Livewire\Demo1\Profile as Demo1Profile;
+use App\Livewire\Demo1\Settings as Demo1Settings;
+use App\Livewire\Demo1\Users as Demo1Users;
 use App\Livewire\Demo2\Index as Demo2Index;
+use App\Livewire\Demo2\Profile as Demo2Profile;
+use App\Livewire\Demo2\Settings as Demo2Settings;
+use App\Livewire\Demo2\Users as Demo2Users;
 use App\Livewire\Demo3\Index as Demo3Index;
 use App\Livewire\Demo4\Index as Demo4Index;
 use App\Livewire\Demo5\Index as Demo5Index;
@@ -18,9 +24,15 @@ Route::get('/', function () {
 
 // Demo1 routes
 Route::get('/demo1', Demo1Index::class)->name('demo1.index');
+Route::get('/demo1/profile', Demo1Profile::class)->name('demo1.profile');
+Route::get('/demo1/settings', Demo1Settings::class)->name('demo1.settings');
+Route::get('/demo1/users', Demo1Users::class)->name('demo1.users');
 
 // Demo2 routes
 Route::get('/demo2', Demo2Index::class)->name('demo2.index');
+Route::get('/demo2/profile', Demo2Profile::class)->name('demo2.profile');
+Route::get('/demo2/settings', Demo2Settings::class)->name('demo2.settings');
+Route::get('/demo2/users', Demo2Users::class)->name('demo2.users');
 
 // Demo3 routes
 Route::get('/demo3', Demo3Index::class)->name('demo3.index');

@@ -4,8 +4,8 @@
     <div class="flex flex-col items-stretch shrink-0 gap-5 py-5 w-[70px] border-e border-input" id="sidebar_primary">
         <div class="hidden lg:flex items-center justify-center shrink-0" id="sidebar_primary_header">
             <a href="#">
-                <img class="dark:hidden min-h-[30px]" src="assets/media/app/mini-logo-gray.svg"/>
-                <img class="hidden dark:block min-h-[30px]" src="assets/media/app/mini-logo-gray-dark.svg"/>
+                <img class="dark:hidden min-h-[30px]" src="{{ asset('assets/media/app/mini-logo-gray.svg') }}"/>
+                <img class="hidden dark:block min-h-[30px]" src="{{ asset('assets/media/app/mini-logo-gray-dark.svg') }}"/>
             </a>
         </div>
         <div class="flex grow shrink-0" id="sidebar_primary_content">

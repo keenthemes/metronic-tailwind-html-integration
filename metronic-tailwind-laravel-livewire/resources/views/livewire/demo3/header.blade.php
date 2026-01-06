@@ -9,8 +9,8 @@
                 </i>
                 </button>
                 <a class="mx-1" href="#">
-                <img class="dark:hidden min-h-[24px]" src="assets/media/app/mini-logo-primary.svg"/>
-                <img class="hidden dark:block min-h-[24px]" src="assets/media/app/mini-logo-primary-dark.svg"/>
+                <img class="dark:hidden min-h-[24px]" src="{{ asset('assets/media/app/mini-logo-primary.svg') }}"/>
+                <img class="hidden dark:block min-h-[24px]" src="{{ asset('assets/media/app/mini-logo-primary-dark.svg') }}"/>
                 </a>
             </div>
             <div class="flex items-center">

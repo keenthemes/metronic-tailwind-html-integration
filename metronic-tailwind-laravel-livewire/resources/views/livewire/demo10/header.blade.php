@@ -4,7 +4,7 @@
 	<!-- Container -->
 	<div class="kt-container-fixed flex items-center justify-between flex-wrap gap-3">
 		<a href="#">
-			<img class="size-[34px]" src="assets/media/app/mini-logo-circle-success.svg" />
+			<img class="size-[34px]" src="{{ asset('assets/media/app/mini-logo-circle-success.svg') }}" />
 		</a>
 		<button class="kt-btn kt-btn-icon kt-btn-dim hover:text-white -me-2" data-kt-drawer-toggle="#sidebar">
 			<i class="ki-filled ki-menu">

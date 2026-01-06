@@ -22,7 +22,7 @@
                 <div class="flex flex-wrap items-center gap-2">
                     <div
                         class="bg-accent/60 flex size-10 shrink-0 items-center justify-center rounded-full border border-border">
-                        <img alt="" class="size-6" src="assets/media/brand-logos/jira.svg">
+                        <img alt="" class="size-6" src="{{ asset('assets/media/brand-logos/jira.svg') }}">
                         </img>
                     </div>
                     <div class="flex flex-col">
@@ -42,7 +42,7 @@
                 <div class="flex flex-wrap items-center gap-2">
                     <div
                         class="bg-accent/60 flex size-10 shrink-0 items-center justify-center rounded-full border border-border">
-                        <img alt="" class="size-6" src="assets/media/brand-logos/inferno.svg">
+                        <img alt="" class="size-6" src="{{ asset('assets/media/brand-logos/inferno.svg') }}">
                         </img>
                     </div>
                     <div class="flex flex-col">
@@ -62,7 +62,7 @@
                 <div class="flex flex-wrap items-center gap-2">
                     <div
                         class="bg-accent/60 flex size-10 shrink-0 items-center justify-center rounded-full border border-border">
-                        <img alt="" class="size-6" src="assets/media/brand-logos/evernote.svg" />
+                        <img alt="" class="size-6" src="{{ asset('assets/media/brand-logos/evernote.svg') }}" />
                     </div>
                     <div class="flex flex-col">
                         <a class="hover:text-primary text-sm font-semibold text-mono" href="#">
@@ -81,7 +81,7 @@
                 <div class="flex flex-wrap items-center gap-2">
                     <div
                         class="bg-accent/60 flex size-10 shrink-0 items-center justify-center rounded-full border border-border">
-                        <img alt="" class="size-6" src="assets/media/brand-logos/gitlab.svg" />
+                        <img alt="" class="size-6" src="{{ asset('assets/media/brand-logos/gitlab.svg') }}" />
                     </div>
                     <div class="flex flex-col">
                         <a class="hover:text-primary text-sm font-semibold text-mono" href="#">
@@ -100,7 +100,7 @@
                 <div class="flex flex-wrap items-center gap-2">
                     <div
                         class="bg-accent/60 flex size-10 shrink-0 items-center justify-center rounded-full border border-border">
-                        <img alt="" class="size-6" src="assets/media/brand-logos/google-webdev.svg" />
+                        <img alt="" class="size-6" src="{{ asset('assets/media/brand-logos/google-webdev.svg') }}" />
                     </div>
                     <div class="flex flex-col">
                         <a class="hover:text-primary text-sm font-semibold text-mono" href="#">

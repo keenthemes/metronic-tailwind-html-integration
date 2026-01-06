@@ -40,7 +40,7 @@
                         </style>
                         <div
                             class="kt-card channel-stats-bg h-full flex-col justify-between gap-6 bg-cover bg-[right_top_-1.7rem] bg-no-repeat rtl:bg-[left_top_-1.7rem]">
-                            <img alt="" class="ms-5 mt-4 w-7" src="assets/media/brand-logos/linkedin-2.svg" />
+                            <img alt="" class="ms-5 mt-4 w-7" src="{{ asset('assets/media/brand-logos/linkedin-2.svg') }}" />
                             <div class="flex flex-col gap-1 px-5 pb-4">
                                 <span class="text-3xl font-semibold text-mono">
                                     9.3k
@@ -52,7 +52,7 @@
                         </div>
                         <div
                             class="kt-card channel-stats-bg h-full flex-col justify-between gap-6 bg-cover bg-[right_top_-1.7rem] bg-no-repeat rtl:bg-[left_top_-1.7rem]">
-                            <img alt="" class="ms-5 mt-4 w-7" src="assets/media/brand-logos/youtube-2.svg" />
+                            <img alt="" class="ms-5 mt-4 w-7" src="{{ asset('assets/media/brand-logos/youtube-2.svg') }}" />
                             <div class="flex flex-col gap-1 px-5 pb-4">
                                 <span class="text-3xl font-semibold text-mono">
                                     24k
@@ -64,7 +64,7 @@
                         </div>
                         <div
                             class="kt-card channel-stats-bg h-full flex-col justify-between gap-6 bg-cover bg-[right_top_-1.7rem] bg-no-repeat rtl:bg-[left_top_-1.7rem]">
-                            <img alt="" class="ms-5 mt-4 w-7" src="assets/media/brand-logos/instagram-03.svg" />
+                            <img alt="" class="ms-5 mt-4 w-7" src="{{ asset('assets/media/brand-logos/instagram-03.svg') }}" />
                             <div class="flex flex-col gap-1 px-5 pb-4">
                                 <span class="text-3xl font-semibold text-mono">
                                     608
@@ -77,9 +77,9 @@
                         <div
                             class="kt-card channel-stats-bg h-full flex-col justify-between gap-6 bg-cover bg-[right_top_-1.7rem] bg-no-repeat rtl:bg-[left_top_-1.7rem]">
                             <img alt="" class="ms-5 mt-4 w-7 dark:hidden"
-                                src="assets/media/brand-logos/tiktok.svg" />
+                                src="{{ asset('assets/media/brand-logos/tiktok.svg') }}" />
                             <img alt="" class="ms-5 mt-4 hidden w-7 dark:block"
-                                src="assets/media/brand-logos/tiktok-dark.svg" />
+                                src="{{ asset('assets/media/brand-logos/tiktok-dark.svg') }}" />
                             <div class="flex flex-col gap-1 px-5 pb-4">
                                 <span class="text-3xl font-semibold text-mono">
                                     2.5k
@@ -108,15 +108,15 @@
                                 <div class="flex -space-x-2">
                                     <div class="flex">
                                         <img class="hover:z-5 relative size-10 shrink-0 rounded-full ring-1 ring-background"
-                                            src="assets/media/avatars/300-4.png" />
+                                            src="{{ asset('assets/media/avatars/300-4.png') }}" />
                                     </div>
                                     <div class="flex">
                                         <img class="hover:z-5 relative size-10 shrink-0 rounded-full ring-1 ring-background"
-                                            src="assets/media/avatars/300-1.png" />
+                                            src="{{ asset('assets/media/avatars/300-1.png') }}" />
                                     </div>
                                     <div class="flex">
                                         <img class="hover:z-5 relative size-10 shrink-0 rounded-full ring-1 ring-background"
-                                            src="assets/media/avatars/300-2.png" />
+                                            src="{{ asset('assets/media/avatars/300-2.png') }}" />
                                     </div>
                                     <div class="flex">
                                         <span
@@ -443,7 +443,7 @@
                                         09:00 - 09:30
                                     </span>
                                 </div>
-                                <img alt="" class="size-7" src="assets/media/brand-logos/zoom.svg" />
+                                <img alt="" class="size-7" src="{{ asset('assets/media/brand-logos/zoom.svg') }}" />
                             </div>
                             <p class="leading-5.5 mb-8 text-sm font-normal text-foreground">
                                 Team meeting to discuss strategies, outline
@@ -472,15 +472,15 @@
                                     <div class="flex -space-x-2">
                                         <div class="flex">
                                             <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                src="assets/media/avatars/300-4.png" />
+                                                src="{{ asset('assets/media/avatars/300-4.png') }}" />
                                         </div>
                                         <div class="flex">
                                             <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                src="assets/media/avatars/300-1.png" />
+                                                src="{{ asset('assets/media/avatars/300-1.png') }}" />
                                         </div>
                                         <div class="flex">
                                             <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                src="assets/media/avatars/300-2.png" />
+                                                src="{{ asset('assets/media/avatars/300-2.png') }}" />
                                         </div>
                                         <div class="flex">
                                             <span
@@ -634,15 +634,15 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-4.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-4.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-1.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-1.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-2.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-2.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <span
@@ -722,7 +722,7 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-4.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-4.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <span
@@ -802,15 +802,15 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-4.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-4.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-1.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-1.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-2.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-2.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <span
@@ -890,11 +890,11 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-24.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-24.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-7.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-7.png') }}" />
                                                             </div>
                                                         </div>
                                                     </td>
@@ -968,15 +968,15 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-3.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-3.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-8.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-8.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-9.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-9.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <span
@@ -1056,11 +1056,11 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-6.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-6.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-5.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-5.png') }}" />
                                                             </div>
                                                         </div>
                                                     </td>
@@ -1134,15 +1134,15 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-10.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-10.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-11.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-11.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-12.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-12.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <span
@@ -1222,11 +1222,11 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-13.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-13.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-14.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-14.png') }}" />
                                                             </div>
                                                         </div>
                                                     </td>
@@ -1300,11 +1300,11 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-15.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-15.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-16.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-16.png') }}" />
                                                             </div>
                                                         </div>
                                                     </td>
@@ -1378,15 +1378,15 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-17.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-17.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-18.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-18.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-19.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-19.png') }}" />
                                                             </div>
                                                         </div>
                                                     </td>
@@ -1460,11 +1460,11 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-20.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-20.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-21.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-21.png') }}" />
                                                             </div>
                                                         </div>
                                                     </td>
@@ -1538,11 +1538,11 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-22.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-22.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-23.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-23.png') }}" />
                                                             </div>
                                                         </div>
                                                     </td>
@@ -1616,11 +1616,11 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-24.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-24.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-25.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-25.png') }}" />
                                                             </div>
                                                         </div>
                                                     </td>
@@ -1694,15 +1694,15 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-26.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-26.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-27.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-27.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-28.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-28.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <span
@@ -1782,11 +1782,11 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-29.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-29.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-30.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-30.png') }}" />
                                                             </div>
                                                         </div>
                                                     </td>

@@ -130,7 +130,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-4.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-4.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -185,7 +185,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-5.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-5.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -231,7 +231,7 @@
 					<div class="flex grow gap-2.5 px-5" id="notification_request_3">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-27.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-27.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -277,7 +277,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-10.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-10.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -303,7 +303,7 @@
 								</span>
 							</div>
 							<div class="kt-card shadow-none flex items-center flex-row gap-1.5 p-2.5 rounded-lg bg-muted/70">
-								<img class="h-5" src="assets/media/file-types/pdf.svg" />
+								<img class="h-5" src="{{ asset('assets/media/file-types/pdf.svg') }}" />
 								<a class="hover:text-primary font-medium text-secondary-foreground text-xs me-1" href="#">
 									Launch_nov24.pptx
 								</a>
@@ -318,7 +318,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-11.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-11.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -351,7 +351,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-14.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-14.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -378,7 +378,7 @@
 							</div>
 							<div class="kt-card shadow-none flex items-center flex-row gap-1.5 p-2.5 rounded-lg bg-muted/70">
 								<div class="flex items-center justify-center w-[26px] h-[30px] shrink-0 bg-background rounded-sm border border-border">
-									<img class="h-5" src="assets/media/file-types/figma.svg" />
+									<img class="h-5" src="{{ asset('assets/media/file-types/figma.svg') }}" />
 								</div>
 								<a class="hover:text-primary font-medium text-secondary-foreground text-xs me-1" href="#">
 									Launcher-UIkit.fig
@@ -408,7 +408,7 @@
 					<div class="flex grow gap-2.5 px-5" id="notification_request_13">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-25.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-25.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -480,7 +480,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-34.png" />
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-34.png') }}" />
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
 								<div class="kt-avatar-status kt-avatar-status-online size-2.5">
@@ -506,7 +506,7 @@
 							</div>
 							<div class="kt-card shadow-none flex items-center justify-between flex-row gap-1.5 p-2.5 rounded-lg bg-muted/70">
 								<div class="flex items-center gap-1.5">
-									<img class="h-6" src="assets/media/file-types/xls.svg" />
+									<img class="h-6" src="{{ asset('assets/media/file-types/xls.svg') }}" />
 									<div class="flex flex-col gap-0.5">
 										<a class="hover:text-primary font-medium text-secondary-foreground text-xs" href="#">
 											Redesign-2024.xls
@@ -534,7 +534,7 @@
 					<div class="flex grow gap-2 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-29.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-29.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -577,10 +577,10 @@
 									</div>
 									<div class="flex -space-x-2">
 										<div class="flex">
-											<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-6" src="assets/media/avatars/300-3.png" />
+											<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-6" src="{{ asset('assets/media/avatars/300-3.png') }}" />
 										</div>
 										<div class="flex">
-											<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-6" src="assets/media/avatars/300-2.png" />
+											<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-6" src="{{ asset('assets/media/avatars/300-2.png') }}" />
 										</div>
 									</div>
 								</div>
@@ -600,7 +600,7 @@
 					<div class="flex grow gap-2.5 px-5" id="notification_request_3">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-30.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-30.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -644,7 +644,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-24.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-24.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -692,7 +692,7 @@
 					<div class="flex grow gap-2 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-15.png" />
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-15.png') }}" />
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
 								<div class="kt-avatar-status kt-avatar-status-online size-2.5">
@@ -742,13 +742,13 @@
 									</div>
 									<div class="flex -space-x-2">
 										<div class="flex">
-											<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-6" src="assets/media/avatars/300-4.png" />
+											<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-6" src="{{ asset('assets/media/avatars/300-4.png') }}" />
 										</div>
 										<div class="flex">
-											<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-6" src="assets/media/avatars/300-1.png" />
+											<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-6" src="{{ asset('assets/media/avatars/300-1.png') }}" />
 										</div>
 										<div class="flex">
-											<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-6" src="assets/media/avatars/300-2.png" />
+											<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-6" src="{{ asset('assets/media/avatars/300-2.png') }}" />
 										</div>
 										<div class="flex">
 											<span class="hover:z-5 relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-6 text-white size-6 ring-background bg-green-500">
@@ -773,7 +773,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-6.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-6.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -807,7 +807,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-12.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-12.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -834,7 +834,7 @@
 							</div>
 							<div class="kt-card shadow-none flex items-center justify-between flex-row gap-1.5 p-2.5 rounded-lg bg-muted/70">
 								<div class="flex items-center gap-1.5">
-									<img class="h-6" src="assets/media/file-types/word.svg" />
+									<img class="h-6" src="{{ asset('assets/media/file-types/word.svg') }}" />
 									<div class="flex flex-col gap-0.5">
 										<a class="hover:text-primary font-medium text-secondary-foreground text-xs" href="#">
 											Landing-page.docx
@@ -857,7 +857,7 @@
 							</div>
 							<div class="kt-card shadow-none flex items-center justify-between flex-row gap-1.5 p-2.5 rounded-lg bg-muted/70">
 								<div class="flex items-center gap-1.5">
-									<img class="h-6" src="assets/media/file-types/svg.svg" />
+									<img class="h-6" src="{{ asset('assets/media/file-types/svg.svg') }}" />
 									<div class="flex flex-col gap-0.5">
 										<a class="hover:text-primary font-medium text-secondary-foreground text-xs" href="#">
 											New-icon.svg
@@ -885,7 +885,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-21.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-21.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -940,7 +940,7 @@
 					<div class="flex grow gap-2.5 px-5" id="notification_request_3">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-13.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-13.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -1001,7 +1001,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-1.png">
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-1.png') }}">
 								</img>
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
@@ -1068,7 +1068,7 @@
 					<div class="flex grow gap-2.5 px-5" id="notification_request_17">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-19.png" />
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-19.png') }}" />
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
 								<div class="kt-avatar-status kt-avatar-status-online size-2.5">
@@ -1094,7 +1094,7 @@
 							</div>
 							<div class="kt-card shadow-none flex items-center flex-row gap-1.5 p-2.5 rounded-lg bg-muted/70">
 								<div class="flex items-center justify-center w-[26px] h-[30px] shrink-0 bg-white rounded-sm border border-border">
-									<img class="h-5" src="assets/media/brand-logos/jira.svg" />
+									<img class="h-5" src="{{ asset('assets/media/brand-logos/jira.svg') }}" />
 								</div>
 								<a class="hover:text-primary font-medium text-secondary-foreground text-xs me-1" href="#">
 									User-feedback.jira
@@ -1118,7 +1118,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-17.png" />
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-17.png') }}" />
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
 								<div class="kt-avatar-status kt-avatar-status-online size-2.5">
@@ -1156,7 +1156,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-34.png" />
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-34.png') }}" />
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
 								<div class="kt-avatar-status kt-avatar-status-online size-2.5">
@@ -1189,7 +1189,7 @@
 					<div class="flex grow gap-2.5 px-5">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-9.png" />
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-9.png') }}" />
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
 								<div class="kt-avatar-status kt-avatar-status-online size-2.5">
@@ -1230,7 +1230,7 @@
 					<div class="flex grow gap-2.5 px-5" id="notification_request_3">
 						<div class="kt-avatar size-8">
 							<div class="kt-avatar-image">
-								<img alt="avatar" src="assets/media/avatars/300-13.png" />
+								<img alt="avatar" src="{{ asset('assets/media/avatars/300-13.png') }}" />
 							</div>
 							<div class="kt-avatar-indicator -end-2 -bottom-2">
 								<div class="kt-avatar-status kt-avatar-status-online size-2.5">

@@ -3,8 +3,8 @@
     <!-- Container -->
     <div class="kt-container-fluid flex items-center justify-between flex-wrap gap-3">
         <a href="#">
-            <img class="dark:hidden min-h-[30px]" src="assets/media/app/mini-logo-gray.svg"/>
-            <img class="hidden dark:block min-h-[30px]" src="assets/media/app/mini-logo-gray-dark.svg"/>
+            <img class="dark:hidden min-h-[30px]" src="{{ asset('assets/media/app/mini-logo-gray.svg') }}"/>
+            <img class="hidden dark:block min-h-[30px]" src="{{ asset('assets/media/app/mini-logo-gray-dark.svg') }}"/>
         </a>
         <button class="kt-btn kt-btn-icon kt-btn-ghost -me-2" data-kt-drawer-toggle="#sidebar">
             <i class="ki-filled ki-menu">

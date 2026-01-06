@@ -4,12 +4,12 @@
     <div class="kt-sidebar-header relative hidden shrink-0 items-center justify-between px-3 lg:flex lg:px-6"
         id="sidebar_header">
         <a class="dark:hidden" href="html/demo1.html">
-            <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo.svg" />
-            <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg" />
+            <img class="default-logo min-h-[22px] max-w-none" src="{{ asset('assets/media/app/default-logo.svg') }}" />
+            <img class="small-logo min-h-[22px] max-w-none" src="{{ asset('assets/media/app/mini-logo.svg') }}" />
         </a>
         <a class="hidden dark:block" href="html/demo1.html">
-            <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo-dark.svg" />
-            <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg" />
+            <img class="default-logo min-h-[22px] max-w-none" src="{{ asset('assets/media/app/default-logo-dark.svg') }}" />
+            <img class="small-logo min-h-[22px] max-w-none" src="{{ asset('assets/media/app/mini-logo.svg') }}" />
         </a>
         <button
             class="kt-btn kt-btn-outline kt-btn-icon absolute start-full top-2/4 size-[30px] -translate-x-2/4 -translate-y-2/4 rtl:translate-x-2/4"
@@ -81,6 +81,43 @@
                         class="kt-menu-heading pe-[10px] ps-[10px] text-xs font-medium uppercase text-muted-foreground">
                         User
                     </span>
+                </div>
+                <!-- Example Pages with wire:navigate -->
+                <div class="kt-menu-item">
+                    <a class="kt-menu-link kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 grow items-center gap-[10px] border border-transparent py-[6px] pe-[10px] ps-[10px] hover:rounded-lg"
+                        href="{{ route('demo1.profile') }}" wire:navigate tabindex="0">
+                        <span class="kt-menu-icon w-[20px] items-start text-muted-foreground">
+                            <i class="ki-filled ki-user text-lg"></i>
+                        </span>
+                        <span
+                            class="kt-menu-title kt-menu-item-active:text-primary kt-menu-item-active:font-semibold kt-menu-link-hover:!text-primary text-sm font-medium text-foreground">
+                            Profile
+                        </span>
+                    </a>
+                </div>
+                <div class="kt-menu-item">
+                    <a class="kt-menu-link kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 grow items-center gap-[10px] border border-transparent py-[6px] pe-[10px] ps-[10px] hover:rounded-lg"
+                        href="{{ route('demo1.settings') }}" wire:navigate tabindex="0">
+                        <span class="kt-menu-icon w-[20px] items-start text-muted-foreground">
+                            <i class="ki-filled ki-setting-2 text-lg"></i>
+                        </span>
+                        <span
+                            class="kt-menu-title kt-menu-item-active:text-primary kt-menu-item-active:font-semibold kt-menu-link-hover:!text-primary text-sm font-medium text-foreground">
+                            Settings
+                        </span>
+                    </a>
+                </div>
+                <div class="kt-menu-item">
+                    <a class="kt-menu-link kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 grow items-center gap-[10px] border border-transparent py-[6px] pe-[10px] ps-[10px] hover:rounded-lg"
+                        href="{{ route('demo1.users') }}" wire:navigate tabindex="0">
+                        <span class="kt-menu-icon w-[20px] items-start text-muted-foreground">
+                            <i class="ki-filled ki-people text-lg"></i>
+                        </span>
+                        <span
+                            class="kt-menu-title kt-menu-item-active:text-primary kt-menu-item-active:font-semibold kt-menu-link-hover:!text-primary text-sm font-medium text-foreground">
+                            Users
+                        </span>
+                    </a>
                 </div>
                 <div class="kt-menu-item" data-kt-menu-item-toggle="accordion" data-kt-menu-item-trigger="click">
                     <div class="kt-menu-link flex grow cursor-pointer items-center gap-[10px] border border-transparent py-[6px] pe-[10px] ps-[10px]"

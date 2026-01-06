@@ -79,7 +79,7 @@
 							<div class="flex items-center justify-between gap-2.5">
 								<div class="flex items-center gap-2.5">
 									<div class="">
-										<img class="h-9 rounded-full" src="assets/media/avatars/gray/1.png" />
+										<img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/1.png') }}" />
 									</div>
 									<div class="flex flex-col gap-0.5">
 										<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
@@ -100,7 +100,7 @@
 							<div class="flex items-center justify-between gap-2.5">
 								<div class="flex items-center gap-2.5">
 									<div class="">
-										<img class="h-9 rounded-full" src="assets/media/avatars/gray/2.png" />
+										<img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/2.png') }}" />
 									</div>
 									<div class="flex flex-col gap-0.5">
 										<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
@@ -121,7 +121,7 @@
 							<div class="flex items-center justify-between gap-2.5">
 								<div class="flex items-center gap-2.5">
 									<div class="">
-										<img class="h-9 rounded-full" src="assets/media/avatars/gray/3.png" />
+										<img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/3.png') }}" />
 									</div>
 									<div class="flex flex-col gap-0.5">
 										<a class="flex items-center gap-1.5 leading-none font-medium text-sm text-mono hover:text-primary" href="#">
@@ -262,13 +262,13 @@
 												<td>
 													<div class="flex -space-x-2">
 														<div class="flex">
-															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-4.png" />
+															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-4.png') }}" />
 														</div>
 														<div class="flex">
-															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-1.png" />
+															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-1.png') }}" />
 														</div>
 														<div class="flex">
-															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-2.png" />
+															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-2.png') }}" />
 														</div>
 														<div class="flex">
 															<span class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-green-500">
@@ -332,7 +332,7 @@
 												<td>
 													<div class="flex -space-x-2">
 														<div class="flex">
-															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-4.png" />
+															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-4.png') }}" />
 														</div>
 														<div class="flex">
 															<span class="hover:z-5 relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] uppercase text-white ring-background bg-yellow-500">
@@ -396,13 +396,13 @@
 												<td>
 													<div class="flex -space-x-2">
 														<div class="flex">
-															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-4.png" />
+															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-4.png') }}" />
 														</div>
 														<div class="flex">
-															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-1.png" />
+															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-1.png') }}" />
 														</div>
 														<div class="flex">
-															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-2.png" />
+															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-2.png') }}" />
 														</div>
 														<div class="flex">
 															<span class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-violet-500">
@@ -466,10 +466,10 @@
 												<td>
 													<div class="flex -space-x-2">
 														<div class="flex">
-															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-24.png" />
+															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-24.png') }}" />
 														</div>
 														<div class="flex">
-															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="assets/media/avatars/300-7.png" />
+															<img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]" src="{{ asset('assets/media/avatars/300-7.png') }}" />
 														</div>
 													</div>
 												</td>
