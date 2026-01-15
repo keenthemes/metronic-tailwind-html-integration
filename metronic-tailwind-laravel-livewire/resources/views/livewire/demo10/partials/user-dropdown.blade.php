@@ -1,11 +1,11 @@
 <div data-kt-dropdown="true" data-kt-dropdown-offset="10px, 10px" data-kt-dropdown-offset-rtl="-20px, 10px" data-kt-dropdown-placement="bottom-start" data-kt-dropdown-placement-rtl="bottom-end" data-kt-dropdown-trigger="click">
 	<div class="cursor-pointer shrink-0" data-kt-dropdown-toggle="true">
-		<img alt="" class="size-9 rounded-full border-2 border-mono/25 shrink-0 cursor-pointer" src="assets/media/avatars/gray/5.png" />
+		<img alt="" class="size-9 rounded-full border-2 border-mono/25 shrink-0 cursor-pointer" src="{{ asset('assets/media/avatars/gray/5.png') }}" />
 	</div>
 	<div class="kt-dropdown-menu w-[250px]" data-kt-dropdown-menu="true">
 		<div class="flex items-center justify-between px-2.5 py-1.5 gap-1.5">
 			<div class="flex items-center gap-2">
-				<img alt="" class="size-9 shrink-0 rounded-full border-2 border-green-500" src="assets/media/avatars/300-2.png" />
+				<img alt="" class="size-9 shrink-0 rounded-full border-2 border-green-500" src="{{ asset('assets/media/avatars/300-2.png') }}" />
 				<div class="flex flex-col gap-1.5">
 					<span class="text-sm text-foreground font-semibold leading-none">
 						Cody Fisher
@@ -134,7 +134,7 @@
 					</span>
 					<span class="ms-auto kt-badge kt-badge-stroke shrink-0">
 						English
-						<img alt="" class="inline-block size-3.5 rounded-full" src="assets/media/flags/united-states.svg" />
+						<img alt="" class="inline-block size-3.5 rounded-full" src="{{ asset('assets/media/flags/united-states.svg') }}" />
 					</span>
 				</button>
 				<div class="kt-dropdown-menu w-[180px]" data-kt-dropdown-menu="true">
@@ -142,7 +142,7 @@
 						<li class="active">
 							<a class="kt-dropdown-menu-link" href="?dir=ltr">
 								<span class="flex items-center gap-2">
-									<img alt="" class="inline-block size-4 rounded-full" src="assets/media/flags/united-states.svg" />
+									<img alt="" class="inline-block size-4 rounded-full" src="{{ asset('assets/media/flags/united-states.svg') }}" />
 									<span class="kt-menu-title">
 										English
 									</span>
@@ -154,7 +154,7 @@
 						<li class="">
 							<a class="kt-dropdown-menu-link" href="?dir=rtl">
 								<span class="flex items-center gap-2">
-									<img alt="" class="inline-block size-4 rounded-full" src="assets/media/flags/saudi-arabia.svg" />
+									<img alt="" class="inline-block size-4 rounded-full" src="{{ asset('assets/media/flags/saudi-arabia.svg') }}" />
 									<span class="kt-menu-title">
 										Arabic(Saudi)
 									</span>
@@ -164,7 +164,7 @@
 						<li class="">
 							<a class="kt-dropdown-menu-link" href="?dir=ltr">
 								<span class="flex items-center gap-2">
-									<img alt="" class="inline-block size-4 rounded-full" src="assets/media/flags/spain.svg" />
+									<img alt="" class="inline-block size-4 rounded-full" src="{{ asset('assets/media/flags/spain.svg') }}" />
 									<span class="kt-menu-title">
 										Spanish
 									</span>
@@ -174,7 +174,7 @@
 						<li class="">
 							<a class="kt-dropdown-menu-link" href="?dir=ltr">
 								<span class="flex items-center gap-2">
-									<img alt="" class="inline-block size-4 rounded-full" src="assets/media/flags/germany.svg" />
+									<img alt="" class="inline-block size-4 rounded-full" src="{{ asset('assets/media/flags/germany.svg') }}" />
 									<span class="kt-menu-title">
 										German
 									</span>
@@ -184,7 +184,7 @@
 						<li class="">
 							<a class="kt-dropdown-menu-link" href="?dir=ltr">
 								<span class="flex items-center gap-2">
-									<img alt="" class="inline-block size-4 rounded-full" src="assets/media/flags/japan.svg" />
+									<img alt="" class="inline-block size-4 rounded-full" src="{{ asset('assets/media/flags/japan.svg') }}" />
 									<span class="kt-menu-title">
 										Japanese
 									</span>

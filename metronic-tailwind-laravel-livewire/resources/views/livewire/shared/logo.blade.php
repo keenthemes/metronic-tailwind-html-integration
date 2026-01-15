@@ -2,8 +2,8 @@
     <!-- Logo -->
     <div class="flex items-center gap-2 lg:gap-5 2xl:-ml-[60px]">
         <a href="html/demo2.html">
-            <img class="min-h-[42px] dark:hidden" src="assets/media/app/mini-logo-circle.svg" />
-            <img class="hidden min-h-[42px] dark:inline-block" src="assets/media/app/mini-logo-circle-dark.svg" />
+            <img class="min-h-[42px] dark:hidden" src="{{ asset('assets/media/app/mini-logo-circle.svg') }}" />
+            <img class="hidden min-h-[42px] dark:inline-block" src="{{ asset('assets/media/app/mini-logo-circle-dark.svg') }}" />
         </a>
         <div class="flex items-center">
             <h3 class="hidden text-base text-secondary-foreground md:block">

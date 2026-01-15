@@ -232,15 +232,15 @@
                                 <div class="flex -space-x-2">
                                     <div class="flex">
                                         <img class="hover:z-5 relative size-10 shrink-0 rounded-full ring-1 ring-background"
-                                            src="assets/media/avatars/300-4.png" />
+                                            src="{{ asset('assets/media/avatars/300-4.png') }}" />
                                     </div>
                                     <div class="flex">
                                         <img class="hover:z-5 relative size-10 shrink-0 rounded-full ring-1 ring-background"
-                                            src="assets/media/avatars/300-1.png" />
+                                            src="{{ asset('assets/media/avatars/300-1.png') }}" />
                                     </div>
                                     <div class="flex">
                                         <img class="hover:z-5 relative size-10 shrink-0 rounded-full ring-1 ring-background"
-                                            src="assets/media/avatars/300-2.png" />
+                                            src="{{ asset('assets/media/avatars/300-2.png') }}" />
                                     </div>
                                     <div class="flex">
                                         <span
@@ -345,7 +345,7 @@
                                     class="dark:bg-secondary-transparent flex flex-wrap items-center justify-between gap-2 rounded-xl border border-border p-3.5">
                                     <div class="flex flex-wrap items-center gap-3.5">
                                         <img alt="" class="size-8 shrink-0"
-                                            src="assets/media/brand-logos/google-webdev.svg" />
+                                            src="{{ asset('assets/media/brand-logos/google-webdev.svg') }}" />
                                         <div class="flex flex-col">
                                             <div class="flex items-center gap-1.5">
                                                 <a class="hover:text-primary text-sm font-medium text-mono"
@@ -375,7 +375,7 @@
                                     class="dark:bg-secondary-transparent flex flex-wrap items-center justify-between gap-2 rounded-xl border border-border p-3.5">
                                     <div class="flex flex-wrap items-center gap-3.5">
                                         <img alt="" class="size-8 shrink-0"
-                                            src="assets/media/brand-logos/equacoin.svg" />
+                                            src="{{ asset('assets/media/brand-logos/equacoin.svg') }}" />
                                         <div class="flex flex-col">
                                             <div class="flex items-center gap-1.5">
                                                 <a class="hover:text-primary text-sm font-medium text-mono"
@@ -404,7 +404,7 @@
                                     class="dark:bg-secondary-transparent flex flex-wrap items-center justify-between gap-2 rounded-xl border border-border p-3.5">
                                     <div class="flex flex-wrap items-center gap-3.5">
                                         <img alt="" class="size-8 shrink-0"
-                                            src="assets/media/brand-logos/evernote.svg" />
+                                            src="{{ asset('assets/media/brand-logos/evernote.svg') }}" />
                                         <div class="flex flex-col">
                                             <div class="flex items-center gap-1.5">
                                                 <a class="hover:text-primary text-sm font-medium text-mono"
@@ -434,7 +434,7 @@
                                     class="dark:bg-secondary-transparent flex flex-wrap items-center justify-between gap-2 rounded-xl border border-border p-3.5">
                                     <div class="flex flex-wrap items-center gap-3.5">
                                         <img alt="" class="size-8 shrink-0"
-                                            src="assets/media/brand-logos/inferno.svg" />
+                                            src="{{ asset('assets/media/brand-logos/inferno.svg') }}" />
                                         <div class="flex flex-col">
                                             <div class="flex items-center gap-1.5">
                                                 <a class="hover:text-primary text-sm font-medium text-mono"
@@ -487,7 +487,7 @@
                                 <div class="flex items-center justify-between gap-2.5">
                                     <div class="flex items-center gap-2.5">
                                         <div class="">
-                                            <img class="h-9 rounded-full" src="assets/media/avatars/gray/1.png" />
+                                            <img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/1.png') }}" />
                                         </div>
                                         <div class="flex flex-col gap-0.5">
                                             <a class="hover:text-primary flex items-center gap-1.5 text-sm font-medium leading-none text-mono"
@@ -509,7 +509,7 @@
                                 <div class="flex items-center justify-between gap-2.5">
                                     <div class="flex items-center gap-2.5">
                                         <div class="">
-                                            <img class="h-9 rounded-full" src="assets/media/avatars/gray/2.png" />
+                                            <img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/2.png') }}" />
                                         </div>
                                         <div class="flex flex-col gap-0.5">
                                             <a class="hover:text-primary flex items-center gap-1.5 text-sm font-medium leading-none text-mono"
@@ -531,7 +531,7 @@
                                 <div class="flex items-center justify-between gap-2.5">
                                     <div class="flex items-center gap-2.5">
                                         <div class="">
-                                            <img class="h-9 rounded-full" src="assets/media/avatars/gray/3.png" />
+                                            <img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/3.png') }}" />
                                         </div>
                                         <div class="flex flex-col gap-0.5">
                                             <a class="hover:text-primary flex items-center gap-1.5 text-sm font-medium leading-none text-mono"
@@ -553,7 +553,7 @@
                                 <div class="flex items-center justify-between gap-2.5">
                                     <div class="flex items-center gap-2.5">
                                         <div class="">
-                                            <img class="h-9 rounded-full" src="assets/media/avatars/gray/4.png" />
+                                            <img class="h-9 rounded-full" src="{{ asset('assets/media/avatars/gray/4.png') }}" />
                                         </div>
                                         <div class="flex flex-col gap-0.5">
                                             <a class="hover:text-primary flex items-center gap-1.5 text-sm font-medium leading-none text-mono"
@@ -717,15 +717,15 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-4.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-4.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-1.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-1.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-2.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-2.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <span
@@ -806,7 +806,7 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-4.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-4.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <span
@@ -887,15 +887,15 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-4.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-4.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-1.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-1.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-2.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-2.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <span
@@ -976,11 +976,11 @@
                                                         <div class="flex -space-x-2">
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-24.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-24.png') }}" />
                                                             </div>
                                                             <div class="flex">
                                                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                                                    src="assets/media/avatars/300-7.png" />
+                                                                    src="{{ asset('assets/media/avatars/300-7.png') }}" />
                                                             </div>
                                                         </div>
                                                     </td>

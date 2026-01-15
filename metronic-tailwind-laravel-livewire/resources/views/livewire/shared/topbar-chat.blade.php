@@ -24,7 +24,7 @@
                     <div class="flex flex-wrap items-center gap-2">
                         <div
                             class="bg-accent/60 flex size-11 shrink-0 items-center justify-center rounded-full border border-border">
-                            <img alt="" class="size-7" src="assets/media/brand-logos/gitlab.svg" />
+                            <img alt="" class="size-7" src="{{ asset('assets/media/brand-logos/gitlab.svg') }}" />
                         </div>
                         <div class="flex flex-col">
                             <a class="hover:text-primary text-sm font-semibold text-mono" href="#">
@@ -39,15 +39,15 @@
                         <div class="flex -space-x-2">
                             <div class="flex">
                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                    src="assets/media/avatars/300-4.png" />
+                                    src="{{ asset('assets/media/avatars/300-4.png') }}" />
                             </div>
                             <div class="flex">
                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                    src="assets/media/avatars/300-1.png" />
+                                    src="{{ asset('assets/media/avatars/300-1.png') }}" />
                             </div>
                             <div class="flex">
                                 <img class="hover:z-5 relative size-[30px] shrink-0 rounded-full ring-1 ring-background"
-                                    src="assets/media/avatars/300-2.png" />
+                                    src="{{ asset('assets/media/avatars/300-2.png') }}" />
                             </div>
                             <div class="flex">
                                 <span
@@ -155,7 +155,7 @@
             data-kt-scrollable-max-height="auto" data-kt-scrollable-offset="230px">
             <div class="flex flex-col gap-5 py-5">
                 <div class="flex items-end gap-3.5 px-5">
-                    <img alt="" class="size-9 rounded-full" src="assets/media/avatars/300-5.png" />
+                    <img alt="" class="size-9 rounded-full" src="{{ asset('assets/media/avatars/300-5.png') }}" />
                     <div class="flex flex-col gap-1.5">
                         <div
                             class="kt-card bg-accent/60 rounded-bs-none text-2sm flex flex-col gap-2.5 p-3 shadow-none">
@@ -184,7 +184,7 @@
                     <div class="relative shrink-0">
                         <div class="kt-avatar size-9">
                             <div class="kt-avatar-image">
-                                <img alt="avatar" src="assets/media/avatars/300-2.png">
+                                <img alt="avatar" src="{{ asset('assets/media/avatars/300-2.png') }}">
                                 </img>
                             </div>
                             <div class="kt-avatar-indicator -bottom-2 -end-2">
@@ -195,7 +195,7 @@
                     </div>
                 </div>
                 <div class="flex items-end gap-3.5 px-5">
-                    <img alt="" class="size-9 rounded-full" src="assets/media/avatars/300-4.png" />
+                    <img alt="" class="size-9 rounded-full" src="{{ asset('assets/media/avatars/300-4.png') }}" />
                     <div class="flex flex-col gap-1.5">
                         <div
                             class="kt-card bg-accent/60 rounded-bs-none text-2sm flex flex-col gap-2.5 p-3 shadow-none">
@@ -207,7 +207,7 @@
                     </div>
                 </div>
                 <div class="flex items-end gap-3.5 px-5">
-                    <img alt="" class="size-9 rounded-full" src="assets/media/avatars/300-1.png" />
+                    <img alt="" class="size-9 rounded-full" src="{{ asset('assets/media/avatars/300-1.png') }}" />
                     <div class="flex flex-col gap-1.5">
                         <div
                             class="kt-card bg-accent/60 rounded-bs-none text-2sm flex flex-col gap-2.5 p-3 shadow-none">
@@ -236,7 +236,7 @@
                     <div class="relative shrink-0">
                         <div class="kt-avatar size-9">
                             <div class="kt-avatar-image">
-                                <img alt="avatar" src="assets/media/avatars/300-2.png">
+                                <img alt="avatar" src="{{ asset('assets/media/avatars/300-2.png') }}">
                                 </img>
                             </div>
                             <div class="kt-avatar-indicator -bottom-2 -end-2">
@@ -264,7 +264,7 @@
                     <div class="relative shrink-0">
                         <div class="kt-avatar size-9">
                             <div class="kt-avatar-image">
-                                <img alt="avatar" src="assets/media/avatars/300-2.png">
+                                <img alt="avatar" src="{{ asset('assets/media/avatars/300-2.png') }}">
                                 </img>
                             </div>
                             <div class="kt-avatar-indicator -bottom-2 -end-2">
@@ -275,7 +275,7 @@
                     </div>
                 </div>
                 <div class="flex items-end gap-3.5 px-5">
-                    <img alt="" class="size-9 rounded-full" src="assets/media/avatars/300-4.png" />
+                    <img alt="" class="size-9 rounded-full" src="{{ asset('assets/media/avatars/300-4.png') }}" />
                     <div class="flex flex-col gap-1.5">
                         <div
                             class="kt-card bg-accent/60 rounded-bs-none text-2sm flex flex-col gap-2.5 p-3 shadow-none">
@@ -293,7 +293,7 @@
             <div class="bg-accent/60 mb-2.5 flex grow gap-2 border-y border-border px-5 py-3.5" id="join_request">
                 <div class="kt-avatar size-9">
                     <div class="kt-avatar-image">
-                        <img alt="avatar" src="assets/media/avatars/300-14.png">
+                        <img alt="avatar" src="{{ asset('assets/media/avatars/300-14.png') }}">
                         </img>
                     </div>
                     <div class="kt-avatar-indicator -bottom-2 -end-2">
@@ -330,7 +330,7 @@
             </div>
             <div class="relative mx-5 grow">
                 <img alt="" class="absolute start-0 top-2/4 ms-2.5 size-[30px] -translate-y-2/4 rounded-full"
-                    src="assets/media/avatars/300-2.png">
+                    src="{{ asset('assets/media/avatars/300-2.png') }}">
                 <input class="kt-input h-auto bg-transparent py-4 ps-12" placeholder="Write a message..."
                     type="text" value="" />
                 <div class="absolute end-3 top-1/2 flex -translate-y-1/2 items-center gap-2.5">

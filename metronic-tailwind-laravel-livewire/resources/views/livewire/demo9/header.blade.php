@@ -10,8 +10,8 @@
 			</button>
 			<div class="flex items-center gap-2">
 				<a class="flex items-center shrink-0" href="#">
-					<img class="dark:hidden w-8 shrink-0" src="assets/media/app/mini-logo-circle.svg" />
-					<img class="hidden dark:inline-block w-8 shrink-0" src="assets/media/app/mini-logo-circle-dark.svg" />
+					<img class="dark:hidden w-8 shrink-0" src="{{ asset('assets/media/app/mini-logo-circle.svg') }}" />
+					<img class="hidden dark:inline-block w-8 shrink-0" src="{{ asset('assets/media/app/mini-logo-circle-dark.svg') }}" />
 				</a>
 				<h3 class="text-mono text-lg font-medium hidden md:block">
 					Metronic

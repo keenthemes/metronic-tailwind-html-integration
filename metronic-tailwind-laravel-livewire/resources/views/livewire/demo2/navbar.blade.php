@@ -36,7 +36,7 @@
                                     </a>
                                 </div>
                                 <div class="kt-menu-item">
-                                    <a class="kt-menu-link" href="html/demo2/account/home/user-profile.html"
+                                    <a class="kt-menu-link" href="{{ route('demo2.profile') }}" wire:navigate
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             User Profile
@@ -48,6 +48,22 @@
                                         tabindex="0">
                                         <span class="kt-menu-title">
                                             Company Profile
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="kt-menu-item">
+                                    <a class="kt-menu-link" href="{{ route('demo2.settings') }}" wire:navigate
+                                        tabindex="0">
+                                        <span class="kt-menu-title">
+                                            Settings
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="kt-menu-item">
+                                    <a class="kt-menu-link" href="{{ route('demo2.users') }}" wire:navigate
+                                        tabindex="0">
+                                        <span class="kt-menu-title">
+                                            Users
                                         </span>
                                     </a>
                                 </div>
