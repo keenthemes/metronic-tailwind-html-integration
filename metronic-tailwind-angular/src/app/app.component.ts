@@ -35,7 +35,10 @@ export class AppComponent {
   constructor() {
     this.router.events.pipe(filter(e => e instanceof NavigationEnd)).subscribe(() => {
       this.updateDemo();
-      this.metronicInitService.init();
+      // Delay initialization to ensure view is rendered
+      setTimeout(() => {
+        this.metronicInitService.init();
+      }, 0);
     });
     this.updateDemo();
   }
