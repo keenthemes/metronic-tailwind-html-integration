@@ -2,25 +2,6 @@ import './bootstrap';
 // Alpine.js is automatically included with Livewire, no need to import manually
 // This prevents "multiple instances of Alpine running" error
 
-// TEMPORARY: Import KTUI for debugging (normally loaded via script tag)
-// This ensures KTUI is available for debug logging
-if (typeof window.KTDropdown === 'undefined') {
-    // Wait for KTUI script to load if not already available
-    const checkKTUI = setInterval(() => {
-        if (typeof window.KTDropdown !== 'undefined') {
-            clearInterval(checkKTUI);
-            console.log('[DEBUG] KTUI loaded via script tag');
-        }
-    }, 100);
-    // Timeout after 5 seconds
-    setTimeout(() => {
-        clearInterval(checkKTUI);
-        if (typeof window.KTDropdown === 'undefined') {
-            console.warn('[DEBUG] KTUI not loaded after 5 seconds');
-        }
-    }, 5000);
-}
-
 // Metronic Core JavaScript functionality
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize drawer functionality
@@ -169,11 +150,7 @@ function reinitDropdowns() {
     // and recreate fresh ones after wire:navigate navigation
     if (typeof KTDropdown !== 'undefined' && typeof KTDropdown.reinit === 'function') {
         try {
-            const dropdownCount = document.querySelectorAll('[data-kt-dropdown]').length;
-            console.log('[Dropdown Reinit] Found', dropdownCount, 'dropdown elements');
             KTDropdown.reinit();
-            const afterCount = document.querySelectorAll('[data-kt-dropdown-initialized]').length;
-            console.log('[Dropdown Reinit] Reinitialized', afterCount, 'dropdowns');
         } catch (error) {
             console.error('KTDropdown reinitialization failed:', error);
         }
@@ -196,20 +173,7 @@ function reinitDrawers() {
     if (typeof KTDrawer !== 'undefined' && typeof KTDrawer.reinit === 'function') {
         try {
             // Check both document and body for drawer elements
-            const drawerCount = document.querySelectorAll('[data-kt-drawer]').length;
-            const bodyDrawerCount = document.body.querySelectorAll('[data-kt-drawer]').length;
-            const allDrawers = new Set([...document.querySelectorAll('[data-kt-drawer]'), ...document.body.querySelectorAll('[data-kt-drawer]')]);
-            const drawerIds = Array.from(allDrawers).map(el => el.id).filter(Boolean);
-            console.log('[Drawer Reinit] Found', drawerCount, 'in doc,', bodyDrawerCount, 'in body, total:', allDrawers.size, 'drawers:', drawerIds);
-
-            // Check specifically for notifications_drawer and chat_drawer
-            const notificationsDrawer = document.querySelector('#notifications_drawer') || document.body.querySelector('#notifications_drawer');
-            const chatDrawer = document.querySelector('#chat_drawer') || document.body.querySelector('#chat_drawer');
-            console.log('[Drawer Reinit] notifications_drawer exists:', !!notificationsDrawer, 'chat_drawer exists:', !!chatDrawer);
-
             KTDrawer.reinit();
-            const afterCount = document.querySelectorAll('[data-kt-drawer-initialized]').length;
-            console.log('[Drawer Reinit] Reinitialized', afterCount, 'drawers');
         } catch (error) {
             console.error('KTDrawer reinitialization failed:', error);
         }
@@ -242,13 +206,7 @@ document.addEventListener('livewire:init', () => {
             // Retry drawer reinit after a longer delay to catch drawers that render later
             // This handles cases where Livewire components render asynchronously
             setTimeout(() => {
-                const drawerCount = document.querySelectorAll('[data-kt-drawer]').length;
-                const bodyDrawerCount = document.body.querySelectorAll('[data-kt-drawer]').length;
-                const allDrawers = new Set([...document.querySelectorAll('[data-kt-drawer]'), ...document.body.querySelectorAll('[data-kt-drawer]')]);
-                if (allDrawers.size > 0) {
-                    console.log('[Livewire morph.updated] Retrying drawer reinit - found', drawerCount, 'in doc,', bodyDrawerCount, 'in body, total:', allDrawers.size);
-                    reinitDrawers();
-                }
+                reinitDrawers();
             }, 100); // Additional delay for async Livewire components
         }, 10); // Initial delay to let Livewire finish rendering
     });
@@ -258,69 +216,46 @@ document.addEventListener('livewire:init', () => {
 // Note: morph.updated hook also handles this, but we keep this for explicit wire:navigate handling
 document.addEventListener('livewire:navigated', () => {
     // Reinitialize all components after wire:navigate navigation
-    // Use setTimeout to ensure DOM is fully updated by Livewire
+    // Use setTimeout to ensure DOM is fully updated by Livewire (header may be persisted or re-rendered)
     setTimeout(() => {
-        console.log('[Livewire Navigated] Reinitializing components...');
         reinitDrawers();
         initKTMenu();
         initStickyHeaders();
         initModals();
         reinitDropdowns();
 
-        // Retry drawer initialization after a longer delay to catch persisted components
-        // that may render asynchronously (e.g., chat_drawer, notifications_drawer)
+        // Retry dropdown and drawer reinit so header components are ready (persisted header or late DOM)
         setTimeout(() => {
-            const drawerCount = document.querySelectorAll('[data-kt-drawer]').length;
-            const bodyDrawerCount = document.body.querySelectorAll('[data-kt-drawer]').length;
-            const allDrawers = new Set([...document.querySelectorAll('[data-kt-drawer]'), ...document.body.querySelectorAll('[data-kt-drawer]')]);
-            const initializedCount = document.querySelectorAll('[data-kt-drawer-initialized]').length;
+            reinitDropdowns();
+            reinitDrawers();
+        }, 150);
 
-            // If we have toggle buttons but missing drawers, retry initialization
-            const toggleCount = document.querySelectorAll('[data-kt-drawer-toggle]').length;
-            if (toggleCount > 0 && allDrawers.size < toggleCount) {
-                reinitDrawers();
+        // Retry KTMenu so sidebar accordion is initialized (new DOM after navigate)
+        setTimeout(() => {
+            initKTMenu();
+        }, 100);
 
-                // Additional retry after even longer delay - Livewire components might render very late
-                setTimeout(() => {
-                    // Check for drawers in Livewire components that might have been re-rendered
-                    const toggleButtons = document.querySelectorAll('[data-kt-drawer-toggle]');
-                    const foundDrawers = new Set();
-                    toggleButtons.forEach((btn) => {
-                        const selector = btn.getAttribute('data-kt-drawer-toggle');
-                        if (selector) {
-                            // Comprehensive search for the drawer
-                            let drawer = document.querySelector(selector) || document.body.querySelector(selector);
-                            if (!drawer) {
-                                const header = document.querySelector('header#header');
-                                if (header) drawer = header.querySelector(selector);
-                            }
-                            if (!drawer) {
-                                const livewireComponents = document.querySelectorAll('[wire\\:id]');
-                                for (const component of Array.from(livewireComponents)) {
-                                    drawer = component.querySelector(selector);
-                                    if (drawer) break;
-                                }
-                            }
-                            if (drawer) {
-                                foundDrawers.add(drawer);
-                                // Initialize if not already initialized
-                                if (typeof window.KTData !== 'undefined' && !window.KTData.has(drawer, 'drawer') && typeof window.KTDrawer !== 'undefined') {
-                                    const needsBodyContainer = drawer.hasAttribute('data-kt-drawer-container') &&
-                                        drawer.getAttribute('data-kt-drawer-container') === 'body';
-                                    if (needsBodyContainer && drawer.parentElement !== document.body) {
-                                        document.body.appendChild(drawer);
-                                    }
-                                    new window.KTDrawer(drawer);
-                                }
-                            }
-                        }
-                    });
-
-                    if (foundDrawers.size > 0) {
+        // Retry drawer reinit at 300ms so chat_drawer / notifications_drawer in persisted header get instances
+        setTimeout(() => {
+            reinitDrawers();
+            // Ensure every drawer referenced by a toggle has an instance (persisted header may render late)
+            const toggleButtons = document.querySelectorAll('[data-kt-drawer-toggle]');
+            toggleButtons.forEach((btn) => {
+                const selector = btn.getAttribute('data-kt-drawer-toggle');
+                if (!selector || typeof window.KTDrawer === 'undefined') return;
+                let drawer = document.querySelector(selector) || document.body.querySelector(selector);
+                if (!drawer) {
+                    const header = document.querySelector('header#header');
+                    if (header) drawer = header.querySelector(selector);
+                }
+                if (drawer && typeof window.KTData !== 'undefined' && !window.KTData.has(drawer, 'drawer')) {
+                    if (drawer.hasAttribute('data-kt-drawer-container') && drawer.getAttribute('data-kt-drawer-container') === 'body' && drawer.parentElement !== document.body) {
+                        document.body.appendChild(drawer);
                     }
-                }, 500); // Wait 500ms for very late-rendering components
-            }
-        }, 300); // Retry after 300ms for late-rendering persisted components
+                    new window.KTDrawer(drawer);
+                }
+            });
+        }, 300);
     }, 50); // Initial timeout to ensure DOM is fully updated
 });
 

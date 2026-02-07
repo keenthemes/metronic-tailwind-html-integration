@@ -5,7 +5,7 @@
         <img alt="" class="size-9 shrink-0 rounded-full border-2 border-green-500"
             src="{{ asset('assets/media/avatars/300-2.png') }}" />
     </div>
-    <div class="kt-dropdown-menu w-[250px]" data-kt-dropdown-menu="true">
+    <div class="kt-dropdown-menu w-[250px] hidden" data-kt-dropdown-menu="true">
         <div class="flex items-center justify-between gap-1.5 px-2.5 py-1.5">
             <div class="flex items-center gap-2">
                 <img alt="" class="size-9 shrink-0 rounded-full border-2 border-green-500"
