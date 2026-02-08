@@ -38,6 +38,13 @@ function initDrawers() {
     // Use KTDrawer from KTUI if available
     if (typeof KTDrawer !== 'undefined' && typeof KTDrawer.init === 'function') {
         try {
+            // Keep drawers in place when inside these (e.g. for wire:navigate / SPA persistence)
+            if (typeof window.KTGlobalComponentsConfig === 'undefined') {
+                window.KTGlobalComponentsConfig = {};
+            }
+            window.KTGlobalComponentsConfig.drawer = window.KTGlobalComponentsConfig.drawer || {};
+            window.KTGlobalComponentsConfig.drawer.keepInPlaceWithin = '[wire\\:id], header#header';
+
             KTDrawer.init();
         } catch (error) {
             console.warn('KTDrawer initialization failed:', error);
@@ -172,7 +179,6 @@ function reinitDrawers() {
     // and recreate fresh ones after wire:navigate navigation
     if (typeof KTDrawer !== 'undefined' && typeof KTDrawer.reinit === 'function') {
         try {
-            // Check both document and body for drawer elements
             KTDrawer.reinit();
         } catch (error) {
             console.error('KTDrawer reinitialization failed:', error);
@@ -216,7 +222,6 @@ document.addEventListener('livewire:init', () => {
 // Note: morph.updated hook also handles this, but we keep this for explicit wire:navigate handling
 document.addEventListener('livewire:navigated', () => {
     // Reinitialize all components after wire:navigate navigation
-    // Use setTimeout to ensure DOM is fully updated by Livewire (header may be persisted or re-rendered)
     setTimeout(() => {
         reinitDrawers();
         initKTMenu();
@@ -224,21 +229,18 @@ document.addEventListener('livewire:navigated', () => {
         initModals();
         reinitDropdowns();
 
-        // Retry dropdown and drawer reinit so header components are ready (persisted header or late DOM)
         setTimeout(() => {
             reinitDropdowns();
             reinitDrawers();
         }, 150);
 
-        // Retry KTMenu so sidebar accordion is initialized (new DOM after navigate)
         setTimeout(() => {
             initKTMenu();
         }, 100);
 
-        // Retry drawer reinit at 300ms so chat_drawer / notifications_drawer in persisted header get instances
         setTimeout(() => {
             reinitDrawers();
-            // Ensure every drawer referenced by a toggle has an instance (persisted header may render late)
+
             const toggleButtons = document.querySelectorAll('[data-kt-drawer-toggle]');
             toggleButtons.forEach((btn) => {
                 const selector = btn.getAttribute('data-kt-drawer-toggle');
@@ -248,6 +250,7 @@ document.addEventListener('livewire:navigated', () => {
                     const header = document.querySelector('header#header');
                     if (header) drawer = header.querySelector(selector);
                 }
+                const hasInstance = drawer && typeof window.KTData !== 'undefined' && window.KTData.has(drawer, 'drawer');
                 if (drawer && typeof window.KTData !== 'undefined' && !window.KTData.has(drawer, 'drawer')) {
                     if (drawer.hasAttribute('data-kt-drawer-container') && drawer.getAttribute('data-kt-drawer-container') === 'body' && drawer.parentElement !== document.body) {
                         document.body.appendChild(drawer);
@@ -256,7 +259,7 @@ document.addEventListener('livewire:navigated', () => {
                 }
             });
         }, 300);
-    }, 50); // Initial timeout to ensure DOM is fully updated
+    }, 50);
 });
 
 // Export functions for use in other modules
