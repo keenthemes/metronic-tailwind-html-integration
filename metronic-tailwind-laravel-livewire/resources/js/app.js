@@ -24,13 +24,13 @@ document.addEventListener('DOMContentLoaded', function() {
             console.warn('KTDropdown initialization failed:', error);
         }
     } else if (typeof KTComponents !== 'undefined' && typeof KTComponents.init === 'function') {
-        // Fallback: Use KTComponents.init() if KTDropdown.init() is not available
         try {
             KTComponents.init();
         } catch (error) {
             console.warn('KTComponents initialization failed:', error);
         }
     }
+    initDatatables();
 });
 
 // Drawer functionality
@@ -173,6 +173,33 @@ function reinitDropdowns() {
     }
 }
 
+// Datatable (re)initialization - init for first load, reinit after wire:navigate
+function initDatatables() {
+    if (typeof KTDataTable !== 'undefined' && typeof KTDataTable.init === 'function') {
+        try {
+            KTDataTable.init();
+        } catch (error) {
+            console.warn('KTDataTable initialization failed:', error);
+        }
+    }
+}
+
+function reinitDatatables() {
+    if (typeof KTDataTable !== 'undefined' && typeof KTDataTable.reinit === 'function') {
+        try {
+            KTDataTable.reinit();
+        } catch (error) {
+            console.warn('KTDataTable reinitialization failed:', error);
+        }
+    } else if (typeof KTDataTable !== 'undefined' && typeof KTDataTable.init === 'function') {
+        try {
+            KTDataTable.init();
+        } catch (error) {
+            console.warn('KTDataTable initialization failed:', error);
+        }
+    }
+}
+
 // Drawer reinitialization for wire:navigate
 function reinitDrawers() {
     // Use KTDrawer.reinit() from modified KTUI to clear stale instances
@@ -202,36 +229,35 @@ document.addEventListener('livewire:init', () => {
         // Use a delay to ensure Livewire components have finished rendering
         // This is especially important for drawers in Livewire components
         setTimeout(() => {
-            // Use reinit for drawers to handle persisted elements properly
             reinitDrawers();
-            initKTMenu(); // Use KTMenu initialization instead of just initMenus
+            initKTMenu();
             initStickyHeaders();
             initModals();
             reinitDropdowns();
-
-            // Retry drawer reinit after a longer delay to catch drawers that render later
-            // This handles cases where Livewire components render asynchronously
+            reinitDatatables();
             setTimeout(() => {
                 reinitDrawers();
-            }, 100); // Additional delay for async Livewire components
-        }, 10); // Initial delay to let Livewire finish rendering
+                reinitDatatables();
+            }, 100);
+        }, 10);
     });
 });
 
 // Handle wire:navigate navigation events
 // Note: morph.updated hook also handles this, but we keep this for explicit wire:navigate handling
 document.addEventListener('livewire:navigated', () => {
-    // Reinitialize all components after wire:navigate navigation
     setTimeout(() => {
         reinitDrawers();
         initKTMenu();
         initStickyHeaders();
         initModals();
         reinitDropdowns();
+        reinitDatatables();
 
         setTimeout(() => {
             reinitDropdowns();
             reinitDrawers();
+            reinitDatatables();
         }, 150);
 
         setTimeout(() => {
@@ -240,6 +266,7 @@ document.addEventListener('livewire:navigated', () => {
 
         setTimeout(() => {
             reinitDrawers();
+            reinitDatatables();
 
             const toggleButtons = document.querySelectorAll('[data-kt-drawer-toggle]');
             toggleButtons.forEach((btn) => {
@@ -268,5 +295,7 @@ window.MetronicCore = {
     initMenus,
     initKTMenu,
     initStickyHeaders,
-    initModals
+    initModals,
+    initDatatables,
+    reinitDatatables
 };
