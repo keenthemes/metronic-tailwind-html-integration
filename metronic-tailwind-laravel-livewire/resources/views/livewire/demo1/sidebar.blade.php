@@ -1,5 +1,5 @@
 <!-- Sidebar -->
-<div class="kt-sidebar fixed bottom-0 top-0 hidden shrink-0 flex-col items-stretch border-e border-e-border bg-background [--kt-drawer-enable:true] lg:flex lg:[--kt-drawer-enable:false]"
+<div class="kt-sidebar fixed bottom-0 top-0 hidden h-screen shrink-0 flex-col items-stretch border-e border-e-border bg-background [--kt-drawer-enable:true] lg:flex lg:[--kt-drawer-enable:false]"
     data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start top-0 bottom-0" id="sidebar">
     <div class="kt-sidebar-header relative hidden shrink-0 items-center justify-between px-3 lg:flex lg:px-6"
         id="sidebar_header">
@@ -19,8 +19,8 @@
             </i>
         </button>
     </div>
-    <div class="kt-sidebar-content flex shrink-0 grow py-5 pe-2" id="sidebar_content">
-        <div class="kt-scrollable-y-hover flex shrink-0 grow pe-1 ps-2 lg:pe-3 lg:ps-5" data-kt-scrollable="true"
+    <div class="kt-sidebar-content flex min-h-0 flex-1 flex-col py-5 pe-2" id="sidebar_content">
+        <div class="kt-scrollable-y-hover flex min-h-0 shrink-0 grow pe-1 ps-2 lg:pe-3 lg:ps-5" data-kt-scrollable="true"
             data-kt-scrollable-dependencies="#sidebar_header" data-kt-scrollable-height="auto"
             data-kt-scrollable-offset="0px" data-kt-scrollable-wrappers="#sidebar_content" id="sidebar_scrollable">
             <!-- Sidebar Menu -->
