@@ -50,7 +50,7 @@
 		"@vue/tsconfig": "^0.7.0",
 		"apexcharts": "^4.7.0",
 		"autoprefixer": "^10.4.21",
-		"axios": "^1.9.0",
+		"axios": "^1.13.2",
 		"clipboard": "^2.0.11",
 		"esri-leaflet": "^3.0.16",
 		"esri-leaflet-geocoder": "^3.1.5",
