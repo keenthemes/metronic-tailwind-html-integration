@@ -39,7 +39,7 @@
 		"ts-loader": "^9.5.2",
 		"typescript": "^5.8.3",
 		"vue": "^3.5.13",
-		"webpack": "^5.99.7",
+		"webpack": "^5.105.1",
 		"webpack-cli": "^6.0.1",
 		"webpack-merge-and-include-globally": "^2.3.4"
 	},
