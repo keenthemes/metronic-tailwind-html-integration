@@ -151,6 +151,19 @@ document.addEventListener('click', function(e) {
     });
 });
 
+// Scrollable reinitialization for wire:navigate
+// KTScrollable.init() calls createInstances() for new DOM elements and
+// safely guards handleResize() behind a flag to avoid duplicate listeners.
+function reinitScrollable() {
+    if (typeof KTScrollable !== 'undefined' && typeof KTScrollable.init === 'function') {
+        try {
+            KTScrollable.init();
+        } catch (error) {
+            console.warn('KTScrollable reinitialization failed:', error);
+        }
+    }
+}
+
 // Dropdown reinitialization for wire:navigate
 function reinitDropdowns() {
     // Use KTDropdown.reinit() from modified KTUI to clear stale instances
@@ -235,6 +248,7 @@ document.addEventListener('livewire:init', () => {
             initModals();
             reinitDropdowns();
             reinitDatatables();
+            reinitScrollable();
             setTimeout(() => {
                 reinitDrawers();
                 reinitDatatables();
@@ -253,6 +267,7 @@ document.addEventListener('livewire:navigated', () => {
         initModals();
         reinitDropdowns();
         reinitDatatables();
+        reinitScrollable();
 
         setTimeout(() => {
             reinitDropdowns();
