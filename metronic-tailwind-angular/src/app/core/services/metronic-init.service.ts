@@ -1,37 +1,18 @@
 import { Injectable } from '@angular/core';
 
-// Declare all Metronic and KTUI components
-declare var KTToggle: any;
-declare var KTDrawer: any;
-declare var KTMenu: any;
-declare var KTScrollable: any;
-declare var KTSticky: any;
-declare var KTReparent: any;
-declare var KTRotate: any;
-declare var KTDropdown: any;
-declare var KTModal: any;
-declare var KTCollapse: any;
-declare var KTDismiss: any;
-declare var KTTabs: any;
-declare var KTAccordion: any;
-declare var KTScrollspy: any;
-declare var KTScrollto: any;
-declare var KTTooltip: any;
-declare var KTStepper: any;
-declare var KTThemeSwitch: any;
-declare var KTImageInput: any;
-declare var KTTogglePassword: any;
-declare var KTDataTable: any;
-declare var KTDatepicker: any;
-declare var KTSelect: any;
-declare var KTToast: any;
-
 @Injectable({
   providedIn: 'root'
 })
 export class MetronicInitService {
 
   constructor() { }
+
+  private initKtComponent(name: string): void {
+    const component = (globalThis as Record<string, any>)[name];
+    if (component && typeof component.init === 'function') {
+      component.init();
+    }
+  }
 
   init() {
     this.initToggles();
@@ -60,94 +41,94 @@ export class MetronicInitService {
   }
 
   initDrawers() {
-    KTDrawer.init();
+    this.initKtComponent('KTDrawer');
   }
 
   initMenus() {
-    KTMenu.init();
+    this.initKtComponent('KTMenu');
   }
 
   initDropdowns() {
-    KTDropdown.init();
+    this.initKtComponent('KTDropdown');
   }
 
   initSticky() {
-    KTSticky.init();
+    this.initKtComponent('KTSticky');
   }
 
   initReparent() {
-    KTReparent.init();
+    this.initKtComponent('KTReparent');
   }
 
   initScrollables() {
-    KTScrollable.init();
+    this.initKtComponent('KTScrollable');
   }
 
   initToggles() {
-    KTToggle.init();
+    this.initKtComponent('KTToggle');
   }
 
   initModals() {
-    KTModal.init();
+    this.initKtComponent('KTModal');
   }
 
   initCollapse() {
-    KTCollapse.init();
+    this.initKtComponent('KTCollapse');
   }
 
   initDismiss() {
-    KTDismiss.init();
+    this.initKtComponent('KTDismiss');
   }
 
   initTabs() {
-    KTTabs.init();
+    this.initKtComponent('KTTabs');
   }
 
   initAccordions() {
-    KTAccordion.init();
+    this.initKtComponent('KTAccordion');
   }
 
   initScrollspy() {
-    KTScrollspy.init();
+    this.initKtComponent('KTScrollspy');
   }
 
   initScrollto() {
-    KTScrollto.init();
+    this.initKtComponent('KTScrollto');
   }
 
   initTooltips() {
-    KTTooltip.init();
+    this.initKtComponent('KTTooltip');
   }
 
   initSteppers() {
-    KTStepper.init();
+    this.initKtComponent('KTStepper');
   }
 
   initThemeSwitch() {
-    KTThemeSwitch.init();
+    this.initKtComponent('KTThemeSwitch');
   }
 
   initImageInput() {
-    KTImageInput.init();
+    this.initKtComponent('KTImageInput');
   }
 
   initTogglePassword() {
-    KTTogglePassword.init();
+    this.initKtComponent('KTTogglePassword');
   }
 
   initDatatables() {
-    KTDataTable.init();
+    this.initKtComponent('KTDataTable');
   }
 
   initDatepicker() {
-    KTDatepicker.init();
+    this.initKtComponent('KTDatepicker');
   }
 
   initSelect() {
-    KTSelect.init();
+    this.initKtComponent('KTSelect');
   }
 
   initToast() {
-    KTToast.init();
+    this.initKtComponent('KTToast');
   }
 }

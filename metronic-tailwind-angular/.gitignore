@@ -42,5 +42,5 @@ testem.log
 Thumbs.db
 
 /src/assets
-/views-from-laravel
+/public/assets
 .vscode
