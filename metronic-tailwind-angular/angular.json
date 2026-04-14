@@ -34,14 +34,14 @@
             "styles": [
               "src/tailwind.css",
               "src/styles.scss",
-              "src/assets/vendors/apexcharts/apexcharts.css",
-              "src/assets/vendors/keenicons/styles.bundle.css",
-              "src/assets/css/styles.css"
+              "public/assets/vendors/apexcharts/apexcharts.css",
+              "public/assets/vendors/keenicons/styles.bundle.css",
+              "public/assets/css/styles.css"
             ],
             "scripts": [
-              "src/assets/js/core.bundle.js",
-              "src/assets/vendors/ktui/ktui.min.js",
-              "src/assets/vendors/apexcharts/apexcharts.min.js"
+              "public/assets/js/core.bundle.js",
+              "public/assets/vendors/ktui/ktui.min.js",
+              "public/assets/vendors/apexcharts/apexcharts.min.js"
             ]
           },
           "configurations": {
