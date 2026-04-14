@@ -213,6 +213,17 @@ function reinitDatatables() {
     }
 }
 
+// Theme switch reinitialization for wire:navigate
+function reinitThemeSwitch() {
+    if (typeof KTThemeSwitch !== 'undefined' && typeof KTThemeSwitch.init === 'function') {
+        try {
+            KTThemeSwitch.init();
+        } catch (error) {
+            console.warn('KTThemeSwitch reinitialization failed:', error);
+        }
+    }
+}
+
 // Drawer reinitialization for wire:navigate
 function reinitDrawers() {
     // Use KTDrawer.reinit() from modified KTUI to clear stale instances
@@ -249,6 +260,7 @@ document.addEventListener('livewire:init', () => {
             reinitDropdowns();
             reinitDatatables();
             reinitScrollable();
+            reinitThemeSwitch();
             setTimeout(() => {
                 reinitDrawers();
                 reinitDatatables();
@@ -268,6 +280,7 @@ document.addEventListener('livewire:navigated', () => {
         reinitDropdowns();
         reinitDatatables();
         reinitScrollable();
+        reinitThemeSwitch();
 
         setTimeout(() => {
             reinitDropdowns();
