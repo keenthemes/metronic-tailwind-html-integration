@@ -160,6 +160,19 @@ class LivewireDemoSmokeTest extends TestCase
     }
 
     /**
+     * Demo1 shell ships early bootstrap for sidebar persistence and KTUI collapse class.
+     * Manual QA: collapse sidebar, refresh; use wire:navigate then user dropdown dark mode toggle.
+     */
+    public function test_demo1_includes_shell_persistence_bootstrap_markers()
+    {
+        $response = $this->get('/demo1');
+        $response->assertStatus(200);
+        $content = $response->getContent();
+        $this->assertStringContainsString('kt-sidebar-collapsed', $content);
+        $this->assertStringContainsString('kt-sidebar-collapse', $content);
+    }
+
+    /**
      * Test that demo layouts include sidebar where expected
      */
     public function test_demo_layouts_include_sidebar_where_expected()

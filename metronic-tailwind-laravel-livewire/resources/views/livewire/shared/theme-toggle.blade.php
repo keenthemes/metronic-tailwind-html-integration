@@ -29,5 +29,13 @@
             }
         })();
     </script>
+    <!-- Sidebar collapse: restore kt-sidebar-collapse before paint (pairs with app.js persistence key kt-sidebar-collapsed) -->
+    <script data-navigate-once>
+        (function() {
+            if (document.body && localStorage.getItem('kt-sidebar-collapsed') === '1') {
+                document.body.classList.add('kt-sidebar-collapse');
+            }
+        })();
+    </script>
     <!-- End of Theme Mode -->
 </div>

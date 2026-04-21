@@ -2,21 +2,170 @@ import './bootstrap';
 // Alpine.js is automatically included with Livewire, no need to import manually
 // This prevents "multiple instances of Alpine running" error
 
+const KT_THEME_SWITCH_DATA_KEY = 'theme-swtich'; // matches KTUI KTThemeSwitch._name (typo preserved for KTData)
+const KT_SIDEBAR_COLLAPSED_KEY = 'kt-sidebar-collapsed';
+
+function ktDisposeIfPresent(element, dataKey) {
+    if (!element || typeof window.KTData === 'undefined' || !window.KTData.has(element, dataKey)) {
+        return;
+    }
+    const inst = window.KTData.get(element, dataKey);
+    if (inst && typeof inst.dispose === 'function') {
+        inst.dispose();
+    } else {
+        window.KTData.remove(element, dataKey);
+    }
+}
+
+function syncSidebarCollapsedToStorage() {
+    if (!document.body) {
+        return;
+    }
+    try {
+        const collapsed = document.body.classList.contains('kt-sidebar-collapse');
+        localStorage.setItem(KT_SIDEBAR_COLLAPSED_KEY, collapsed ? '1' : '0');
+    } catch (e) {
+        /* storage may be unavailable */
+    }
+}
+
+function applySidebarCollapsedFromStorage() {
+    if (!document.body) {
+        return;
+    }
+    try {
+        const v = localStorage.getItem(KT_SIDEBAR_COLLAPSED_KEY);
+        if (v === '1') {
+            document.body.classList.add('kt-sidebar-collapse');
+        } else if (v === '0') {
+            document.body.classList.remove('kt-sidebar-collapse');
+        }
+    } catch (e) {
+        /* storage may be unavailable */
+    }
+}
+
+function initSidebarCollapsePersistence() {
+    document.addEventListener('click', function(ev) {
+        const t = ev.target;
+        if (!t || typeof t.closest !== 'function') {
+            return;
+        }
+        if (!t.closest('#sidebar_toggle')) {
+            return;
+        }
+        queueMicrotask(function() {
+            syncSidebarCollapsedToStorage();
+        });
+    });
+}
+
+/** Mega menu refresh after sidebar width change (same idea as KTLayout._handleSidebar). */
+function refreshMegaMenuAfterSidebarToggle() {
+    const megaMenuEl = document.querySelector('#mega_menu');
+    if (!megaMenuEl || typeof window.KTMenu === 'undefined') {
+        return;
+    }
+    try {
+        const menu = window.KTMenu.getInstance(megaMenuEl);
+        if (menu && typeof menu.disable === 'function' && typeof menu.enable === 'function') {
+            menu.disable();
+            setTimeout(function() {
+                menu.enable();
+            }, 500);
+        }
+    } catch (e) {
+        /* optional */
+    }
+}
+
+function bindSidebarToggleLayoutHook() {
+    const el = document.querySelector('#sidebar_toggle');
+    const sidebarEl = document.querySelector('#sidebar');
+    if (!el || !sidebarEl || typeof window.KTToggle === 'undefined') {
+        return;
+    }
+    const inst = window.KTToggle.getInstance(el);
+    if (!inst || typeof inst.on !== 'function') {
+        return;
+    }
+    inst.on('toggle', function() {
+        sidebarEl.classList.add('animating');
+        refreshMegaMenuAfterSidebarToggle();
+        if (typeof window.KTDom !== 'undefined' && typeof window.KTDom.transitionEnd === 'function') {
+            window.KTDom.transitionEnd(sidebarEl, function() {
+                sidebarEl.classList.remove('animating');
+            });
+        }
+    });
+}
+
+/**
+ * wire:navigate replaces document.body; persisted #sidebar_toggle still points at the old body.
+ * Re-apply stored collapse, rebuild KTToggle against the current body, re-bind layout hook.
+ */
+function syncShellSidebarAfterNavigate() {
+    applySidebarCollapsedFromStorage();
+    const el = document.querySelector('#sidebar_toggle');
+    if (!el || typeof window.KTToggle === 'undefined') {
+        syncSidebarCollapsedToStorage();
+        return;
+    }
+    try {
+        ktDisposeIfPresent(el, 'toggle');
+        if (el.getAttribute('data-kt-toggle')) {
+            new window.KTToggle(el);
+            const collapsed = document.body && document.body.classList.contains('kt-sidebar-collapse');
+            el.classList.toggle('active', Boolean(collapsed));
+            bindSidebarToggleLayoutHook();
+        }
+    } catch (e) {
+        console.warn('Sidebar toggle reinit after navigate failed:', e);
+    }
+    syncSidebarCollapsedToStorage();
+}
+
+function reinitMetronicShell() {
+    reinitDrawers();
+    initKTMenu();
+    initModals();
+    reinitDropdowns();
+    reinitDatatables();
+    reinitScrollable();
+    reinitThemeSwitch();
+    applySidebarCollapsedFromStorage();
+}
+
+function ensureDrawerInstancesForToggles() {
+    const toggleButtons = document.querySelectorAll('[data-kt-drawer-toggle]');
+    toggleButtons.forEach((btn) => {
+        const selector = btn.getAttribute('data-kt-drawer-toggle');
+        if (!selector || typeof window.KTDrawer === 'undefined') {
+            return;
+        }
+        let drawer = document.querySelector(selector) || document.body.querySelector(selector);
+        if (!drawer) {
+            const header = document.querySelector('header#header');
+            if (header) {
+                drawer = header.querySelector(selector);
+            }
+        }
+        if (drawer && typeof window.KTData !== 'undefined' && !window.KTData.has(drawer, 'drawer')) {
+            if (drawer.getAttribute('data-kt-drawer-container') === 'body' && drawer.parentElement !== document.body) {
+                document.body.appendChild(drawer);
+            }
+            new window.KTDrawer(drawer);
+        }
+    });
+}
+
 // Metronic Core JavaScript functionality
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize drawer functionality
     initDrawers();
-
-    // Initialize KTMenu (includes menu functionality)
     initKTMenu();
-
-    // Initialize sticky headers
     initStickyHeaders();
-
-    // Initialize modal functionality
     initModals();
 
-    // Initialize KTUI dropdowns on initial page load
     if (typeof KTDropdown !== 'undefined' && typeof KTDropdown.init === 'function') {
         try {
             KTDropdown.init();
@@ -31,14 +180,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     initDatatables();
+    initSidebarCollapsePersistence();
+    reinitThemeSwitch();
+    applySidebarCollapsedFromStorage();
 });
 
 // Drawer functionality
 function initDrawers() {
-    // Use KTDrawer from KTUI if available
     if (typeof KTDrawer !== 'undefined' && typeof KTDrawer.init === 'function') {
         try {
-            // Keep drawers in place when inside these (e.g. for wire:navigate / SPA persistence)
             if (typeof window.KTGlobalComponentsConfig === 'undefined') {
                 window.KTGlobalComponentsConfig = {};
             }
@@ -50,7 +200,6 @@ function initDrawers() {
             console.warn('KTDrawer initialization failed:', error);
         }
     } else {
-        // Fallback: Use custom implementation if KTDrawer is not available
         const drawers = document.querySelectorAll('[data-kt-drawer]');
 
         drawers.forEach(drawer => {
@@ -67,7 +216,6 @@ function initDrawers() {
     }
 }
 
-// Menu functionality
 function initMenus() {
     const menus = document.querySelectorAll('[data-kt-menu="true"]');
 
@@ -88,9 +236,7 @@ function initMenus() {
     });
 }
 
-// KTMenu initialization function
 function initKTMenu() {
-    // Initialize KTMenu if available (from Metronic core bundle)
     if (typeof KTMenu !== 'undefined' && KTMenu.init) {
         try {
             KTMenu.init();
@@ -99,29 +245,32 @@ function initKTMenu() {
         }
     }
 
-    // Also initialize our custom menu functionality
     initMenus();
 }
 
-// Sticky header functionality
+// One passive window listener; re-query stickies each tick (survives wire:navigate body replacement).
 function initStickyHeaders() {
-    const stickyElements = document.querySelectorAll('[data-kt-sticky="true"]');
-
-    stickyElements.forEach(element => {
-        const stickyClass = element.getAttribute('data-kt-sticky-class') || 'kt-sticky';
-        const offset = parseInt(element.getAttribute('data-kt-sticky-offset')) || 0;
-
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > offset) {
-                element.classList.add(...stickyClass.split(' '));
-            } else {
-                element.classList.remove(...stickyClass.split(' '));
-            }
-        });
-    });
+    if (window.__metronicStickyHeadersScrollBound) {
+        return;
+    }
+    window.__metronicStickyHeadersScrollBound = true;
+    window.addEventListener(
+        'scroll',
+        function() {
+            document.querySelectorAll('[data-kt-sticky="true"]').forEach(function(element) {
+                const stickyClass = element.getAttribute('data-kt-sticky-class') || 'kt-sticky';
+                const offset = parseInt(element.getAttribute('data-kt-sticky-offset'), 10) || 0;
+                if (window.scrollY > offset) {
+                    element.classList.add(...stickyClass.split(' '));
+                } else {
+                    element.classList.remove(...stickyClass.split(' '));
+                }
+            });
+        },
+        { passive: true },
+    );
 }
 
-// Modal functionality
 function initModals() {
     const modalToggles = document.querySelectorAll('[data-kt-modal-toggle]');
 
@@ -139,11 +288,8 @@ function initModals() {
     });
 }
 
-// Close modals when clicking outside
 document.addEventListener('click', function(e) {
-    const modals = document.querySelectorAll('.kt-modal');
-
-    modals.forEach(modal => {
+    document.querySelectorAll('.kt-modal').forEach(function(modal) {
         if (e.target === modal) {
             modal.classList.add('hidden');
             modal.classList.remove('flex');
@@ -151,9 +297,6 @@ document.addEventListener('click', function(e) {
     });
 });
 
-// Scrollable reinitialization for wire:navigate
-// KTScrollable.init() calls createInstances() for new DOM elements and
-// safely guards handleResize() behind a flag to avoid duplicate listeners.
 function reinitScrollable() {
     if (typeof KTScrollable !== 'undefined' && typeof KTScrollable.init === 'function') {
         try {
@@ -164,10 +307,7 @@ function reinitScrollable() {
     }
 }
 
-// Dropdown reinitialization for wire:navigate
 function reinitDropdowns() {
-    // Use KTDropdown.reinit() from modified KTUI to clear stale instances
-    // and recreate fresh ones after wire:navigate navigation
     if (typeof KTDropdown !== 'undefined' && typeof KTDropdown.reinit === 'function') {
         try {
             KTDropdown.reinit();
@@ -175,7 +315,6 @@ function reinitDropdowns() {
             console.error('KTDropdown reinitialization failed:', error);
         }
     } else if (typeof KTComponents !== 'undefined' && typeof KTComponents.init === 'function') {
-        // Fallback: Use KTComponents.init() if reinit() is not available
         try {
             KTComponents.init();
         } catch (error) {
@@ -186,7 +325,6 @@ function reinitDropdowns() {
     }
 }
 
-// Datatable (re)initialization - init for first load, reinit after wire:navigate
 function initDatatables() {
     if (typeof KTDataTable !== 'undefined' && typeof KTDataTable.init === 'function') {
         try {
@@ -213,21 +351,20 @@ function reinitDatatables() {
     }
 }
 
-// Theme switch reinitialization for wire:navigate
 function reinitThemeSwitch() {
-    if (typeof KTThemeSwitch !== 'undefined' && typeof KTThemeSwitch.init === 'function') {
-        try {
-            KTThemeSwitch.init();
-        } catch (error) {
-            console.warn('KTThemeSwitch reinitialization failed:', error);
-        }
+    if (typeof KTThemeSwitch === 'undefined' || typeof KTThemeSwitch.init !== 'function') {
+        return;
+    }
+    try {
+        const root = document.documentElement;
+        ktDisposeIfPresent(root, KT_THEME_SWITCH_DATA_KEY);
+        KTThemeSwitch.init();
+    } catch (error) {
+        console.warn('KTThemeSwitch reinitialization failed:', error);
     }
 }
 
-// Drawer reinitialization for wire:navigate
 function reinitDrawers() {
-    // Use KTDrawer.reinit() from modified KTUI to clear stale instances
-    // and recreate fresh ones after wire:navigate navigation
     if (typeof KTDrawer !== 'undefined' && typeof KTDrawer.reinit === 'function') {
         try {
             KTDrawer.reinit();
@@ -235,7 +372,6 @@ function reinitDrawers() {
             console.error('KTDrawer reinitialization failed:', error);
         }
     } else if (typeof KTDrawer !== 'undefined' && typeof KTDrawer.init === 'function') {
-        // Fallback: Use KTDrawer.init() if reinit() is not available
         try {
             KTDrawer.init();
         } catch (error) {
@@ -246,22 +382,12 @@ function reinitDrawers() {
     }
 }
 
-// Livewire hooks
 document.addEventListener('livewire:init', () => {
-    // Re-initialize functionality after Livewire updates
     Livewire.hook('morph.updated', () => {
-        // Use a delay to ensure Livewire components have finished rendering
-        // This is especially important for drawers in Livewire components
-        setTimeout(() => {
-            reinitDrawers();
-            initKTMenu();
-            initStickyHeaders();
-            initModals();
-            reinitDropdowns();
-            reinitDatatables();
-            reinitScrollable();
-            reinitThemeSwitch();
-            setTimeout(() => {
+        applySidebarCollapsedFromStorage();
+        setTimeout(function() {
+            reinitMetronicShell();
+            setTimeout(function() {
                 reinitDrawers();
                 reinitDatatables();
             }, 100);
@@ -269,55 +395,29 @@ document.addEventListener('livewire:init', () => {
     });
 });
 
-// Handle wire:navigate navigation events
-// Note: morph.updated hook also handles this, but we keep this for explicit wire:navigate handling
 document.addEventListener('livewire:navigated', () => {
-    setTimeout(() => {
-        reinitDrawers();
-        initKTMenu();
-        initStickyHeaders();
-        initModals();
-        reinitDropdowns();
-        reinitDatatables();
-        reinitScrollable();
-        reinitThemeSwitch();
-
-        setTimeout(() => {
+    syncShellSidebarAfterNavigate();
+    requestAnimationFrame(function() {
+        applySidebarCollapsedFromStorage();
+    });
+    setTimeout(function() {
+        reinitMetronicShell();
+        setTimeout(function() {
             reinitDropdowns();
             reinitDrawers();
             reinitDatatables();
         }, 150);
-
-        setTimeout(() => {
+        setTimeout(function() {
             initKTMenu();
         }, 100);
-
-        setTimeout(() => {
+        setTimeout(function() {
             reinitDrawers();
             reinitDatatables();
-
-            const toggleButtons = document.querySelectorAll('[data-kt-drawer-toggle]');
-            toggleButtons.forEach((btn) => {
-                const selector = btn.getAttribute('data-kt-drawer-toggle');
-                if (!selector || typeof window.KTDrawer === 'undefined') return;
-                let drawer = document.querySelector(selector) || document.body.querySelector(selector);
-                if (!drawer) {
-                    const header = document.querySelector('header#header');
-                    if (header) drawer = header.querySelector(selector);
-                }
-                const hasInstance = drawer && typeof window.KTData !== 'undefined' && window.KTData.has(drawer, 'drawer');
-                if (drawer && typeof window.KTData !== 'undefined' && !window.KTData.has(drawer, 'drawer')) {
-                    if (drawer.hasAttribute('data-kt-drawer-container') && drawer.getAttribute('data-kt-drawer-container') === 'body' && drawer.parentElement !== document.body) {
-                        document.body.appendChild(drawer);
-                    }
-                    new window.KTDrawer(drawer);
-                }
-            });
+            ensureDrawerInstancesForToggles();
         }, 300);
     }, 50);
 });
 
-// Export functions for use in other modules
 window.MetronicCore = {
     initDrawers,
     initMenus,

@@ -10,7 +10,9 @@
         <!-- Page -->
         <!-- Main -->
         <div class="flex grow">
-            <livewire:demo1.sidebar />
+            @persist('demo1-sidebar')
+                <livewire:demo1.sidebar />
+            @endpersist
 
             <!-- Wrapper -->
             <div class="kt-wrapper flex grow flex-col">
