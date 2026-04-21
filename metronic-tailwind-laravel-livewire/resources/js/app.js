@@ -128,7 +128,7 @@ function syncShellSidebarAfterNavigate() {
 function reinitMetronicShell() {
     reinitDrawers();
     initKTMenu();
-    initModals();
+    reinitModals();
     reinitDropdowns();
     reinitDatatables();
     reinitScrollable();
@@ -164,7 +164,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initDrawers();
     initKTMenu();
     initStickyHeaders();
-    initModals();
 
     if (typeof KTDropdown !== 'undefined' && typeof KTDropdown.init === 'function') {
         try {
@@ -179,6 +178,8 @@ document.addEventListener('DOMContentLoaded', function() {
             console.warn('KTComponents initialization failed:', error);
         }
     }
+    // KTDropdown.init() alone does not run KTModal; always wire modal instances + toggles.
+    reinitModals();
     initDatatables();
     initSidebarCollapsePersistence();
     reinitThemeSwitch();
@@ -271,31 +272,20 @@ function initStickyHeaders() {
     );
 }
 
-function initModals() {
-    const modalToggles = document.querySelectorAll('[data-kt-modal-toggle]');
-
-    modalToggles.forEach(toggle => {
-        toggle.addEventListener('click', function(e) {
-            e.preventDefault();
-            const modalId = this.getAttribute('data-kt-modal-toggle');
-            const modal = document.querySelector(modalId);
-
-            if (modal) {
-                modal.classList.toggle('hidden');
-                modal.classList.toggle('flex');
-            }
-        });
-    });
+/**
+ * KTModal.init() runs createInstances() every time (new [data-kt-modal] nodes after morph).
+ * Toggle/dismiss delegation is registered once on document.documentElement (see KTUI modal).
+ */
+function reinitModals() {
+    if (typeof window.KTModal === 'undefined' || typeof window.KTModal.init !== 'function') {
+        return;
+    }
+    try {
+        window.KTModal.init();
+    } catch (error) {
+        console.warn('KTModal reinitialization failed:', error);
+    }
 }
-
-document.addEventListener('click', function(e) {
-    document.querySelectorAll('.kt-modal').forEach(function(modal) {
-        if (e.target === modal) {
-            modal.classList.add('hidden');
-            modal.classList.remove('flex');
-        }
-    });
-});
 
 function reinitScrollable() {
     if (typeof KTScrollable !== 'undefined' && typeof KTScrollable.init === 'function') {
@@ -423,7 +413,8 @@ window.MetronicCore = {
     initMenus,
     initKTMenu,
     initStickyHeaders,
-    initModals,
+    reinitModals,
+    initModals: reinitModals,
     initDatatables,
     reinitDatatables
 };
