@@ -2,7 +2,7 @@ import './bootstrap';
 // Alpine.js is automatically included with Livewire, no need to import manually
 // This prevents "multiple instances of Alpine running" error
 
-const KT_THEME_SWITCH_DATA_KEY = 'theme-swtich'; // matches KTUI KTThemeSwitch._name (typo preserved for KTData)
+const KT_THEME_SWITCH_DATA_KEY = 'theme-switch'; // matches KTUI KTThemeSwitch._name
 const KT_SIDEBAR_COLLAPSED_KEY = 'kt-sidebar-collapsed';
 
 function ktDisposeIfPresent(element, dataKey) {
