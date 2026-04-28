@@ -1,24 +1,23 @@
 {
-    "$schema": "https://json.schemastore.org/package.json",
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "build": "vite build",
-        "dev": "vite dev"
-    },
-    "devDependencies": {
-        "@tailwindcss/forms": "^0.5.7",
-        "@tailwindcss/postcss": "^4.1.12",
-        "@tailwindcss/typography": "^0.5.10",
-        "axios": "^1.15.0",
-        "blade-formatter": "^1.42.2",
-        "laravel-vite-plugin": "^2.0",
-        "postcss": "^8.4.32",
-        "tailwindcss": "^4.1.12",
-        "vite": "^7.3"
-    },
-    "dependencies": {
-        "@tailwindcss/vite": "^4.1.12",
-        "alpinejs": "^3.13.3"
-    }
+  "$schema": "https://json.schemastore.org/package.json",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite dev"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@tailwindcss/typography": "^0.5.10",
+    "blade-formatter": "^1.42.2",
+    "laravel-vite-plugin": "^2.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^4.1.12",
+    "vite": "^7.3"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "alpinejs": "^3.13.3"
+  }
 }
